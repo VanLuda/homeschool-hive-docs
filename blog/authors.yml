@@ -1,18 +1,17 @@
-cv:
+carlvanderlaan:
   name: Carl VanderLaan
   title: Founder, Homeschool Hive
-  url: https://linkedin.com/in/carlvanderlaan
+  url: https://linktree.carlvanderlaan.com
   image_url: https://github.com/vanluda.png
-  page: true
+  page: false
   socials:
     x: carlvanderlaan
     linkedin: carlvanderlaan
     github: vanluda
-    facebook: carlvanderlaan
 
-hh:
+homeschoolhive:
   name: Homeschool Hive
   title: Developement Team
   url: https://homeschoolhive.co
   image_url: https://assets.homeschoolhive.co/ips/icon.svg
-  page: true
+  page: false
