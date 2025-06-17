@@ -2,9 +2,10 @@
 sidebar_position: 1
 ---
 
-# Welcome to Homeschool Hive
-
-Let's discover **Docusaurus in less than 5 minutes**.
+# Getting Started
+:::danger
+This Knowledge Base is **Under Construction**
+:::
 
 ## Getting Started
 
