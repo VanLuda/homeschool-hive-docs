@@ -1,0 +1,27 @@
+---
+slug: welcome
+title: Welcome
+authors: [cv]
+tags: [announcement, welcome]
+---
+
+Hey there 👋 — I’m Carl, the founder of [Homeschool Hive](https://homeschoolhive.co/).
+
+This platform was born out of a simple frustration: managing homeschool groups using social media and scattered tools wasn’t just inefficient — it was chaotic. Homeschool Hive was created to bring clarity, connection, and confidence to the homeschool community.
+
+This **Changelog** is where you'll find transparent updates about what we’re building — feature launches, fixes, improvements, and the decisions behind them. Whether you're a group leader, a parent, or just curious about our progress, this space is for you.
+
+### What to Expect
+
+- ✨ New feature announcements
+- 🐛 Bug fixes and performance improvements
+- 🛠️ Infrastructure upgrades
+- 📣 Sneak peeks of what’s next
+
+Thanks for being a part of this journey. Your feedback and engagement directly shape the future of Homeschool Hive — so don’t hesitate to reach out.
+
+Here’s to empowering families and strengthening communities — one update at a time.
+
+Warmly,  
+**Carl VanderLaan**  
+Founder, Homeschool Hive
