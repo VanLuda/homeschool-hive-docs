@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [cv]
+authors: cv
 tags: [announcement, welcome]
 ---
 
