@@ -51,6 +51,8 @@ const config: Config = {
           routeBasePath: 'changelog',
           path: './blog',
           showReadingTime: false,
+          blogTitle: 'Homeschool Hive Changelog',
+          blogDescription: 'Release history for Homeschool Hive',
           blogSidebarTitle: '📦 Release History',
           feedOptions: {
             type: ['rss', 'atom'],
