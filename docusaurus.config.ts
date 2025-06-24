@@ -96,9 +96,16 @@ const config: Config = {
           position: 'right'
         },
         {
-          href: 'https://homeschoolhive.co',
-          label: 'Homeschool Hive',
+          href: 'https://homeschoolhive.co/login',
+          label: 'Login',
           position: 'right',
+          className: 'no-external-icon',
+        },
+        {
+          href: 'https://homeschoolhive.co/register',
+          label: 'Sign Up Free',
+          position: 'right',
+          className: 'button no-external-icon mr-4',
         },
       ],
     },
