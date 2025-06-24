@@ -28,3 +28,43 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.navbar__title.text--truncate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.navbar__title.text--truncate:after {
+  content: "Help Center";
+  font-weight: 500;
+  font-size: 12px;
+  border-left: 1px solid #000;
+  padding: 0px 6px;
+  margin: 13px 6px 12px;
+}
+[data-theme="dark"] .navbar__title.text--truncate:after {
+  border-color: #fff;
+}
+
+.navbar__item.navbar__link.button {
+  background: HSL(221, 97%, 54%);
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar__item.navbar__link.button:hover {
+  background: HSL(221, 97%, 64%)
+  
+}
+.navbar__item.navbar__link.button:active {
+  background: HSL(221, 97%, 44%)
+  
+}
+.no-external-icon >svg {
+  display: none!important;
+}
+
+.mr-4 {
+  margin-right: 4px!important;
+}
