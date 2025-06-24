@@ -152,7 +152,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Homeschool Hive, LLC. All Rights Reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Hive Network, LLC. All Rights Reserved.`,
     },
     prism: {
       theme: prismThemes.github,
