@@ -3,6 +3,11 @@ announcement:
   permalink: /announcement
   description: Announcement tag description
 
+changelog:
+  label: Changelog
+  permalink: /changelog
+  description: Changelog for Homeschool Hive
+
 welcome:
   label: Welcome
   permalink: /welcome
