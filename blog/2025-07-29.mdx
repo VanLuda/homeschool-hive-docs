@@ -1,0 +1,26 @@
+---
+slug: 1-0-0-beta-2
+title: 1.0.0-beta.2
+authors: [homeschoolhive]
+tags: [changelog]
+date: 2025-07-29
+---
+
+Some quality of life fixes and fixes needed for event creation and event checkout. 
+
+<!-- truncate -->
+
+- Spacing in Report a Problem modal
+- Added category_ids: selectedCategories to the eventData
+- After event creation, changed from /groups/groupId/events/eventId to /events/eventId
+- Group cards on /groups/mine not display number of upcoming events correctly. 
+- Event Checkout component, fixed the corrected iterative calculation for Stripe Fee. 
+- Event Creation
+- Fixed Platform Fee Calculation
+- Fixed Refund Amount Calculation
+- Enhanced Transaction Records
+- Improved User Experience w/cancel RSVP modal
+- Clicking "Add Ticket Type" or "Add Extra" buttons was triggering form submission instead of adding a new ticket
+- Add-on ticket information (name, price, quantity) wasn't being saved
+- Users can now purchase add-on tickets along with regular tickets
+- Refectored Ticket logic so each ticket type should have its own independent capacity limit, not a combined total
