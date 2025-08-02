@@ -1,0 +1,43 @@
+---
+slug: 1-0-0-beta-3
+title: 1.0.0-beta.3
+authors: [homeschoolhive]
+tags: [changelog]
+date: 2025-08-01
+---
+
+This release focuses on major improvements to event routing, image handling, calendar links, SEO, mobile navigation, and accessibility. We've standardized URLs across the platform, enhanced sitemap support for search engines, improved the user experience with dark/light theme handling, and squashed a few bugs related to event creation.
+<!-- truncate -->
+### URL & Path Improvements
+
+* **EventCard**, **Event Detail Page**, **Event Edit Form**, and **Event Detail Preview** now all use a **unified URL function** for consistent and maintainable routing.
+* **All Create Event Forms** now store **image filenames only**, rather than full URLs.
+* **Calendar Feed & Description URLs** now use `NEXT_PUBLIC_SITE_URL` instead of `localhost:3000`.
+* Standardized all URL references to `NEXT_PUBLIC_SITE_URL`, removing dependency on `NEXT_PUBLIC_APP_URL`.
+
+### Event & Group Enhancements
+
+* **Group Events Page** has been fully updated to support new functionality.
+* **Bug Fix:** Creating a new event from a group with a slug now correctly recognizes the group in the dropdown.
+* **Event Images** now properly save during event creation.
+
+### SEO & Sitemap Additions
+
+* Created new sitemap files to support SEO and content indexing:
+
+  * `/sitemap.xml` – Main index
+  * `/sitemap-static.xml` – Static site pages
+  * `/sitemap-groups.xml` – Public group pages
+  * `/sitemap-events.xml` – Public event pages
+  * `/sitemap-locations.xml` – Location-based pages
+
+### Theme & Accessibility Improvements
+
+* **No Flash of Incorrect Theme (FOIT)** – Theme loads cleanly on page load.
+* **Persistent Theme Storage** – Theme preference is now saved across sessions.
+* **Accessibility Enhanced** – Added `color-scheme` CSS support for dark/light mode.
+* **UX Upgrade** – Automatically follows system-level dark/light mode preferences.
+
+### Mobile Experience
+
+* **New Mobile Menu Bar** added for non-authenticated users to improve navigation on mobile.
