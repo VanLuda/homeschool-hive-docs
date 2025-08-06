@@ -1,0 +1,56 @@
+---
+slug: 1-0-0-beta-5
+title: 1.0.0-beta.5
+authors: [homeschoolhive]
+tags: [changelog]
+date: 2025-08-06
+
+
+This release brings major upgrades across several key areas of the platform. We’ve enhanced the real-time notification system to be faster, smarter, and more efficient—supporting in-app, email, and push delivery. Auth flows (like registration and password recovery) now work as intended, with smoother redirection post-login. Group pages now redirect cleanly to human-readable slugs for better SEO and sharing. Several UI polish items were also addressed to make the experience more consistent across devices and themes.
+<!-- truncate -->
+## General Enhancements
+- Dark mode now renders correctly across all remaining pages.
+- A custom 404 page has been added for improved error handling and user experience.
+- User avatar images now display correctly using the updated image path.
+
+## Notifications Enhancements
+- Fully migrated to a unified, multi-channel notification service supporting:
+  - In-app notifications
+  - Push notifications
+  - Email notifications
+- Improved performance and efficiency:
+  - Subscriptions clean up automatically after 30 seconds of inactivity.
+  - Tabs that are minimized or backgrounded disconnect from real-time updates.
+  - Subscriptions only listen to relevant database columns to reduce noise.
+  - Multiple components now share a single subscription to minimize overhead.
+- Added internal monitoring tools for subscription health and connection counts.
+- Fixed a bug where “Mark all as read” wasn’t updating the interface correctly.
+
+## Auth Page Enhancements
+- Added support for redirect URLs after login and registration (e.g., returning users to their intended destination).
+- Fixed the user registration flow, which now completes successfully.
+- Fixed the forgot password flow, which now properly sends recovery emails and allows password resets.
+
+## Event Page Enhancements
+- Updated event schema to include all structured data fields recommended by Google for search visibility.
+- Resolved a hydration error caused by nested `<button>` tags in the `EventCategorySelector` component.
+
+## Group Page Enhancements
+- Group UUID URLs now redirect (HTTP 307) to their slug-based equivalents for cleaner, SEO-friendly URLs.
+  - Example: `/groups/347bd7ad...` redirects to `/groups/homeschool-hangouts`
+  - This maintains link compatibility while improving readability and search performance.
+- Refined the Join Group CTA:
+  - Removed unused description text.
+  - Displays "Free to join" for free groups.
+  - Shows actual membership pricing pulled from the database.
+- Group member counts now show accurately across group listings and detail pages.
+- Improved the group join request workflow:
+  - Free groups immediately notify admins upon request.
+  - Moderated groups route all join requests to a centralized approval interface.
+  - Group admins can now approve or deny requests directly from the platform.
+
+## Developer Enhancements
+- Implemented comprehensive error tracking:
+  - React error boundaries for key components.
+  - Automatic client- and server-side error capture.
+  - Validation and API errors are now consistently tracked.
