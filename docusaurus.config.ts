@@ -54,6 +54,7 @@ const config: Config = {
           blogTitle: 'Changelog',
           blogDescription: 'Release history for Homeschool Hive',
           blogSidebarTitle: '📦 Release History',
+          blogSidebarCount: 'ALL',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
