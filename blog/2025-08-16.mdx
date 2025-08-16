@@ -1,0 +1,60 @@
+---
+slug: 1-0-0-beta-9
+title: 1.0.0-beta.9
+authors: [homeschoolhive]
+tags: [changelog]
+date: 2025-08-16
+---
+
+This release delivers two of the most important upgrades yet:  
+1. A **complete rebuild of the authentication system** for speed, stability, and reliability.  
+2. A **unified payment system** with the new Universal Payment Modal, bringing consistency to all event RSVPs and group subscriptions.  
+
+Together, these improvements make the platform faster, more secure, and easier to use.
+<!-- truncate -->
+---
+
+### Authentication Overhaul
+- Rebuilt the entire authentication system with a modern, production-grade architecture.  
+- Fixed issues with sessions getting stuck in “loading” after idle time or when switching tabs.  
+- Implemented **smart local caching** with 30-minute session persistence for faster logins.  
+- Authentication UI now updates instantly after login, with background verification for freshness.  
+- Reduced API calls by ~95% through intelligent caching and smarter event handling.  
+
+---
+
+### Unified Payment System
+- Introduced the **Universal Payment Modal** that handles all payment flows (RSVPs, modifications, subscriptions) in one place.  
+- Improved user experience with clearer cost breakdowns, better accessibility, and trust badges.  
+- Fixed multiple RSVP payment issues, ensuring groups remain the merchant of record.  
+- Enhanced refund logic:  
+  - Partial modifications supported with accurate fee handling.  
+  - Full cancellations correctly process refunds and trigger waitlist promotions.  
+- Strengthened database integrity by fixing duplicate ticket records and capacity validation.  
+- Improved financial accuracy with corrected Stripe processing fee and platform fee calculations.  
+
+---
+
+### User Experience Improvements
+- RSVP modal now pre-populates ticket selections, enforces ticket limits, and displays proper price alignment.  
+- Payment history and invoices display clear, user-friendly details.  
+- Cancellations and modifications now work smoothly without hidden errors.  
+
+---
+
+### Performance & Reliability
+- Authentication loads instantly from cache while verifying in the background.  
+- Payment flows are now consistent across events and groups, reducing errors and mismatches.  
+- Database cleanup and security policies prevent duplicate or orphaned records.  
+
+---
+
+### Overall Impact
+- **Faster logins** with no more infinite loading states.  
+- **Consistent payments** for RSVPs and group subscriptions.  
+- **Clearer refunds and invoices** for users and group leaders.  
+- **Stronger reliability and integrity** across the platform.  
+
+---
+
+This release marks a major milestone: authentication and payments—the two most critical systems—are now fully modernized and production-ready.
