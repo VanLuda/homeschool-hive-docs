@@ -36,6 +36,10 @@ const config: Config = {
     locales: ['en'],
   },
 
+  clientModules: [
+    './src/clientModules/routeListener.ts',
+  ],
+
   presets: [
     [
       'classic',
@@ -75,6 +79,20 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        indexBlog: false,
+        docsRouteBasePath: '/docs',
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -94,47 +112,40 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Guides',
+          label: 'All Guides',
         },
         {
-          type: 'dropdown',
-          label: 'Quick Links',
+          label: 'Parents',
+          to: '/docs/category/for-parents',
           position: 'left',
-          items: [
-            {
-              label: 'For Parents',
-              to: '/docs/category/for-parents',
-            },
-            {
-              label: 'For Group Leaders',
-              to: '/docs/category/for-group-leaders',
-            },
-            {
-              label: 'Getting Started',
-              to: '/docs/category/getting-started',
-            },
-            {
-              label: 'Account & Settings',
-              to: '/docs/category/account--settings',
-            },
-          ],
+        },
+        {
+          label: 'Group Leaders',
+          to: '/docs/category/for-group-leaders',
+          position: 'left',
+        },
+        {
+          label: 'Getting Started',
+          to: '/docs/category/getting-started',
+          position: 'left',
         },
         {
           to: '/changelog',
           label: 'Changelog',
-          position: 'right'
+          position: 'right',
+          className: 'homepage-only',
         },
         {
           href: 'https://homeschoolhive.co/login',
           label: 'Login',
           position: 'right',
-          className: 'no-external-icon',
+          className: 'no-external-icon homepage-only',
         },
         {
           href: 'https://homeschoolhive.co/register',
           label: 'Sign Up Free',
           position: 'right',
-          className: 'button no-external-icon mr-4',
+          className: 'button no-external-icon mr-4 homepage-only',
         },
       ],
     },
