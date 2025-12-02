@@ -104,3 +104,8 @@ article hr + h2,
 article hr + h3 {
   margin-top: 0.5rem;
 }
+
+mark {
+  background-color: rgba(42,127,255,0.5);
+  color: inherit;
+}
