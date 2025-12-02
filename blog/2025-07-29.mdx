@@ -2,25 +2,44 @@
 slug: 1-0-0-beta-2
 title: 1.0.0-beta.2
 authors: [homeschoolhive]
-tags: [changelog]
+tags: [changelog, events, payments]
 date: 2025-07-29
 ---
 
-Some quality of life fixes and fixes needed for event creation and event checkout. 
+This release focuses on quality-of-life fixes for event creation and checkout, including improved ticket handling and more accurate fee calculations.
 
 <!-- truncate -->
 
-- Spacing in Report a Problem modal
-- Added category_ids: selectedCategories to the eventData
-- After event creation, changed from /groups/groupId/events/eventId to /events/eventId
-- Group cards on /groups/mine not display number of upcoming events correctly. 
-- Event Checkout component, fixed the corrected iterative calculation for Stripe Fee. 
-- Event Creation
-- Fixed Platform Fee Calculation
-- Fixed Refund Amount Calculation
-- Enhanced Transaction Records
-- Improved User Experience w/cancel RSVP modal
-- Clicking "Add Ticket Type" or "Add Extra" buttons was triggering form submission instead of adding a new ticket
-- Add-on ticket information (name, price, quantity) wasn't being saved
-- Users can now purchase add-on tickets along with regular tickets
-- Refectored Ticket logic so each ticket type should have its own independent capacity limit, not a combined total
+---
+
+## What's New
+
+### Add-On Tickets
+Users can now purchase add-on tickets (materials, extras, etc.) along with their regular event tickets. Each ticket type now has its own independent capacity limit for better event management.
+
+---
+
+## Improvements
+
+- Improved event creation flow with better navigation after creating an event
+- Enhanced cancel RSVP modal for a clearer user experience
+- Better transaction records for payment tracking
+
+---
+
+## Bug Fixes
+
+- Fixed issue where group cards were not displaying upcoming event counts correctly
+- Resolved problem with fee calculations during checkout
+- Fixed refund amount calculations for canceled registrations
+- Corrected issue where clicking "Add Ticket Type" or "Add Extra" was submitting the form instead of adding new options
+- Fixed add-on ticket information not being saved during event creation
+- Improved spacing in the Report a Problem modal
+
+---
+
+## Release Details
+
+**Release Date**: July 29, 2025
+**Version**: 1.0.0-beta.2
+**Platform**: Web Application

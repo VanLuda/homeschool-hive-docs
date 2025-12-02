@@ -68,3 +68,39 @@
 .mr-4 {
   margin-right: 4px!important;
 }
+
+/* Hide homepage-only items on non-homepage pages */
+body.is-not-homepage .homepage-only {
+  display: none !important;
+}
+
+/* Reorder navbar items: theme toggle after search */
+.navbar__items--right {
+  display: flex;
+  align-items: center;
+}
+
+/* Search bar gets order 1 */
+.navbar__items--right > div[class*="searchBar"],
+.navbar__items--right > div:has(input) {
+  order: 1;
+}
+
+/* Color mode toggle gets order 2 (right after search) */
+.navbar__items--right > .colorModeToggle_node_modules,
+.navbar__items--right > div[class*="colorModeToggle"],
+.navbar__items--right > div[class*="toggle"] {
+  order: 2;
+  margin-left: 0.5rem;
+}
+
+/* Other navbar items get order 3+ */
+.navbar__items--right > .navbar__item {
+  order: 3;
+}
+
+/* Reduce spacing between hr and headings in blog/changelog posts */
+article hr + h2,
+article hr + h3 {
+  margin-top: 0.5rem;
+}
