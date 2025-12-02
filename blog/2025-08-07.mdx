@@ -2,68 +2,54 @@
 slug: 1-0-0-beta-6
 title: 1.0.0-beta.6
 authors: [homeschoolhive]
-tags: [changelog]
+tags: [changelog, groups, events, payments]
 date: 2025-08-07
 ---
 
-This release is one of our most feature-packed yet, introducing the **Group Categories System**, a new **public events search page**, and a robust **membership approval workflow** for both free and paid groups. We’ve also enhanced the notification system for better performance, made critical UI/UX fixes, and implemented payment handling where group leaders are now the merchant of record for subscriptions and payments.
+This feature-packed release introduces the Group Categories system, a public events search page, and a complete membership approval workflow for both free and paid groups. Group leaders are now the merchant of record for their payments.
+
 <!-- truncate -->
+
+---
+
+## What's New
+
 ### Group Categories System
-Group leaders can now assign rich metadata to their groups, improving visibility and enabling powerful future search and filtering features.
-
-#### Group Categories:
-**Group Types:** Co-op, Field Trip Group, Support Group, Activity Group, Playgroup, Book Club  
-**Academic Focus:** STEM, Music, Nature Studies, Life Skills, Arts & Crafts, Physical Education, Language Arts, History, Foreign Language  
-**Faith-Based Affiliation:** Christian, Catholic, Secular, Interfaith, Other  
-**Age Range Served:** Preschool (3–5), Elementary (6–10), Middle School (11–13), High School (14–18), All Ages
-
-### Membership Approval Flow
-
-#### Free Groups (`is_paid = false`)
-1. Approve button updates membership to active
-2. Member is added immediately
-3. Welcome notification sent
-
-#### Paid Groups (`is_paid = true` with `membership_price`)
-1. Approve button updates membership to active
-2. Stripe subscription created with pre-authorized payment method
-3. Payment processed immediately
-4. Subscription ID and status stored in database
-5. Member added to group
-6. Welcome notification with payment confirmation sent
-
-**Key Details**
-- Atomic API call for reliability
-- Stripe errors surfaced to admins
-- Works with multi-channel notifications (in-app, email, push)
-- Built for future expansion (trials, prorated billing)
+Group leaders can now assign rich metadata to help families find the right fit:
+- **Group Types**: Co-op, Field Trip Group, Support Group, Activity Group, Playgroup, Book Club
+- **Academic Focus**: STEM, Music, Nature Studies, Life Skills, Arts & Crafts, Physical Education, Language Arts, History, Foreign Language
+- **Faith-Based Affiliation**: Christian, Catholic, Secular, Interfaith, Other
+- **Age Range Served**: Preschool (3-5), Elementary (6-10), Middle School (11-13), High School (14-18), All Ages
 
 ### Public Events Search
-- New `/events` page listing **publicly visible events**
-- Search and filtering by:
-  - Location
-  - Date
-  - Event type (in-person, virtual)
-  - Categories
-- Designed for SEO and accessibility
+Browse publicly visible events from any group on the new Events page. Search and filter by location, date, event type (in-person or virtual), and categories to find activities near you.
 
-### UI/UX Fixes
-- Mobile responsiveness fixed on `/events/[eventId]` pages
-- Fixed issue where users could not like posts
-- Group Features:
-  - Added **Group Rules**
-  - Added **Membership Questions**
-  - Request to Join Group flow integrated with approval system
-  - For Paid Groups, payment intent is created on request; payment processed upon approval
+### Membership Approval Workflow
+Group leaders now have complete control over who joins their groups:
+- **Free Groups**: Approve members instantly with automatic welcome notifications
+- **Paid Groups**: Approve members and automatically process their subscription payment, with confirmation sent upon completion
 
-### Notification System Optimizations
-- Reduced table size and eliminated duplicate data updates
-- Improved query performance and data consistency
-- Maintained backward compatibility in API responses for existing components
+### Group Rules and Membership Questions
+Set clear expectations for your community with customizable group rules. Ask prospective members questions during the join request process to learn more about them.
 
-### Payments & Stripe
-- Stripe subscriptions and payments now run **on behalf of the group leader**
-- Groups are now the merchant of record for their events and memberships
-- Ensures accurate payout reporting and compliance
+---
 
-This update not only improves the platform’s **discoverability and onboarding experience**, but also **streamlines backend data handling** and sets the stage for future search, filtering, and SEO improvements.
+## Improvements
+
+- Group leaders are now the merchant of record for all payments, ensuring accurate payout reporting
+- Faster, more efficient notification delivery
+- Better event page mobile responsiveness
+
+---
+
+## Bug Fixes
+
+- Fixed issue where users couldn't like posts in the feed
+
+---
+
+## Release Details
+
+**Release Date**: August 7, 2025
+**Version**: 1.0.0-beta.6
+**Platform**: Web Application

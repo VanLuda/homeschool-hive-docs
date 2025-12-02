@@ -98,3 +98,9 @@ body.is-not-homepage .homepage-only {
 .navbar__items--right > .navbar__item {
   order: 3;
 }
+
+/* Reduce spacing between hr and headings in blog/changelog posts */
+article hr + h2,
+article hr + h3 {
+  margin-top: 0.5rem;
+}

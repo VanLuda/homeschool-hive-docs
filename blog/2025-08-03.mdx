@@ -2,32 +2,44 @@
 slug: 1-0-0-beta-4
 title: 1.0.0-beta.4
 authors: [homeschoolhive]
-tags: [changelog]
+tags: [changelog, mobile, notifications]
 date: 2025-08-03
 ---
 
-This release, v1.0.0-beta.4, focuses on key production readiness improvements—including full mobile responsiveness for core pages, consistent dark mode styling, and restored email notifications via SES. It also resolves several layout and display bugs, enhancing the overall user experience across devices.
+This release focuses on production readiness with full mobile responsiveness, consistent dark mode styling, and restored email notifications for a better experience across all devices.
+
 <!-- truncate -->
-### Mobile Header
-- Corrected layout issues affecting the main navigation header on small screen devices.
-- Ensures consistent and user-friendly navigation for mobile users.
+
+---
+
+## Improvements
+
+### Mobile Experience
+- My Events dashboard now displays properly on all screen sizes
+- Group discovery page stacks correctly and remains usable on mobile
+- Group detail pages adapt layout and navigation for smaller screens
+- Your Groups management page is now optimized for mobile devices
+- Landing page adjusts structure for both logged-in and visitor views on all devices
 
 ### Dark Mode
-- Applied global dark mode styles across the entire application.
-- All pages now render properly with correct backgrounds, text, and component contrast in dark mode.
+- Applied consistent dark mode styles across the entire application
+- All pages now render properly with correct backgrounds, text, and component contrast
 
-### Responsive Layouts
-- The following pages were updated to be fully responsive:
-  - `/events/mine`: My Events dashboard now adjusts properly across all screen sizes.
-  - `/groups`: Group discovery page now stacks correctly and maintains usability on mobile.
-  - `/groups/[groupId]`: Group detail view now adapts layout and navigation for smaller screens.
-  - `/groups/mine`: Group management view is now optimized for mobile devices.
-  - `/`: Root landing page now adjusts structure for both logged-in and logged-out users on all devices.
+### Email Notifications
+- All transactional emails are now sending reliably
+- RSVP confirmations, waitlist promotions, and group invites are delivered as expected
 
-### Group Image Rendering
-- Fixed an issue where group images in the "My Groups" section on `/events/mine` were missing or misaligned.
-- Group tiles now display correct imagery, improving visual consistency and navigation context.
+---
 
-### SES Email Notifications
-- Amazon SES integration was repaired and verified in both staging and production environments.
-- All transactional emails (e.g., RSVP confirmations, waitlist promotions, group invites) are now sending and delivering reliably.
+## Bug Fixes
+
+- Fixed mobile navigation header layout issues on small screens
+- Resolved issue where group images in "My Groups" were missing or misaligned
+
+---
+
+## Release Details
+
+**Release Date**: August 3, 2025
+**Version**: 1.0.0-beta.4
+**Platform**: Web Application
