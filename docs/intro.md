@@ -1,48 +1,73 @@
 ---
 sidebar_position: 1
+title: Welcome to Homeschool Hive
+description: Learn how to use Homeschool Hive to connect with homeschool groups, discover events, and manage your homeschool community.
 ---
 
-# Getting Started
-:::danger
-This Knowledge Base is **Under Construction**
-:::
+# Welcome to Homeschool Hive
+
+Homeschool Hive is a platform designed to help homeschool families connect with local groups, discover educational events, and build thriving homeschool communities.
+
+## What Can You Do with Homeschool Hive?
+
+### For Parents and Families
+
+- **Discover Groups** - Find homeschool groups in your area that match your family's interests and educational philosophy
+- **Join Events** - Browse and register for field trips, classes, co-ops, and social activities
+- **Manage RSVPs** - Keep track of upcoming events and manage your family's registrations
+- **Track Payments** - View payment history and manage scholarship invoices for reimbursement
+- **Stay Connected** - Receive notifications about group updates and new events
+
+### For Group Leaders
+
+- **Create and Manage Groups** - Set up your homeschool group with customizable membership options
+- **Organize Events** - Create events with flexible ticketing, capacity limits, and registration options
+- **Handle Payments** - Accept membership fees and event payments through secure Stripe integration
+- **Generate Scholarship Invoices** - Create professional invoices for families using scholarship programs
+- **Communicate** - Send announcements and updates to your group members
 
 ## Getting Started
 
-Get started by **creating a new site**.
+New to Homeschool Hive? Here's how to get started:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+1. **[Create Your Account](/docs/getting-started/create-account)** - Sign up and verify your email
+2. **[Complete Your Profile](/docs/getting-started/complete-profile)** - Add your family information and children
+3. **[Set Up Notifications](/docs/getting-started/notifications)** - Choose how you want to stay informed
 
-### What you'll need
+## Choose Your Path
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+<div className="row">
+  <div className="col col--6">
+    <div className="card margin-bottom--lg">
+      <div className="card__header">
+        <h3>I'm a Parent</h3>
+      </div>
+      <div className="card__body">
+        <p>Learn how to find groups, register for events, and manage your family's homeschool activities.</p>
+      </div>
+      <div className="card__footer">
+        <a className="button button--primary button--block" href="/docs/category/for-parents">Parent Guides</a>
+      </div>
+    </div>
+  </div>
+  <div className="col col--6">
+    <div className="card margin-bottom--lg">
+      <div className="card__header">
+        <h3>I'm a Group Leader</h3>
+      </div>
+      <div className="card__body">
+        <p>Learn how to create groups, manage members, organize events, and handle payments.</p>
+      </div>
+      <div className="card__footer">
+        <a className="button button--primary button--block" href="/docs/category/for-group-leaders">Group Leader Guides</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-## Generate a new site
+## Need Help?
 
-Generate a new Docusaurus site using the **classic template**.
+If you encounter any issues or have questions:
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- **Report a Problem** - Use the "Report a Problem" feature in your account settings
+- **Contact Support** - Email us at support@homeschoolhive.co
