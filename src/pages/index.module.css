@@ -6,7 +6,7 @@
 .hero {
   padding: 5rem 0 4rem;
   text-align: center;
-  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+  background: linear-gradient(135deg, #2B7FFF 0%, #1a56db 100%);
   color: white;
 }
 
