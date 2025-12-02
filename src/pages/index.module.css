@@ -139,7 +139,7 @@
 .roleIcon {
   width: 28px;
   height: 28px;
-  color: var(--ifm-color-primary);
+  color: white;
 }
 
 .roleContent {
@@ -242,7 +242,7 @@
 .categoryIcon svg {
   width: 22px;
   height: 22px;
-  color: var(--ifm-color-primary);
+  color: white;
 }
 
 .categoryTitle {
@@ -440,6 +440,11 @@
 [data-theme='dark'] .roleIconWrapper,
 [data-theme='dark'] .categoryIcon {
   background: rgba(96, 165, 250, 0.15);
+}
+
+[data-theme='dark'] .roleIcon,
+[data-theme='dark'] .categoryIcon svg {
+  color: var(--ifm-color-primary);
 }
 
 [data-theme='dark'] .contactCard {
