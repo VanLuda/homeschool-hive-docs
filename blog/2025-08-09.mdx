@@ -2,132 +2,56 @@
 slug: 1-0-0-beta-7
 title: 1.0.0-beta.7
 authors: [homeschoolhive]
-tags: [changelog]
+tags: [changelog, performance, security]
 date: 2025-08-09
 ---
 
-This release delivers a major restructuring of the layout system, making spacing and header behavior consistent across the platform. We’ve introduced an enterprise-grade container architecture, fixed registration/password usability issues, fully implemented advanced SEO infrastructure, refactored authentication into a single robust system, and made targeted performance optimizations to speed up loading and reduce unnecessary delays. Tab switching behavior for authenticated users has been fully stabilized.
+This release delivers consistent page layouts, improved registration and password flows, enhanced search engine visibility, faster loading times, and a more stable authentication experience. Tab switching no longer causes unnecessary loading states.
+
 <!-- truncate -->
-### Layout & Spacing Improvements
-- **Unified Announcement + Header Container**
-  - Announcement bar and header now share a single fixed container.
-  - Announcement appears above the header to eliminate overlap.
-- **Dynamic Height Calculation**
-  - Added `useHeaderHeight()` hook to compute total height (64px base + 40px for announcements).
-  - ConditionalMain now applies dynamic `paddingTop` and `minHeight` based on actual header height.
-  - Works for both SSR and client hydration.
-- **Hydration Safety**
-  - Server-side fallback values prevent layout shifts during initial render.
-  - Smooth transition when announcements are dismissed.
-- **Auth Header Alignment**
-  - Changed `AuthHeader` from `py-1` to fixed `h-16` for consistent 64px height.
-- **Enterprise Layout System**
-  - New composable containers: `PageContainer`, `SectionContainer`, `ContentContainer`, `GridContainer`.
-  - Variant-based styling, spacing system, grid patterns.
-  - Accessibility-ready, responsive by default, theme compatible.
-
-**Benefits:** Consistent spacing, dynamic announcement handling, no layout shifts, scalable for future features.
 
 ---
 
-### Complete SEO Implementation
+## What's New
 
-#### SEO Infrastructure
-- **Advanced SEO Utilities** (`src/lib/seo/metadata.ts`)
-  - Dynamic metadata generation with homeschool-focused keywords.
-  - Social platform support: Facebook, Twitter, Instagram, LinkedIn.
-  - Location/search-based customization.
-- **Structured Data Enhancements** (`src/lib/seo/structured-data.ts`)
-  - Event schema with full ticket/pricing details.
-  - Group/Organization schema with membership info.
-  - Breadcrumb navigation, website, and software application schemas.
-- **Social Sharing Utilities** (`src/lib/seo/social-sharing.ts`)
-  - Platform-specific share URLs.
-  - Calendar integration (Google, Outlook, Yahoo).
-  - WhatsApp and Telegram support.
+### Improved Search Engine Visibility
+Events and groups now appear better in search results and social media shares:
+- Events show rich information including dates, pricing, and images when shared
+- Groups display location and membership details in search results
+- Private groups are automatically hidden from search engines
+- Better previews when sharing links on Facebook, Twitter, and LinkedIn
 
-#### Page Enhancements
-- **Events Detail Page (`/events/[eventId]`)**
-  - Dynamic titles, rich descriptions, event keywords.
-  - High-res images for social sharing.
-  - Complete event structured data.
-- **Groups Detail Page (`/groups/[groupId]`)**
-  - Location/type-based dynamic SEO.
-  - Privacy-aware indexing (noindex for private groups).
-  - Organization structured data.
-- **Groups Listing Page (`/groups`)**
-  - Location-aware metadata, search integration.
-  - Dynamic descriptions based on filters.
-- **Events Listing Page (`/events`)**
-  - Filter-aware optimization, enhanced social sharing.
-- **Root Page (`/`)**
-  - Comprehensive platform metadata.
-  - Software application structured data.
-
-#### SEO Features Implemented
-- **Technical SEO:** Canonical URLs, optimized meta descriptions, keyword targeting, robots directives, Schema.org JSON-LD.
-- **Social Media:** Open Graph, Twitter Cards, Instagram metadata, LinkedIn optimization.
-- **Content Strategy:** Homeschool-focused keywords, location-based SEO, event/group-specific optimization.
-- **Image Optimization:** Dynamic image selection, alt text generation, multiple sizes, fallbacks.
+### Enhanced Social Sharing
+Share events and groups easily with calendar integration for Google Calendar, Outlook, and Yahoo Calendar. Share directly to WhatsApp and Telegram.
 
 ---
 
-### Registration & Password Fixes
-- **Preserve Form Values on Error**
-  - Default values pulled from URL parameters when redirecting after validation errors.
-  - All fields except password retain their input values.
-- **Improved Password Validation**
-  - Matches Supabase’s requirements: min 8 characters, upper/lowercase, numeric.
-  - Clear requirement text shown under password field.
-  - Specific, user-friendly error messages instead of generic errors.
+## Improvements
+
+### Layout and Spacing
+- Consistent header and page spacing across the entire platform
+- Smooth transitions when dismissing announcements
+- No more content jumping during page load
+
+### Registration and Password
+- Form fields now preserve your input if there's a validation error (except password for security)
+- Clear password requirements shown during registration
+- Better error messages that explain what went wrong
+
+### Performance
+- Faster page loads with optimized data fetching
+- Authentication loads instantly without delays
+- Reduced loading indicators for a smoother experience
+
+### Authentication
+- Sessions stay active reliably across browser tabs
+- Switching tabs no longer triggers unnecessary loading states
+- Better handling of network issues with automatic recovery
 
 ---
 
-### Authentication Refactor
-- **Single Auth System**
-  - Removed `UserContext` entirely, replaced with enhanced `AuthContext`.
-  - Migrated 22+ imports to use new context.
-- **State Management**
-  - Clear states: loading, authenticated, unauthenticated, error, recovering.
-  - Real-time auth change handling.
-- **Error Handling & Recovery**
-  - Exponential backoff for failed requests.
-  - Graceful API fallbacks to session data.
-- **Performance**
-  - Local storage persistence (24h expiry).
-  - Periodic session validation every 5 minutes.
-  - Proper cleanup to prevent leaks.
+## Release Details
 
----
-
-### Auth Tab Switching Fixes
-- **Tab Visibility Detection**
-  - Only validates sessions when tab is visible for a meaningful period.
-- **Reduced Aggressiveness**
-  - Extended check interval to 10 minutes.
-  - Silent validations that don’t trigger loading states.
-- **Realtime Manager Updates**
-  - Pauses WebSocket reconnection when tab hidden.
-  - 2-second delay after visibility change to prevent spam.
-- **Root Cause Fix**
-  - No longer triggers loading state on SIGNED_IN event for same user.
-
-**Results:** No loading state when switching tabs briefly, reduced WebSocket errors, smoother UX.
-
----
-
-### Performance Improvements
-- Removed unnecessary timeouts in auth and API flows.
-- Reduced API client timeout from 30s to 10s.
-- Eliminated artificial delays in session/profile retrieval.
-- Immediate fallback to session data if API call fails.
-- Better loading state management to ensure UI responsiveness.
-
----
-
-**Overall Impact:**
-- Faster load times and smoother navigation.
-- Rock-solid header and spacing consistency.
-- Stronger, unified authentication flow with better resilience.
-- No disruptive layout shifts or unnecessary loading indicators.
-- Fully optimized SEO foundation for search engines and social media.
+**Release Date**: August 9, 2025
+**Version**: 1.0.0-beta.7
+**Platform**: Web Application

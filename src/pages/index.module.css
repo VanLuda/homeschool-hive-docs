@@ -1,23 +1,465 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+ * Professional Knowledge Base Homepage Styles
  */
 
-.heroBanner {
-  padding: 4rem 0;
+/* Hero Section */
+.hero {
+  padding: 5rem 0 4rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+  color: white;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroTitle {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: white;
 }
 
-.buttons {
+.heroSubtitle {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.searchContainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: white;
+  border: none;
+  border-radius: 12px;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 1.1rem;
+  font-family: inherit;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.searchBox:focus-within {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  font-family: inherit;
+  color: var(--ifm-color-emphasis-800);
+  outline: none;
+}
+
+.searchInput::placeholder {
+  color: var(--ifm-color-emphasis-500);
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: var(--ifm-color-emphasis-500);
+}
+
+.searchShortcut {
+  display: flex;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.searchShortcut kbd {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+  font-family: inherit;
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* Role Selection Cards */
+.roleSection {
+  padding: 3rem 0;
+  background: var(--ifm-background-color);
+}
+
+.roleGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.roleCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.75rem;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.roleCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.roleIconWrapper {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: var(--ifm-color-primary-lightest);
+  border-radius: 12px;
+}
+
+.roleIcon {
+  width: 28px;
+  height: 28px;
+  color: var(--ifm-color-primary);
+}
+
+.roleContent {
+  flex: 1;
+}
+
+.roleTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--ifm-font-color-base);
+}
+
+.roleDescription {
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.roleLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+}
+
+.arrowIcon {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+.roleCard:hover .arrowIcon {
+  transform: translateX(4px);
+}
+
+/* Categories Section */
+.categoriesSection {
+  padding: 4rem 0;
+  background: var(--ifm-background-surface-color);
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  color: var(--ifm-font-color-base);
+}
+
+.categoriesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.categoryCard {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.categoryCard:hover {
+  border-color: var(--ifm-color-emphasis-300);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.categoryHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.categoryHeader:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.categoryIcon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ifm-color-primary-lightest);
+  border-radius: 10px;
+}
+
+.categoryIcon svg {
+  width: 22px;
+  height: 22px;
+  color: var(--ifm-color-primary);
+}
+
+.categoryTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+  color: var(--ifm-font-color-base);
+}
+
+.categoryDescription {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.articleList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  flex: 1;
+}
+
+.articleList li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-100);
+}
+
+.articleList li:last-child {
+  border-bottom: none;
+}
+
+.articleLink {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.articleLink:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.viewAllLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  margin-top: auto;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-100);
+}
+
+.viewAllLink:hover {
+  text-decoration: none;
+}
+
+.viewAllLink:hover .arrowIcon {
+  transform: translateX(4px);
+}
+
+/* Contact Section */
+.contactSection {
+  padding: 4rem 0;
+  background: var(--ifm-background-color);
+}
+
+.contactCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, var(--ifm-color-primary-lightest) 0%, var(--ifm-background-surface-color) 100%);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 16px;
+}
+
+.contactContent {
+  flex: 1;
+}
+
+.contactTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--ifm-font-color-base);
+}
+
+.contactDescription {
+  font-size: 1rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+.contactButton {
+  flex-shrink: 0;
+  padding: 0.875rem 1.75rem;
+  background: var(--ifm-color-primary);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.contactButton:hover {
+  background: var(--ifm-color-primary-dark);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 996px) {
+  .heroTitle {
+    font-size: 2.25rem;
+  }
+
+  .categoriesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contactCard {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .heroTitle {
+    font-size: 1.875rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .searchBox {
+    padding: 0.875rem 1.25rem;
+    font-size: 1rem;
+  }
+
+  .searchShortcut {
+    display: none;
+  }
+
+  .roleGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .roleCard {
+    padding: 1.5rem;
+  }
+
+  .categoriesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .categoryCard {
+    padding: 1.25rem;
+  }
+
+  .contactCard {
+    padding: 1.75rem;
+  }
+
+  .contactTitle {
+    font-size: 1.25rem;
+  }
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .searchBox {
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .searchBox:hover {
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .roleIconWrapper,
+[data-theme='dark'] .categoryIcon {
+  background: rgba(96, 165, 250, 0.15);
+}
+
+[data-theme='dark'] .contactCard {
+  background: linear-gradient(135deg, rgba(96, 165, 250, 0.1) 0%, var(--ifm-background-surface-color) 100%);
+}
+
+[data-theme='dark'] .searchBox {
+  background: var(--ifm-background-surface-color);
+}
+
+[data-theme='dark'] .searchInput {
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .searchInput::placeholder {
+  color: var(--ifm-color-emphasis-500);
+}
+
+[data-theme='dark'] .searchShortcut kbd {
+  background: var(--ifm-color-emphasis-200);
+  border-color: var(--ifm-color-emphasis-400);
+  color: var(--ifm-color-emphasis-700);
 }

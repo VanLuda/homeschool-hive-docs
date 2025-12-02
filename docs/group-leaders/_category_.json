@@ -1,7 +1,8 @@
 {
-  "label": "Group Leaders",
-  "position": 3,
+  "label": "For Group Leaders",
+  "position": 4,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Everything you need to manage your homeschool group - create events, manage members, handle payments, and generate scholarship invoices."
   }
 }

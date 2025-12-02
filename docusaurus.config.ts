@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Homeschool Hive Knowledge Base',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Find answers, learn features, and get the most out of Homeschool Hive',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -35,6 +35,10 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  clientModules: [
+    './src/clientModules/routeListener.ts',
+  ],
 
   presets: [
     [
@@ -75,9 +79,28 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        indexBlog: false,
+        docsRouteBasePath: '/docs',
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: 'Homeschool Hive',
       logo: {
@@ -89,24 +112,40 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'All Guides',
         },
         {
-          to: '/changelog', 
-          label: 'Changelog', 
-          position: 'right'
+          label: 'Parents',
+          to: '/docs/category/for-parents',
+          position: 'left',
+        },
+        {
+          label: 'Group Leaders',
+          to: '/docs/category/for-group-leaders',
+          position: 'left',
+        },
+        {
+          label: 'Getting Started',
+          to: '/docs/category/getting-started',
+          position: 'left',
+        },
+        {
+          to: '/changelog',
+          label: 'Changelog',
+          position: 'right',
+          className: 'homepage-only',
         },
         {
           href: 'https://homeschoolhive.co/login',
           label: 'Login',
           position: 'right',
-          className: 'no-external-icon',
+          className: 'no-external-icon homepage-only',
         },
         {
           href: 'https://homeschoolhive.co/register',
           label: 'Sign Up Free',
           position: 'right',
-          className: 'button no-external-icon mr-4',
+          className: 'button no-external-icon mr-4 homepage-only',
         },
       ],
     },
@@ -114,41 +153,53 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentation',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Getting Started',
               to: '/docs/intro',
             },
+            {
+              label: 'For Parents',
+              to: '/docs/category/for-parents',
+            },
+            {
+              label: 'For Group Leaders',
+              to: '/docs/category/for-group-leaders',
+            },
+            {
+              label: 'Account & Settings',
+              to: '/docs/category/account--settings',
+            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Homeschool Hive',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Go to App',
+              href: 'https://homeschoolhive.co',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Find Groups',
+              href: 'https://homeschoolhive.co/groups',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Find Events',
+              href: 'https://homeschoolhive.co/events',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Resources',
           items: [
             {
               label: 'Changelog',
               to: '/changelog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Contact Support',
+              href: 'mailto:support@homeschoolhive.co',
             },
           ],
         },

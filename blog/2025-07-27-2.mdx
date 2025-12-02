@@ -2,15 +2,33 @@
 slug: 1-0-0-beta-1
 title: 1.0.0-beta.1
 authors: [homeschoolhive]
-tags: [changelog]
+tags: [changelog, groups]
 date: 2025-07-27
 ---
 
-Fixed in v1.0.0-beta.1
+This patch release improves group page accessibility and optimizes how group images are stored and displayed.
+
 <!-- truncate -->
-- Group Components (Feed, Memmbers, Events, etc) endpoint to handle both UUIDs and slugs.
-- Group Photos URLs – now saves images as ``"{timestamp}.{ext}"`` for ~84% reduction in database storage for image URLs.
-- Group Photos CRUD Operations.
-- Group Photos Served with new URLs.
-- /Groups page now will show groups to non-auth users.
-- /groups/[slugID] served properly to non-auth users.
+
+---
+
+## Improvements
+
+- Group pages now work with both direct links and readable URLs for easier sharing
+- Optimized image storage for faster loading and reduced data usage
+- Improved group photo management with better upload and display handling
+
+---
+
+## Bug Fixes
+
+- Fixed issue where group pages were not accessible to visitors who weren't logged in
+- Resolved display problems with group profile photos
+
+---
+
+## Release Details
+
+**Release Date**: July 27, 2025
+**Version**: 1.0.0-beta.1
+**Platform**: Web Application

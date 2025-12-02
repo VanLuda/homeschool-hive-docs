@@ -2,55 +2,54 @@
 slug: 1-0-0-beta-5
 title: 1.0.0-beta.5
 authors: [homeschoolhive]
-tags: [changelog]
+tags: [changelog, notifications, groups, events]
 date: 2025-08-06
 ---
 
-This release brings major upgrades across several key areas of the platform. We’ve enhanced the real-time notification system to be faster, smarter, and more efficient—supporting in-app, email, and push delivery. Auth flows (like registration and password recovery) now work as intended, with smoother redirection post-login. Group pages now redirect cleanly to human-readable slugs for better SEO and sharing. Several UI polish items were also addressed to make the experience more consistent across devices and themes.
+This release brings major improvements to notifications, authentication flows, and group discoverability. We've enhanced real-time notifications with multi-channel support, fixed registration and password recovery, and made group pages more shareable with cleaner URLs.
+
 <!-- truncate -->
-### General Enhancements
-- Dark mode now renders correctly across all remaining pages.
-- A custom 404 page has been added for improved error handling and user experience.
-- User avatar images now display correctly using the updated image path.
 
-### Notifications Enhancements
-- Fully migrated to a unified, multi-channel notification service supporting:
-  - In-app notifications
-  - Push notifications
-  - Email notifications
-- Improved performance and efficiency:
-  - Subscriptions clean up automatically after 30 seconds of inactivity.
-  - Tabs that are minimized or backgrounded disconnect from real-time updates.
-  - Subscriptions only listen to relevant database columns to reduce noise.
-  - Multiple components now share a single subscription to minimize overhead.
-- Added internal monitoring tools for subscription health and connection counts.
-- Fixed a bug where “Mark all as read” wasn’t updating the interface correctly.
+---
 
-### Auth Page Enhancements
-- Added support for redirect URLs after login and registration (e.g., returning users to their intended destination).
-- Fixed the user registration flow, which now completes successfully.
-- Fixed the forgot password flow, which now properly sends recovery emails and allows password resets.
+## What's New
 
-### Event Page Enhancements
-- Updated event schema to include all structured data fields recommended by Google for search visibility.
-- Resolved a hydration error caused by nested `<button>` tags in the `EventCategorySelector` component.
+### Multi-Channel Notifications
+Stay informed your way with a unified notification system supporting in-app alerts, email notifications, and push notifications. Notifications are now faster and more efficient, only updating you about what matters.
 
-### Group Page Enhancements
-- Group UUID URLs now redirect (HTTP 307) to their slug-based equivalents for cleaner, SEO-friendly URLs.
-  - Example: `/groups/347bd7ad...` redirects to `/groups/homeschool-hangouts`
-  - This maintains link compatibility while improving readability and search performance.
-- Refined the Join Group CTA:
-  - Removed unused description text.
-  - Displays "Free to join" for free groups.
-  - Shows actual membership pricing pulled from the database.
-- Group member counts now show accurately across group listings and detail pages.
-- Improved the group join request workflow:
-  - Free groups immediately notify admins upon request.
-  - Moderated groups route all join requests to a centralized approval interface.
-  - Group admins can now approve or deny requests directly from the platform.
+### Improved Group Join Workflow
+- Free groups now notify admins immediately when someone requests to join
+- Group admins can approve or deny membership requests directly from the platform
+- Join requests for moderated groups route through a centralized approval interface
 
-### Developer Enhancements
-- Implemented comprehensive error tracking:
-  - React error boundaries for key components.
-  - Automatic client- and server-side error capture.
-  - Validation and API errors are now consistently tracked.
+### Custom 404 Page
+Visitors who land on a broken link now see a helpful error page instead of a generic browser error.
+
+---
+
+## Improvements
+
+- Dark mode now works correctly on all remaining pages
+- Group URLs now redirect to readable slugs for easier sharing and better search visibility
+- Join Group button now shows "Free to join" for free groups or the actual membership price
+- Group member counts display accurately across all pages
+- User profile photos display correctly throughout the platform
+- Better search engine visibility with improved event page metadata
+
+---
+
+## Bug Fixes
+
+- Fixed user registration flow that was preventing new account creation
+- Fixed forgot password flow so recovery emails send correctly
+- Resolved issue where "Mark all as read" wasn't updating the notification interface
+- Fixed problem where users couldn't return to their intended page after logging in
+- Resolved display issue with post likes not working
+
+---
+
+## Release Details
+
+**Release Date**: August 6, 2025
+**Version**: 1.0.0-beta.5
+**Platform**: Web Application
