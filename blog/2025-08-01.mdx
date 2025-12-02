@@ -2,42 +2,45 @@
 slug: 1-0-0-beta-3
 title: 1.0.0-beta.3
 authors: [homeschoolhive]
-tags: [changelog]
+tags: [changelog, events, groups, calendar, mobile]
 date: 2025-08-01
 ---
 
-This release focuses on major improvements to event routing, image handling, calendar links, SEO, mobile navigation, and accessibility. We've standardized URLs across the platform, enhanced sitemap support for search engines, improved the user experience with dark/light theme handling, and squashed a few bugs related to event creation.
+This release improves event and group page consistency, adds better search engine visibility, enhances dark/light theme handling, and introduces an improved mobile navigation experience.
+
 <!-- truncate -->
-### URL & Path Improvements
 
-* **EventCard**, **Event Detail Page**, **Event Edit Form**, and **Event Detail Preview** now all use a **unified URL function** for consistent and maintainable routing.
-* **All Create Event Forms** now store **image filenames only**, rather than full URLs.
-* **Calendar Feed & Description URLs** now use `NEXT_PUBLIC_SITE_URL` instead of `localhost:3000`.
-* Standardized all URL references to `NEXT_PUBLIC_SITE_URL`, removing dependency on `NEXT_PUBLIC_APP_URL`.
+---
 
-### Event & Group Enhancements
+## What's New
 
-* **Group Events Page** has been fully updated to support new functionality.
-* **Bug Fix:** Creating a new event from a group with a slug now correctly recognizes the group in the dropdown.
-* **Event Images** now properly save during event creation.
+### Mobile Navigation
+New mobile menu bar for visitors browsing the platform on phones and tablets, making it easier to explore groups and events on the go.
 
-### SEO & Sitemap Additions
+### Improved Theme Support
+Your theme preference (dark or light mode) is now saved across sessions and automatically follows your system settings. Theme loads cleanly without any flash of the wrong colors.
 
-* Created new sitemap files to support SEO and content indexing:
+---
 
-  * `/sitemap.xml` – Main index
-  * `/sitemap-static.xml` – Static site pages
-  * `/sitemap-groups.xml` – Public group pages
-  * `/sitemap-events.xml` – Public event pages
-  * `/sitemap-locations.xml` – Location-based pages
+## Improvements
 
-### Theme & Accessibility Improvements
+- Consistent URL handling across all event pages for reliable sharing and bookmarking
+- Calendar subscription links now work correctly for adding events to your personal calendar
+- Better search engine visibility with comprehensive sitemap support
+- Improved accessibility with proper color scheme support
 
-* **No Flash of Incorrect Theme (FOIT)** – Theme loads cleanly on page load.
-* **Persistent Theme Storage** – Theme preference is now saved across sessions.
-* **Accessibility Enhanced** – Added `color-scheme` CSS support for dark/light mode.
-* **UX Upgrade** – Automatically follows system-level dark/light mode preferences.
+---
 
-### Mobile Experience
+## Bug Fixes
 
-* **New Mobile Menu Bar** added for non-authenticated users to improve navigation on mobile.
+- Fixed issue where creating a new event from a group page wasn't pre-selecting the correct group
+- Resolved problem with event images not saving during event creation
+- Fixed group events page to work properly with new features
+
+---
+
+## Release Details
+
+**Release Date**: August 1, 2025
+**Version**: 1.0.0-beta.3
+**Platform**: Web Application

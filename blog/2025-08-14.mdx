@@ -2,41 +2,42 @@
 slug: 1-0-0-beta-8
 title: 1.0.0-beta.8
 authors: [homeschoolhive]
-tags: [changelog]
+tags: [changelog, performance, security, payments]
 date: 2025-08-14
 ---
 
-This update delivers major speed boosts, improved reliability, and enhanced security across the platform.  
-We’ve focused on optimizing loading times, making payment and authentication workflows more dependable, and protecting sensitive information in production.
+This update delivers significant speed improvements, enhanced security, and better payment history visibility. Authentication and payment screens now load faster, and your billing information is clearer and easier to understand.
+
 <!-- truncate -->
----
-
-### Performance Improvements
-- **Faster Loading**: Authentication and payment history now load in seconds instead of hanging or timing out.
-- **Smarter Data Handling**: Optimized background queries and reduced unnecessary processing for a smoother experience.
-- **Payment History Overhaul**: Payment records are retrieved more efficiently and display clear, user-friendly invoice details.
 
 ---
 
-### Security & Logging
-- Introduced a **new secure logging system** that automatically hides sensitive data and structures logs for safe review.
-- Replaced old console logs in critical areas with secure, environment-aware logging.
-- Improved monitoring for authentication, payments, and webhook events without exposing private details.
+## Improvements
+
+### Performance
+- Authentication now loads in seconds instead of hanging or timing out
+- Payment history loads faster with optimized data retrieval
+- Reduced unnecessary background processing for a smoother experience
+
+### Security
+- Enhanced protection for sensitive information across the platform
+- Improved monitoring for authentication and payment events
+
+### Payment History
+- Payment records now display clear, user-friendly invoice details
+- Invoice numbers shown instead of technical identifiers
 
 ---
 
-### User Experience Updates
-- Fixed an issue with unreadable card details in light mode.
-- Updated payment history to show invoice numbers instead of technical IDs.
+## Bug Fixes
+
+- Fixed issue with unreadable card details in light mode
+- Resolved authentication timeouts that caused loading delays
 
 ---
 
-### Overall Impact
-- **Faster** page loads and data retrieval.
-- **More secure** handling of sensitive information.
-- **More reliable** authentication and payment flows.
-- **Clearer** and more user-friendly billing information.
+## Release Details
 
----
-
-**This release makes the platform faster, safer, and more consistent for all users.**
+**Release Date**: August 14, 2025
+**Version**: 1.0.0-beta.8
+**Platform**: Web Application
