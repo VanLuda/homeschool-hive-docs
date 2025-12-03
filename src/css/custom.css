@@ -105,6 +105,11 @@ article hr + h3 {
   margin-top: 0.5rem;
 }
 
+/* Reduce h2 font size in changelog/blog articles */
+article > header > h2 {
+  font-size: 2rem;
+}
+
 mark {
   background-color: rgba(42,127,255,0.5);
   color: inherit;
