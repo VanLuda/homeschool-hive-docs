@@ -295,7 +295,7 @@ We protect your information by:
 - Not sharing it with third parties
 - Deleting it when no longer needed
 
-See our [Privacy Policy](/legal/privacy) for complete details.
+For complete details, please review the privacy policy available in the app.
 
 ## Common Questions
 
@@ -350,7 +350,7 @@ If you see a request you support:
 
 Stay informed about what's being fixed and added:
 
-1. Check the [Changelog](/blog) for recent updates
+1. Check the [Changelog](/changelog) for recent updates
 2. Review release notes for bug fixes
 3. See announcements about new features
 
