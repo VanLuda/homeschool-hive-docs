@@ -17,6 +17,8 @@ Registering for an event involves:
 3. Providing required information
 4. Completing payment (for paid events)
 
+Events can be either in-person or virtual. Virtual events provide meeting links for easy online participation, while in-person events include location details.
+
 ## Register for a Free Event
 
 For events with no cost:
@@ -44,6 +46,28 @@ For events with registration fees:
 6. Choose your payment method
 7. Review your order summary
 8. Click **Complete Registration**
+
+### Ticket Reservations
+
+When you proceed to checkout, your selected tickets are automatically reserved for you. This ensures that tickets remain available while you complete your registration.
+
+**How ticket reservations work:**
+
+- Once you click **Continue to Checkout**, your tickets are temporarily held
+- A reservation timer appears showing how long you have to complete your purchase
+- Other members cannot claim your reserved tickets during this time
+- If the timer expires before you complete checkout, the tickets are automatically released back to availability
+
+:::tip Complete Checkout Promptly
+The reservation timer gives you enough time to fill out your information without rushing, but don't wait too long. If you need to step away, you may need to restart the checkout process to reserve tickets again.
+:::
+
+**Benefits of ticket reservations:**
+
+- **No double-booking** - You won't lose tickets to someone else while filling out forms
+- **Fair access** - Everyone gets the same amount of time to complete their purchase
+- **Prevents capacity conflicts** - Eliminates situations where you finish checkout but tickets have sold out
+- **Stress-free registration** - Focus on providing accurate information without worrying about ticket availability
 
 ### Understanding Tickets
 
@@ -160,6 +184,46 @@ Your registration status appears on each event:
 | **Watching** | You're tracking a full event |
 | **Pending** | Registration needs completion |
 
+## Join Virtual Events
+
+Homeschool Hive supports both in-person and virtual events, making it easy to participate in online classes, co-op meetings, and virtual field trips.
+
+### Identifying Virtual Events
+
+Virtual events are clearly marked with a special indicator:
+
+- Look for the **Virtual** badge on event cards in the event discovery feed
+- Virtual events display a distinct icon to differentiate them from in-person gatherings
+- Event details page shows whether the event is virtual or in-person
+
+### Accessing Meeting Links
+
+Once you've registered for a virtual event:
+
+1. **After Registration** - You'll receive confirmation with virtual event details
+2. **Find Your Link**:
+   - Go to **Events** > **My Events**
+   - Click on your virtual event
+   - The meeting link appears in the event details
+3. **Join the Event**:
+   - Click the one-click **Join Meeting** button
+   - You'll be taken directly to the virtual meeting platform
+
+:::note Meeting Link Timing
+Some group leaders may hide meeting links until shortly before the event begins. This is a security measure to prevent unauthorized access. If you don't see a link yet, check back closer to the event start time.
+:::
+
+### Virtual Event Tips
+
+- **Test Your Setup** - Join a few minutes early to test your camera, microphone, and connection
+- **Check Requirements** - Some virtual events may require specific software or browser settings
+- **Have Backup Access** - Save the meeting link in case you need to rejoin
+- **Arrive on Time** - Virtual events often start promptly since there's no travel time needed
+
+:::tip Easy Access
+Bookmark your **My Events** page for quick access to all your virtual meeting links. This is especially helpful if you attend regular virtual co-op sessions or classes.
+:::
+
 ## Troubleshooting
 
 ### Payment Failed
@@ -176,6 +240,16 @@ If your payment doesn't go through:
 1. Check **Events** > **My Events**
 2. Look in your email for a confirmation
 3. Make sure you're logged into the correct account
+
+### Can't Access Virtual Event Link
+
+If you can't find or access your virtual event meeting link:
+
+1. Check that you're registered for the event (view **My Events**)
+2. The link may be hidden until closer to the event time - check back later
+3. Refresh the event page if the event is about to start
+4. Contact the group leader if the link isn't available when the event begins
+5. Check your email for event confirmation with meeting details
 
 ## What's Next?
 
