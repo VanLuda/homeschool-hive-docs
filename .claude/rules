@@ -1,0 +1,54 @@
+# Homeschool Hive Documentation Rules
+
+## Security-Conscious Content Policy
+
+All public-facing content (changelogs, documentation, blog posts) must avoid exposing information that could help malicious actors.
+
+### Never Include
+
+1. **Timeframes and Thresholds**
+   - Session durations (e.g., "sessions expire after 1 hour")
+   - Token expiration times
+   - Rate limiting thresholds
+   - Retry delays or lockout periods
+
+2. **Implementation Details**
+   - URL parameters (e.g., "?discount=CODE", "?token=...")
+   - API endpoints or routes
+   - File paths or directory structures
+   - Database schema or table names
+   - Authentication mechanisms (session caching, token refresh patterns)
+
+3. **Security Mechanisms**
+   - Defensive measures (rate limiting, webhook protection, CSRF tokens)
+   - Validation rules or regex patterns
+   - Error handling strategies
+   - Encryption or hashing methods
+
+4. **Vulnerability Information**
+   - Specific vulnerability types (XSS, SQL injection, CSRF, etc.)
+   - Attack vectors that were fixed
+   - Security patches with technical details
+
+### Safe Alternatives
+
+| Avoid | Use Instead |
+|-------|-------------|
+| "Fixed session timeout after 1 hour" | "Fixed unexpected logout issue" |
+| "Links expire after 1 hour" | "Links include time-limited access" |
+| "Added rate limiting (100 req/min)" | "Enhanced platform security" |
+| "Apply discount via ?discount=CODE" | "Apply discount codes during checkout" |
+| "Fixed XSS in user comments" | "Improved content security" |
+| "Webhook deduplication prevents replay" | "Improved payment reliability" |
+| "JWT tokens now rotate every 15 min" | "Improved session security" |
+
+### General Principle
+
+Describe **what users experience**, not **how it's implemented**. Users care about "faster logins" not "session caching with Redis".
+
+## Content Standards
+
+- No emojis in changelogs or formal documentation
+- User-focused language over technical jargon
+- Describe symptoms for bug fixes, not root causes
+- Keep security-related entries vague but reassuring

@@ -76,13 +76,28 @@ Keep professional tone. No emojis anywhere in the file.
 Describe what users experience, not how it was implemented.
 
 ### 4. Security-Conscious Content
-Never expose:
-- Vulnerability types (XSS, SQL injection, etc.)
-- File paths, API endpoints, or code
-- Database details
-- Error messages or stack traces
+Never expose information that could help attackers:
 
-Safe language: "Improved account security", "Enhanced data protection"
+**Never include:**
+- Vulnerability types (XSS, SQL injection, CSRF, etc.)
+- File paths, API endpoints, or code
+- Database details or schema information
+- Error messages or stack traces
+- Specific timeframes for security features (e.g., "tokens expire after 1 hour")
+- Session duration or timeout values
+- URL parameters (e.g., "?discount=CODE", "?token=...")
+- Defensive mechanism details (rate limiting thresholds, webhook protection, etc.)
+- Authentication implementation details (session caching, token refresh, etc.)
+
+**Safe alternatives:**
+| Instead of | Write |
+|------------|-------|
+| "Fixed session timeout after 1 hour" | "Fixed unexpected logout issue" |
+| "Links expire after 1 hour" | "Links include time-limited access" |
+| "Added rate limiting to prevent abuse" | "Enhanced platform security" |
+| "Apply discount via ?discount=CODE" | "Apply discount codes during checkout" |
+| "Webhook deduplication prevents replay attacks" | "Improved payment reliability" |
+| "Fixed XSS vulnerability in comments" | "Improved content security" |
 
 ## Research Workflow
 
@@ -138,9 +153,10 @@ Before finalizing any changelog entry:
 - [ ] Has `<!-- truncate -->` after overview
 - [ ] No emojis anywhere in the content
 - [ ] All descriptions are user-focused, not technical
-- [ ] No security-sensitive information disclosed
-- [ ] No file paths, endpoints, or technical details
-- [ ] Bug fixes describe symptoms, not causes
+- [ ] No security-sensitive information disclosed (see Rule 4 above)
+- [ ] No timeframes, thresholds, or URL parameters exposed
+- [ ] No defensive mechanism details (rate limiting, webhook protection, etc.)
+- [ ] Bug fixes describe symptoms, not technical causes
 - [ ] Tags are relevant and include "changelog"
 - [ ] Date and version are accurate
 - [ ] Slug is URL-friendly (lowercase, hyphens)

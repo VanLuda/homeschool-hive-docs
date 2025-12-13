@@ -1,0 +1,56 @@
+---
+slug: 1-4-2-security-cleanup
+title: 1.4.2 - Security & Cleanup
+authors: [homeschoolhive]
+tags: [changelog, security, performance, payments]
+date: 2025-12-14
+---
+
+This release improves security for scholarship invoices, removes redundant authentication code to eliminate memory leaks, and fixes several UI issues across account pages.
+
+<!-- truncate -->
+
+---
+
+## What's New
+
+### Event Names Clickable in Feed Posts
+
+Event names in feed posts now link directly to the event detail page, matching the existing behavior for group names. This improves navigation and discoverability of events from the activity feed.
+
+### Time-Limited Scholarship Invoice Links
+
+Scholarship invoice PDF links now include time-limited access for improved security.
+
+---
+
+## Bug Fixes
+
+### Improved Authentication Performance
+
+Streamlined authentication code for better performance and reliability.
+
+### Account Page Skeleton Loaders
+
+Refactored skeleton loading states across all account pages:
+
+- Match actual content structure more closely
+- Added proper dark mode support
+- Consistent card styling with rounded corners and shadows
+- Updated pages: /account, /account/payments, /account/payments/methods, /account/subscriptions, /account/notifications, /account/security, /account/family
+
+### Full Child Name on Scholarship Invoices
+
+Fixed PDF template to display complete child name (first + last name). Previously only displayed first name, causing "Guest Account" to show as just "Guest".
+
+### Build Reliability
+
+Improved build process reliability for larger deployments.
+
+---
+
+## Release Details
+
+**Release Date**: December 14, 2025
+**Version**: 1.4.2
+**Platform**: Web Application
