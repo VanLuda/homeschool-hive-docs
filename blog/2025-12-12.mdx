@@ -1,0 +1,130 @@
+---
+slug: 1-4-event-series
+title: 1.4.0 - Event Series & Custom Roles
+authors: [homeschoolhive]
+tags: [changelog, events, groups, payments, security]
+date: 2025-12-12
+---
+
+This major release introduces event series for recurring activities like courses and camps, custom roles with granular permissions for group leadership, and bulk member import for growing communities.
+
+<!-- truncate -->
+
+---
+
+## What's New
+
+### Event Series
+
+Create recurring events like courses, camps, classes, or weekly meetups with flexible attendance options. Perfect for activities that run across multiple sessions.
+
+**Series Pass**: Families can purchase access to all sessions upfront with their spot reserved across every session. Great for committed participants who want guaranteed attendance.
+
+**Drop-in Tickets**: Allow families to join individual sessions without committing to the full series. You can even offer special intro pricing for first-time attendees to encourage new participants.
+
+**Session Management**: Track attendance per session with easy check-in and check-out. View attendance reports and export them for your records.
+
+**Calendar Integration**: Sessions display clearly in calendars as "Art Class (3/8)" so families always know which session is coming up. The iCal feed includes proper series information for external calendar apps.
+
+**Bulk Import**: Import events from external calendars using CSV files, making it easy to migrate existing schedules.
+
+### Custom Roles & Permissions
+
+Create custom leadership roles tailored to how your group operates. Move beyond the basic member, co-leader, and owner roles with fine-grained control over what each team member can do.
+
+**14 Granular Permissions**: Control exactly what each role can access, from managing events and members to viewing finances and sending announcements. Mix and match permissions to create roles like "Event Coordinator" or "Membership Manager."
+
+**Role Hierarchy**: Higher-level roles can manage lower-level roles, ensuring proper delegation without security concerns. Your leadership structure is reflected in who can assign and modify roles.
+
+**Smart Menu Filtering**: Team members only see the admin tools relevant to their permissions, keeping the interface clean and preventing confusion.
+
+**Easy Role Assignment**: Assign custom roles to individual members or update roles in bulk from the members list.
+
+### Bulk Member Import
+
+Quickly onboard large groups with CSV import supporting up to 8,000 members at once. Perfect for established communities migrating to Homeschool Hive or groups with existing member lists.
+
+**Simple CSV Format**: Upload a spreadsheet with email addresses and optional fields like name, role, and membership expiration. The system validates your file before processing.
+
+**Progress Tracking**: Large imports process in the background with real-time progress updates. See which members were successfully invited and which had issues.
+
+**Branded Invitation Flow**: Invited members receive your group's logo, welcome message, and any custom questions. They complete their profile, agree to rules, and pay fees (if applicable) in one seamless flow.
+
+**Membership Expiration**: Set expiration dates for grandfathered members. The system automatically sends reminders before expiration and handles access transitions gracefully.
+
+### Payment History
+
+View all your payments in one organized place with detailed breakdowns.
+
+**Unified History**: See every payment across all groups and events, with expandable details showing individual tickets, add-ons, and fees.
+
+**Receipt Access**: Download or view receipts directly from your payment history. Scholarship invoices are available as PDFs.
+
+---
+
+## Improvements
+
+- Automatic session reminders keep attendees informed about upcoming series sessions
+- Skeleton loading states across all group pages provide smoother browsing
+- Reorganized admin sidebar makes navigation more intuitive
+- Group owner avatars now display on group about pages
+- Pending deletion banners appear on group cards and layouts when closure is scheduled
+- Invited members tab lets you view, resend, or cancel pending invitations
+
+---
+
+## Bug Fixes
+
+### Authentication
+- Fixed an issue causing some users to be logged out after one hour
+- Login now properly redirects you back to your original destination
+- Social login (Google, Facebook) now honors redirect URLs correctly
+
+### Checkout & Payments
+- Fixed issue where you could accidentally select yourself multiple times as an attendee
+- Add-ons now track inventory correctly
+- Improved reliability of RSVP creation and confirmation notifications
+
+### Events
+- Ticket availability now updates in real-time, eliminating stale counts
+- Fixed duplicate notifications when editing events
+- Watchlist messages now mention "favorites" consistently
+- Dashboard analytics now properly include confirmed bookings
+
+### Groups
+- Fixed group about page display for visitors who aren't logged in
+- Setup checklist items now complete reliably
+- Improved authorization checks for group deletion
+- Deletion confirmation modal now waits for explicit acknowledgment
+
+### Media
+- Added file size validation preventing uploads over 30MB
+- Fixed profile picture and event image URLs displaying incorrectly
+
+### Invitations
+- Inviter names now display correctly on invitation pages
+- Improved support for group URLs using readable slugs
+
+### Interface
+- Resolved various display inconsistencies across browsers
+- Improved Stripe Connect verification status display
+- Dark mode now works correctly on error messages
+- Date and time pickers have proper minimum and maximum constraints
+- Tickets section properly hides when no group is selected
+
+---
+
+## Security
+
+- Enhanced security headers protect against common web vulnerabilities
+- Improved account session handling for better security
+- Strengthened data protection across the platform
+- Scholarship invoice access now includes additional security measures
+
+---
+
+## Release Details
+
+**Release Date**: December 2025
+**Version**: 1.4.0
+**Platform**: Web Application
