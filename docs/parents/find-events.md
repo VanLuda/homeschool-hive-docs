@@ -137,15 +137,103 @@ Click on any event to see the full details:
 - **Attendee Requirements** - Information needed for registration
 - **Discussion** - Comments and questions about the event
 
-## Track Events You're Interested In
+## Save Events to Your Watchlist
 
-### Add to Watchlist
+The Watchlist feature helps you keep track of events you're interested in, even if you're not ready to RSVP yet. Save events to your watchlist to stay updated on availability and get quick access when you're ready to register.
 
-If an event is full but you're interested:
+### What is the Watchlist?
 
-1. Click **Watch Event** or **Add to Watchlist**
-2. You'll be notified if a spot opens up
-3. View your watchlist from **Account Settings** > **Watchlist**
+Your Watchlist is a personalized collection of events you want to keep tabs on. Think of it as a favorites list that helps you:
+
+- **Save events** you're interested in attending
+- **Track availability** for events that are near capacity or full
+- **Get notifications** when spots open up in full events
+- **Receive alerts** when watched events are approaching 90% capacity
+- **Quick access** to events you want to attend without searching again
+
+:::tip Stay Informed
+When you add an event to your watchlist, Homeschool Hive will notify you about important updates like capacity changes and spot availability.
+:::
+
+### Adding Events to Your Watchlist
+
+You can add any event to your watchlist directly from event listings:
+
+1. **Browse or search** for events you're interested in
+2. **Hover over an event card** - a bookmark icon appears in the top-right corner
+3. **Click the bookmark icon** to add the event to your watchlist
+4. The bookmark icon turns red and fills in, confirming the event is saved
+
+The bookmark button appears on:
+- Event cards in the Events browse page
+- Event search results
+- Event detail pages
+- Events shown on the interactive map
+
+:::note Already in Your Watchlist
+Events you've already saved show a filled red bookmark icon, even without hovering.
+:::
+
+### Viewing Your Watchlist
+
+Access your complete watchlist to see all saved events in one organized view:
+
+1. Navigate to `/watchlist` in your browser, or
+2. Look for the watchlist link in the account menu
+3. Your watchlist displays events organized by helpful categories
+
+**Watchlist Tabs:**
+
+- **Upcoming** - Events you've saved that still have availability
+- **Near Capacity** - Events approaching 90% capacity (act fast!)
+- **Full** - Events at capacity where you're waiting for spots to open
+- **Past** - Historical events you had saved
+
+Each tab shows the count of events in that category, making it easy to see what needs your attention.
+
+:::tip Capacity Alerts
+The "Near Capacity" tab shows events with a percentage badge indicating how full they are. These events may fill up soon, so review them first!
+:::
+
+### Quick RSVP from Watchlist
+
+Once you've decided to attend a watched event, you can register directly from your watchlist:
+
+1. **Open your watchlist** at `/watchlist`
+2. **Find the event** you want to attend
+3. **Click the event card** to view full details
+4. **Click the RSVP button** to start registration
+5. Complete the registration process as normal
+
+No need to search for the event again - everything is ready at your fingertips.
+
+### Removing Events from Watchlist
+
+You can remove events from your watchlist at any time:
+
+**From Event Cards:**
+1. **Hover over any event card** showing a filled red bookmark
+2. **Click the bookmark icon** - it changes to unfilled gray
+3. The event is immediately removed from your watchlist
+
+**From the Watchlist Page:**
+1. Navigate to your watchlist at `/watchlist`
+2. Find the event you want to remove
+3. Click the bookmark icon on the event card
+4. The event disappears from your watchlist
+
+:::note Automatic Cleanup
+Events are automatically removed from your watchlist after they've passed, but you can still view them in the "Past" tab for reference.
+:::
+
+### Understanding Watchlist Status Badges
+
+When viewing your watchlist, you'll see helpful status badges:
+
+- **X% Full** (yellow badge) - Event is near capacity, shown in "Near Capacity" tab
+- **Waitlist Only** (red badge) - Event is full, shown in "Full" tab
+- **Added date** - Shows when you added the event to your watchlist
+- **Ticket type** - If you indicated interest in a specific ticket type
 
 ### View Your Events
 

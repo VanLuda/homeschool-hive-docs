@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Manage Events
-description: Learn how to manage RSVPs, waitlists, and attendance for your group's events.
+description: Learn how to manage RSVPs, waitlists, series events, and attendance tracking for your group's events.
 ---
 
 # Manage Events
@@ -166,16 +166,81 @@ Send reminder notifications:
 3. Customize the reminder message
 4. Choose when to send (now or scheduled)
 
-## Event Day
+## Managing Series Events
 
-### Check-In Attendees
+If you've created an event series, you'll see additional management options.
 
-Track who arrives at your event:
+### Series Events in Event List
+
+Series events appear with a special indicator:
+
+- **Parent event** - Shows the series name with a recurring icon
+- Listed as a single entry in your events list
+- Displays total number of sessions
+
+### Access Series Management Dashboard
+
+To manage all sessions in a series:
+
+1. Go to the series event page
+2. Click **Manage Series** or find it in the event menu
+3. View the series dashboard with all sessions
+
+The dashboard provides:
+
+- Overview of series pass sales
+- List of all sessions with attendance counts
+- Individual session management options
+- Capacity tracking across sessions
+
+For complete details on managing series events, see [Event Series](/docs/group-leaders/event-series).
+
+## Attendance Tracking
+
+Track who arrives at your events and view attendance reports.
+
+### Check-In Feature
+
+Homeschool Hive provides a dedicated check-in system for tracking attendance:
 
 1. Go to **Manage Event** > **Check-In**
-2. Mark attendees as they arrive
-3. Use the search to find specific names
-4. View real-time attendance count
+2. View the complete list of registered attendees
+3. Mark attendees as they arrive
+4. See real-time attendance statistics
+
+**What you can track:**
+
+- Who has checked in
+- Who hasn't arrived yet
+- No-shows (mark after event)
+- Check-in timestamps
+
+**For series events:**
+
+- Series pass holders appear automatically for each session
+- Drop-in attendees are listed separately
+- Track attendance across all sessions
+
+### Attendance Reports
+
+Generate reports to analyze attendance:
+
+1. Go to **Manage Event** > **Reports**
+2. Click **Attendance Report**
+3. Choose format (PDF or CSV)
+4. Download or view the report
+
+**Report includes:**
+
+- Complete attendee roster
+- Check-in status for each person
+- Attendance percentages
+- Payment status
+- For series: attendance across all sessions
+
+For detailed instructions on using the check-in system, see [Check-In & Attendance](/docs/group-leaders/check-in).
+
+## Event Day
 
 ### Handle Walk-Ins
 
@@ -185,14 +250,6 @@ If someone wants to attend who isn't registered:
 2. Use **Add Attendee** to register them on the spot
 3. Collect payment if required
 4. Add them to the attendee list
-
-### Handle No-Shows
-
-After the event, you can track who attended:
-
-1. Go to **Manage Event** > **Attendance**
-2. Mark who showed up and who didn't
-3. This data helps with future planning
 
 ## After the Event
 
@@ -225,6 +282,10 @@ If you're running this event again:
 3. Update the date and details
 4. Publish the new event
 
+:::tip Consider Using Event Series
+If you're running the same event multiple times on a regular schedule, consider creating an [Event Series](/docs/group-leaders/event-series) instead of duplicating individual events. Series events make it easier to manage recurring activities.
+:::
+
 ## Troubleshooting
 
 ### Attendee Can't Register
@@ -250,6 +311,8 @@ See [Payments](/docs/group-leaders/payments-stripe) for refund procedures.
 
 ## What's Next?
 
-1. **[Configure tickets](/docs/group-leaders/tickets-pricing)** - Advanced pricing options
-2. **[Generate scholarship invoices](/docs/group-leaders/scholarship-invoices)** - For scholarship families
-3. **[View analytics](/docs/group-leaders/analytics)** - Track event performance
+1. **[Event Series](/docs/group-leaders/event-series)** - Create recurring events with series passes
+2. **[Check-In & Attendance](/docs/group-leaders/check-in)** - Track attendance at your events
+3. **[Configure tickets](/docs/group-leaders/tickets-pricing)** - Advanced pricing options
+4. **[Generate scholarship invoices](/docs/group-leaders/scholarship-invoices)** - For scholarship families
+5. **[View analytics](/docs/group-leaders/analytics)** - Track event performance

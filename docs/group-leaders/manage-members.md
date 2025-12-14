@@ -99,6 +99,12 @@ Full administrative control:
 - Transfer or delete the group
 - Manage all member roles including Co-Leaders
 
+:::tip Custom Roles
+In addition to the default roles, group leaders can create custom roles with granular permissions tailored to your group's needs. This allows you to define exactly what different members can do, from managing specific features to accessing certain settings.
+
+Learn more in [Custom Roles](/docs/group-leaders/custom-roles).
+:::
+
 ## Assign Roles
 
 To change a member's role:
@@ -208,19 +214,191 @@ For managing multiple members at once:
 
 ## Member Import
 
-Import members from a spreadsheet:
+Import up to 8,000 members at once from a CSV file. This feature is ideal for migrating existing member lists, onboarding large groups, or managing seasonal enrollments.
 
-1. Go to **Members** > **Import**
-2. Download the CSV template
-3. Fill in member information
-4. Upload the completed CSV
-5. Review and confirm the import
+### Start an Import
 
-:::note Import Limitations
-Imported members still need to:
-- Create their own Homeschool Hive account
-- Accept the group invitation
-- Complete payment (for paid groups)
+1. Go to your group's **Members** page
+2. Click **Import Members** or the import button
+3. You'll see a 4-step process: Upload, Preview, Options, Processing
+
+### Prepare Your CSV File
+
+Your CSV file should include these columns:
+
+**Required:**
+- **email** - Member's email address
+
+**Optional:**
+- **first_name** - First name (or use "name" for full name)
+- **last_name** - Last name
+- **role** - member, event_manager, or co_leader (defaults to member)
+- **fee_exempt** - yes or no (bypasses payment for paid groups)
+- **expires_at** - YYYY-MM-DD format (for grandfathered memberships with expiration dates)
+
+:::tip Download Template
+Click **Download template** on the upload page to get a properly formatted CSV file with example data. You can also paste CSV content directly into the text area.
+:::
+
+### CSV Format Example
+
+```csv
+email,first_name,last_name,role,fee_exempt,expires_at
+parent@example.com,Jane,Smith,member,no,
+leader@example.com,John,Doe,co_leader,yes,
+helper@example.com,Sarah,Johnson,event_manager,no,
+migrated@example.com,Alice,Brown,member,no,2025-06-30
+```
+
+### Step 1: Upload & Validation
+
+1. Upload your CSV file or paste the content
+2. Click **Validate CSV**
+3. The system checks for:
+   - Valid email addresses
+   - Duplicate emails in the file
+   - Members already in the group
+   - Pending invitations
+   - Proper date formats
+
+### Step 2: Preview Results
+
+Review the validation results:
+
+- **Valid rows** - Ready to import
+- **Invalid rows** - Have errors that need fixing
+- **Warnings** - Issues that won't block import (duplicates, already members)
+- **Estimated time** - How long the import will take
+
+You can:
+- **Start Over** - Upload a different file
+- **Continue** - Proceed with valid rows (you can only import valid rows)
+
+:::note Skipped Rows
+Rows are automatically skipped if:
+- The email already has an active membership
+- A pending invitation already exists
+- The email is a duplicate in your CSV
+:::
+
+### Step 3: Import Options
+
+Configure how invitations will be sent:
+
+**Custom Message** (optional)
+- Add a personal message to invitation emails
+- Up to 1,000 characters
+- Helps introduce your group and set expectations
+
+**Default Role**
+- Choose the role for rows without a specified role
+- Options: Member, Event Manager, or Co-Leader
+- CSV role column overrides this default
+
+**Discount Code** (paid groups only)
+- Pre-apply a discount code to all invitations
+- Useful for special promotions or founder pricing
+- Only active discount codes are available
+
+### Step 4: Processing
+
+Track your import in real-time:
+
+1. **Validating** - Preparing data
+2. **Processing** - Creating invitations and sending emails
+3. **Progress updates** - See how many invitations have been sent
+4. **Estimated time remaining** - Know when it will complete
+
+You can **cancel** the import at any time if needed.
+
+### Results Summary
+
+After completion, you'll see:
+
+- **Successful invitations** - Emails sent
+- **Failed invitations** - Errors encountered
+- **Skipped invitations** - Already members or duplicates
+- **Email status** - Delivery success/failures
+
+### What Happens After Import
+
+For each valid email:
+
+1. **Invitation created** - A unique invitation link is generated
+2. **Email sent** - Recipient receives an invitation email with a link
+3. **30-day expiration** - Invitations expire after 30 days
+4. **Account required** - Recipients must create/sign in to their account
+5. **Payment required** - Unless fee_exempt is set to "yes" (for paid groups)
+
+:::warning Import Limitations
+- Maximum 8,000 members per import
+- Only group owners and co-leaders can import members
+- One active import job per group at a time
+- Imported members must accept invitations individually
+:::
+
+## Bulk Invitations
+
+Send multiple invitations quickly using email addresses. This is useful for smaller batches or when you don't need the advanced features of CSV import.
+
+### Send Bulk Invitations
+
+1. Go to **Members** > **Invite** or click the invite button
+2. Enter up to 30 email addresses
+3. Choose a role for all invitees
+4. Add an optional personal message
+5. Click **Send Invitations**
+
+Each person receives a unique invitation link via email.
+
+### Invitation Settings
+
+When sending invitations, you can configure:
+
+**Role Assignment**
+- Member (default)
+- Event Manager
+- Co-Leader
+
+**Personal Message**
+- Optional custom message
+- Up to 500 characters
+- Included in the invitation email
+
+**Expiration**
+- Standard invitations expire in 7 days
+- Custom expiration dates can be set
+
+### Track Invitation Status
+
+View all pending invitations on your Members page:
+
+- **Pending** - Invitation sent, waiting for response
+- **Accepted** - User accepted and joined the group
+- **Expired** - Invitation expired after 30 days
+- **Declined** - User declined the invitation
+
+### Manage Pending Invitations
+
+For each pending invitation, you can:
+
+1. **Resend** - Send the invitation email again
+2. **Cancel** - Revoke the invitation
+3. **View details** - See when sent, who sent it, and the message
+
+### Invitation Links
+
+Each invitation has a unique code (UUID format) that provides secure access:
+
+- Unique link: `https://homeschoolhive.co/invite/{invite-code}`
+- One-time use only
+- Expires after 30 days
+- Can't be shared or reused after acceptance
+
+:::tip Managing Many Invitations
+- For large-scale invitations (30+ people), use the Member Import feature instead
+- Bulk invitations are best for quick, one-off invites
+- You can send multiple batches if needed
 :::
 
 ## Member Directory

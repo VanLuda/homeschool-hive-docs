@@ -131,14 +131,110 @@ If you disconnect your only login method, make sure you have a password set firs
 
 ## Account Security
 
-### Two-Factor Authentication
+### Two-Factor Authentication (MFA)
 
-For extra security, enable two-factor authentication:
+Two-factor authentication adds an extra layer of security to your Homeschool Hive account by requiring both your password and a verification code to sign in.
+
+#### What is Two-Factor Authentication?
+
+Two-factor authentication (also called MFA or 2FA) protects your account with two forms of verification:
+
+1. **Something you know** - Your password
+2. **Something you have** - A verification code from your authenticator app
+
+This means that even if someone knows your password, they can't access your account without your phone or authenticator app.
+
+:::tip Group Leaders
+If you're a group leader, we strongly recommend enabling MFA to protect your account and your members' data. MFA is required for group leaders who accept payments.
+:::
+
+#### Enabling Two-Factor Authentication
+
+To enable MFA on your account:
 
 1. Go to **Account Settings** > **Security**
-2. Click **Enable Two-Factor Authentication**
-3. Follow the setup instructions
-4. Save your backup codes
+2. Scroll to the **Two-Factor Authentication** section
+3. Click **Enable**
+4. The setup wizard will appear with two steps:
+
+**Step 1: Scan QR Code**
+- Open your authenticator app (Google Authenticator, 1Password, Authy, Microsoft Authenticator, or similar)
+- Tap the "+" or "Add Account" button in the app
+- Scan the QR code displayed on screen
+- If you can't scan the code, tap "Can't scan?" to reveal the manual entry code
+- Copy the code and enter it manually in your authenticator app
+- Click **I've scanned the code**
+
+**Step 2: Verify Setup**
+- Your authenticator app will now display a 6-digit code that changes every 30 seconds
+- Enter the current code shown in your app
+- Click **Verify & Enable**
+
+Once verified, you'll see a success message and MFA will be enabled on your account.
+
+:::note Supported Authenticator Apps
+You can use any TOTP-compatible authenticator app, including:
+- Google Authenticator
+- 1Password
+- Authy
+- Microsoft Authenticator
+- Bitwarden
+- LastPass Authenticator
+:::
+
+#### Using MFA During Login
+
+After enabling MFA, your login process will include an additional step:
+
+1. Go to the Homeschool Hive login page
+2. Enter your **email** and **password** as normal
+3. Click **Sign In**
+4. You'll be redirected to the Two-Factor Authentication page
+5. Open your authenticator app
+6. Enter the current 6-digit code (codes refresh every 30 seconds)
+7. Click **Verify**
+
+You'll then be logged in and redirected to your destination.
+
+:::tip Timing Matters
+Verification codes expire every 30 seconds. If a code doesn't work, wait for the next code to appear in your authenticator app and try again.
+:::
+
+#### Recovery Options
+
+If you lose access to your authenticator app:
+
+**Option 1: Use a Different Account**
+- Click **Sign in with a different account** on the MFA verification page
+- Log out and sign in with another account if available
+
+**Option 2: Contact Support**
+- If you're locked out of your account, contact Homeschool Hive support
+- For security purposes, you'll need to verify your identity
+- Support can help you disable MFA and regain access
+
+:::warning Keep Your Authenticator App Secure
+- Back up your authenticator app if your app supports cloud sync (1Password, Authy, etc.)
+- When getting a new phone, transfer your authenticator codes before wiping your old device
+- Some apps provide recovery codes or backup options - keep these in a safe place
+:::
+
+#### Disabling Two-Factor Authentication
+
+To turn off MFA:
+
+1. Go to **Account Settings** > **Security**
+2. Scroll to the **Two-Factor Authentication** section
+3. Click **Disable**
+4. A confirmation dialog will appear
+5. Review the warning message
+6. Click **Disable MFA** to confirm
+
+Your account will no longer require verification codes when signing in.
+
+:::danger Group Leader Warning
+If you're a group leader, disabling MFA may prevent you from accepting payments until you re-enable it. We strongly recommend keeping MFA enabled for account security.
+:::
 
 ### Active Sessions
 
