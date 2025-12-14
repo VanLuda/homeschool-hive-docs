@@ -104,9 +104,114 @@ Events may appear in different colors:
 - **Enter** - Select a day or event
 - **Escape** - Close event details
 
+## Subscribe to Calendar
+
+Automatically sync your RSVP'd events to your personal calendar app using a secure calendar subscription.
+
+### What Gets Synced
+
+Your personal calendar feed includes:
+
+- All events you've RSVP'd "Going" to
+- Series pass sessions you have access to
+- Event updates and cancellations
+- All session dates for recurring series events
+
+Events sync automatically (typically every 15 minutes to a few hours, depending on your calendar app).
+
+### Getting Your Calendar Feed URL
+
+1. Click **Calendar** in the main navigation
+2. Click the **Subscribe** button in the calendar view
+3. Click **Generate Calendar URL** to create your personal feed
+4. Your unique subscription URL appears - keep this private
+
+:::note Security First
+Your calendar feed URL is personal and secure. It contains a unique token that only gives read-only access to your RSVP'd events. Don't share this URL with others.
+:::
+
+### Adding to Google Calendar
+
+1. Open [Google Calendar](https://calendar.google.com)
+2. On the left side, find **Other calendars** and click the **+** icon
+3. Select **From URL**
+4. Paste your calendar feed URL from Homeschool Hive
+5. Click **Add calendar**
+
+Your Homeschool Hive events will now appear in your Google Calendar and sync automatically.
+
+### Adding to Apple Calendar
+
+1. Open the **Calendar** app on your Mac or iOS device
+2. Go to **File** → **New Calendar Subscription** (Mac) or tap **Calendars** → **Add Subscription** (iOS)
+3. Paste your calendar feed URL from Homeschool Hive
+4. Click **Subscribe**
+5. Choose your preferred refresh frequency (recommended: every hour)
+6. Select which account to add it to
+7. Click **OK**
+
+Your events will sync based on the refresh frequency you selected.
+
+### Adding to Outlook
+
+#### Outlook on the Web
+
+1. Open [Outlook Calendar](https://outlook.office.com/calendar)
+2. Click **Add calendar** in the left sidebar
+3. Select **Subscribe from web**
+4. Paste your calendar feed URL from Homeschool Hive
+5. Name your calendar (e.g., "Homeschool Hive Events")
+6. Click **Import**
+
+#### Outlook Desktop App
+
+1. Open Outlook and go to your Calendar view
+2. Select **Add Calendar** → **From Internet**
+3. Paste your calendar feed URL
+4. Click **OK**
+
+### How Calendar Syncing Works
+
+Understanding the sync process helps set expectations:
+
+- **Automatic Updates**: Your calendar app checks for changes periodically (usually every 15 minutes to several hours)
+- **New RSVPs**: When you RSVP to an event, it will appear in your subscribed calendar within the next sync cycle
+- **Cancelled Events**: If an event is cancelled or you change your RSVP, it will be removed from your calendar
+- **Series Sessions**: All sessions in a recurring series appear as individual events with session numbers
+- **Event Changes**: Updates to event times, locations, or details sync automatically
+
+:::tip Refresh Frequency
+Most calendar apps refresh subscribed calendars every few hours by default. Check your calendar app's settings if you need more frequent updates.
+:::
+
+### Managing Your Calendar Subscription
+
+#### Regenerate Your URL
+
+If you suspect your calendar feed URL has been shared or compromised:
+
+1. Open the Calendar Subscription modal
+2. Click **Regenerate URL**
+3. Update your calendar app subscriptions with the new URL
+
+:::warning Old URL Stops Working
+When you regenerate your URL, the old one immediately stops working. Make sure to update all calendar apps where you've added the subscription.
+:::
+
+#### Revoke Access
+
+To completely disable your calendar feed:
+
+1. Open the Calendar Subscription modal
+2. Click **Revoke Access**
+3. Your calendar feed URL will no longer work
+4. Remove the subscription from your calendar apps
+
+You can generate a new URL anytime you want to re-enable the feature.
+
 ## Add to External Calendar
 
-Export events to your personal calendar:
+Export individual events to your personal calendar:
 
 1. Click on an event
 2. Look for the **Add to Calendar** option
@@ -117,7 +222,7 @@ Export events to your personal calendar:
    - Download .ics file
 
 :::tip Stay Synchronized
-Adding events to your personal calendar helps ensure you don't miss important activities, especially if you check your personal calendar more frequently.
+For the best experience, use the calendar subscription feature above to automatically sync all your events. Use the "Add to Calendar" option only for one-off events you want to ensure you don't miss.
 :::
 
 ## Calendar Notifications

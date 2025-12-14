@@ -30,12 +30,89 @@ Email notifications are sent to your registered email address. You can enable or
 
 ### Push Notifications
 
-If you've enabled browser notifications, you can receive real-time alerts for:
+Browser push notifications deliver instant alerts to your device, even when Homeschool Hive isn't open in your browser.
 
-- Urgent event changes
-- New group announcements
-- Waitlist promotions
-- Direct messages from group leaders
+:::tip What are Push Notifications?
+Push notifications are real-time alerts that appear on your desktop or mobile device. They work similar to app notifications on your phone, allowing you to stay updated without keeping the website open.
+:::
+
+#### Browser Support
+
+Push notifications work on modern browsers including:
+
+- **Chrome** (Desktop & Android)
+- **Firefox** (Desktop & Android)
+- **Safari** (Desktop & iOS 16.4+)
+- **Edge** (Desktop & Android)
+
+#### Enabling Push Notifications
+
+Push notifications are automatically enabled when you first use Homeschool Hive. When prompted:
+
+1. Click **Allow** in the permission dialog that appears
+2. You'll start receiving instant notifications based on your preferences
+
+:::note First-Time Permission
+The permission prompt appears automatically when you first log in. If you don't see it, you may need to refresh the page or check your browser's notification settings.
+:::
+
+#### If You Clicked "Block"
+
+If you accidentally blocked notifications or want to re-enable them:
+
+**Chrome & Edge:**
+1. Click the lock icon (🔒) or info icon (ⓘ) in the address bar
+2. Find **Notifications** in the permissions list
+3. Change the setting to **Allow**
+4. Refresh the page
+
+**Firefox:**
+1. Click the lock icon (🔒) in the address bar
+2. Click the arrow next to **Notifications**
+3. Select **Allow**
+4. Refresh the page
+
+**Safari:**
+1. Go to **Safari** > **Settings** > **Websites** > **Notifications**
+2. Find homeschoolhive.co in the list
+3. Change the setting to **Allow**
+4. Refresh the page
+
+#### What You'll Receive
+
+You can receive push notifications for:
+
+- **Event Reminders** - Alerts 24 hours and 1 hour before events
+- **Event Updates** - Changes to event time, location, or cancellations
+- **New Announcements** - Important messages from group leaders
+- **Waitlist Updates** - When a spot opens up for an event
+- **RSVP Confirmations** - When your event registration is confirmed
+- **Membership Updates** - Join requests, role changes, and approvals
+- **Group Activity** - New posts, comments, and mentions (if enabled)
+
+:::tip Urgent Alerts Only
+Push notifications are typically reserved for important, time-sensitive updates. Less urgent notifications appear only in your email and in-app notification feed.
+:::
+
+#### Managing Push Notification Preferences
+
+To customize which push notifications you receive:
+
+1. Click your profile icon in the top right corner
+2. Select **Account Settings**
+3. Click the **Notifications** tab
+4. Under **Notification Channels**, toggle **Push Notifications** on or off
+5. Scroll to **Notification Types** to control specific categories
+
+You can also:
+
+- **Send a Test Notification** - Verify push notifications are working
+- **Disable Entirely** - Turn off all push notifications with one click
+- **Set Quiet Hours** - Prevent notifications during sleep hours (applies to push and email)
+
+:::note In-App vs Push
+Even if you disable push notifications, you'll still receive notifications in your in-app notification feed (the bell icon in the header). Push notifications are an optional way to receive real-time alerts.
+:::
 
 ### In-App Notifications
 

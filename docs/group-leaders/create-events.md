@@ -8,6 +8,10 @@ description: Learn how to create and configure events for your homeschool group.
 
 Events are at the heart of your homeschool group. This guide walks you through creating events, from simple free activities to complex paid events with multiple ticket types.
 
+:::tip Recurring Events with Event Series
+For recurring events like weekly classes, monthly workshops, or ongoing programs, use [Event Series](/docs/group-leaders/event-series) to create multiple sessions at once. Series passes let families purchase all sessions together at a discounted rate.
+:::
+
 ## Start Creating an Event
 
 1. Go to your group page
@@ -195,6 +199,93 @@ If your group supports scholarship payments:
 
 See [Scholarship Invoices](/docs/group-leaders/scholarship-invoices) for more details.
 
+## Event Terms
+
+Require attendees to accept custom terms and conditions before registering for your event. This is useful for liability waivers, codes of conduct, photo release agreements, and other acknowledgments.
+
+### When to Use Event Terms
+
+Consider adding event terms for:
+
+- **Physical activities** - Waivers for field trips, sports, climbing, swimming
+- **Photo releases** - Permission to photograph children at events
+- **Behavioral expectations** - Code of conduct for overnight trips or intensive programs
+- **Allergy acknowledgments** - Confirmation that parents have reviewed allergy policies
+- **Equipment responsibilities** - Agreement to care for borrowed materials
+
+### Configuring Event Terms
+
+1. Find the **Terms & Acknowledgments** card in the event creation form
+2. Toggle **Require Terms Acceptance** on
+3. Add individual term items that attendees must accept
+
+### Adding Term Items
+
+Each term item is a statement attendees must acknowledge:
+
+1. Click **Add Item**
+2. Enter the term text (e.g., "I agree to the liability waiver and release")
+3. Toggle **Required** on/off
+4. Add more items as needed
+
+**Required vs Optional:**
+- **Required terms** - Attendees must check these to proceed (marked with *)
+- **Optional terms** - Attendees can skip these checkboxes
+
+### Using Templates
+
+Save time by loading terms from templates you've created:
+
+1. Click **Load from Template**
+2. Select a template from the dropdown
+3. The template items are copied to your event
+4. Customize as needed for this specific event
+
+To create templates, go to your group settings and find **Terms Templates** in the sidebar.
+
+### Dynamic Variables
+
+Personalize your terms with variables that auto-fill event details:
+
+| Variable | Replaced With |
+|----------|---------------|
+| `{group_name}` | Your group's name |
+| `{event_name}` | This event's title |
+| `{event_date}` | The event date |
+| `{organizer_name}` | Event organizer's name |
+
+**Example:**
+```
+I understand that {event_name} on {event_date} is organized by {group_name}.
+```
+
+Becomes:
+```
+I understand that Zoo Field Trip on Friday, March 15, 2025 is organized by Springfield Homeschoolers.
+```
+
+### How Terms Appear to Attendees
+
+During checkout, attendees see your terms on the payment step:
+
+1. Each term appears as a checkbox with your custom text
+2. Required terms show a red asterisk (*)
+3. Platform terms (Homeschool Hive's terms of service) also appear
+4. Attendees must accept all required terms before completing registration
+
+### Viewing Acceptance Records
+
+After your event, you can see who accepted terms:
+
+1. Go to your event page
+2. Click **Manage Event**
+3. Select the **Terms Acceptances** tab
+4. View a list of all attendees and their acceptance timestamps
+
+:::note Platform Terms
+In addition to your event-specific terms, attendees are also required to accept Homeschool Hive's platform terms of service on their first purchase. Platform terms cover payment processing, refunds, and data privacy.
+:::
+
 ## Publishing Your Event
 
 ### Save as Draft
@@ -246,6 +337,10 @@ For recurring similar events, save time with templates:
 2. When creating a new similar event, select **Copy from Previous Event**
 3. Adjust the date and any unique details
 4. Publish the new event
+
+:::tip For Recurring Events
+If you're running a series of sessions (like weekly classes), consider using [Event Series](/docs/group-leaders/event-series) instead. Event series automatically create all sessions and let families purchase series passes for the entire schedule.
+:::
 
 ## What's Next?
 
