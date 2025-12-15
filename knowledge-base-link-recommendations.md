@@ -54,6 +54,8 @@ This document outlines specific opportunities to add contextual help links throu
 | File | Location | Link Text | URL |
 |------|----------|-----------|-----|
 | Event discovery page | Search section | "Learn how to find events" | `/docs/parents/find-events` |
+| Watchlist page | Page header | "Learn how to use your Watchlist" | `/docs/parents/find-events#save-events-to-your-watchlist` |
+| Event card (full event) | Near bookmark icon | "Get notified when spots open" | `/docs/parents/find-events#save-events-to-your-watchlist` |
 | RSVP components | Registration form | "Learn how to RSVP for events" | `/docs/parents/rsvp-events` |
 | Join group page | Page header | "Learn how to join groups" | `/docs/parents/group-membership` |
 | Calendar page | Calendar header | "Learn how to use your calendar" | `/docs/parents/calendar` |
