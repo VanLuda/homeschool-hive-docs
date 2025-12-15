@@ -117,7 +117,6 @@ Choose who receives your update:
 
 - **All attendees** - Everyone registered
 - **Confirmed only** - Those who've paid/confirmed
-- **Waitlisted** - Only waitlist members
 - **Custom selection** - Choose specific people
 
 ## Writing Effective Announcements

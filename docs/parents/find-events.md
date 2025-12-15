@@ -113,7 +113,7 @@ Each event card shows key information:
 - **Event Today!** - The event is happening today
 - **Soon** - The event is within the next 7 days
 - **Almost Full** - Only a few spots remaining
-- **Full** - No spots available (waitlist may be open)
+- **Full** - No spots available (add to Watchlist to get notified when spots open)
 
 ### Event Details
 
@@ -148,7 +148,7 @@ Your Watchlist is a personalized collection of events you want to keep tabs on. 
 - **Save events** you're interested in attending
 - **Track availability** for events that are near capacity or full
 - **Get notifications** when spots open up in full events
-- **Receive alerts** when watched events are approaching 90% capacity
+- **Receive alerts** when watched events have 3 tickets or less remaining
 - **Quick access** to events you want to attend without searching again
 
 :::tip Stay Informed
@@ -185,14 +185,14 @@ Access your complete watchlist to see all saved events in one organized view:
 **Watchlist Tabs:**
 
 - **Upcoming** - Events you've saved that still have availability
-- **Near Capacity** - Events approaching 90% capacity (act fast!)
+- **Near Capacity** - Events with 3 tickets or less remaining (act fast!)
 - **Full** - Events at capacity where you're waiting for spots to open
 - **Past** - Historical events you had saved
 
 Each tab shows the count of events in that category, making it easy to see what needs your attention.
 
 :::tip Capacity Alerts
-The "Near Capacity" tab shows events with a percentage badge indicating how full they are. These events may fill up soon, so review them first!
+The "Near Capacity" tab shows events with only a few spots left. These events may fill up soon, so review them first!
 :::
 
 ### Quick RSVP from Watchlist
@@ -231,7 +231,7 @@ Events are automatically removed from your watchlist after they've passed, but y
 When viewing your watchlist, you'll see helpful status badges:
 
 - **X% Full** (yellow badge) - Event is near capacity, shown in "Near Capacity" tab
-- **Waitlist Only** (red badge) - Event is full, shown in "Full" tab
+- **Sold Out** (red badge) - Event is full, shown in "Full" tab
 - **Added date** - Shows when you added the event to your watchlist
 - **Ticket type** - If you indicated interest in a specific ticket type
 
@@ -241,7 +241,7 @@ See all events you're registered for:
 
 1. Click **Events** > **My Events**
 2. View your upcoming events
-3. Filter by status: Going, Waitlisted, Past
+3. Filter by status: Going, Past
 
 ## What's Next?
 

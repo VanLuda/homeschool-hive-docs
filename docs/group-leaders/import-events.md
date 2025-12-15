@@ -404,4 +404,4 @@ See [Create Events](/docs/group-leaders/create-events) for editing details.
 
 1. **[Create Events](/docs/group-leaders/create-events)** - Learn about all event configuration options
 2. **[Event Series](/docs/group-leaders/event-series)** - Set up recurring events with series passes
-3. **[Manage Events](/docs/group-leaders/manage-events)** - Handle RSVPs, waitlists, and attendance
+3. **[Manage Events](/docs/group-leaders/manage-events)** - Handle RSVPs and attendance

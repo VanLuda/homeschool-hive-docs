@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Manage Events
-description: Learn how to manage RSVPs, waitlists, series events, and attendance tracking for your group's events.
+description: Learn how to manage RSVPs, series events, and attendance tracking for your group's events.
 ---
 
 # Manage Events
@@ -58,7 +58,6 @@ Each attendee has a status:
 | **Confirmed** | Registered and paid (if applicable) |
 | **Pending** | Started registration but not completed |
 | **Cancelled** | Cancelled their registration |
-| **Waitlisted** | On the waitlist |
 
 ### Manually Add Attendees
 
@@ -83,40 +82,6 @@ If an attendee needs to be removed:
 4. Add a note explaining the cancellation
 5. Confirm
 
-## Waitlist Management
-
-### View Waitlist
-
-See who's waiting for a spot:
-
-1. Go to **Manage Event** > **Waitlist**
-2. See the ordered list of waitlisted attendees
-3. View when they joined the waitlist
-
-### How Waitlist Promotion Works
-
-When a spot opens (someone cancels):
-
-1. The first person on the waitlist is notified
-2. They have a limited time to claim the spot
-3. If they don't respond, the next person is notified
-4. This continues until the spot is filled
-
-### Manually Promote from Waitlist
-
-To bypass automatic promotion:
-
-1. Go to the waitlist
-2. Find the person you want to promote
-3. Click **Promote to Attendee**
-4. They'll receive a notification to complete registration
-
-### Remove from Waitlist
-
-1. Find the person in the waitlist
-2. Click **Remove from Waitlist**
-3. Confirm the removal
-
 ## Capacity Management
 
 ### Adjust Capacity
@@ -128,7 +93,7 @@ If you need to change event capacity:
 3. Save changes
 
 :::note Increasing Capacity
-If you increase capacity and there's a waitlist, the system will automatically notify waitlisted people about available spots.
+If you increase capacity, members who have favorited the event will be notified about available spots.
 :::
 
 ### Close Registration Early
@@ -262,7 +227,6 @@ After your event concludes:
    - Total registrations
    - Actual attendance
    - Revenue collected
-   - Waitlist count
 
 ### Request Feedback
 
@@ -291,7 +255,7 @@ If you're running the same event multiple times on a regular schedule, consider 
 ### Attendee Can't Register
 
 Common causes:
-- Event is at capacity (check waitlist settings)
+- Event is at capacity
 - Registration deadline passed
 - Payment method issues
 - Not a group member (for members-only events)

@@ -24,7 +24,7 @@ Email notifications are sent to your registered email address. You can enable or
 - **Event Updates** - Changes to events you're attending (time, location, cancellation)
 - **Group Announcements** - Important messages from group leaders
 - **New Events** - Notifications when groups you belong to create new events
-- **Waitlist Updates** - When a spot opens up for an event you're waitlisted for
+- **Availability Alerts** - When a spot opens up for an event you've favorited
 - **Payment Receipts** - Confirmations for payments and purchases
 - **Scholarship Invoice Updates** - Status changes for your scholarship invoices
 
@@ -85,7 +85,7 @@ You can receive push notifications for:
 - **Event Reminders** - Alerts 24 hours and 1 hour before events
 - **Event Updates** - Changes to event time, location, or cancellations
 - **New Announcements** - Important messages from group leaders
-- **Waitlist Updates** - When a spot opens up for an event
+- **Availability Alerts** - When a spot opens up for a favorited event
 - **RSVP Confirmations** - When your event registration is confirmed
 - **Membership Updates** - Join requests, role changes, and approvals
 - **Group Activity** - New posts, comments, and mentions (if enabled)

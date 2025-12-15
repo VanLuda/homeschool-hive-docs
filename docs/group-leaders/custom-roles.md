@@ -53,7 +53,7 @@ Focused on event operations:
 
 - Create and edit events
 - Set event pricing
-- Manage RSVPs and waitlists
+- Manage RSVPs
 - Take attendance at events
 - View event analytics
 
@@ -114,7 +114,6 @@ Permissions are organized into categories:
 | Cancel Events | Cancel or delete events |
 | Edit Event Pricing | Change ticket prices and add-ons |
 | Manage RSVPs | View and manage event registrations |
-| Manage Waitlist | Manage waitlist entries |
 | Take Attendance | Check in attendees at events |
 
 ### Members

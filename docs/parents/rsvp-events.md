@@ -99,24 +99,23 @@ Event organizers may require specific information:
 If you've already added family members to your profile, their information will auto-populate during checkout. Make sure your [family members](/docs/getting-started/complete-profile) are up to date.
 :::
 
-## Waitlist
+## Full Events
 
-If an event is full:
+If an event is full, you can add it to your Watchlist to get notified when spots open:
 
-1. Click **Join Waitlist**
-2. Select which family members to add
-3. Confirm your waitlist registration
-4. You'll be notified if a spot opens up
+1. Click the **bookmark icon** on the event card
+2. The event is saved to your Watchlist
+3. You'll be notified when spots become available
 
-When a spot becomes available:
+When a spot opens up:
 
 1. You'll receive a notification
-2. Click the link to complete your registration
+2. Click the link to register quickly
 3. Complete payment if required
-4. The spot is yours once confirmed
+4. Spots are first come, first served
 
-:::note Waitlist Priority
-Spots are offered in the order people joined the waitlist. Respond quickly when notified, as spots may be offered to the next person if you don't claim it within the specified time.
+:::tip Stay Informed
+Add full events to your [Watchlist](/docs/parents/find-events#save-events-to-your-watchlist) to get automatic notifications when spots open. You'll also be alerted when events you're watching are almost sold out (3 tickets or less remaining).
 :::
 
 ## Modify Your Registration
@@ -170,7 +169,6 @@ See all events you're registered for:
 1. Click **Events** > **My Events**
 2. View by status:
    - **Going** - Events you're confirmed for
-   - **Waitlisted** - Events you're waiting for a spot
    - **Past** - Events you've attended
 
 ## RSVP Status
@@ -180,8 +178,7 @@ Your registration status appears on each event:
 | Status | Meaning |
 |--------|---------|
 | **Going** | You're confirmed for the event |
-| **Waitlisted** | You're on the waitlist |
-| **Watching** | You're tracking a full event |
+| **Watching** | You've added this event to your Watchlist |
 | **Pending** | Registration needs completion |
 
 ## Join Virtual Events
