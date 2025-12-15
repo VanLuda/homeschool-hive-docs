@@ -104,13 +104,16 @@ Describe features and fixes from the user's perspective. Focus on benefits and v
 Never expose sensitive technical details in public-facing changelogs.
 
 **Never include:**
-- Vulnerability types (XSS, SQL injection, CSRF)
+- Vulnerability types (XSS, SQL injection, CSRF, RCE, DoS, SSRF)
 - File paths or directory structures
 - API endpoints or URL patterns
 - Database table/column names
 - Authentication implementation details
 - Error messages or stack traces
-- Dependency version numbers
+- Framework/library version numbers (e.g., "Next.js 15.3.6 to 15.4.10")
+- Infrastructure architecture details (route groups, CDN paths, caching layers)
+- Internal documentation or configuration references
+- Number of files changed or specific file counts
 - Code snippets showing fixes
 
 **Safe security language:**
@@ -118,7 +121,17 @@ Never expose sensitive technical details in public-facing changelogs.
 - Improved account security
 - Enhanced data protection
 - Strengthened access controls
+- Updated core framework with security patches
 - Fixed a security issue affecting [feature]
+```
+
+**Infrastructure change examples:**
+```markdown
+# Bad - exposes architecture
+Fixed URL encoding issue with Next.js route group folder names, updating 35 files
+
+# Good - user-focused
+Fixed an issue where some pages were temporarily unavailable
 ```
 
 ### 5. Consistent Section Order
@@ -132,7 +145,25 @@ Always use this order (omit empty sections):
 ### 6. Optional Sections
 Only include sections that have content. Skip empty sections entirely rather than including them with no items.
 
-### 7. Tags
+### 7. Hotfix Releases
+When documenting hotfixes or patch releases:
+
+- **Combine related hotfixes** into one changelog entry when they fix issues from the same release
+- **Focus on user impact**, not root cause analysis
+- **Omit internal-only changes** (documentation updates, refactoring) from public changelogs
+- **Never explain the technical cause** of issues (architecture, caching, routing details)
+
+```markdown
+# Bad - exposes internals
+Fixed CloudFront 503 errors caused by URL encoding incompatibility with
+Next.js route group folder names. Restructured routes, updating 35 files.
+
+# Good - user-focused
+Fixed an issue where some pages were temporarily unavailable after a
+recent update.
+```
+
+### 8. Tags
 Always include `changelog` plus relevant feature tags:
 - `groups` - Group management features
 - `events` - Event features

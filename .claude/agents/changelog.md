@@ -79,7 +79,7 @@ Describe what users experience, not how it was implemented.
 Never expose information that could help attackers:
 
 **Never include:**
-- Vulnerability types (XSS, SQL injection, CSRF, etc.)
+- Vulnerability types (XSS, SQL injection, CSRF, RCE, DoS, SSRF, etc.)
 - File paths, API endpoints, or code
 - Database details or schema information
 - Error messages or stack traces
@@ -88,6 +88,10 @@ Never expose information that could help attackers:
 - URL parameters (e.g., "?discount=CODE", "?token=...")
 - Defensive mechanism details (rate limiting thresholds, webhook protection, etc.)
 - Authentication implementation details (session caching, token refresh, etc.)
+- Framework/library version numbers (e.g., "Next.js 15.3.6 to 15.4.10")
+- Infrastructure architecture details (route groups, CDN paths, caching layers)
+- Internal documentation or configuration references
+- Number of files changed or specific file counts
 
 **Safe alternatives:**
 | Instead of | Write |
@@ -98,6 +102,11 @@ Never expose information that could help attackers:
 | "Apply discount via ?discount=CODE" | "Apply discount codes during checkout" |
 | "Webhook deduplication prevents replay attacks" | "Improved payment reliability" |
 | "Fixed XSS vulnerability in comments" | "Improved content security" |
+| "Upgraded Next.js 15.3.6 to 15.4.10 fixing RCE" | "Updated core framework with security patches" |
+| "URL encoding issue with route group folders" | "Fixed an issue where some pages were unavailable" |
+| "Removed service worker caching error responses" | "Cleared cached content for all users" |
+| "Updated 35 script files and import paths" | (omit implementation details entirely) |
+| "Added internal CDN security documentation" | (omit internal documentation from changelog) |
 
 ## Research Workflow
 

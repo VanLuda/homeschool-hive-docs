@@ -1,0 +1,85 @@
+---
+slug: 1-4-4-infrastructure-performance
+title: 1.4.4 - Infrastructure & Performance
+description: Global CDN integration, lazy loading, security updates, knowledge base help links, and accessibility improvements.
+authors: [homeschoolhive]
+tags: [changelog, infrastructure, performance, security, accessibility]
+date: 2025-12-15
+---
+
+This release brings significant infrastructure improvements including a global CDN for faster asset delivery, lazy loading for heavy components, and critical security updates. We've also added contextual help links throughout the application and improved accessibility compliance.
+
+<!-- truncate -->
+
+---
+
+## What's New
+
+### Knowledge Base Help Links
+
+Contextual help is now available throughout the application. New help link icons appear in admin dashboards, event management pages, and settings panels, connecting you directly to relevant documentation in the Knowledgebase.
+
+### Global CDN Integration
+
+Static assets are now served through a global content delivery network, improving load times for users around the world. This includes optimized caching and compression at the edge.
+
+---
+
+## Performance Improvements
+
+- **Lazy Loading**: Map components and charts now load on-demand, reducing initial page load times
+- **Edge Compression**: Compression enabled at the CDN edge for smaller file transfers
+- **Optimized Assets**: Removed unused files for faster page loads
+
+---
+
+## Security
+
+- Updated core framework with critical security patches
+- Removed unused dependencies to reduce potential attack surface
+- Improved caching headers for better security and performance
+
+---
+
+## Bug Fixes
+
+- Fixed display flickering on the homepage and event pages
+- Fixed rendering issues in the hero section
+- Fixed font loading issues after CDN migration
+
+---
+
+## Accessibility
+
+Improved WCAG AA color contrast compliance:
+
+- **Event Cards**: Increased contrast ratio from 4.0:1 to 4.7:1 for better text readability
+- **Footer Links**: Increased contrast ratio from 2.1:1 to 4.6:1 for improved visibility
+
+---
+
+## UI Changes
+
+- Increased header navigation font size for better readability
+
+---
+
+## Hotfix Releases
+
+### v1.4.4-hotfix.1 (December 15)
+
+Fixed an issue where some pages were temporarily unavailable after a recent infrastructure update. Additional accessibility contrast improvements were included.
+
+### v1.4.4-hotfix.2 (December 15)
+
+Resolved an issue where some browsers were showing outdated error pages. Cleared cached content to ensure all users see the latest version.
+
+**Removed**: The unshipped push notification system was removed as part of this cleanup. This feature was built but never exposed to users. In-app notifications (bell icon, notification feed) continue to work normally.
+
+---
+
+## Release Details
+
+**Release Date**: December 14-15, 2025
+**Version**: 1.4.4
+**Platform**: Web Application
