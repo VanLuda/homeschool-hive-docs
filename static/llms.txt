@@ -1,0 +1,75 @@
+# Homeschool Hive Knowledge Base
+
+> Official documentation for Homeschool Hive - a platform connecting homeschool families with local groups, educational events, and community activities.
+
+## About This Site
+
+This knowledge base provides how-to guides and feature documentation for Homeschool Hive users. Content is organized for two primary audiences:
+
+- **Parents and Families** - Finding groups, registering for events, managing RSVPs, payments, and family profiles
+- **Group Leaders** - Creating and managing homeschool groups, organizing events, handling payments, and member administration
+
+Base URL: https://kb.homeschoolhive.com
+
+## Documentation Sections
+
+### Getting Started
+- https://kb.homeschoolhive.com/docs/intro - Welcome and platform overview
+- https://kb.homeschoolhive.com/docs/getting-started/create-account - Account creation and email verification
+- https://kb.homeschoolhive.com/docs/getting-started/complete-profile - Profile setup and adding family members
+- https://kb.homeschoolhive.com/docs/getting-started/notifications - Email and push notification preferences
+
+### For Parents
+- https://kb.homeschoolhive.com/docs/parents/find-groups - Discovering and filtering homeschool groups by location, category, and faith
+- https://kb.homeschoolhive.com/docs/parents/find-events - Finding events with map view, filters, and watchlist feature
+- https://kb.homeschoolhive.com/docs/parents/rsvp-events - Event registration, ticket selection, and checkout process
+- https://kb.homeschoolhive.com/docs/parents/calendar - Personal calendar view and subscription sync to external calendars
+- https://kb.homeschoolhive.com/docs/parents/group-membership - Joining groups and managing memberships
+- https://kb.homeschoolhive.com/docs/parents/payments - Payment methods, transaction history, and receipts
+- https://kb.homeschoolhive.com/docs/parents/scholarship-invoices - Viewing and downloading scholarship reimbursement invoices
+- https://kb.homeschoolhive.com/docs/parents/social-feed - Group social feed, posts, reactions, and comments
+
+### For Group Leaders
+- https://kb.homeschoolhive.com/docs/group-leaders/create-group - Creating groups with public/private settings and membership models
+- https://kb.homeschoolhive.com/docs/group-leaders/manage-members - Member management, approvals, roles, and bulk import
+- https://kb.homeschoolhive.com/docs/group-leaders/create-events - Event creation with tickets, capacity, and custom fields
+- https://kb.homeschoolhive.com/docs/group-leaders/manage-events - Managing registrations, attendees, and event updates
+- https://kb.homeschoolhive.com/docs/group-leaders/event-series - Creating recurring event series with series passes
+- https://kb.homeschoolhive.com/docs/group-leaders/import-events - Bulk event import via CSV
+- https://kb.homeschoolhive.com/docs/group-leaders/check-in - Attendance tracking and check-in system
+- https://kb.homeschoolhive.com/docs/group-leaders/tickets-pricing - Ticket types, pricing tiers, and capacity management
+- https://kb.homeschoolhive.com/docs/group-leaders/payments-stripe - Stripe Connect integration for receiving payments
+- https://kb.homeschoolhive.com/docs/group-leaders/membership-fees - Setting up paid memberships and billing cycles
+- https://kb.homeschoolhive.com/docs/group-leaders/discount-codes - Creating promotional and discount codes
+- https://kb.homeschoolhive.com/docs/group-leaders/scholarship-invoices - Generating scholarship invoices for families
+- https://kb.homeschoolhive.com/docs/group-leaders/analytics - Dashboard metrics and group analytics
+- https://kb.homeschoolhive.com/docs/group-leaders/announcements - Sending group announcements via feed and email
+- https://kb.homeschoolhive.com/docs/group-leaders/custom-roles - Creating custom roles with granular permissions
+- https://kb.homeschoolhive.com/docs/group-leaders/delete-group - Group deletion process and data export
+
+### Account & Settings
+- https://kb.homeschoolhive.com/docs/account/profile-settings - Profile editing, password, and two-factor authentication (MFA)
+- https://kb.homeschoolhive.com/docs/account/family-members - Managing children, adults, and emergency contacts
+- https://kb.homeschoolhive.com/docs/account/payment-methods - Saved payment methods and default card settings
+- https://kb.homeschoolhive.com/docs/account/help-feedback - Submitting bug reports and feature requests
+- https://kb.homeschoolhive.com/docs/account/delete-account - Account deletion and data removal
+
+### Changelog
+- https://kb.homeschoolhive.com/changelog - Release notes and version history
+
+## Key Features Documented
+
+- Group discovery with location-based search and map view
+- Event registration with ticket reservations and waitlists
+- Scholarship invoice generation for ESA/homeschool funding programs
+- Stripe payment processing for groups
+- Calendar subscription (iCal) for syncing events
+- Member import via CSV for migrating existing groups
+- Event series with recurring sessions and series passes
+- Custom roles and permissions for group administration
+- Two-factor authentication (TOTP) for account security
+
+## Contact
+
+- Support: support@homeschoolhive.co
+- Main Application: https://homeschoolhive.co

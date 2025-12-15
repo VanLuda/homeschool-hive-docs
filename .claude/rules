@@ -52,3 +52,25 @@ Describe **what users experience**, not **how it's implemented**. Users care abo
 - User-focused language over technical jargon
 - Describe symptoms for bug fixes, not root causes
 - Keep security-related entries vague but reassuring
+
+---
+
+## Themed Images
+
+When adding images that need different versions for light and dark mode, use Docusaurus's built-in `ThemedImage` component:
+
+```mdx
+import ThemedImage from '@theme/ThemedImage';
+
+<ThemedImage
+  alt="Description of the image"
+  sources={{
+    light: 'https://assets.homeschoolhive.co/docs/example-light.png',
+    dark: 'https://assets.homeschoolhive.co/docs/example-dark.png',
+  }}
+/>
+```
+
+- Images are hosted on AWS at `https://assets.homeschoolhive.co/docs/`
+- Use descriptive filenames with `-light` and `-dark` suffixes
+- Always include meaningful `alt` text for accessibility

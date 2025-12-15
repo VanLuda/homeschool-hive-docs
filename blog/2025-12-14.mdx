@@ -1,0 +1,100 @@
+---
+slug: 1-4-3-event-terms
+title: 1.4.3 - Event Terms & Unified Payments
+authors: [homeschoolhive]
+tags: [changelog, events, payments, scholarship, invoices, performance, security]
+date: 2025-12-14
+---
+
+This release introduces a comprehensive event terms system, allowing group leaders to create reusable term templates and require acceptance during checkout. We've also added professional receipt emails, improved scholarship invoice management, and fixed a few additional issues.
+
+<!-- truncate -->
+
+---
+
+## What's New
+
+### Event Terms System
+
+Group leaders can now create and manage terms that attendees must accept during event registration:
+
+- **Term Templates**: Create reusable term templates at the group level with support for variables that auto-fill group name, event name, and event date
+- **Event Terms Section**: Add terms to any event with drag-and-drop reordering and the ability to mark each term as required or optional
+- **Checkout Integration**: All required terms must be accepted before proceeding with payment
+- **Platform Terms**: Platform-wide terms are now version-tracked and stored in user profiles
+- **Admin Tools**: View which attendees accepted which terms and export terms data with your attendee lists
+
+Access Event Terms from the new menu item in your group settings sidebar.
+
+### Checkout Receipt Emails
+
+After completing registration, attendees now receive professional receipt emails with complete order details:
+
+- Itemized ticket and add-on breakdown with quantity, item name, and price
+- Clear payment summary showing subtotal, platform fee, processing fee, and total
+- Single calendar subscription link for easy event tracking
+- Sent immediately after RSVP for all payment types including free events and scholarship bookings
+
+### Scholarship Dashboard Improvements
+
+The scholarship invoice dashboard now makes it easier to manage invoices:
+
+- Click invoice numbers to view PDFs directly in your browser
+- Hover over invoices to reveal a quick button for marking them as received
+- Child names now display correctly for all invoice types
+
+### Unified Payment Tracking
+
+All payment types (event registrations, subscriptions, and memberships) are now tracked in a unified system, enabling better reporting and payment history across your groups.
+
+---
+
+## Improvements
+
+- Admin moderation pages now load significantly faster
+- Event series capacity checks are now more efficient
+- Improved browser performance by fixing memory usage in certain components
+- Added pagination to attendee lists for better performance with large events
+- Enhanced login security on web
+
+---
+
+## Bug Fixes
+
+### Checkout Fixes
+
+- Fixed error showing "Unknown step:" when clicking Start Over after a reservation expired
+- Fixed incorrect prices displaying in receipt emails
+- Add-ons now appear correctly as separate line items in receipt emails
+- Fixed incorrect payment calculation when adding tickets to an existing booking
+
+### Scholarship Invoice Fixes
+
+- Fixed duplicate line items appearing in invoice PDFs
+- Fixed invoices showing ticket name instead of event name
+- Fixed amounts displaying as $0.00 in certain cases
+- Fixed child names not appearing correctly on invoices
+- Fixed invoice downloads being blocked by browser popup settings
+
+### Event & Booking Fixes
+
+- Fixed ticket availability not updating correctly when bookings are created
+- Fixed cancelled bookings being incorrectly counted toward ticket limits
+- Fixed pending bookings not being counted correctly for capacity
+- Fixed event terms not saving when editing events
+- Fixed stale booking data when modifying orders multiple times
+- Fixed calendar page not showing correct event history
+
+### Other Fixes
+
+- Fixed family member management issues
+- Improved Stripe payment receipt handling
+- Fixed various data validation issues
+
+---
+
+## Release Details
+
+**Release Date**: December 14, 2025
+**Version**: 1.4.3
+**Platform**: Web Application
