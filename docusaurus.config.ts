@@ -40,6 +40,23 @@ const config: Config = {
     './src/clientModules/routeListener.ts',
   ],
 
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://assets.homeschoolhive.co',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'dns-prefetch',
+        href: 'https://assets.homeschoolhive.co',
+      },
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -74,6 +91,29 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+          createSitemapItems: async (params) => {
+            const {defaultCreateSitemapItems, ...rest} = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.map((item) => {
+              // Higher priority for main docs
+              if (item.url.includes('/docs/intro')) {
+                item.priority = 1.0;
+              } else if (item.url.includes('/docs/getting-started')) {
+                item.priority = 0.9;
+              } else if (item.url.includes('/docs/')) {
+                item.priority = 0.8;
+              } else if (item.url === 'https://kb.homeschoolhive.com/') {
+                item.priority = 1.0;
+              }
+              return item;
+            });
+          },
         },
       } satisfies Preset.Options,
     ],
