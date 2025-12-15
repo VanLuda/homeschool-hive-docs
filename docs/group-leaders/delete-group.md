@@ -117,7 +117,6 @@ Before your group is deleted, export all important information.
 - All past and upcoming events
 - Event details and descriptions
 - RSVP lists and attendance
-- Waitlist information
 
 **Financial Records**
 - Membership subscription history

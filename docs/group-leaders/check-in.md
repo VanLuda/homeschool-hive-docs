@@ -134,7 +134,6 @@ After the event starts, you may want to mark registered attendees who didn't arr
 
 **Why mark no-shows?**
 - Helps track attendance patterns
-- Useful for waitlist management
 - Provides data for future capacity planning
 - May be required for scholarship or grant reporting
 

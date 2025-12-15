@@ -43,7 +43,6 @@ Switch between different views to see your schedule:
 Your calendar includes:
 
 - **Events you're registered for** - All events where you've RSVPed "Going"
-- **Waitlisted events** - Events you're on the waitlist for
 - **Group events** - Events from groups you've joined (optional)
 
 ## Event Details
@@ -69,7 +68,6 @@ Customize what appears on your calendar:
 ### By Status
 
 - **Going** - Events you're registered for
-- **Waitlisted** - Events on your waitlist
 - **All Group Events** - Include events you haven't RSVPed for
 
 ### By Category

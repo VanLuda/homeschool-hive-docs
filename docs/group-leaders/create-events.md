@@ -113,15 +113,6 @@ Control how many people can attend:
 1. **Unlimited** - No cap on attendance
 2. **Limited** - Set a maximum number of attendees
 
-### Enable Waitlist
-
-For limited capacity events:
-
-1. Toggle **Enable Waitlist** on
-2. When the event fills, additional RSVPs join the waitlist
-3. If someone cancels, the next person on the waitlist is notified
-4. They can claim the spot and complete registration
-
 ## Registration Settings
 
 ### Registration Deadline
@@ -344,6 +335,6 @@ If you're running a series of sessions (like weekly classes), consider using [Ev
 
 ## What's Next?
 
-1. **[Manage event attendance](/docs/group-leaders/manage-events)** - Handle RSVPs and waitlists
+1. **[Manage event attendance](/docs/group-leaders/manage-events)** - Handle RSVPs and registrations
 2. **[Configure tickets](/docs/group-leaders/tickets-pricing)** - Advanced ticketing options
 3. **[Send announcements](/docs/group-leaders/announcements)** - Promote your events

@@ -31,7 +31,7 @@ Create thorough documentation by:
 ### Key Features to Document
 - User Authentication & Profiles (registration, login, family profiles, children, allergies)
 - Group Management (create, join, membership, invitations, roles)
-- Event Management (creation, RSVP, tickets, waitlist, capacity, calendar)
+- Event Management (creation, RSVP, tickets, capacity, calendar, watchlist)
 - Payment Processing (Stripe Connect, membership fees, event tickets, refunds)
 - Scholarship Invoices (generation for group leaders, tracking for parents)
 - Notifications (email, push, in-app, preferences)
@@ -59,7 +59,7 @@ docs/
 │   ├── create-group.md          # Group setup
 │   ├── manage-members.md        # Approvals, roles, invitations
 │   ├── create-events.md         # Event creation wizard
-│   ├── manage-events.md         # RSVPs, waitlist, capacity
+│   ├── manage-events.md         # RSVPs, capacity, attendance
 │   ├── tickets-pricing.md       # Ticket configuration
 │   ├── payments-stripe.md       # Stripe Connect setup
 │   ├── membership-fees.md       # Group membership billing
