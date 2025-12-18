@@ -1,0 +1,168 @@
+---
+slug: 1-4-5-itemized-invoices-scaling
+title: 1.4.5 - Itemized Invoices & Scaling
+description: Professional Stripe invoices with attendee details, platform scaling improvements, error tracking, and a refreshed homepage design.
+authors: [homeschoolhive]
+tags: [changelog, payments, invoices, performance, infrastructure, events]
+date: 2025-12-18
+---
+
+This release delivers professional itemized Stripe invoices showing attendee-level details, infrastructure scaling for high-volume groups, improved error tracking, and a refreshed homepage design focused on group leaders.
+
+<!-- truncate -->
+
+---
+
+## What's New
+
+### Itemized Stripe Invoices
+
+Replace basic charge receipts with detailed invoices for scholarship reimbursements. Now showing:
+
+- Each ticket with attendee's full name (e.g., "General Admission - John Smith")
+- Each add-on with attendee's full name (e.g., "Lunch Add-on - John Smith")
+- Platform Fee and Processing Fee as separate line items
+- Professional hosted invoice URL for customers
+
+### Error Tracking
+
+Full-stack error monitoring is now integrated to help us identify and fix issues faster:
+
+- Client, server, and edge error tracking
+- Improved debugging capabilities for production issues
+- Global error boundary for graceful error handling
+
+### Homepage Redesign
+
+A refreshed homepage design with:
+
+- New hero section with animated background
+- Feature screenshots in a tabbed interface
+- Interactive email input with visual feedback
+- Group leader focused messaging and CTA flow
+
+### Rive Animations on CDN
+
+- Rive animation files now served from CDN for faster loading
+- Improved loading performance for animated features
+
+### Group Recommendations
+
+- New group recommendation feature for sharing groups with others
+- RecommendGroupModal component for easy sharing
+
+---
+
+## Performance Improvements
+
+### Scaling for High-Volume Groups
+
+**Analytics Performance:**
+
+- Optimized database queries for faster analytics loading
+- Added caching for analytics responses
+- Added rate limiting for analytics endpoints
+- Improved pagination for large datasets
+
+**Background Invoice Processing:**
+
+- Invoices now process asynchronously in the background
+- Significantly faster webhook response times
+
+**Expected Improvements:**
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Analytics response | 3-5s | 200-500ms |
+| Webhook response | 2-5s | <200ms |
+
+### Location Search Optimization
+
+- Faster event discovery based on location
+- Improved performance for location-based queries
+
+---
+
+## Bug Fixes
+
+### Critical Fixes
+
+- **Caching Issues**: Fixed an issue that caused cached error pages to display incorrectly
+- **Location Search**: Fixed timeout issues when searching for nearby events
+- **Legacy Code Cleanup**: Removed unused notification code
+
+### Scholarship System
+
+- Fixed an error when updating scholarship status
+- Improved handling of scholarship invoice records
+
+### Authentication
+
+- Fixed email verification flow when landing on homepage
+- Show success message after email verification
+
+### Events
+
+- Enable editing business events from event detail page
+- Allow editing/clearing address field in event form
+
+### Groups
+
+- Show placeholder image for new groups without header image
+- Fix groups page for unauthenticated users
+
+### UI/UX Fixes
+
+- Fix event card height in dashboard widget
+- Fix button text overlap during loading states
+- Add iOS Safari favicon support
+
+---
+
+## UI/UX Improvements
+
+### Mobile Experience
+
+- Improved mobile typography across cards and headers
+- Better touch targets for buttons and interactive elements
+- Responsive adjustments for cards and navigation
+
+### Visual Polish
+
+- Vibrant green for "Received" status badge
+- Interactive glow effect on hero email input
+- Scroll-aware color transitions in header
+
+---
+
+## Infrastructure & DevOps
+
+### Monitoring
+
+- Improved error tracking and monitoring
+- Health check endpoint for uptime monitoring
+
+### Build & Deploy
+
+- Improved build pipeline
+- Better caching for faster page loads
+- Improved error pages
+
+### Code Quality
+
+- Fixed dark mode styling issues
+- General code cleanup and maintenance
+
+---
+
+## Migration Notes
+
+No database migrations requiring manual intervention. All migrations are backward-compatible.
+
+---
+
+## Release Details
+
+**Release Date**: December 18, 2025
+**Version**: 1.4.5
+**Platform**: Web Application
