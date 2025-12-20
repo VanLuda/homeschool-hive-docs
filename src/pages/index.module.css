@@ -4,10 +4,48 @@
 
 /* Hero Section */
 .hero {
-  padding: 5rem 0 4rem;
+  position: relative;
+  padding: 8rem 0 7rem;
   text-align: center;
-  background: linear-gradient(135deg, #2B7FFF 0%, #1a56db 100%);
+  background: radial-gradient(ellipse 120% 80% at 50% -20%, #1e3a8a, #172554 50%, #172554);
   color: white;
+}
+
+/* Cosmic Dots Background */
+.cosmicContainer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.cosmicOrbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1400px;
+  height: 1400px;
+  mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 75%);
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 50%, transparent 75%);
+}
+
+.cosmicDots {
+  width: 100%;
+  height: 100%;
+  animation: slowRotate 60s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes slowRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.heroContent {
+  position: relative;
+  z-index: 10;
 }
 
 .heroTitle {
@@ -382,7 +420,7 @@
 
 @media screen and (max-width: 768px) {
   .hero {
-    padding: 3rem 1rem;
+    padding: 5rem 1rem;
   }
 
   .heroTitle {
