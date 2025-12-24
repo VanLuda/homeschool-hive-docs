@@ -1,5 +1,19 @@
 # Homeschool Hive Documentation Rules
 
+## Changelog Writing - MANDATORY
+
+When asked to write a changelog, release notes, or document any release:
+
+**ALWAYS use the changelog agent.** Do not write changelogs directly.
+
+```
+Use Task tool with subagent_type="changelog"
+```
+
+The changelog agent enforces security guidelines automatically. Never skip this step.
+
+---
+
 ## Security-Conscious Content Policy
 
 All public-facing content (changelogs, documentation, blog posts) must avoid exposing information that could help malicious actors.
