@@ -1,0 +1,58 @@
+---
+slug: 1-4-7-performance
+title: 1.4.7 - Performance
+description: Significant performance improvements through reduced JavaScript bundle size, and multiple bug fixes.
+authors: [homeschoolhive]
+tags: [changelog, performance, groups, payments]
+date: 2025-12-23
+---
+
+This release delivers meaningful performance improvements by reducing initial page load times and resolves several user-facing bugs including checkout and dashboard issues.
+
+<!-- truncate -->
+
+---
+
+## Improvements
+
+### Reduced Initial Page Load Time
+
+Optimized JavaScript bundle to improve page load performance:
+
+| Change | Impact |
+|--------|--------|
+| Replaced animation library with CSS transitions in theme toggle | ~125KB removed from initial bundle |
+| Dynamic import for homepage hero section | Deferred loading until needed |
+| Lazy-load analytics module | Only loads when required |
+| Animation library deferred | Now only loads when users scroll to animated sections |
+
+### For Parents Page
+
+Updated hero section badges to better reflect the platform's free features. Replaced confusing messaging with clearer "Free to Browse" and "Easy RSVPs" badges.
+
+---
+
+## Bug Fixes
+
+### Free Group Checkout
+
+Fixed an issue where joining a free group with no rules and no questions caused an infinite loading spinner. The checkout now automatically detects when there are no actionable steps and submits the membership request immediately.
+
+### Dark Mode Badge Visibility
+
+Fixed the "Soon" badge visibility in dark mode by changing from a transparent background to a solid color. The new styling also better differentiates it from the "Almost Full" badge.
+
+### Payment Analytics Dashboard
+
+- Fixed layout inconsistencies in payment analytics
+- Added detailed payment type breakdowns to revenue reports
+- Added platform fee and transaction count to revenue displays
+- Fixed dashboard cards showing incorrect data
+
+---
+
+## Release Details
+
+**Release Date**: December 23, 2025
+**Version**: 1.4.7
+**Platform**: Web Application
