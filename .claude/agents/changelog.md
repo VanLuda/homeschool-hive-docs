@@ -114,12 +114,17 @@ When creating a changelog entry:
 
 1. **Identify the version/release**:
    ```bash
-   cd ~/Sites/homeschool-hive && git log --oneline -20
+   cd /Users/carlvanderlaan/Sites/homeschool-hive && git log --oneline -20
+   git tag --sort=-v:refname | head -10
    ```
 
-2. **Review commits since last release**:
+2. **Review commits between versions**:
    ```bash
-   git log --oneline [last-release-tag]..HEAD
+   # For specific version
+   git log --oneline v1.4.9..v1.5.0
+
+   # For latest release (find previous tag first)
+   git log --oneline $(git describe --tags --abbrev=0 HEAD^)..HEAD
    ```
 
 3. **Examine pull requests** for context:
@@ -136,6 +141,24 @@ When creating a changelog entry:
 5. **Write user-focused descriptions** for each change
 
 6. **Review for security compliance** before finalizing
+
+## File Output
+
+After writing the changelog content, you MUST save it to the blog folder:
+
+1. **Determine the filename**:
+   - Use the release date: `YYYY-MM-DD.mdx`
+   - Get date from git tag: `git log -1 --format=%cs v1.5.0`
+   - If file exists, append suffix: `YYYY-MM-DD-2.mdx`
+
+2. **Write the file**:
+   ```
+   /Users/carlvanderlaan/Sites/homeschool-hive-docs/blog/YYYY-MM-DD.mdx
+   ```
+
+3. **Confirm completion**:
+   - Report the file path created
+   - Summarize what was included in the changelog
 
 ## Tags Reference
 
