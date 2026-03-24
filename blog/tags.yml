@@ -12,3 +12,108 @@ welcome:
   label: Welcome
   permalink: /welcome
   description: Welcome tag description
+
+groups:
+  label: Groups
+  permalink: /groups
+  description: Group management features
+
+events:
+  label: Events
+  permalink: /events
+  description: Event features
+
+payments:
+  label: Payments
+  permalink: /payments
+  description: Payment and billing features
+
+invoices:
+  label: Invoices
+  permalink: /invoices
+  description: Invoice features
+
+scholarship:
+  label: Scholarship
+  permalink: /scholarship
+  description: Scholarship-related features
+
+notifications:
+  label: Notifications
+  permalink: /notifications
+  description: Notification features
+
+calendar:
+  label: Calendar
+  permalink: /calendar
+  description: Calendar features
+
+profile:
+  label: Profile
+  permalink: /profile
+  description: User profile features
+
+security:
+  label: Security
+  permalink: /security
+  description: Security improvements
+
+performance:
+  label: Performance
+  permalink: /performance
+  description: Performance improvements
+
+mobile:
+  label: Mobile
+  permalink: /mobile
+  description: Mobile-specific changes
+
+infrastructure:
+  label: Infrastructure
+  permalink: /infrastructure
+  description: Infrastructure improvements
+
+accessibility:
+  label: Accessibility
+  permalink: /accessibility
+  description: Accessibility improvements
+
+feed:
+  label: Feed
+  permalink: /feed
+  description: Social feed features
+
+video:
+  label: Video
+  permalink: /video
+  description: Video features
+
+discovery:
+  label: Discovery
+  permalink: /discovery
+  description: Discovery features
+
+analytics:
+  label: Analytics
+  permalink: /analytics
+  description: Analytics features
+
+seo:
+  label: SEO
+  permalink: /seo
+  description: Search engine optimization
+
+onboarding:
+  label: Onboarding
+  permalink: /onboarding
+  description: Onboarding features
+
+homepage:
+  label: Homepage
+  permalink: /homepage
+  description: Homepage features
+
+announcements:
+  label: Announcements
+  permalink: /announcements
+  description: Platform announcements
