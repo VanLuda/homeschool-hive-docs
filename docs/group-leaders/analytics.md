@@ -117,6 +117,66 @@ Monitor your subscription:
 - Overage charges (if any)
 - Suggested plan based on usage
 
+## Analytics Tabs
+
+The analytics dashboard is organized into tabs, each focusing on a different aspect of your group's performance.
+
+### Members Tab
+
+Track membership activity and growth:
+- New members over time
+- Member demographics
+- Active vs. inactive members
+- Join source tracking
+
+### Events Tab
+
+Analyze event performance:
+- Event attendance rates
+- Popular event types and categories
+- Registration trends
+- Capacity utilization across events
+
+### Revenue Tab
+
+Monitor financial performance (paid groups):
+- Total revenue over time
+- Revenue breakdown by source (memberships, events, add-ons)
+- Average transaction value
+- Payment success rates
+
+### Email Tab
+
+Track communication effectiveness:
+- Email send volume
+- Open rates by notification type
+- Click-through rates
+- Optimal send times
+
+### Scholarship Tab
+
+Monitor scholarship program activity:
+- Invoices generated and submitted
+- Total scholarship value
+- Submission and approval rates
+- Usage trends over time
+
+### Insights Tab
+
+Get actionable recommendations:
+- Growth opportunities
+- Engagement patterns
+- Suggestions for improving retention
+- Comparisons with similar groups
+
+### Membership Trends Tab
+
+Deep dive into membership lifecycle:
+- Retention and churn rates over time
+- Average membership duration
+- Renewal patterns
+- Cancellation reasons
+
 ## Engagement Metrics
 
 ### Member Activity

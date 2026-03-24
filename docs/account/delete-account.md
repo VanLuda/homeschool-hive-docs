@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
 title: Delete Your Account
 description: Learn how to delete your Homeschool Hive account and understand what happens to your data.
 ---
@@ -136,13 +136,29 @@ This data is:
 
 ### Data Export
 
-Before deleting, you can request your data:
+Before deleting, you can download a copy of your data:
 
 1. Go to **Account Settings**
-2. Find **Download My Data** or similar option
-3. Request a data export
-4. Download within the provided timeframe
-5. Then proceed with deletion
+2. Click **Export My Data** or **Download My Data**
+3. Click **Request Export** to generate your data file
+4. You'll receive an email when the export is ready to download
+
+**Your export includes:**
+- Profile information (name, email, preferences)
+- Family member profiles and children's information
+- Group memberships and history
+- Event registrations and RSVP history
+- Payment transaction records
+- Notification preferences
+
+**Export format:**
+- Data is provided as a downloadable file
+- Contains structured data you can open and review
+- Download the file promptly — the link expires after a limited time
+
+:::tip Export Before Deleting
+Always download your data export before deleting your account. Once your account is deleted, this data cannot be recovered.
+:::
 
 ## Rejoining Later
 

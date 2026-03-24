@@ -58,14 +58,15 @@ To update your email address:
 3. Enter your new email address
 4. Enter your current password to confirm
 5. Click **Update**
-6. Check your new email for a verification link
-7. Click the link to confirm
+6. Check your **new** email inbox for a verification link
+7. Click the link to confirm the change
 
 :::warning Email Changes
-After changing your email:
-- You'll need to use the new email to log in
+- Your old email continues to work until you verify the new one
+- After verification, you'll need to use the new email to log in
 - Notifications will go to the new address
-- Group leaders will see your new email
+- Group leaders will see your updated email
+- If you don't verify within the allotted time, the change is cancelled and your old email remains active
 :::
 
 ## Change Your Password
@@ -130,6 +131,11 @@ If you disconnect your only login method, make sure you have a password set firs
 :::
 
 ## Account Security
+
+Your security settings have a dedicated page for easy management.
+
+1. Go to **Account Settings**
+2. Click **Security** in the sidebar to access all security features in one place
 
 ### Two-Factor Authentication (MFA)
 

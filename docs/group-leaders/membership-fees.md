@@ -31,9 +31,11 @@ Choose how often members are charged:
 | Cycle | Best For |
 |-------|----------|
 | **Monthly** | Groups with ongoing expenses, members who prefer smaller payments |
+| **Quarterly** | Balance between flexibility and commitment (every 3 months) |
+| **Semi-Annual** | Medium-term commitment with fewer renewals (every 6 months) |
 | **Annual** | Groups wanting predictable income, members who want to pay once |
 
-You can offer both options and let members choose.
+You can offer multiple options and let members choose their preferred billing cycle.
 
 ### Annual Discount
 
@@ -218,11 +220,37 @@ Download membership data:
 
 ## Free Trial Periods
 
-Currently, Homeschool Hive doesn't support automatic free trials. Workarounds:
+Offer new members a trial period before their first payment:
 
-- Set group as free initially, then change to paid
-- Manually add members for a trial period
-- Create a separate "trial" group
+1. Go to **Settings** > **Billing**
+2. Find the **Trial Period** section
+3. Set the number of days for the free trial (e.g., 7 days, 14 days, 30 days)
+4. Save your settings
+
+During the trial:
+- New members join and get full access immediately
+- No payment is collected until the trial ends
+- Members can cancel before the trial expires to avoid charges
+- Members receive a reminder before the trial period ends
+
+:::tip Choosing a Trial Length
+A 7-14 day trial gives families enough time to attend an event or two and experience the community. Longer trials (30 days) work well for groups with monthly event schedules.
+:::
+
+## Grace Period
+
+Configure a grace period to give members extra time when a payment fails:
+
+1. Go to **Settings** > **Billing**
+2. Find the **Grace Period** section
+3. Set the number of days members keep access after a failed payment
+
+During the grace period:
+- Members retain full access to the group
+- Stripe automatically retries the payment
+- Members receive notifications to update their payment method
+- If the payment succeeds within the grace period, membership continues uninterrupted
+- If the grace period expires without payment, membership is paused
 
 ## What's Next?
 

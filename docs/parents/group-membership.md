@@ -24,6 +24,8 @@ The process for joining a group depends on the group's settings:
 2. Click **Join [Group Name]**
 3. Review the membership options:
    - **Monthly** - Pay each month
+   - **Quarterly** - Pay every 3 months
+   - **Semi-Annual** - Pay every 6 months
    - **Annual** - Pay once per year (often discounted)
 4. Select your preferred billing cycle
 5. Enter your payment information
@@ -44,6 +46,19 @@ Private groups require approval from the group leaders:
 :::note Paid Private Groups
 If the private group has a membership fee, you'll complete payment after your request is approved.
 :::
+
+### Joining via Invitation Link
+
+If a group leader sends you an invite link:
+
+1. Click the invitation link you received (via email or message)
+2. If you're not logged in, you'll be prompted to sign in or create an account
+3. Answer any membership questions the group requires
+4. Review and agree to the group's rules (if applicable)
+5. Complete payment if the group has a membership fee
+6. You'll be added to the group automatically
+
+For more details on the invitation process, see [Accepting Group Invitations](/docs/parents/invite-flow).
 
 ## Checking Your Membership Status
 

@@ -153,6 +153,19 @@ If you're creating a paid group, you'll need to connect a Stripe account to rece
 
 See [Stripe Setup](/docs/group-leaders/payments-stripe) for detailed instructions.
 
+## Save as Draft
+
+Not ready to finish setting up? Your progress is saved automatically as a draft:
+
+1. At any point during the creation process, you can close the page
+2. Your work is saved and you can return later
+3. Find your drafts under **Groups** > **My Groups** > **Drafts**
+4. Click on a draft to pick up where you left off
+
+:::tip Take Your Time
+Group creation has several steps. You don't need to complete everything in one sitting — drafts are saved so you can come back whenever you're ready.
+:::
+
 ## Complete Group Creation
 
 1. Review all your settings

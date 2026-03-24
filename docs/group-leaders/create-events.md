@@ -104,6 +104,29 @@ Select categories that describe your event:
 
 Categories help members find relevant events.
 
+## Accessibility Features
+
+Help families find events that meet their needs by marking accessibility options:
+
+1. In the event creation form, find the **Accessibility** section
+2. Toggle on any features that apply:
+   - **Wheelchair Accessible** - The venue is accessible for wheelchair users
+   - **Sensory-Friendly** - The environment accommodates sensory sensitivities (reduced noise, lighting adjustments, quiet spaces)
+   - **Neurodiversity-Friendly** - The activity is designed to be inclusive for neurodiverse participants
+
+:::tip Be Specific
+Use the event description to provide additional accessibility details, such as the availability of quiet rooms, whether noise-canceling headphones are allowed, or specific accommodations available.
+:::
+
+## Event Discussion
+
+Enable a discussion section on your event page where attendees can ask questions and communicate:
+
+- Discussions are enabled by default on events
+- Attendees and group members can post comments and questions
+- As a leader, you can moderate the discussion and pin important information
+- Discussions help attendees coordinate (e.g., carpooling, what to bring)
+
 ## Capacity Settings
 
 ### Set Event Capacity

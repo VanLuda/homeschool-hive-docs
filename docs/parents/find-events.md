@@ -104,6 +104,30 @@ The Events page includes an interactive map that makes it easy to visualize wher
 The map makes it easy to find events along your daily routes. Look for markers near places you already visit regularly like libraries, parks, or shopping areas.
 :::
 
+## Browse Events by Location
+
+Discover events organized by state and city using dedicated location pages:
+
+1. Navigate to **Events** and select a state from the location filters
+2. Or visit URLs like `/events/in/texas` or `/events/in/california` to browse events in a specific state
+3. Drill down to specific cities or filter by category within each location
+
+These location pages are great for sharing with other families in your area.
+
+## Virtual Events
+
+Browse events you can attend from anywhere:
+
+1. Click **Events** in the navigation
+2. Select **Virtual** to see the dedicated virtual events section
+3. Browse online classes, workshops, and activities that don't require travel
+
+Virtual events include a meeting link (Zoom, Google Meet, etc.) that's shared with registered attendees.
+
+:::tip Expand Your Horizons
+Virtual events let you join groups and activities anywhere in the country. You're not limited to your local area for online events.
+:::
+
 ## Understanding Event Listings
 
 Each event card shows key information:

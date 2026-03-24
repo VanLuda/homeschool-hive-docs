@@ -116,6 +116,16 @@ The Groups page includes an interactive map that makes it easy to visualize wher
 The map makes it easy to find groups along your daily routes. Look for markers near places you already visit regularly like libraries, parks, or shopping areas.
 :::
 
+## Browse Groups by Location
+
+You can browse groups organized by state and city using dedicated location pages:
+
+1. Navigate to **Groups** and select a state from the location filters
+2. Or visit URLs like `/groups/in/texas` or `/groups/in/california` to browse groups in a specific state
+3. Drill down to specific cities for more targeted results
+
+These location pages are useful for sharing with other homeschool families in your area — just send them the link for your state.
+
 ## Browsing Groups
 
 Groups load seamlessly as you scroll down the page - no need to click through multiple pages. Simply scroll to see more groups, and new results will load automatically. This makes it easy to browse through all available options at your own pace.

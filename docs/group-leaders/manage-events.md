@@ -205,6 +205,27 @@ Generate reports to analyze attendance:
 
 For detailed instructions on using the check-in system, see [Check-In & Attendance](/docs/group-leaders/check-in).
 
+## Manage Event Categories
+
+Organize your group's events with custom categories:
+
+1. Go to your group page
+2. Navigate to **Settings** > **Categories** or **Categories** in the sidebar
+3. View, create, edit, or delete categories
+
+### Create a Category
+
+1. Click **Add Category**
+2. Enter a category name (e.g., "Field Trips", "Art Classes", "Park Days")
+3. Optionally set an age range for the category
+4. Save the category
+
+### Using Categories
+
+- When creating events, assign one or more categories
+- Members can filter your group's events by category
+- Categories help families quickly find events relevant to their interests
+
 ## Event Day
 
 ### Handle Walk-Ins

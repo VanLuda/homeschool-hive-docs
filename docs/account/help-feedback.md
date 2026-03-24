@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 8
 title: Help & Feedback
 description: Learn how to get help, report bugs, request features, and contact support in Homeschool Hive.
 ---
@@ -7,6 +7,10 @@ description: Learn how to get help, report bugs, request features, and contact s
 # Help & Feedback
 
 Homeschool Hive provides multiple ways to get help and share feedback. Whether you need assistance, found a bug, or have a great idea for a new feature, we're here to help.
+
+:::tip Need Direct Support?
+For account issues, billing questions, or problems that need a response, use **[Support Tickets](/docs/account/support-tickets)** to create a trackable request. You can track status and communicate directly with our support team.
+:::
 
 ## Access Help & Feedback
 
@@ -111,7 +115,7 @@ Once you submit a bug report:
 4. Critical issues are prioritized for immediate attention
 
 :::tip Track Your Reports
-While we don't currently provide a ticket tracking system, we review and address all bug reports. Critical issues affecting many users are prioritized first.
+For issues that need a direct response, use our **[Support Ticket system](/docs/account/support-tickets)** instead. Support tickets let you track status and communicate with our team. Bug reports are best for issues you want to flag without needing a back-and-forth conversation.
 :::
 
 ## Request a Feature
@@ -317,10 +321,12 @@ We can't guarantee implementation, but we:
 
 ### Can I track my submissions?
 
-Currently, we don't provide a ticket tracking system, but:
-- You receive confirmation when you submit
-- Our team reviews all submissions
-- Major fixes and features are announced in release notes
+Yes! Use **[Support Tickets](/docs/account/support-tickets)** to create trackable requests. You can:
+- View your ticket status at any time
+- Receive notifications when there's an update
+- Communicate directly with the support team
+
+Bug reports and feature requests submitted through the Help menu are also reviewed, but don't have individual tracking.
 
 ### What if my issue is urgent?
 

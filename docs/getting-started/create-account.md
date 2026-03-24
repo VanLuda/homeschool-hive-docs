@@ -57,6 +57,26 @@ After creating your account with email and password, you need to verify your ema
 - Click "Resend verification email" on the login page
 :::
 
+## Age Requirements
+
+Homeschool Hive requires users to be at least 13 years old to create an account, in compliance with the Children's Online Privacy Protection Act (COPPA).
+
+### If You're Under 13
+
+If you're under 13, a parent or guardian must create and manage the account on your behalf. Parents can add children as family members through their own account without needing separate accounts for minors.
+
+### Parental Consent
+
+During registration, you may be asked to verify your age. If the system detects that an account holder may be under 13:
+
+1. The registration process will pause
+2. A parental consent verification step will be required
+3. A parent or guardian must complete the verification before the account can be activated
+
+:::info Why Age Verification?
+This process protects children's privacy online and ensures compliance with federal regulations. Parents maintain full control over their children's information through the [Family Members](/docs/account/family-members) feature.
+:::
+
 ## Sign In to Your Account
 
 Once your account is created and verified:

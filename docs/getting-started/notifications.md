@@ -122,6 +122,28 @@ In-app notifications appear in the notification bell icon in the header. These i
 - Quick access to relevant pages
 - Mark as read/unread functionality
 
+## Notification Center
+
+The notification center gives you a single place to view and manage all your notifications.
+
+### Access the Notification Center
+
+1. Click the **bell icon** in the header
+2. View your recent notifications in the dropdown
+3. Click **View All** to open the full notification center at `/notifications`
+
+### Managing Notifications
+
+From the notification center, you can:
+
+- **Mark as read** - Click a notification to mark it as read
+- **Mark all as read** - Click **Mark All as Read** to clear all unread notifications
+- **View unread count** - The bell icon shows a badge with your unread notification count
+
+:::tip Quick Triage
+Use "Mark All as Read" after catching up on notifications to reset your unread count.
+:::
+
 ## Customize Your Preferences
 
 For each notification category, you can choose:
