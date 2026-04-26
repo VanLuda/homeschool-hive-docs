@@ -1,12 +1,12 @@
 ---
 sidebar_position: 7
 title: Calendar
-description: View and manage all your scheduled events in the Homeschool Hive calendar.
+description: View and manage all your scheduled events in the Famlo calendar.
 ---
 
 # Calendar
 
-The Homeschool Hive calendar gives you a comprehensive view of all your scheduled activities in one place. See events you're registered for, your groups' upcoming activities, and more.
+The Famlo calendar gives you a comprehensive view of all your scheduled activities in one place. See events you're registered for, your groups' upcoming activities, and more.
 
 ## Access the Calendar
 
@@ -133,16 +133,16 @@ Your calendar feed URL is personal and secure. It contains a unique token that o
 1. Open [Google Calendar](https://calendar.google.com)
 2. On the left side, find **Other calendars** and click the **+** icon
 3. Select **From URL**
-4. Paste your calendar feed URL from Homeschool Hive
+4. Paste your calendar feed URL from Famlo
 5. Click **Add calendar**
 
-Your Homeschool Hive events will now appear in your Google Calendar and sync automatically.
+Your Famlo events will now appear in your Google Calendar and sync automatically.
 
 ### Adding to Apple Calendar
 
 1. Open the **Calendar** app on your Mac or iOS device
 2. Go to **File** → **New Calendar Subscription** (Mac) or tap **Calendars** → **Add Subscription** (iOS)
-3. Paste your calendar feed URL from Homeschool Hive
+3. Paste your calendar feed URL from Famlo
 4. Click **Subscribe**
 5. Choose your preferred refresh frequency (recommended: every hour)
 6. Select which account to add it to
@@ -157,8 +157,8 @@ Your events will sync based on the refresh frequency you selected.
 1. Open [Outlook Calendar](https://outlook.office.com/calendar)
 2. Click **Add calendar** in the left sidebar
 3. Select **Subscribe from web**
-4. Paste your calendar feed URL from Homeschool Hive
-5. Name your calendar (e.g., "Homeschool Hive Events")
+4. Paste your calendar feed URL from Famlo
+5. Name your calendar (e.g., "Famlo Events")
 6. Click **Import**
 
 #### Outlook Desktop App

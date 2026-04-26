@@ -133,7 +133,7 @@ Some groups offer different membership tiers:
 - **Standard** - $10/month - Events + member directory
 - **Premium** - $20/month - All features + priority registration
 
-Currently, Homeschool Hive supports a single membership fee per group. For multiple tiers, consider:
+Currently, Famlo supports a single membership fee per group. For multiple tiers, consider:
 - Creating separate groups for different levels
 - Using event pricing to differentiate access
 - Contacting support about your specific needs

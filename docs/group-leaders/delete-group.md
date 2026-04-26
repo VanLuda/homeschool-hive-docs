@@ -6,7 +6,7 @@ description: Learn how to safely close your group, export data, and handle membe
 
 # Delete a Group
 
-When you need to close your group, Homeschool Hive makes the process safe and transparent. This guide covers scheduling deletion, the 14-day grace period, data export, and what happens to your members and their payments.
+When you need to close your group, Famlo makes the process safe and transparent. This guide covers scheduling deletion, the 14-day grace period, data export, and what happens to your members and their payments.
 
 :::warning Important
 Group deletion is permanent after the 14-day grace period. Make sure to export all data you need before the deletion is complete.
@@ -30,7 +30,7 @@ This grace period gives you time to:
 
 ### What Happens Automatically
 
-Homeschool Hive handles several tasks automatically when deletion is complete:
+Famlo handles several tasks automatically when deletion is complete:
 
 **Subscriptions & Refunds**
 - All active membership subscriptions are cancelled
@@ -228,7 +228,7 @@ When the 14 days end:
 - Posts and interactions within this group
 
 **What Remains:**
-- Member's personal Homeschool Hive account
+- Member's personal Famlo account
 - Their profile information
 - Memberships in other groups
 - Personal payment methods
@@ -271,7 +271,7 @@ All paid event tickets are refunded:
 - Members receive confirmation email
 
 :::note Stripe Processing Time
-While Homeschool Hive processes refunds immediately, it may take 5-10 business days for the money to appear in members' accounts, depending on their bank.
+While Famlo processes refunds immediately, it may take 5-10 business days for the money to appear in members' accounts, depending on their bank.
 :::
 
 ## Financial Considerations
@@ -476,13 +476,13 @@ If paid memberships are the issue:
 ### What Happens to You
 
 **Your Account:**
-- Your personal Homeschool Hive account remains active
+- Your personal Famlo account remains active
 - You can join other groups as a member
 - You can create a new group in the future
 - Your profile and settings are preserved
 
 **Your Stripe Account:**
-- Remains connected to Homeschool Hive
+- Remains connected to Famlo
 - Can be used for new groups
 - Can be disconnected if desired
 - Transaction history preserved
@@ -544,8 +544,8 @@ If you need assistance with group deletion:
 - Get help with member communication
 
 **Support Channels:**
-- Email: support@homeschoolhive.co
-- Help Center: help.homeschoolhive.co
+- Email: support@famlo.co
+- Help Center: help.famlo.co
 - Live chat (for urgent issues)
 
 ## What's Next?

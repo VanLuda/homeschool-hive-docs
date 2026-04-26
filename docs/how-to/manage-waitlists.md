@@ -1,17 +1,17 @@
 ---
 sidebar_position: 13
 title: "How Do I Handle Waitlists for Popular Events?"
-description: "Step-by-step guide to managing event capacity and using the Watchlist system on Homeschool Hive"
+description: "Step-by-step guide to managing event capacity and using the Watchlist system on Famlo"
 keywords: [event waitlist, manage waitlist, sold out event, event capacity, watchlist notifications]
 ---
 
 # How Do I Handle Waitlists for Popular Events?
 
-When your events fill up fast, you need a fair way to handle overflow interest. Homeschool Hive uses a Watchlist system that notifies interested families when spots become available. This guide explains how to manage capacity and keep your community engaged even when events are full.
+When your events fill up fast, you need a fair way to handle overflow interest. Famlo uses a Watchlist system that notifies interested families when spots become available. This guide explains how to manage capacity and keep your community engaged even when events are full.
 
 ## Quick Answer
 
-Homeschool Hive uses a Watchlist (Favorites) system instead of a traditional waitlist. When an event is full, interested families can add it to their Watchlist. If a spot opens up (someone cancels), all Watchlist members receive a notification and can register on a first-come, first-served basis. This creates a fair, transparent system for popular events.
+Famlo uses a Watchlist (Favorites) system instead of a traditional waitlist. When an event is full, interested families can add it to their Watchlist. If a spot opens up (someone cancels), all Watchlist members receive a notification and can register on a first-come, first-served basis. This creates a fair, transparent system for popular events.
 
 ## Understanding the Watchlist System
 
@@ -25,7 +25,7 @@ Homeschool Hive uses a Watchlist (Favorites) system instead of a traditional wai
 
 ### Watchlist vs. Traditional Waitlist
 
-| Feature | Watchlist (Homeschool Hive) | Traditional Waitlist |
+| Feature | Watchlist (Famlo) | Traditional Waitlist |
 |---------|----------------------------|---------------------|
 | Notification | All interested parties notified equally | Only next person in line |
 | Fairness | First to respond gets the spot | Based on sign-up order |
@@ -173,7 +173,7 @@ If you disable "Spots Available" notifications, you will not be alerted when spo
 
 ## Frequently Asked Questions
 
-**Why does not Homeschool Hive use a traditional waitlist?**
+**Why does not Famlo use a traditional waitlist?**
 The Watchlist system is fairer because everyone has an equal chance to claim available spots, rather than being locked into a queue position.
 
 **How quickly should I respond to a "Spots Available" notification?**

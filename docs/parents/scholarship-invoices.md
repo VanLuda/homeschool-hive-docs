@@ -6,7 +6,7 @@ description: Learn how to view, download, and submit scholarship invoices for re
 
 # Scholarship Invoices
 
-If your family uses education scholarship programs (such as ESA, school choice, or other scholarship funds), Homeschool Hive makes it easy to track invoices and submit them for reimbursement.
+If your family uses education scholarship programs (such as ESA, school choice, or other scholarship funds), Famlo makes it easy to track invoices and submit them for reimbursement.
 
 ## What Are Scholarship Invoices?
 
@@ -64,7 +64,7 @@ The PDF includes:
 After downloading your invoice:
 
 1. Submit the PDF to your scholarship provider
-2. Return to Homeschool Hive
+2. Return to Famlo
 3. Click **Mark as Submitted** on the invoice
 4. Add any notes about your submission (optional):
    - Scholarship provider name

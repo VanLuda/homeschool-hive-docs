@@ -1,13 +1,13 @@
 ---
 sidebar_position: 12
 title: "How Do I Transfer Group Leadership?"
-description: "Step-by-step guide to transferring group ownership and managing leadership transitions on Homeschool Hive"
+description: "Step-by-step guide to transferring group ownership and managing leadership transitions on Famlo"
 keywords: [transfer group ownership, change group leader, homeschool group admin, group owner transfer, leadership transition]
 ---
 
 # How Do I Transfer Group Leadership?
 
-Whether you are stepping down, moving away, or simply want to share responsibilities, transferring group leadership on Homeschool Hive is straightforward. This guide covers everything from adding Co-Leaders to fully transferring ownership.
+Whether you are stepping down, moving away, or simply want to share responsibilities, transferring group leadership on Famlo is straightforward. This guide covers everything from adding Co-Leaders to fully transferring ownership.
 
 ## Quick Answer
 
@@ -111,7 +111,7 @@ When you transfer ownership:
 - The group's Stripe Connect account remains attached to the group
 - Payment processing continues without interruption
 - The original Stripe account owner retains access to their Stripe dashboard
-- The new group owner can view payment reports in Homeschool Hive
+- The new group owner can view payment reports in Famlo
 
 :::tip
 If the Stripe account needs to change (for example, payments should go to the new owner's bank account), the new owner should set up their own Stripe Connect account in group settings after the transfer.

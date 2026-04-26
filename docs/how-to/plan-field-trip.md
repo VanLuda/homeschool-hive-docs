@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
 title: "How Do I Plan a Homeschool Field Trip?"
-description: "Step-by-step guide to planning and organizing homeschool field trips using Homeschool Hive's event management tools for RSVPs, tickets, and logistics."
+description: "Step-by-step guide to planning and organizing homeschool field trips using Famlo's event management tools for RSVPs, tickets, and logistics."
 keywords: [homeschool field trip, plan field trip, group field trip, homeschool outing, field trip planning]
 ---
 
 # How Do I Plan a Homeschool Field Trip?
 
-Field trips are one of the most enriching parts of homeschooling, offering hands-on learning experiences that bring curriculum to life. Homeschool Hive makes planning group field trips simple with built-in tools for managing RSVPs, collecting payments, tracking capacity, and communicating with families.
+Field trips are one of the most enriching parts of homeschooling, offering hands-on learning experiences that bring curriculum to life. Famlo makes planning group field trips simple with built-in tools for managing RSVPs, collecting payments, tracking capacity, and communicating with families.
 
 ## Quick Answer
 
@@ -41,7 +41,7 @@ Successful field trips require advance planning. Consider these factors before c
 
 ### Step 1: Create the Event
 
-1. Go to your group page on Homeschool Hive
+1. Go to your group page on Famlo
 2. Click **Create Event**
 3. The event creation wizard opens
 
@@ -72,7 +72,7 @@ Select **In-Person Event** for field trips.
 4. Add location notes with helpful details:
    - "Meet at the main entrance near the gift shop"
    - "Park in Lot B for closest access"
-   - "Look for the yellow Homeschool Hive sign"
+   - "Look for the yellow Famlo sign"
 
 ### Step 3: Write the Event Description
 
@@ -107,7 +107,7 @@ What to Bring:
 - Camera (no flash in animal areas)
 
 Meeting Point: Main entrance plaza, near the fountain
-Look for the blue Homeschool Hive banner!
+Look for the blue Famlo banner!
 
 Parents are required to accompany children under 10.
 ```

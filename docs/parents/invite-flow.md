@@ -103,7 +103,7 @@ If the group charges a membership fee and you are not fee-exempt:
 3. Click **Complete Payment**.
 
 :::note
-Payments are processed securely through Stripe. Your card information is never stored on Homeschool Hive's servers.
+Payments are processed securely through Stripe. Your card information is never stored on Famlo's servers.
 :::
 
 **Special payment situations:**

@@ -6,7 +6,7 @@ description: Learn how to discover and explore homeschool groups in your area.
 
 # Find Groups
 
-Homeschool Hive makes it easy to discover homeschool groups that match your family's interests and location. This guide shows you how to find and explore groups.
+Famlo makes it easy to discover homeschool groups that match your family's interests and location. This guide shows you how to find and explore groups.
 
 ## Browse All Groups
 
@@ -35,7 +35,7 @@ Narrow down your search using filters:
 Finding groups near you is now smarter with automatic location detection:
 
 - **Automatic Location Detection** - When you visit the Groups page, your browser will ask for permission to access your location. Allowing this shows you groups closest to you automatically.
-- **Smart Search Expansion** - If there are only a few groups nearby, Homeschool Hive automatically expands the search radius to show you more options, ensuring you always find great communities.
+- **Smart Search Expansion** - If there are only a few groups nearby, Famlo automatically expands the search radius to show you more options, ensuring you always find great communities.
 - **City/Zip Code** - Enter a specific location to search if you prefer not to share your location
 - **Radius** - Choose how far you're willing to travel (5, 10, 25, 50+ miles)
 

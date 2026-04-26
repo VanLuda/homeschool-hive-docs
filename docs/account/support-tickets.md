@@ -1,12 +1,12 @@
 ---
 sidebar_position: 6
 title: Support Tickets
-description: Learn how to create support tickets, track their status, and communicate with the Homeschool Hive support team.
+description: Learn how to create support tickets, track their status, and communicate with the Famlo support team.
 ---
 
 # Support Tickets
 
-Homeschool Hive includes a built-in support ticket system so you can get help directly from the support team. You can create tickets, track their progress, and exchange messages -- all from within your account.
+Famlo includes a built-in support ticket system so you can get help directly from the support team. You can create tickets, track their progress, and exchange messages -- all from within your account.
 
 ## Access Support Tickets
 
@@ -106,7 +106,7 @@ You cannot edit the original subject or description, but you can add more detail
 
 ### How do I check if there is a known issue?
 
-Visit the [Help Center](https://help.homeschoolhive.co) for common troubleshooting guides and known issues before creating a ticket.
+Visit the [Help Center](https://help.famlo.co) for common troubleshooting guides and known issues before creating a ticket.
 
 ### Can I reopen a closed ticket?
 

@@ -10,7 +10,7 @@ Keep your group informed with announcements. This guide covers how to send updat
 
 ## Types of Communication
 
-Homeschool Hive offers several ways to communicate with your group:
+Famlo offers several ways to communicate with your group:
 
 | Type | Best For | Reaches |
 |------|----------|---------|

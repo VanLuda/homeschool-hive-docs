@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Homeschool Hive Knowledge Base',
-  tagline: 'Find answers, learn features, and get the most out of Homeschool Hive',
+  title: 'Famlo Help Center',
+  tagline: 'Find answers, learn features, and get the most out of Famlo',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://kb.homeschoolhive.com',
+  url: 'https://help.famlo.co',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -45,14 +45,14 @@ const config: Config = {
       tagName: 'link',
       attributes: {
         rel: 'preconnect',
-        href: 'https://assets.homeschoolhive.co',
+        href: 'https://assets.famlo.co',
       },
     },
     {
       tagName: 'link',
       attributes: {
         rel: 'dns-prefetch',
-        href: 'https://assets.homeschoolhive.co',
+        href: 'https://assets.famlo.co',
       },
     },
   ],
@@ -73,7 +73,7 @@ const config: Config = {
           path: './blog',
           showReadingTime: false,
           blogTitle: 'Changelog',
-          blogDescription: 'Release history for Homeschool Hive',
+          blogDescription: 'Release history for Famlo',
           blogSidebarTitle: '📦 Release History',
           blogSidebarCount: 'ALL',
           feedOptions: {
@@ -108,7 +108,7 @@ const config: Config = {
                 item.priority = 0.9;
               } else if (item.url.includes('/docs/')) {
                 item.priority = 0.8;
-              } else if (item.url === 'https://kb.homeschoolhive.com/') {
+              } else if (item.url === 'https://help.famlo.co/') {
                 item.priority = 1.0;
               }
               return item;
@@ -142,10 +142,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Homeschool Hive',
       logo: {
-        alt: 'Homeschool Hive Logo',
-        src: 'https://assets.homeschoolhive.co/ips/icon.svg',
+        alt: 'Famlo Logo',
+        src: 'https://assets.famlo.co/ips/Famlo.svg',
       },
       items: [
         {
@@ -176,13 +175,13 @@ const config: Config = {
           className: 'homepage-only',
         },
         {
-          href: 'https://homeschoolhive.co/login',
+          href: 'https://famlo.co/login',
           label: 'Login',
           position: 'right',
           className: 'no-external-icon homepage-only',
         },
         {
-          href: 'https://homeschoolhive.co/register',
+          href: 'https://famlo.co/register',
           label: 'Sign Up Free',
           position: 'right',
           className: 'button no-external-icon mr-4 homepage-only',
@@ -214,19 +213,19 @@ const config: Config = {
           ],
         },
         {
-          title: 'Homeschool Hive',
+          title: 'Famlo',
           items: [
             {
               label: 'Go to App',
-              href: 'https://homeschoolhive.co',
+              href: 'https://famlo.co',
             },
             {
               label: 'Find Groups',
-              href: 'https://homeschoolhive.co/groups',
+              href: 'https://famlo.co/groups',
             },
             {
               label: 'Find Events',
-              href: 'https://homeschoolhive.co/events',
+              href: 'https://famlo.co/events',
             },
           ],
         },
@@ -239,7 +238,7 @@ const config: Config = {
             },
             {
               label: 'Contact Support',
-              href: 'mailto:support@homeschoolhive.co',
+              href: 'mailto:support@famlo.co',
             },
           ],
         },

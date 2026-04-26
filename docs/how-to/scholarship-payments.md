@@ -1,17 +1,17 @@
 ---
 sidebar_position: 7
 title: "How Do I Accept Scholarship Payments for Events?"
-description: "Step-by-step guide to enabling scholarship and ESA payment acceptance for homeschool events on Homeschool Hive"
+description: "Step-by-step guide to enabling scholarship and ESA payment acceptance for homeschool events on Famlo"
 keywords: [homeschool scholarship, ESA payment, education savings account, scholarship invoice, homeschool funding]
 ---
 
 # How Do I Accept Scholarship Payments for Events?
 
-Many homeschool families use Education Savings Accounts (ESAs), scholarship programs, or other educational funding to pay for activities. Homeschool Hive makes it easy to accept these payments by generating professional invoices that families can submit to their scholarship providers.
+Many homeschool families use Education Savings Accounts (ESAs), scholarship programs, or other educational funding to pay for activities. Famlo makes it easy to accept these payments by generating professional invoices that families can submit to their scholarship providers.
 
 ## Quick Answer
 
-To accept scholarship payments: Go to your **Group Settings** > **Scholarship Settings**, configure your organization information for invoices, then enable scholarship eligibility on individual events or tickets. When families choose scholarship payment at checkout, Homeschool Hive automatically generates a detailed invoice they can submit to their funding provider.
+To accept scholarship payments: Go to your **Group Settings** > **Scholarship Settings**, configure your organization information for invoices, then enable scholarship eligibility on individual events or tickets. When families choose scholarship payment at checkout, Famlo automatically generates a detailed invoice they can submit to their funding provider.
 
 ## Understanding Scholarship Payments
 
@@ -25,7 +25,7 @@ To accept scholarship payments: Go to your **Group Settings** > **Scholarship Se
 
 ### Supported Funding Types
 
-Homeschool Hive invoices are designed to work with:
+Famlo invoices are designed to work with:
 
 - **Education Savings Accounts (ESAs)** - Arizona, Florida, North Carolina, etc.
 - **Scholarship Programs** - Private and state-funded scholarships
@@ -211,5 +211,5 @@ The invoice format is standardized to meet scholarship provider requirements. Yo
 
 - [Scholarship Invoice Management](/docs/group-leaders/scholarship-invoices) - Detailed invoice management guide
 - [Tickets and Pricing](/docs/group-leaders/tickets-pricing) - Setting up paid events
-- [Payment Processing](/docs/group-leaders/payments-stripe) - Understanding payments on Homeschool Hive
+- [Payment Processing](/docs/group-leaders/payments-stripe) - Understanding payments on Famlo
 - [Parent Guide to Scholarship Invoices](/docs/parents/scholarship-invoices) - Help for families using scholarships

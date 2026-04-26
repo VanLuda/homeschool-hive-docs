@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Subscriptions
-description: View and manage your group membership subscriptions, billing dates, payment methods, and cancellations in Homeschool Hive.
+description: View and manage your group membership subscriptions, billing dates, payment methods, and cancellations in Famlo.
 ---
 
 # Subscriptions

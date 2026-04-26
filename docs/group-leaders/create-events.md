@@ -284,7 +284,7 @@ During checkout, attendees see your terms on the payment step:
 
 1. Each term appears as a checkbox with your custom text
 2. Required terms show a red asterisk (*)
-3. Platform terms (Homeschool Hive's terms of service) also appear
+3. Platform terms (Famlo's terms of service) also appear
 4. Attendees must accept all required terms before completing registration
 
 ### Viewing Acceptance Records
@@ -297,7 +297,7 @@ After your event, you can see who accepted terms:
 4. View a list of all attendees and their acceptance timestamps
 
 :::note Platform Terms
-In addition to your event-specific terms, attendees are also required to accept Homeschool Hive's platform terms of service on their first purchase. Platform terms cover payment processing, refunds, and data privacy.
+In addition to your event-specific terms, attendees are also required to accept Famlo's platform terms of service on their first purchase. Platform terms cover payment processing, refunds, and data privacy.
 :::
 
 ## Publishing Your Event

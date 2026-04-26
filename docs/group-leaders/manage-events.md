@@ -166,7 +166,7 @@ Track who arrives at your events and view attendance reports.
 
 ### Check-In Feature
 
-Homeschool Hive provides a dedicated check-in system for tracking attendance:
+Famlo provides a dedicated check-in system for tracking attendance:
 
 1. Go to **Manage Event** > **Check-In**
 2. View the complete list of registered attendees

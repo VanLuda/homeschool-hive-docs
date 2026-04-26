@@ -14,7 +14,7 @@ Stripe is a secure payment processing service that handles all financial transac
 
 1. Payment is processed securely by Stripe
 2. Funds are deposited to your connected bank account
-3. Homeschool Hive never sees or stores payment card details
+3. Famlo never sees or stores payment card details
 
 ## Before You Start
 
@@ -75,7 +75,7 @@ Stripe will ask for:
 
 1. Review and accept Stripe's terms
 2. Complete any additional verification steps
-3. Return to Homeschool Hive
+3. Return to Famlo
 4. Your account is now connected
 
 ## Verify Connection
@@ -121,7 +121,7 @@ Standard Stripe processing fees:
 
 ### Platform Fee
 
-Homeschool Hive charges a small platform fee:
+Famlo charges a small platform fee:
 - Percentage of each transaction
 - Helps maintain and improve the platform
 - View current rates in your account
@@ -180,7 +180,7 @@ If your group's information changes:
 
 When you need to refund a payment:
 
-1. Go to the event or membership in Homeschool Hive
+1. Go to the event or membership in Famlo
 2. Find the specific transaction
 3. Click **Refund**
 4. Enter refund amount (full or partial)

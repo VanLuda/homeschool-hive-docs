@@ -47,7 +47,7 @@ A star or "Default" label indicates your default card.
 
 ### Supported Cards
 
-Homeschool Hive accepts:
+Famlo accepts:
 - Visa
 - Mastercard
 - American Express
@@ -110,13 +110,13 @@ You cannot remove a card that's being used for active membership subscriptions. 
 Your payment information is secure:
 
 - **Encryption** - All data is encrypted during transmission
-- **Stripe Security** - Card details stored by Stripe, not Homeschool Hive
+- **Stripe Security** - Card details stored by Stripe, not Famlo
 - **PCI Compliance** - Meets industry security standards
 - **Tokenization** - Actual card numbers aren't stored on our servers
 
 ### What We Store
 
-Homeschool Hive stores:
+Famlo stores:
 - Card type and last 4 digits (for display)
 - Expiration date
 - Billing zip code
@@ -213,7 +213,7 @@ If your card won't save:
 ### Unknown Charge
 
 If you see an unexpected charge:
-1. Check your payment history in Homeschool Hive
+1. Check your payment history in Famlo
 2. Review your active memberships
 3. Check for family members who may have registered
 4. Contact support if you can't identify it

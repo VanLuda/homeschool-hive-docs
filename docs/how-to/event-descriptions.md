@@ -1,7 +1,7 @@
 ---
 sidebar_position: 18
 title: "How Do I Create Engaging Event Descriptions?"
-description: "Step-by-step guide to writing compelling event descriptions that attract homeschool families on Homeschool Hive"
+description: "Step-by-step guide to writing compelling event descriptions that attract homeschool families on Famlo"
 keywords: [event description, event marketing, homeschool event promotion, event listing, event copywriting]
 ---
 
@@ -84,7 +84,7 @@ Tell families exactly what to do next:
 
 - "Click 'RSVP' to reserve your spot - space is limited to 15 children!"
 - "Register by Friday to ensure we have enough materials for your child."
-- "Questions? Contact [leader name] through Homeschool Hive messaging."
+- "Questions? Contact [leader name] through Famlo messaging."
 
 See [Create Events](/docs/group-leaders/create-events) for step-by-step instructions on building your event listing.
 

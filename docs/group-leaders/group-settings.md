@@ -1,7 +1,7 @@
 ---
 sidebar_position: 13
 title: Group Settings Overview
-description: Learn how to access and navigate your group settings to configure every aspect of your Homeschool Hive group.
+description: Learn how to access and navigate your group settings to configure every aspect of your Famlo group.
 ---
 
 # Group Settings Overview
@@ -29,7 +29,7 @@ Configure your group's core identity and public-facing information.
 - **Group Name** -- The display name for your group
 - **Description** -- A summary that appears on your group's public profile
 - **Location** -- Set your group's city or region using the address search (with map pin placement for precision)
-- **Custom URL (Slug)** -- Choose a memorable URL like `homeschoolhive.co/groups/your-group-name`
+- **Custom URL (Slug)** -- Choose a memorable URL like `famlo.co/groups/your-group-name`
 - **Cover Photo** -- Upload a banner image for your group page
 - **Brand Color** -- Pick an accent color for your group's visual theme
 - **External Links** -- Add links to your website, Facebook, Instagram, or YouTube

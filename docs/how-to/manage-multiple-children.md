@@ -1,13 +1,13 @@
 ---
 sidebar_position: 9
 title: "How Do I Manage Multiple Children's Registrations?"
-description: "Step-by-step guide to registering multiple kids for homeschool events and managing family members on Homeschool Hive"
+description: "Step-by-step guide to registering multiple kids for homeschool events and managing family members on Famlo"
 keywords: [register multiple kids, family registration, homeschool siblings, multiple children events, family profile]
 ---
 
 # How Do I Manage Multiple Children's Registrations?
 
-Homeschool families often have multiple children participating in activities together. Homeschool Hive makes it easy to add all your children to your family profile, then quickly register them for events without re-entering their information every time. You can also track allergies, special needs, and emergency contacts for each child.
+Homeschool families often have multiple children participating in activities together. Famlo makes it easy to add all your children to your family profile, then quickly register them for events without re-entering their information every time. You can also track allergies, special needs, and emergency contacts for each child.
 
 ## Quick Answer
 
@@ -17,7 +17,7 @@ Go to **Account** > **Family Members** to add your children's profiles with thei
 
 ### Why Add Family Members?
 
-Adding your children to your Homeschool Hive account provides several benefits:
+Adding your children to your Famlo account provides several benefits:
 
 - **Faster registration**: Select children from a list instead of typing names each time
 - **Safety information**: Allergies and medical needs are shared with event organizers

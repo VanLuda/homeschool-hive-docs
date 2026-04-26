@@ -8,7 +8,7 @@ description: Generate a free, state-specific homeschool letter of intent customi
 
 The Letter of Intent Generator is a free tool that helps you create a customized letter of intent (or notice of intent) to homeschool your child. Each letter is tailored to your state's specific legal requirements, including the correct statute references, filing deadlines, and recipient information.
 
-You can access the tool at [homeschoolhive.co/tools/letter-of-intent](https://homeschoolhive.co/tools/letter-of-intent).
+You can access the tool at [famlo.co/tools/letter-of-intent](https://famlo.co/tools/letter-of-intent).
 
 :::info What is a letter of intent?
 A homeschool letter of intent is a formal written notice informing your local school district or state education authority that you plan to homeschool your child. Requirements vary by state -- some states require this notification, while others do not require any notification at all.
@@ -16,7 +16,7 @@ A homeschool letter of intent is a formal written notice informing your local sc
 
 ## Select Your State
 
-1. Visit the [Letter of Intent Generator](https://homeschoolhive.co/tools/letter-of-intent).
+1. Visit the [Letter of Intent Generator](https://famlo.co/tools/letter-of-intent).
 2. You will see a grid showing all 50 states. Each state is labeled as either **Notification Required** or **No Notification Required** based on current law.
 3. Click on your state to open the state-specific letter generator.
 

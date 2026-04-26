@@ -1,12 +1,12 @@
 ---
 sidebar_position: 7
 title: Delete Your Account
-description: Learn how to delete your Homeschool Hive account and understand what happens to your data.
+description: Learn how to delete your Famlo account and understand what happens to your data.
 ---
 
 # Delete Your Account
 
-If you decide to leave Homeschool Hive, you can delete your account. This guide explains the process and what happens to your data.
+If you decide to leave Famlo, you can delete your account. This guide explains the process and what happens to your data.
 
 ## Before You Delete
 
@@ -114,7 +114,7 @@ You'll receive a confirmation email:
 
 For additional data removal beyond standard deletion:
 
-1. Email privacy@homeschoolhive.co
+1. Email privacy@famlo.co
 2. Include "Data Deletion Request" in the subject
 3. Provide:
    - Email address used on your account
@@ -173,7 +173,7 @@ If you change your mind:
 
 ### Waiting Period
 
-Some platforms have a grace period, but at Homeschool Hive:
+Some platforms have a grace period, but at Famlo:
 - Deletion begins immediately upon confirmation
 - There is no recovery window
 - Make sure you're certain before confirming
@@ -202,8 +202,8 @@ If you have pending transactions:
 
 If you signed up with Google or another provider:
 
-- Deleting your Homeschool Hive account doesn't affect your Google account
-- You can revoke Homeschool Hive's access in your Google settings afterward
+- Deleting your Famlo account doesn't affect your Google account
+- You can revoke Famlo's access in your Google settings afterward
 
 ## Need Help?
 
@@ -212,7 +212,7 @@ If you signed up with Google or another provider:
 If you have questions or issues:
 
 - **Before deletion**: Use the Report a Problem feature
-- **After deletion**: Email support@homeschoolhive.co
+- **After deletion**: Email support@famlo.co
 
 ### Change Your Mind
 
@@ -231,7 +231,7 @@ You have the right to:
 - **Portability** - Receive your data in a standard format
 - **Object** - Object to certain processing
 
-For any privacy concerns, contact privacy@homeschoolhive.co.
+For any privacy concerns, contact privacy@famlo.co.
 
 ## What's Next?
 
@@ -240,4 +240,4 @@ If you're staying:
 2. **[Manage notifications](/docs/getting-started/notifications)** - Control what you receive
 3. **[Explore groups](/docs/parents/find-groups)** - Find new communities
 
-If you're leaving, we're sorry to see you go. Thank you for being part of Homeschool Hive, and best wishes for your homeschool journey!
+If you're leaving, we're sorry to see you go. Thank you for being part of Famlo, and best wishes for your homeschool journey!

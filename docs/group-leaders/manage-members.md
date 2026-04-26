@@ -63,7 +63,7 @@ For larger groups:
 
 ## Member Roles
 
-Homeschool Hive uses four roles with different permissions:
+Famlo uses four roles with different permissions:
 
 ### Member
 
@@ -390,7 +390,7 @@ For each pending invitation, you can:
 
 Each invitation has a unique code (UUID format) that provides secure access:
 
-- Unique link: `https://homeschoolhive.co/invite/{invite-code}`
+- Unique link: `https://famlo.co/invite/{invite-code}`
 - One-time use only
 - Expires after 30 days
 - Can't be shared or reused after acceptance

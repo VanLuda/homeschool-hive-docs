@@ -1,7 +1,7 @@
 ---
 sidebar_position: 19
 title: "How Do I Build Community in My Homeschool Group?"
-description: "Step-by-step guide to creating strong connections and engagement in your homeschool co-op on Homeschool Hive"
+description: "Step-by-step guide to creating strong connections and engagement in your homeschool co-op on Famlo"
 keywords: [homeschool community, group engagement, homeschool group culture, co-op community, homeschool connections]
 ---
 
@@ -11,7 +11,7 @@ A homeschool group is more than a collection of events - it is a community where
 
 ## Quick Answer
 
-Building community in your homeschool group requires consistent communication through announcements, opportunities for members to connect socially, shared traditions that create group identity, and a culture of mutual support. Use Homeschool Hive's social features to keep members engaged between events, and prioritize activities that foster relationships over pure content delivery.
+Building community in your homeschool group requires consistent communication through announcements, opportunities for members to connect socially, shared traditions that create group identity, and a culture of mutual support. Use Famlo's social features to keep members engaged between events, and prioritize activities that foster relationships over pure content delivery.
 
 ## Step-by-Step Guide
 
@@ -115,7 +115,7 @@ Authentic community cannot be manufactured. Create opportunities and invitations
 :::
 
 :::note Online and In-Person Balance
-Homeschool Hive's social features extend your community beyond event days, but they cannot replace in-person interaction. Use digital tools to enhance, not substitute for, real-world connection.
+Famlo's social features extend your community beyond event days, but they cannot replace in-person interaction. Use digital tools to enhance, not substitute for, real-world connection.
 :::
 
 ## Community-Building Event Ideas

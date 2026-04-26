@@ -1,16 +1,16 @@
 ---
 sidebar_position: 5
 title: Payments
-description: Learn how to manage payments, view payment history, and handle refunds in Homeschool Hive.
+description: Learn how to manage payments, view payment history, and handle refunds in Famlo.
 ---
 
 # Payments
 
-This guide covers everything you need to know about payments in Homeschool Hive, including viewing your payment history, managing payment methods, and understanding refunds.
+This guide covers everything you need to know about payments in Famlo, including viewing your payment history, managing payment methods, and understanding refunds.
 
 ## Payment Methods
 
-Homeschool Hive accepts the following payment methods:
+Famlo accepts the following payment methods:
 
 - **Credit Cards** - Visa, Mastercard, American Express, Discover
 - **Debit Cards** - Cards with Visa or Mastercard logos
@@ -83,7 +83,7 @@ For each payment:
 When you pay for events or memberships, you may see:
 
 - **Ticket/Registration Price** - The base cost set by the group
-- **Platform Fee** - A small fee that supports Homeschool Hive
+- **Platform Fee** - A small fee that supports Famlo
 - **Processing Fee** - Payment processing costs
 
 The total amount charged includes all applicable fees, which are displayed before you complete payment.
@@ -143,7 +143,7 @@ If your payment is declined:
 
 If you believe you were charged twice:
 
-1. Check your payment history in Homeschool Hive
+1. Check your payment history in Famlo
 2. Wait 24-48 hours for pending charges to clear
 3. Some banks show temporary authorizations that disappear
 4. Contact support if you see two completed charges
@@ -163,7 +163,7 @@ Your payment information is protected:
 
 - All transactions use secure SSL encryption
 - Card details are stored securely by Stripe
-- Homeschool Hive never sees your full card number
+- Famlo never sees your full card number
 - PCI-compliant payment processing
 
 ## What's Next?

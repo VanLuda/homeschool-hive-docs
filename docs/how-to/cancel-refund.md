@@ -1,13 +1,13 @@
 ---
 sidebar_position: 11
 title: "How Do I Cancel or Get a Refund for an Event?"
-description: "Step-by-step guide to canceling your event registration and requesting a refund on Homeschool Hive"
+description: "Step-by-step guide to canceling your event registration and requesting a refund on Famlo"
 keywords: [cancel event registration, homeschool event refund, cancel RSVP, event cancellation policy, get money back]
 ---
 
 # How Do I Cancel or Get a Refund for an Event?
 
-Life happens, and sometimes you need to cancel your plans. This guide explains how to cancel your event registration on Homeschool Hive and understand when you may be eligible for a refund.
+Life happens, and sometimes you need to cancel your plans. This guide explains how to cancel your event registration on Famlo and understand when you may be eligible for a refund.
 
 ## Quick Answer
 
@@ -15,7 +15,7 @@ To cancel an event registration, go to the event page and click "Cancel RSVP." F
 
 ## Understanding Refund Policies
 
-Before canceling, it helps to understand how refund policies work on Homeschool Hive.
+Before canceling, it helps to understand how refund policies work on Famlo.
 
 ### How Refund Eligibility Is Determined
 
@@ -42,7 +42,7 @@ Each group sets their own refund policy. Check the event details or contact the 
 
 ### Step 1: Navigate to the Event
 
-1. Log in to your Homeschool Hive account
+1. Log in to your Famlo account
 2. Go to **My Events** from the main menu, or find the event in your **Calendar**
 3. Click on the event you want to cancel
 
@@ -143,7 +143,7 @@ Refunds cannot be issued for no-shows. Always cancel your registration if you ca
 No, refunds are not issued for no-shows. You must cancel your registration before the event to be eligible for any refund.
 
 **What if the event description was misleading?**
-Contact the group leader first. If the issue is not resolved, you can reach out to Homeschool Hive support.
+Contact the group leader first. If the issue is not resolved, you can reach out to Famlo support.
 
 **Can I transfer my ticket to someone else?**
 This depends on the group's policy. Contact the group leader to ask about transfer options.

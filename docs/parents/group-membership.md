@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Group Membership
-description: Learn how to join groups and manage your memberships in Homeschool Hive.
+description: Learn how to join groups and manage your memberships in Famlo.
 ---
 
 # Group Membership

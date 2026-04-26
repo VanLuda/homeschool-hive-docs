@@ -1,13 +1,13 @@
 ---
 sidebar_position: 10
 title: "How Do I Set Up Membership Tiers for My Group?"
-description: "Step-by-step guide to creating membership levels, setting fees, and managing group subscriptions on Homeschool Hive"
+description: "Step-by-step guide to creating membership levels, setting fees, and managing group subscriptions on Famlo"
 keywords: [homeschool group membership, membership fees, group tiers, subscription billing, co-op membership]
 ---
 
 # How Do I Set Up Membership Tiers for My Group?
 
-Collecting membership dues helps sustain your homeschool group and fund activities. Homeschool Hive lets you set up free or paid memberships with flexible billing options, trial periods, and grace periods for late payments. All payments are processed securely through Stripe, and you keep 100% of the membership fees collected.
+Collecting membership dues helps sustain your homeschool group and fund activities. Famlo lets you set up free or paid memberships with flexible billing options, trial periods, and grace periods for late payments. All payments are processed securely through Stripe, and you keep 100% of the membership fees collected.
 
 ## Quick Answer
 
@@ -51,7 +51,7 @@ If you haven't connected Stripe yet:
 3. Enter your business or personal information
 4. Add your bank account for payouts
 5. Complete identity verification
-6. Return to Homeschool Hive
+6. Return to Famlo
 
 :::tip Quick Setup
 Stripe onboarding typically takes 2-5 minutes. Have your bank account information and ID ready for fastest setup.
@@ -211,7 +211,7 @@ If you change membership prices, existing members keep their current rate until 
 
 ### Multiple Membership Levels
 
-Currently, Homeschool Hive supports a single membership price per group. If you need different levels:
+Currently, Famlo supports a single membership price per group. If you need different levels:
 
 - Create separate groups for different membership tiers
 - Use event pricing to differentiate benefits
@@ -245,7 +245,7 @@ Currently, members pay one billing cycle at a time. Annual billing is the longes
 Set your price as a "family membership" and communicate that it covers all family members in that household.
 
 **What if I need to refund a membership?**
-Process refunds through your Stripe dashboard. Homeschool Hive will update the member's status accordingly.
+Process refunds through your Stripe dashboard. Famlo will update the member's status accordingly.
 
 **Can I see who hasn't paid?**
 Yes, filter your members list by status to see those in grace period or with expired memberships.

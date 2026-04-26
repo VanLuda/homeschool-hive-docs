@@ -260,7 +260,7 @@ https://example.com/event-photo.jpg
 
 The import process will:
 1. Download the image
-2. Upload it to Homeschool Hive storage
+2. Upload it to Famlo storage
 3. Attach it to the event
 
 Requirements:

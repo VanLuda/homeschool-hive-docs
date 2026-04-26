@@ -1,6 +1,6 @@
 carlvanderlaan:
   name: Carl VanderLaan
-  title: Founder, Homeschool Hive
+  title: Founder, Famlo
   url: https://linktree.carlvanderlaan.com
   image_url: https://github.com/vanluda.png
   page: false
@@ -9,9 +9,9 @@ carlvanderlaan:
     linkedin: carlvanderlaan
     github: vanluda
 
-homeschoolhive:
-  name: Homeschool Hive
+famlo:
+  name: Famlo
   title: Developement Team
-  url: https://homeschoolhive.co
-  image_url: https://assets.homeschoolhive.co/ips/icon.svg
+  url: https://famlo.co
+  image_url: https://assets.famlo.co/ips/icon.svg
   page: false

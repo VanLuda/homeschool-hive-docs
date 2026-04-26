@@ -6,7 +6,7 @@ description: Learn how to generate and manage scholarship invoices for families 
 
 # Scholarship Invoices
 
-Many homeschool families use education scholarship programs (ESA, school choice programs, etc.) to fund their educational activities. Homeschool Hive allows you to generate professional invoices that families can submit for reimbursement.
+Many homeschool families use education scholarship programs (ESA, school choice programs, etc.) to fund their educational activities. Famlo allows you to generate professional invoices that families can submit for reimbursement.
 
 ## What Are Scholarship Invoices?
 

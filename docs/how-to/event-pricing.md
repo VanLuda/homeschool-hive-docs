@@ -1,7 +1,7 @@
 ---
 sidebar_position: 17
 title: "How Do I Price Events for My Homeschool Group?"
-description: "Step-by-step guide to setting event fees and ticket pricing for your homeschool co-op on Homeschool Hive"
+description: "Step-by-step guide to setting event fees and ticket pricing for your homeschool co-op on Famlo"
 keywords: [homeschool event pricing, event fees, ticket pricing, co-op costs, homeschool group fees]
 ---
 
@@ -11,7 +11,7 @@ Setting the right price for your homeschool group events can feel challenging. P
 
 ## Quick Answer
 
-To price events effectively, calculate your total costs (venue, materials, instructor fees), divide by your minimum expected attendance, then add a small buffer for unexpected expenses. Consider offering member discounts of 10-20% to encourage membership, and use Homeschool Hive's ticket tiers to create flexible pricing options for different family sizes.
+To price events effectively, calculate your total costs (venue, materials, instructor fees), divide by your minimum expected attendance, then add a small buffer for unexpected expenses. Consider offering member discounts of 10-20% to encourage membership, and use Famlo's ticket tiers to create flexible pricing options for different family sizes.
 
 ## Step-by-Step Guide
 
@@ -37,7 +37,7 @@ Divide your total costs by the number of participants needed to cover expenses:
 
 This is your minimum price. You will likely want to price above this to account for lower-than-expected attendance.
 
-### 3. Set Up Ticket Tiers in Homeschool Hive
+### 3. Set Up Ticket Tiers in Famlo
 
 Use the ticketing system to create flexible pricing options:
 
@@ -115,7 +115,7 @@ Unfortunately, some registered families will not attend. Consider requiring paym
 :::
 
 :::note Payment Processing Fees
-Remember that Homeschool Hive and Stripe charge payment processing fees. Factor these into your pricing or note them as a separate line item. See [Payments and Stripe](/docs/group-leaders/payments-stripe) for details.
+Remember that Famlo and Stripe charge payment processing fees. Factor these into your pricing or note them as a separate line item. See [Payments and Stripe](/docs/group-leaders/payments-stripe) for details.
 :::
 
 ## Sample Pricing Scenarios

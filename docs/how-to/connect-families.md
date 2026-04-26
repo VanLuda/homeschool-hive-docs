@@ -1,13 +1,13 @@
 ---
 sidebar_position: 5
 title: "How Do I Connect with Other Homeschool Families?"
-description: "Step-by-step guide to connecting with other homeschool families through groups, events, and social features on Homeschool Hive."
+description: "Step-by-step guide to connecting with other homeschool families through groups, events, and social features on Famlo."
 keywords: [homeschool community, homeschool friends, connect homeschool families, homeschool social, homeschool networking]
 ---
 
 # How Do I Connect with Other Homeschool Families?
 
-Building connections with other homeschool families enriches your children's social experiences and provides valuable support for parents. Homeschool Hive offers multiple ways to find, connect with, and build relationships with homeschooling families in your community and beyond.
+Building connections with other homeschool families enriches your children's social experiences and provides valuable support for parents. Famlo offers multiple ways to find, connect with, and build relationships with homeschooling families in your community and beyond.
 
 ## Quick Answer
 

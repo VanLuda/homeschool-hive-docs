@@ -6,7 +6,7 @@ description: Get notified when new groups or events appear near your area by set
 
 # Location Alerts
 
-Location alerts let you know when new groups or events are created near a specific city or area. Whether you are searching for a co-op, a meetup, or classes in a new neighborhood, location alerts save you from checking back manually. You set up a watch once, and Homeschool Hive emails you whenever something new matches your criteria.
+Location alerts let you know when new groups or events are created near a specific city or area. Whether you are searching for a co-op, a meetup, or classes in a new neighborhood, location alerts save you from checking back manually. You set up a watch once, and Famlo emails you whenever something new matches your criteria.
 
 ## How Location Alerts Work
 
@@ -16,7 +16,7 @@ When you create a location alert, you choose:
 - **What to watch for** -- new groups, new events, or both.
 - **A search radius** -- how far from that location to look (between 5 and 100 miles; default is 25 miles).
 
-Homeschool Hive then monitors that area and sends you an email whenever a matching group or event is created.
+Famlo then monitors that area and sends you an email whenever a matching group or event is created.
 
 :::info
 Location alerts expire after **90 days of inactivity**. If no new matches are found in that window, the alert is automatically deactivated. You can always create a new one.
@@ -45,13 +45,13 @@ You can still set up location alerts without an account:
 4. Choose what to watch for (groups, events, or both).
 5. Enter your **email address**.
 6. Click **Create Alert**.
-7. Check your inbox for a **verification email** from Homeschool Hive.
+7. Check your inbox for a **verification email** from Famlo.
 8. Click the verification link in the email.
 
 After clicking the link, you will see a confirmation page that reads "You're All Set!" along with the location and alert type you selected.
 
 :::tip
-If you already have a Homeschool Hive account, consider logging in before creating alerts. Logged-in alerts activate instantly and are easier to manage from your account.
+If you already have a Famlo account, consider logging in before creating alerts. Logged-in alerts activate instantly and are easier to manage from your account.
 :::
 
 ## Verifying Your Email
@@ -74,14 +74,14 @@ If something goes wrong during verification, you may see one of these messages:
 
 ## Setting Preferences
 
-After creating an alert, you may be asked to share a few preferences to help Homeschool Hive send you more relevant matches:
+After creating an alert, you may be asked to share a few preferences to help Famlo send you more relevant matches:
 
 - **Children's age ranges** -- for example, 0--4, 5--7, 8--10, 11--13, or 14--18.
 - **Interests** -- subjects or activities your family enjoys.
 - **Preferred group type** -- co-op, meetup, classes, or any.
 - **Travel radius preference** -- 10, 25, or 50 miles.
 
-These preferences are optional but help Homeschool Hive prioritize the most relevant alerts for your family.
+These preferences are optional but help Famlo prioritize the most relevant alerts for your family.
 
 ## Managing Your Alerts
 
@@ -123,7 +123,7 @@ Every alert email includes an **Unsubscribe** link at the bottom. Clicking it wi
 When a new group or event is created within your watch radius:
 
 - You receive an **email notification** describing the new group or event.
-- The email includes a direct link to view the group or event on Homeschool Hive.
+- The email includes a direct link to view the group or event on Famlo.
 
 :::note
 Location alerts send email notifications only. They do not trigger push notifications or in-app alerts.

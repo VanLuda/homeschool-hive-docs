@@ -1,23 +1,23 @@
 ---
 sidebar_position: 1
 title: Create Your Account
-description: Learn how to sign up for a Homeschool Hive account and verify your email address.
+description: Learn how to sign up for a Famlo account and verify your email address.
 ---
 
 # Create Your Account
 
-Getting started with Homeschool Hive begins with creating your account. This guide walks you through the registration process.
+Getting started with Famlo begins with creating your account. This guide walks you through the registration process.
 
 ## Sign Up Options
 
-You can create a Homeschool Hive account in two ways:
+You can create a Famlo account in two ways:
 
 1. **Email and Password** - Create an account using your email address
 2. **Social Login** - Sign up quickly using your Google account
 
 ## Creating an Account with Email
 
-1. Go to [homeschoolhive.co/register](https://homeschoolhive.co/register)
+1. Go to [famlo.co/register](https://famlo.co/register)
 2. Enter your information:
    - **First Name** - Your first name
    - **Last Name** - Your last name
@@ -36,7 +36,7 @@ Choose a strong password that includes:
 
 For a faster sign-up experience:
 
-1. Go to [homeschoolhive.co/register](https://homeschoolhive.co/register)
+1. Go to [famlo.co/register](https://famlo.co/register)
 2. Click **Continue with Google**
 3. Select your Google account or sign in to Google
 4. Review the permissions and click **Allow**
@@ -47,9 +47,9 @@ Your account will be created automatically using your Google account information
 
 After creating your account with email and password, you need to verify your email address:
 
-1. Check your inbox for an email from Homeschool Hive
+1. Check your inbox for an email from Famlo
 2. Click the **Verify Email** link in the email
-3. You'll be redirected to Homeschool Hive with your email confirmed
+3. You'll be redirected to Famlo with your email confirmed
 
 :::note Didn't receive the email?
 - Check your spam or junk folder
@@ -59,7 +59,7 @@ After creating your account with email and password, you need to verify your ema
 
 ## Age Requirements
 
-Homeschool Hive requires users to be at least 13 years old to create an account, in compliance with the Children's Online Privacy Protection Act (COPPA).
+Famlo requires users to be at least 13 years old to create an account, in compliance with the Children's Online Privacy Protection Act (COPPA).
 
 ### If You're Under 13
 
@@ -81,7 +81,7 @@ This process protects children's privacy online and ensures compliance with fede
 
 Once your account is created and verified:
 
-1. Go to [homeschoolhive.co/login](https://homeschoolhive.co/login)
+1. Go to [famlo.co/login](https://famlo.co/login)
 2. Enter your email and password, or click **Continue with Google**
 3. Click **Sign In**
 
@@ -89,7 +89,7 @@ Once your account is created and verified:
 
 If you forget your password:
 
-1. Go to [homeschoolhive.co/login](https://homeschoolhive.co/login)
+1. Go to [famlo.co/login](https://famlo.co/login)
 2. Click **Forgot password?**
 3. Enter your email address
 4. Click **Send Reset Link**

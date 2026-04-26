@@ -4,17 +4,17 @@ import Head from '@docusaurus/Head';
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'Homeschool Hive',
-  url: 'https://homeschoolhive.co',
-  logo: 'https://assets.homeschoolhive.co/ips/icon.svg',
+  name: 'Famlo',
+  url: 'https://famlo.co',
+  logo: 'https://assets.famlo.co/ips/Famlo.svg',
   description: 'The all-in-one platform for homeschool groups. Organize events, manage memberships, and build community.',
   sameAs: [
-    'https://www.facebook.com/homeschoolhive.co',
-    'https://www.linkedin.com/company/homeschoolhive/',
+    'https://www.facebook.com/famlo',
+    'https://www.linkedin.com/company/famlo-co/',
   ],
   contactPoint: {
     '@type': 'ContactPoint',
-    email: 'support@homeschoolhive.co',
+    email: 'support@famlo.co',
     contactType: 'customer support',
   },
 };
@@ -22,19 +22,19 @@ const organizationSchema = {
 const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Homeschool Hive Knowledge Base',
-  url: 'https://kb.homeschoolhive.com',
-  description: 'Find answers, learn features, and get the most out of Homeschool Hive',
+  name: 'Famlo Help Center',
+  url: 'https://help.famlo.co',
+  description: 'Find answers, learn features, and get the most out of Famlo',
   publisher: {
     '@type': 'Organization',
-    name: 'Homeschool Hive',
-    url: 'https://homeschoolhive.co',
+    name: 'Famlo',
+    url: 'https://famlo.co',
   },
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://kb.homeschoolhive.com/search?q={search_term_string}',
+      urlTemplate: 'https://help.famlo.co/search?q={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },

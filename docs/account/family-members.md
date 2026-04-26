@@ -6,7 +6,7 @@ description: Learn how to add and manage family members, children, and their inf
 
 # Family Members
 
-Adding your children and family members to your Homeschool Hive profile makes it easy to register for events and keeps important information like allergies on file for event organizers.
+Adding your children and family members to your Famlo profile makes it easy to register for events and keeps important information like allergies on file for event organizers.
 
 ## Access Family Settings
 
@@ -163,7 +163,7 @@ They cannot see:
 Your family information is:
 - Only shared with event organizers for events you register for
 - Not visible to other group members
-- Protected by Homeschool Hive's privacy policy
+- Protected by Famlo's privacy policy
 
 ### What's Required vs. Optional
 

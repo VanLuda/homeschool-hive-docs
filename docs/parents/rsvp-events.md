@@ -183,7 +183,7 @@ Your registration status appears on each event:
 
 ## Join Virtual Events
 
-Homeschool Hive supports both in-person and virtual events, making it easy to participate in online classes, co-op meetings, and virtual field trips.
+Famlo supports both in-person and virtual events, making it easy to participate in online classes, co-op meetings, and virtual field trips.
 
 ### Identifying Virtual Events
 

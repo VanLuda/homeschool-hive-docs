@@ -1,13 +1,13 @@
 ---
 sidebar_position: 4
 title: "How Do I Track Homeschool Attendance?"
-description: "Step-by-step guide to tracking homeschool attendance using Homeschool Hive's check-in feature, calendar, and attendance reports."
+description: "Step-by-step guide to tracking homeschool attendance using Famlo's check-in feature, calendar, and attendance reports."
 keywords: [homeschool attendance, track attendance, attendance records, homeschool tracking, attendance reports]
 ---
 
 # How Do I Track Homeschool Attendance?
 
-Tracking attendance is essential for many homeschool families and co-ops, whether for state reporting requirements, scholarship documentation, or simply monitoring participation. Homeschool Hive provides built-in tools to track attendance at events, generate reports, and maintain records for your homeschool group.
+Tracking attendance is essential for many homeschool families and co-ops, whether for state reporting requirements, scholarship documentation, or simply monitoring participation. Famlo provides built-in tools to track attendance at events, generate reports, and maintain records for your homeschool group.
 
 ## Quick Answer
 
@@ -189,7 +189,7 @@ For event series, generate two report types:
 
 ### State Reporting
 
-Many states require attendance documentation for homeschooling. Use Homeschool Hive attendance records to:
+Many states require attendance documentation for homeschooling. Use Famlo attendance records to:
 
 - Document co-op class participation
 - Track enrichment activity attendance
@@ -224,7 +224,7 @@ If your co-op has attendance policies:
 - **Set up series passes** for recurring classes to simplify tracking across multiple sessions
 
 :::note Calendar Integration
-Your personal calendar on Homeschool Hive shows all events you have attended. This provides an additional way to review your family's participation history.
+Your personal calendar on Famlo shows all events you have attended. This provides an additional way to review your family's participation history.
 :::
 
 ## Best Practices for Group Leaders

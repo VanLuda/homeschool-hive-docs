@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Profile Settings
-description: Learn how to manage your Homeschool Hive profile and account settings.
+description: Learn how to manage your Famlo profile and account settings.
 ---
 
 # Profile Settings
@@ -139,7 +139,7 @@ Your security settings have a dedicated page for easy management.
 
 ### Two-Factor Authentication (MFA)
 
-Two-factor authentication adds an extra layer of security to your Homeschool Hive account by requiring both your password and a verification code to sign in.
+Two-factor authentication adds an extra layer of security to your Famlo account by requiring both your password and a verification code to sign in.
 
 #### What is Two-Factor Authentication?
 
@@ -192,7 +192,7 @@ You can use any TOTP-compatible authenticator app, including:
 
 After enabling MFA, your login process will include an additional step:
 
-1. Go to the Homeschool Hive login page
+1. Go to the Famlo login page
 2. Enter your **email** and **password** as normal
 3. Click **Sign In**
 4. You'll be redirected to the Two-Factor Authentication page
@@ -215,7 +215,7 @@ If you lose access to your authenticator app:
 - Log out and sign in with another account if available
 
 **Option 2: Contact Support**
-- If you're locked out of your account, contact Homeschool Hive support
+- If you're locked out of your account, contact Famlo support
 - For security purposes, you'll need to verify your identity
 - Support can help you disable MFA and regain access
 

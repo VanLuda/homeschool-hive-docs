@@ -8,11 +8,11 @@ description: Find out if your state pays for homeschooling. Compare ESA programs
 
 The Homeschool Funding Guide is a free interactive tool that shows you which states offer financial support for homeschool families. It covers Education Savings Accounts (ESAs), voucher programs, tax credits, and federal programs available nationwide.
 
-You can access the tool at [homeschoolhive.co/tools/homeschool-funding](https://homeschoolhive.co/tools/homeschool-funding).
+You can access the tool at [famlo.co/tools/homeschool-funding](https://famlo.co/tools/homeschool-funding).
 
 ## Browse the Funding Map
 
-1. Visit the [Homeschool Funding Guide](https://homeschoolhive.co/tools/homeschool-funding).
+1. Visit the [Homeschool Funding Guide](https://famlo.co/tools/homeschool-funding).
 2. On desktop, you will see an **interactive map** of the United States, color-coded by funding category. A legend below the map explains each color.
 3. Below the map, summary statistics show the total number of states with funding, broken down by type (Universal ESA, Limited ESA, Tax Credit).
 4. Scroll down to see **every state listed as a card** in a grid. States with funding appear first, sorted by funding tier, then alphabetically.

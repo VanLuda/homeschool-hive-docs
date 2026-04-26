@@ -23,7 +23,7 @@ function HeroSection() {
       <div className={styles.cosmicContainer}>
         <div className={styles.cosmicOrbit}>
           <img
-            src="https://assets.homeschoolhive.co/backgrounds/cosmic-dots.svg"
+            src="https://assets.famlo.co/backgrounds/cosmic-dots.svg"
             alt=""
             className={styles.cosmicDots}
           />
@@ -126,7 +126,7 @@ type CategoryItem = {
 const categories: CategoryItem[] = [
   {
     title: 'Getting Started',
-    description: 'Set up your account and get familiar with Homeschool Hive',
+    description: 'Set up your account and get familiar with Famlo',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
@@ -298,7 +298,7 @@ function ContactSection() {
               Our support team is here to help. Reach out and we'll get back to you as soon as possible.
             </p>
           </div>
-          <a href="mailto:support@homeschoolhive.co" className={styles.contactButton}>
+          <a href="mailto:support@famlo.co" className={styles.contactButton}>
             Contact Support
           </a>
         </div>
@@ -310,8 +310,7 @@ function ContactSection() {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="Help Center"
-      description="Find answers, learn features, and get the most out of Homeschool Hive">
+      description="Find answers, learn features, and get the most out of Famlo">
       <HeroSection />
       <main>
         <RoleCards />

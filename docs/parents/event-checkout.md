@@ -6,7 +6,7 @@ description: Step-by-step guide to the event checkout process, including ticket 
 
 # Event Checkout
 
-When you register for a paid event, Homeschool Hive walks you through a checkout process to select tickets, assign attendees, and complete payment. This guide covers each step in detail.
+When you register for a paid event, Famlo walks you through a checkout process to select tickets, assign attendees, and complete payment. This guide covers each step in detail.
 
 ## Checkout Overview
 
@@ -97,7 +97,7 @@ Some events require you to accept specific terms and conditions before completin
 
 1. Read each term carefully.
 2. Check the box next to each required term to accept it.
-3. You may also need to accept Homeschool Hive's **platform terms** if you have not already.
+3. You may also need to accept Famlo's **platform terms** if you have not already.
 
 All required terms must be accepted before you can proceed.
 

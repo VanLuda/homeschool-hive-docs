@@ -1,17 +1,17 @@
 ---
 sidebar_position: 16
 title: "How Do I Grow My Homeschool Group?"
-description: "Step-by-step guide to growing your homeschool co-op and attracting new members on Homeschool Hive"
+description: "Step-by-step guide to growing your homeschool co-op and attracting new members on Famlo"
 keywords: [grow homeschool co-op, homeschool group growth, attract members, homeschool marketing, co-op membership]
 ---
 
 # How Do I Grow My Homeschool Group?
 
-Growing your homeschool group takes intentional effort, but with the right strategies and tools, you can build a thriving community that attracts engaged families. Whether you are just starting out or looking to expand an established co-op, this guide will help you grow your homeschool group effectively using Homeschool Hive's features.
+Growing your homeschool group takes intentional effort, but with the right strategies and tools, you can build a thriving community that attracts engaged families. Whether you are just starting out or looking to expand an established co-op, this guide will help you grow your homeschool group effectively using Famlo's features.
 
 ## Quick Answer
 
-To grow your homeschool group, focus on three key areas: optimize your group's discoverability in Homeschool Hive's search, create engaging events that attract new families, and leverage announcements and social features to keep current members active and referring others. Consistent communication and quality programming are the foundation of sustainable growth.
+To grow your homeschool group, focus on three key areas: optimize your group's discoverability in Famlo's search, create engaging events that attract new families, and leverage announcements and social features to keep current members active and referring others. Consistent communication and quality programming are the foundation of sustainable growth.
 
 ## Step-by-Step Guide
 
@@ -55,7 +55,7 @@ Your current members are your best recruiters:
 
 ### 5. Build an Active Online Presence
 
-Use Homeschool Hive's social features to create community between events:
+Use Famlo's social features to create community between events:
 
 - **Post regularly** to your group's social feed
 - **Encourage member interaction** by asking questions and sharing resources

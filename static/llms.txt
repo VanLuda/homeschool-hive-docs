@@ -1,61 +1,61 @@
-# Homeschool Hive Knowledge Base
+# Famlo Help Center
 
-> Official documentation for Homeschool Hive - a platform connecting homeschool families with local groups, educational events, and community activities.
+> Official documentation for Famlo - a platform connecting homeschool families with local groups, educational events, and community activities.
 
 ## About This Site
 
-This knowledge base provides how-to guides and feature documentation for Homeschool Hive users. Content is organized for two primary audiences:
+This knowledge base provides how-to guides and feature documentation for Famlo users. Content is organized for two primary audiences:
 
 - **Parents and Families** - Finding groups, registering for events, managing RSVPs, payments, and family profiles
 - **Group Leaders** - Creating and managing homeschool groups, organizing events, handling payments, and member administration
 
-Base URL: https://kb.homeschoolhive.com
+Base URL: https://help.famlo.co
 
 ## Documentation Sections
 
 ### Getting Started
-- https://kb.homeschoolhive.com/docs/intro - Welcome and platform overview
-- https://kb.homeschoolhive.com/docs/getting-started/create-account - Account creation and email verification
-- https://kb.homeschoolhive.com/docs/getting-started/complete-profile - Profile setup and adding family members
-- https://kb.homeschoolhive.com/docs/getting-started/notifications - Email and push notification preferences
+- https://help.famlo.co/docs/intro - Welcome and platform overview
+- https://help.famlo.co/docs/getting-started/create-account - Account creation and email verification
+- https://help.famlo.co/docs/getting-started/complete-profile - Profile setup and adding family members
+- https://help.famlo.co/docs/getting-started/notifications - Email and push notification preferences
 
 ### For Parents
-- https://kb.homeschoolhive.com/docs/parents/find-groups - Discovering and filtering homeschool groups by location, category, and faith
-- https://kb.homeschoolhive.com/docs/parents/find-events - Finding events with map view, filters, and watchlist feature
-- https://kb.homeschoolhive.com/docs/parents/rsvp-events - Event registration, ticket selection, and checkout process
-- https://kb.homeschoolhive.com/docs/parents/calendar - Personal calendar view and subscription sync to external calendars
-- https://kb.homeschoolhive.com/docs/parents/group-membership - Joining groups and managing memberships
-- https://kb.homeschoolhive.com/docs/parents/payments - Payment methods, transaction history, and receipts
-- https://kb.homeschoolhive.com/docs/parents/scholarship-invoices - Viewing and downloading scholarship reimbursement invoices
-- https://kb.homeschoolhive.com/docs/parents/social-feed - Group social feed, posts, reactions, and comments
+- https://help.famlo.co/docs/parents/find-groups - Discovering and filtering homeschool groups by location, category, and faith
+- https://help.famlo.co/docs/parents/find-events - Finding events with map view, filters, and watchlist feature
+- https://help.famlo.co/docs/parents/rsvp-events - Event registration, ticket selection, and checkout process
+- https://help.famlo.co/docs/parents/calendar - Personal calendar view and subscription sync to external calendars
+- https://help.famlo.co/docs/parents/group-membership - Joining groups and managing memberships
+- https://help.famlo.co/docs/parents/payments - Payment methods, transaction history, and receipts
+- https://help.famlo.co/docs/parents/scholarship-invoices - Viewing and downloading scholarship reimbursement invoices
+- https://help.famlo.co/docs/parents/social-feed - Group social feed, posts, reactions, and comments
 
 ### For Group Leaders
-- https://kb.homeschoolhive.com/docs/group-leaders/create-group - Creating groups with public/private settings and membership models
-- https://kb.homeschoolhive.com/docs/group-leaders/manage-members - Member management, approvals, roles, and bulk import
-- https://kb.homeschoolhive.com/docs/group-leaders/create-events - Event creation with tickets, capacity, and custom fields
-- https://kb.homeschoolhive.com/docs/group-leaders/manage-events - Managing registrations, attendees, and event updates
-- https://kb.homeschoolhive.com/docs/group-leaders/event-series - Creating recurring event series with series passes
-- https://kb.homeschoolhive.com/docs/group-leaders/import-events - Bulk event import via CSV
-- https://kb.homeschoolhive.com/docs/group-leaders/check-in - Attendance tracking and check-in system
-- https://kb.homeschoolhive.com/docs/group-leaders/tickets-pricing - Ticket types, pricing tiers, and capacity management
-- https://kb.homeschoolhive.com/docs/group-leaders/payments-stripe - Stripe Connect integration for receiving payments
-- https://kb.homeschoolhive.com/docs/group-leaders/membership-fees - Setting up paid memberships and billing cycles
-- https://kb.homeschoolhive.com/docs/group-leaders/discount-codes - Creating promotional and discount codes
-- https://kb.homeschoolhive.com/docs/group-leaders/scholarship-invoices - Generating scholarship invoices for families
-- https://kb.homeschoolhive.com/docs/group-leaders/analytics - Dashboard metrics and group analytics
-- https://kb.homeschoolhive.com/docs/group-leaders/announcements - Sending group announcements via feed and email
-- https://kb.homeschoolhive.com/docs/group-leaders/custom-roles - Creating custom roles with granular permissions
-- https://kb.homeschoolhive.com/docs/group-leaders/delete-group - Group deletion process and data export
+- https://help.famlo.co/docs/group-leaders/create-group - Creating groups with public/private settings and membership models
+- https://help.famlo.co/docs/group-leaders/manage-members - Member management, approvals, roles, and bulk import
+- https://help.famlo.co/docs/group-leaders/create-events - Event creation with tickets, capacity, and custom fields
+- https://help.famlo.co/docs/group-leaders/manage-events - Managing registrations, attendees, and event updates
+- https://help.famlo.co/docs/group-leaders/event-series - Creating recurring event series with series passes
+- https://help.famlo.co/docs/group-leaders/import-events - Bulk event import via CSV
+- https://help.famlo.co/docs/group-leaders/check-in - Attendance tracking and check-in system
+- https://help.famlo.co/docs/group-leaders/tickets-pricing - Ticket types, pricing tiers, and capacity management
+- https://help.famlo.co/docs/group-leaders/payments-stripe - Stripe Connect integration for receiving payments
+- https://help.famlo.co/docs/group-leaders/membership-fees - Setting up paid memberships and billing cycles
+- https://help.famlo.co/docs/group-leaders/discount-codes - Creating promotional and discount codes
+- https://help.famlo.co/docs/group-leaders/scholarship-invoices - Generating scholarship invoices for families
+- https://help.famlo.co/docs/group-leaders/analytics - Dashboard metrics and group analytics
+- https://help.famlo.co/docs/group-leaders/announcements - Sending group announcements via feed and email
+- https://help.famlo.co/docs/group-leaders/custom-roles - Creating custom roles with granular permissions
+- https://help.famlo.co/docs/group-leaders/delete-group - Group deletion process and data export
 
 ### Account & Settings
-- https://kb.homeschoolhive.com/docs/account/profile-settings - Profile editing, password, and two-factor authentication (MFA)
-- https://kb.homeschoolhive.com/docs/account/family-members - Managing children, adults, and emergency contacts
-- https://kb.homeschoolhive.com/docs/account/payment-methods - Saved payment methods and default card settings
-- https://kb.homeschoolhive.com/docs/account/help-feedback - Submitting bug reports and feature requests
-- https://kb.homeschoolhive.com/docs/account/delete-account - Account deletion and data removal
+- https://help.famlo.co/docs/account/profile-settings - Profile editing, password, and two-factor authentication (MFA)
+- https://help.famlo.co/docs/account/family-members - Managing children, adults, and emergency contacts
+- https://help.famlo.co/docs/account/payment-methods - Saved payment methods and default card settings
+- https://help.famlo.co/docs/account/help-feedback - Submitting bug reports and feature requests
+- https://help.famlo.co/docs/account/delete-account - Account deletion and data removal
 
 ### Changelog
-- https://kb.homeschoolhive.com/changelog - Release notes and version history
+- https://help.famlo.co/changelog - Release notes and version history
 
 ## Key Features Documented
 
@@ -71,5 +71,5 @@ Base URL: https://kb.homeschoolhive.com
 
 ## Contact
 
-- Support: support@homeschoolhive.co
-- Main Application: https://homeschoolhive.co
+- Support: support@famlo.co
+- Main Application: https://famlo.co

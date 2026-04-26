@@ -6,7 +6,7 @@ description: Discover homeschool events, field trips, classes, and activities in
 
 # Find Events
 
-Homeschool Hive helps you discover a wide variety of educational events and activities for your family. This guide shows you how to find and explore events.
+Famlo helps you discover a wide variety of educational events and activities for your family. This guide shows you how to find and explore events.
 
 ## Browse Events
 
@@ -53,7 +53,7 @@ Narrow your search using filters:
 Finding events near you is now smarter with automatic location detection:
 
 - **Automatic Location Detection** - When you visit the Events page, your browser will ask for permission to access your location. Allowing this shows you events closest to you automatically, sorted by proximity.
-- **Smart Search Expansion** - If there are only a few events nearby, Homeschool Hive automatically expands the search radius to show you more options, ensuring you always find great activities.
+- **Smart Search Expansion** - If there are only a few events nearby, Famlo automatically expands the search radius to show you more options, ensuring you always find great activities.
 - **City/Zip Code** - Enter a specific location to search if you prefer not to share your location
 - **Radius** - Choose how far you're willing to travel (5, 10, 25, 50+ miles)
 - **Virtual** - Online events you can attend from home
@@ -176,7 +176,7 @@ Your Watchlist is a personalized collection of events you want to keep tabs on. 
 - **Quick access** to events you want to attend without searching again
 
 :::tip Stay Informed
-When you add an event to your watchlist, Homeschool Hive will notify you about important updates like capacity changes and spot availability.
+When you add an event to your watchlist, Famlo will notify you about important updates like capacity changes and spot availability.
 :::
 
 ### Adding Events to Your Watchlist

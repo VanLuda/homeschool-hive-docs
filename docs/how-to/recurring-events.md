@@ -1,13 +1,13 @@
 ---
 sidebar_position: 6
 title: "How Do I Set Up Recurring Events for My Group?"
-description: "Step-by-step guide to creating recurring homeschool events, weekly classes, and event series on Homeschool Hive"
+description: "Step-by-step guide to creating recurring homeschool events, weekly classes, and event series on Famlo"
 keywords: [recurring homeschool events, event series, weekly homeschool class, homeschool co-op schedule, recurring activities]
 ---
 
 # How Do I Set Up Recurring Events for My Group?
 
-Creating recurring events on Homeschool Hive saves you time by automatically generating multiple sessions for your weekly classes, monthly meetups, or ongoing activity series. Instead of manually creating each session, you can set up an entire semester's worth of events in just a few minutes.
+Creating recurring events on Famlo saves you time by automatically generating multiple sessions for your weekly classes, monthly meetups, or ongoing activity series. Instead of manually creating each session, you can set up an entire semester's worth of events in just a few minutes.
 
 ## Quick Answer
 

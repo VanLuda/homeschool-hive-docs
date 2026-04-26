@@ -4,20 +4,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 function FooterLogo() {
-  const logoUrl = 'https://assets.homeschoolhive.co/ips/icon.svg';
+  const logoUrl = 'https://assets.famlo.co/ips/Famlo.svg';
 
   return (
     <div className={styles.brandColumn}>
       <Link to="/" className={styles.logoLink}>
-        <img src={logoUrl} alt="Homeschool Hive" className={styles.logo} />
-        <span className={styles.brandName}>Homeschool Hive</span>
+        <img src={logoUrl} alt="Famlo" className={styles.logo} />
       </Link>
       <p className={styles.brandDescription}>
         The all-in-one platform for homeschool groups. Organize events, manage memberships, and build community.
       </p>
       <div className={styles.socialLinks}>
         <a
-          href="https://www.facebook.com/homeschoolhive.co"
+          href="https://www.facebook.com/famlo"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Facebook"
@@ -28,7 +27,7 @@ function FooterLogo() {
           </svg>
         </a>
         <a
-          href="https://www.linkedin.com/company/homeschoolhive/"
+          href="https://www.linkedin.com/company/famlo-co/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -65,18 +64,18 @@ const footerLinks: FooterLinkColumn[] = [
     ],
   },
   {
-    title: 'Homeschool Hive',
+    title: 'Famlo',
     items: [
-      { label: 'Go to App', href: 'https://homeschoolhive.co' },
-      { label: 'Find Groups', href: 'https://homeschoolhive.co/groups' },
-      { label: 'Find Events', href: 'https://homeschoolhive.co/events' },
+      { label: 'Go to App', href: 'https://famlo.co' },
+      { label: 'Find Groups', href: 'https://famlo.co/groups' },
+      { label: 'Find Events', href: 'https://famlo.co/events' },
     ],
   },
   {
     title: 'Resources',
     items: [
       { label: 'Changelog', to: '/changelog' },
-      { label: 'Contact Support', href: 'mailto:support@homeschoolhive.co' },
+      { label: 'Contact Support', href: 'mailto:support@famlo.co' },
     ],
   },
 ];

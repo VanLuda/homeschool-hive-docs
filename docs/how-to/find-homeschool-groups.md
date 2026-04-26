@@ -1,23 +1,23 @@
 ---
 sidebar_position: 1
 title: "How Do I Find Homeschool Co-ops Near Me?"
-description: "Step-by-step guide to finding homeschool co-ops and groups near you using Homeschool Hive's discovery tools, map features, and filters."
+description: "Step-by-step guide to finding homeschool co-ops and groups near you using Famlo's discovery tools, map features, and filters."
 keywords: [homeschool co-op near me, find homeschool groups, homeschool community, local homeschool groups, homeschool co-op finder]
 ---
 
 # How Do I Find Homeschool Co-ops Near Me?
 
-Finding the right homeschool co-op or group can transform your family's homeschooling experience. Whether you are looking for academic co-ops, field trip groups, or social connections for your children, Homeschool Hive makes discovering local homeschool communities simple and efficient.
+Finding the right homeschool co-op or group can transform your family's homeschooling experience. Whether you are looking for academic co-ops, field trip groups, or social connections for your children, Famlo makes discovering local homeschool communities simple and efficient.
 
 ## Quick Answer
 
-To find homeschool co-ops near you, go to the **Groups** page on Homeschool Hive, allow location access when prompted, and browse groups automatically sorted by distance. Use filters like age range, faith, academic focus, and radius to narrow down results that match your family's needs.
+To find homeschool co-ops near you, go to the **Groups** page on Famlo, allow location access when prompted, and browse groups automatically sorted by distance. Use filters like age range, faith, academic focus, and radius to narrow down results that match your family's needs.
 
 ## Step-by-Step Guide
 
 ### Step 1: Navigate to the Groups Page
 
-1. Log in to your Homeschool Hive account
+1. Log in to your Famlo account
 2. Click **Groups** in the main navigation menu
 3. You will see a list of available homeschool groups in your area
 
@@ -30,7 +30,7 @@ When you first visit the Groups page, your browser will ask for permission to ac
 3. The closest homeschool co-ops appear at the top of the list
 
 :::tip Smart Search Expansion
-If there are only a few groups nearby, Homeschool Hive automatically expands the search radius to show you more options. This ensures you always find great communities, even in rural areas.
+If there are only a few groups nearby, Famlo automatically expands the search radius to show you more options. This ensures you always find great communities, even in rural areas.
 :::
 
 ### Step 3: Use the Interactive Map

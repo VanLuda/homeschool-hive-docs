@@ -1,12 +1,12 @@
 ---
 sidebar_position: 3
 title: Set Up Notifications
-description: Configure how and when you receive notifications from Homeschool Hive.
+description: Configure how and when you receive notifications from Famlo.
 ---
 
 # Set Up Notifications
 
-Homeschool Hive sends notifications to keep you informed about group activities, event updates, and important announcements. You can customize how and when you receive these notifications.
+Famlo sends notifications to keep you informed about group activities, event updates, and important announcements. You can customize how and when you receive these notifications.
 
 ## Access Notification Settings
 
@@ -30,7 +30,7 @@ Email notifications are sent to your registered email address. You can enable or
 
 ### Push Notifications
 
-Browser push notifications deliver instant alerts to your device, even when Homeschool Hive isn't open in your browser.
+Browser push notifications deliver instant alerts to your device, even when Famlo isn't open in your browser.
 
 :::tip What are Push Notifications?
 Push notifications are real-time alerts that appear on your desktop or mobile device. They work similar to app notifications on your phone, allowing you to stay updated without keeping the website open.
@@ -47,7 +47,7 @@ Push notifications work on modern browsers including:
 
 #### Enabling Push Notifications
 
-Push notifications are automatically enabled when you first use Homeschool Hive. When prompted:
+Push notifications are automatically enabled when you first use Famlo. When prompted:
 
 1. Click **Allow** in the permission dialog that appears
 2. You'll start receiving instant notifications based on your preferences
@@ -74,7 +74,7 @@ If you accidentally blocked notifications or want to re-enable them:
 
 **Safari:**
 1. Go to **Safari** > **Settings** > **Websites** > **Notifications**
-2. Find homeschoolhive.co in the list
+2. Find famlo.co in the list
 3. Change the setting to **Allow**
 4. Refresh the page
 
@@ -168,7 +168,7 @@ For email notifications, you can also set:
 
 If you want to stop receiving email notifications:
 
-1. Click **Unsubscribe** at the bottom of any Homeschool Hive email
+1. Click **Unsubscribe** at the bottom of any Famlo email
 2. Or go to **Account Settings** > **Notifications** and disable email notifications
 
 :::note Account Emails

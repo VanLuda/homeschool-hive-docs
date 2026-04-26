@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Complete Your Profile
-description: Set up your profile and add your family members to get the most out of Homeschool Hive.
+description: Set up your profile and add your family members to get the most out of Famlo.
 ---
 
 # Complete Your Profile

@@ -1,23 +1,23 @@
 ---
 sidebar_position: 14
 title: "How Do I Update My Payment Method?"
-description: "Step-by-step guide to updating your credit card and managing payment methods on Homeschool Hive"
+description: "Step-by-step guide to updating your credit card and managing payment methods on Famlo"
 keywords: [update payment, change credit card, payment method, add new card, remove payment method]
 ---
 
 # How Do I Update My Payment Method?
 
-Keeping your payment information up to date ensures seamless registration for paid events and group memberships. This guide shows you how to add, update, and remove payment methods on Homeschool Hive.
+Keeping your payment information up to date ensures seamless registration for paid events and group memberships. This guide shows you how to add, update, and remove payment methods on Famlo.
 
 ## Quick Answer
 
 To update your payment method, go to **Account** > **Payment Methods**. From there, you can add a new card by clicking "Add Payment Method," or remove an existing card by clicking the trash icon. Your saved payment methods work across all groups on the platform through Stripe's secure payment system.
 
-## Understanding Payment Methods on Homeschool Hive
+## Understanding Payment Methods on Famlo
 
 ### How Payments Work
 
-- **Secure storage** - All payment information is stored securely with Stripe, not on Homeschool Hive servers
+- **Secure storage** - All payment information is stored securely with Stripe, not on Famlo servers
 - **Platform-wide** - Saved cards work for any group you join on the platform
 - **Multiple cards** - You can save multiple payment methods and choose which to use at checkout
 - **Stripe Link** - Your cards work with Stripe Link for faster checkout across many websites
@@ -135,13 +135,13 @@ If a subscription payment fails:
 ### How Your Data Is Protected
 
 - **PCI Compliance** - Stripe maintains the highest level of payment security certification
-- **No storage on our servers** - Card numbers are never stored on Homeschool Hive
+- **No storage on our servers** - Card numbers are never stored on Famlo
 - **Encrypted transmission** - All payment data is encrypted in transit
 - **Tokenization** - Your actual card number is replaced with a secure token
 
-### What Homeschool Hive Can See
+### What Famlo Can See
 
-Group leaders and Homeschool Hive staff can see:
+Group leaders and Famlo staff can see:
 - That a payment was made
 - The last 4 digits of your card
 - The card brand (Visa, Mastercard, etc.)
@@ -180,12 +180,12 @@ They cannot see:
 **A charge appeared that I do not recognize**
 - Check your RSVP history and subscription list
 - Contact the group leader if the charge is from a specific group
-- Reach out to Homeschool Hive support if needed
+- Reach out to Famlo support if needed
 
 ## Frequently Asked Questions
 
-**Is it safe to save my card on Homeschool Hive?**
-Yes. Your card information is stored securely by Stripe, a leading payment processor. Homeschool Hive never sees or stores your full card number.
+**Is it safe to save my card on Famlo?**
+Yes. Your card information is stored securely by Stripe, a leading payment processor. Famlo never sees or stores your full card number.
 
 **Can group leaders see my payment details?**
 No. Group leaders can only see that a payment was made, the amount, and the last 4 digits of your card.
@@ -194,7 +194,7 @@ No. Group leaders can only see that a payment was made, the amount, and the last
 You can save multiple payment methods. There is no strict limit.
 
 **What cards are accepted?**
-Homeschool Hive accepts Visa, Mastercard, American Express, and Discover through Stripe.
+Famlo accepts Visa, Mastercard, American Express, and Discover through Stripe.
 
 **Do I need to save a card to join free groups?**
 No. Payment methods are only required for paid transactions.

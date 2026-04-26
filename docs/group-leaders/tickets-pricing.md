@@ -185,7 +185,7 @@ Total registrations stop at 50, even if individual ticket types haven't sold out
 
 When attendees pay, they may see:
 - **Ticket price** - Your set price
-- **Platform fee** - Homeschool Hive fee
+- **Platform fee** - Famlo fee
 - **Processing fee** - Payment processing cost
 
 ### Price Display Options

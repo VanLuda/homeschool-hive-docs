@@ -1,12 +1,12 @@
 ---
 sidebar_position: 5
 title: Blocked Users
-description: Learn how to block and unblock users in Homeschool Hive, and understand what happens when you block someone.
+description: Learn how to block and unblock users in Famlo, and understand what happens when you block someone.
 ---
 
 # Blocked Users
 
-Blocking a user prevents them from interacting with you on Homeschool Hive. This guide explains how to block someone, what blocking does, and how to manage your blocked users list.
+Blocking a user prevents them from interacting with you on Famlo. This guide explains how to block someone, what blocking does, and how to manage your blocked users list.
 
 ## How to Block a User
 

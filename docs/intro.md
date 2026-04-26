@@ -1,14 +1,14 @@
 ---
 sidebar_position: 1
-title: Welcome to Homeschool Hive
-description: Learn how to use Homeschool Hive to connect with homeschool groups, discover events, and manage your homeschool community.
+title: Welcome to Famlo
+description: Learn how to use Famlo to connect with homeschool groups, discover events, and manage your homeschool community.
 ---
 
-# Welcome to Homeschool Hive
+# Welcome to Famlo
 
-Homeschool Hive is a platform designed to help homeschool families connect with local groups, discover educational events, and build thriving homeschool communities.
+Famlo is a platform designed to help homeschool families connect with local groups, discover educational events, and build thriving homeschool communities.
 
-## What Can You Do with Homeschool Hive?
+## What Can You Do with Famlo?
 
 ### For Parents and Families
 
@@ -28,7 +28,7 @@ Homeschool Hive is a platform designed to help homeschool families connect with 
 
 ## Getting Started
 
-New to Homeschool Hive? Here's how to get started:
+New to Famlo? Here's how to get started:
 
 1. **[Create Your Account](/docs/getting-started/create-account)** - Sign up and verify your email
 2. **[Complete Your Profile](/docs/getting-started/complete-profile)** - Add your family information and children
@@ -70,4 +70,4 @@ New to Homeschool Hive? Here's how to get started:
 If you encounter any issues or have questions:
 
 - **Report a Problem** - Use the "Report a Problem" feature in your account settings
-- **Contact Support** - Email us at support@homeschoolhive.co
+- **Contact Support** - Email us at support@famlo.co

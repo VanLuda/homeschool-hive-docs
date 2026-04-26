@@ -1,13 +1,13 @@
 ---
 sidebar_position: 8
 title: "How Do I Export My Calendar to Google or Apple?"
-description: "Step-by-step guide to syncing your Homeschool Hive events with Google Calendar, Apple Calendar, and other calendar apps"
+description: "Step-by-step guide to syncing your Famlo events with Google Calendar, Apple Calendar, and other calendar apps"
 keywords: [sync homeschool calendar, export calendar, calendar subscription, Google Calendar sync, Apple Calendar homeschool]
 ---
 
 # How Do I Export My Calendar to Google or Apple?
 
-Keep all your homeschool events in sync with your favorite calendar app. Homeschool Hive provides a calendar subscription link that automatically updates your Google Calendar, Apple Calendar, Outlook, or any other calendar app whenever you RSVP to new events or your schedule changes.
+Keep all your homeschool events in sync with your favorite calendar app. Famlo provides a calendar subscription link that automatically updates your Google Calendar, Apple Calendar, Outlook, or any other calendar app whenever you RSVP to new events or your schedule changes.
 
 ## Quick Answer
 
@@ -22,7 +22,7 @@ Unlike a one-time export, a calendar subscription creates a live connection:
 1. **You subscribe once** - Add the URL to your calendar app
 2. **Events sync automatically** - New RSVPs appear, cancellations disappear
 3. **Updates happen regularly** - Most apps check for updates every 15-60 minutes
-4. **It's read-only** - Changes must be made in Homeschool Hive, not your calendar app
+4. **It's read-only** - Changes must be made in Famlo, not your calendar app
 
 ### What Gets Synced
 
@@ -33,13 +33,13 @@ Your calendar subscription includes:
 - Event name, date, time, and duration
 - Location information
 - Event description and group name
-- Link back to the event on Homeschool Hive
+- Link back to the event on Famlo
 
 ## Step-by-Step Guide
 
 ### Step 1: Get Your Calendar Subscription URL
 
-1. Log in to Homeschool Hive
+1. Log in to Famlo
 2. Navigate to **My Events** in the main navigation
 3. Click **Calendar** to view your calendar
 4. Look for the **Subscribe** or **Sync Calendar** button
@@ -58,7 +58,7 @@ Your calendar URL is personal and unique to your account. Anyone with this URL c
 2. In the left sidebar, find **Other calendars**
 3. Click the **+** button next to it
 4. Select **From URL**
-5. Paste your Homeschool Hive calendar URL
+5. Paste your Famlo calendar URL
 6. Click **Add calendar**
 7. Your events will appear within a few minutes
 
@@ -86,7 +86,7 @@ Google Calendar typically syncs subscribed calendars every 12-24 hours. You can'
 4. Tap **Add Account**
 5. Select **Other**
 6. Tap **Add Subscribed Calendar**
-7. Paste your Homeschool Hive calendar URL
+7. Paste your Famlo calendar URL
 8. Tap **Next**, then **Save**
 
 **On Mac:**
@@ -111,7 +111,7 @@ Google Calendar typically syncs subscribed calendars every 12-24 hours. You can'
 4. Select **Add Calendar** > **From Internet...**
 5. Paste your subscription URL
 6. Click **OK**
-7. Name the calendar "Homeschool Hive"
+7. Name the calendar "Famlo"
 8. Click **Yes** to subscribe
 
 **Outlook Web (outlook.com):**
@@ -135,7 +135,7 @@ Most calendar apps support iCal/ICS subscriptions. Look for options like:
 The general process:
 
 1. Find the calendar subscription feature
-2. Paste your Homeschool Hive URL
+2. Paste your Famlo URL
 3. Save or subscribe
 4. Wait for initial sync to complete
 
@@ -153,7 +153,7 @@ If events aren't showing up:
 
 Most calendar apps let you customize the color of subscribed calendars:
 
-1. Find your Homeschool Hive calendar in the sidebar
+1. Find your Famlo calendar in the sidebar
 2. Right-click (or tap and hold on mobile)
 3. Select "Color" or "Edit"
 4. Choose your preferred color
@@ -162,7 +162,7 @@ Most calendar apps let you customize the color of subscribed calendars:
 
 If you no longer want to sync:
 
-1. Find the Homeschool Hive calendar in your app
+1. Find the Famlo calendar in your app
 2. Right-click and select "Unsubscribe" or "Delete"
 3. Confirm the removal
 4. The calendar and all its events will be removed from your app
@@ -192,11 +192,11 @@ You can add your subscription URL to multiple calendar apps simultaneously. They
 :::
 
 :::tip Sync Timing
-Changes in Homeschool Hive may take 15 minutes to several hours to appear in your calendar app, depending on the app's refresh settings.
+Changes in Famlo may take 15 minutes to several hours to appear in your calendar app, depending on the app's refresh settings.
 :::
 
 :::note Calendar is Read-Only
-You cannot add, edit, or delete Homeschool Hive events from your calendar app. All changes must be made on Homeschool Hive directly.
+You cannot add, edit, or delete Famlo events from your calendar app. All changes must be made on Famlo directly.
 :::
 
 ## Troubleshooting
@@ -209,7 +209,7 @@ You cannot add, edit, or delete Homeschool Hive events from your calendar app. A
 
 **Wrong times showing?**
 - Verify your calendar app's timezone settings
-- Ensure your Homeschool Hive account timezone is correct
+- Ensure your Famlo account timezone is correct
 - Check if daylight saving time might be affecting display
 
 **Duplicate events?**
@@ -224,7 +224,7 @@ You cannot add, edit, or delete Homeschool Hive events from your calendar app. A
 
 ## Related Articles
 
-- [Calendar Views and Navigation](/docs/parents/calendar) - Using the Homeschool Hive calendar
+- [Calendar Views and Navigation](/docs/parents/calendar) - Using the Famlo calendar
 - [RSVPing to Events](/docs/parents/rsvp-events) - How to register for events
 - [Managing Your RSVPs](/docs/parents/find-events) - Viewing and managing registrations
 - [Notification Settings](/docs/getting-started/notifications) - Event reminders and alerts

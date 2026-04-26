@@ -1,7 +1,7 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 /**
- * Homeschool Hive Knowledge Base Sidebar Configuration
+ * Famlo Help Center Sidebar Configuration
  *
  * The sidebar is auto-generated from the docs folder structure.
  * Category ordering and labels are controlled by _category_.json files.

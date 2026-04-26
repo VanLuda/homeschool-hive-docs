@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
 title: "How Do I Start a Homeschool Group?"
-description: "Step-by-step guide to starting and creating a homeschool co-op or group using Homeschool Hive's group management tools."
+description: "Step-by-step guide to starting and creating a homeschool co-op or group using Famlo's group management tools."
 keywords: [start homeschool group, create homeschool co-op, homeschool group leader, homeschool co-op organization, start homeschool community]
 ---
 
 # How Do I Start a Homeschool Group?
 
-Starting a homeschool group or co-op is a rewarding way to build community, share resources, and provide enriching experiences for homeschooling families. Homeschool Hive provides all the tools you need to create, organize, and manage your group from day one.
+Starting a homeschool group or co-op is a rewarding way to build community, share resources, and provide enriching experiences for homeschooling families. Famlo provides all the tools you need to create, organize, and manage your group from day one.
 
 ## Quick Answer
 
@@ -39,7 +39,7 @@ Take time to consider these foundational questions:
 
 ### Step 1: Start the Group Creation Process
 
-1. Log in to your Homeschool Hive account
+1. Log in to your Famlo account
 2. Click **Groups** in the main navigation
 3. Click the **Create Group** button
 4. The group creation wizard opens

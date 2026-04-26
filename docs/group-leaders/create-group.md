@@ -1,12 +1,12 @@
 ---
 sidebar_position: 1
 title: Create a Group
-description: Learn how to create and set up your homeschool group on Homeschool Hive.
+description: Learn how to create and set up your homeschool group on Famlo.
 ---
 
 # Create a Group
 
-This guide walks you through creating your own homeschool group on Homeschool Hive, from basic setup to configuring membership options.
+This guide walks you through creating your own homeschool group on Famlo, from basic setup to configuring membership options.
 
 ## Before You Start
 

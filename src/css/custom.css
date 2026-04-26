@@ -29,21 +29,31 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.navbar__title.text--truncate {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+/* Wordmark logo (Famlo): scale up from default 2rem so the wordmark is legible.
+   `display: inline !important` is needed because the Logo component renders the
+   img wrapped in @docusaurus/theme-common's ThemedComponent, whose CSS module
+   defaults to `display: none` and only overrides via [data-theme='...'] selectors.
+   With our setup that override wasn't winning, so we force-display the img. */
+.navbar__logo {
+  height: 2.25rem;
+  margin-right: 0;
 }
-.navbar__title.text--truncate:after {
+.navbar__logo img {
+  display: inline !important;
+  width: auto;
+}
+/* "Help Center" badge displayed after the navbar logo (replaces the old
+   pseudo-element that hung off .navbar__title before the title was removed) */
+.navbar__brand::after {
   content: "Help Center";
   font-weight: 500;
   font-size: 12px;
   border-left: 1px solid #000;
-  padding: 0px 6px;
-  margin: 13px 6px 12px;
+  padding: 0 6px;
+  margin: 13px 6px 12px 0.25rem;
+  align-self: center;
 }
-[data-theme="dark"] .navbar__title.text--truncate:after {
+[data-theme="dark"] .navbar__brand::after {
   border-color: #fff;
 }
 

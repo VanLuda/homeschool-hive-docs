@@ -1,13 +1,13 @@
 ---
 sidebar_position: 15
 title: "How Do I Recover My Account?"
-description: "Step-by-step guide to resetting your password and recovering your Homeschool Hive account"
-keywords: [forgot password, recover account, reset password homeschool hive, can't login, account recovery]
+description: "Step-by-step guide to resetting your password and recovering your Famlo account"
+keywords: [forgot password, recover account, reset password famlo, can't login, account recovery]
 ---
 
 # How Do I Recover My Account?
 
-Forgot your password or having trouble logging in? This guide walks you through the account recovery process on Homeschool Hive, including password resets and troubleshooting common login issues.
+Forgot your password or having trouble logging in? This guide walks you through the account recovery process on Famlo, including password resets and troubleshooting common login issues.
 
 ## Quick Answer
 
@@ -17,7 +17,7 @@ To reset your password, go to the login page and click "Forgot Password." Enter 
 
 ### Step 1: Go to the Forgot Password Page
 
-1. Navigate to [homeschoolhive.co](https://homeschoolhive.co)
+1. Navigate to [famlo.co](https://famlo.co)
 2. Click **Log In** in the top right
 3. On the login page, click **Forgot Password?** below the password field
 
@@ -29,12 +29,12 @@ To reset your password, go to the login page and click "Forgot Password." Enter 
 
 ### Step 3: Check Your Email
 
-1. Look for an email from Homeschool Hive
+1. Look for an email from Famlo
 2. The email subject will be "Reset your password" or similar
 3. Check your spam/junk folder if you do not see it within a few minutes
 
 :::note
-Password reset emails are sent through an unmonitored email account. The sender may show as "noreply@homeschoolhive.co" or similar.
+Password reset emails are sent through an unmonitored email account. The sender may show as "noreply@famlo.co" or similar.
 :::
 
 ### Step 4: Click the Reset Link
@@ -67,7 +67,7 @@ Password reset emails are sent through an unmonitored email account. The sender 
 
 **Check these first:**
 - Look in your spam/junk folder
-- Search for "password reset" or "homeschoolhive" in your email
+- Search for "password reset" or "famlo" in your email
 - Wait a few minutes and check again
 - Make sure you entered the correct email address
 
@@ -92,7 +92,7 @@ Password reset emails are sent through an unmonitored email account. The sender 
 If you are unsure which email is associated with your account:
 
 1. **Think about when you signed up** - Which email were you using at that time?
-2. **Check old emails** - Search for "Homeschool Hive" or "welcome" in different email accounts
+2. **Check old emails** - Search for "Famlo" or "welcome" in different email accounts
 3. **Try common emails** - Attempt the forgot password process with each email you might have used
 4. **Contact support** - If you still cannot find it, reach out for assistance
 
@@ -127,7 +127,7 @@ If you signed up using Google or Apple:
 1. Go to the login page
 2. Click **Continue with Google** or **Continue with Apple**
 3. Complete the authentication with that provider
-4. You will be logged into your Homeschool Hive account
+4. You will be logged into your Famlo account
 
 :::tip
 If you originally signed up with email/password but later linked a social account, you can use either method to log in.
@@ -165,11 +165,11 @@ Since your email is the key to account recovery:
 
 ## Tips
 
-- **Save the login page** - Bookmark homeschoolhive.co for easy access
+- **Save the login page** - Bookmark famlo.co for easy access
 - **Use a password manager** - They securely store and fill passwords
 - **Act on reset emails quickly** - Links expire after 1 hour
-- **Keep one consistent email** - Use the same email for all Homeschool Hive communications
-- **Check spam filters** - Add Homeschool Hive emails to your safe senders list
+- **Keep one consistent email** - Use the same email for all Famlo communications
+- **Check spam filters** - Add Famlo emails to your safe senders list
 
 ## Frequently Asked Questions
 
@@ -186,18 +186,18 @@ If you receive a reset email you did not request, someone may have your email ad
 There is no strict lockout policy, but if you are having repeated issues, try clearing your browser cache, using a different browser, or contacting support for assistance.
 
 **Can I recover my account without access to my email?**
-Contact Homeschool Hive support. You may need to verify your identity through other means.
+Contact Famlo support. You may need to verify your identity through other means.
 
 ## Getting More Help
 
 If you have tried the steps above and still cannot access your account:
 
-1. **Email support** - Contact support@homeschoolhive.co
+1. **Email support** - Contact support@famlo.co
 2. **Include details** - Provide your name, the email you think is associated with your account, and a description of the issue
 3. **Be patient** - Support requests are typically answered within 1-2 business days
 
 ## Related Articles
 
-- [Creating an Account](/docs/getting-started/create-account) - How to sign up for Homeschool Hive
+- [Creating an Account](/docs/getting-started/create-account) - How to sign up for Famlo
 - [Profile Settings](/docs/account/profile-settings) - Managing your account information
 - [Notification Preferences](/docs/getting-started/notifications) - Setting up email and push notifications

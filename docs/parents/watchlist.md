@@ -10,7 +10,7 @@ Your watchlist is a personal collection of events you are interested in. Use it 
 
 ## Accessing Your Watchlist
 
-1. Log in to your Homeschool Hive account.
+1. Log in to your Famlo account.
 2. Click your profile icon or navigate to the main menu.
 3. Select **My Watchlist**.
 
@@ -74,7 +74,7 @@ Events that have already occurred. Past events appear slightly faded. They remai
 One of the most valuable features of the watchlist is capacity monitoring:
 
 1. Add a full or nearly-full event to your watchlist.
-2. If someone cancels their registration and a spot opens, Homeschool Hive notifies you.
+2. If someone cancels their registration and a spot opens, Famlo notifies you.
 3. You can then quickly register before the spot fills again.
 
 :::tip

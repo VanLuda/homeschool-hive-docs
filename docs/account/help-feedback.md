@@ -1,12 +1,12 @@
 ---
 sidebar_position: 8
 title: Help & Feedback
-description: Learn how to get help, report bugs, request features, and contact support in Homeschool Hive.
+description: Learn how to get help, report bugs, request features, and contact support in Famlo.
 ---
 
 # Help & Feedback
 
-Homeschool Hive provides multiple ways to get help and share feedback. Whether you need assistance, found a bug, or have a great idea for a new feature, we're here to help.
+Famlo provides multiple ways to get help and share feedback. Whether you need assistance, found a bug, or have a great idea for a new feature, we're here to help.
 
 :::tip Need Direct Support?
 For account issues, billing questions, or problems that need a response, use **[Support Tickets](/docs/account/support-tickets)** to create a trackable request. You can track status and communicate directly with our support team.
@@ -22,7 +22,7 @@ You can access help and feedback options from anywhere in the app:
 
 ## Help Resources
 
-### Knowledge Base
+### Help Center
 
 Access comprehensive guides and tutorials:
 
@@ -38,7 +38,7 @@ The knowledge base includes:
 - Common questions
 
 :::tip Quick Access
-You can access the knowledge base anytime at [kb.homeschoolhive.co](https://kb.homeschoolhive.co)
+You can access the knowledge base anytime at [help.famlo.co](https://help.famlo.co)
 :::
 
 ### In-App Help
@@ -120,7 +120,7 @@ For issues that need a direct response, use our **[Support Ticket system](/docs/
 
 ## Request a Feature
 
-Have an idea to improve Homeschool Hive? We want to hear it! Feature requests help us understand what matters most to our community.
+Have an idea to improve Famlo? We want to hear it! Feature requests help us understand what matters most to our community.
 
 ### Submit a Feature Request
 
@@ -206,9 +206,9 @@ Reach out to support for:
 ### Support Channels
 
 **Email Support:**
-- General support: support@homeschoolhive.co
-- Privacy inquiries: privacy@homeschoolhive.co
-- Billing questions: billing@homeschoolhive.co
+- General support: support@famlo.co
+- Privacy inquiries: privacy@famlo.co
+- Billing questions: billing@famlo.co
 
 **Response Times:**
 - General inquiries: 1-2 business days
@@ -259,7 +259,7 @@ Let us know:
 - Operating system
 - App version (found in your profile menu)
 
-### Check the Knowledge Base First
+### Check the Help Center First
 
 Before submitting a report:
 - Search the knowledge base for similar issues
@@ -332,7 +332,7 @@ Bug reports and feature requests submitted through the Help menu are also review
 
 For urgent issues:
 - Mark bug reports as "Critical" or "High" severity
-- Email support@homeschoolhive.co directly
+- Email support@famlo.co directly
 - Include "URGENT" in the subject line
 - Provide detailed information to avoid delays
 
@@ -367,4 +367,4 @@ We regularly update the platform based on your feedback!
 1. **[Profile Settings](/docs/account/profile-settings)** - Manage your account
 2. **[Delete Account](/docs/account/delete-account)** - Learn about account deletion
 3. **[Notifications](/docs/getting-started/notifications)** - Configure your alerts
-4. **[Knowledge Base](https://kb.homeschoolhive.co)** - Browse help articles
+4. **[Help Center](https://help.famlo.co)** - Browse help articles
