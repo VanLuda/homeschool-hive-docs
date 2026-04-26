@@ -19,16 +19,6 @@ function HeroSection() {
 
   return (
     <header className={styles.hero}>
-      {/* Cosmic orbital dots */}
-      <div className={styles.cosmicContainer}>
-        <div className={styles.cosmicOrbit}>
-          <img
-            src="https://assets.famlo.co/backgrounds/cosmic-dots.svg"
-            alt=""
-            className={styles.cosmicDots}
-          />
-        </div>
-      </div>
       <div className={`container ${styles.heroContent}`}>
         <Heading as="h1" className={styles.heroTitle}>
           How can we help you?

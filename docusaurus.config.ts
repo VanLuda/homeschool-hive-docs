@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Famlo Help Center',
   tagline: 'Find answers, learn features, and get the most out of Famlo',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://assets.famlo.co/ips/favicon/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -26,7 +26,6 @@ const config: Config = {
   projectName: 'famlo-help-center', // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -39,6 +38,15 @@ const config: Config = {
   clientModules: [
     './src/clientModules/routeListener.ts',
   ],
+
+  markdown: {
+    mdx1Compat: {
+      comments: true,
+    },
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   headTags: [
     {

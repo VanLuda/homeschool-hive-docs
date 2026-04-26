@@ -6,7 +6,7 @@ import type {WrapperProps} from '@docusaurus/types';
 
 type Props = WrapperProps<typeof NavbarItemType>;
 
-export default function NavbarItemWrapper(props: Props): JSX.Element | null {
+export default function NavbarItemWrapper(props: Props): React.JSX.Element | null {
   const location = useLocation();
   const className = (props as any).className || '';
 

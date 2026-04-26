@@ -44,7 +44,7 @@ interface RootProps {
   children: React.ReactNode;
 }
 
-export default function Root({ children }: RootProps): JSX.Element {
+export default function Root({ children }: RootProps): React.JSX.Element {
   return (
     <>
       <Head>

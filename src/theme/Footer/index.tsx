@@ -108,7 +108,7 @@ function FooterLinkColumn({ column }: { column: FooterLinkColumn }) {
   );
 }
 
-export default function Footer(): JSX.Element {
+export default function Footer(): React.JSX.Element {
   const year = new Date().getFullYear();
 
   return (

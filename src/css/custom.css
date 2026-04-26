@@ -6,26 +6,40 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2b7fff;
-  --ifm-color-primary-dark: #0066ff;
-  --ifm-color-primary-darker: #0052cc;
-  --ifm-color-primary-darkest: #003d99;
-  --ifm-color-primary-light: #5599ff;
-  --ifm-color-primary-lighter: #80b3ff;
-  --ifm-color-primary-lightest: #2B7FFF;
+  /* Famlo brand coral — centered on logo color #e84855 at brand-600 */
+  --color-brand-50: #fef2f3;
+  --color-brand-100: #fde3e6;
+  --color-brand-200: #fbc6cc;
+  --color-brand-300: #f59ba4;
+  --color-brand-400: #ef6b79;
+  --color-brand-500: #ec5461;
+  --color-brand-600: #e84855;
+  --color-brand-700: #c5303e;
+  --color-brand-800: #a32832;
+  --color-brand-900: #85212c;
+  --color-brand-950: #4a0e15;
+
+  --ifm-color-primary:          var(--color-brand-600);
+  --ifm-color-primary-dark:     var(--color-brand-700);
+  --ifm-color-primary-darker:   var(--color-brand-800);
+  --ifm-color-primary-darkest:  var(--color-brand-900);
+  --ifm-color-primary-light:    var(--color-brand-500);
+  --ifm-color-primary-lighter:  var(--color-brand-400);
+  --ifm-color-primary-lightest: var(--color-brand-300);
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #2b7fff;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary:          var(--color-brand-500);
+  --ifm-color-primary-dark:     var(--color-brand-600);
+  --ifm-color-primary-darker:   var(--color-brand-700);
+  --ifm-color-primary-darkest:  var(--color-brand-800);
+  --ifm-color-primary-light:    var(--color-brand-400);
+  --ifm-color-primary-lighter:  var(--color-brand-300);
+  --ifm-color-primary-lightest: var(--color-brand-200);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -58,18 +72,16 @@
 }
 
 .navbar__item.navbar__link.button {
-  background: HSL(221, 97%, 54%);
+  background: var(--ifm-color-primary);
   color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .navbar__item.navbar__link.button:hover {
-  background: HSL(221, 97%, 64%)
-  
+  background: var(--ifm-color-primary-light);
 }
 .navbar__item.navbar__link.button:active {
-  background: HSL(221, 97%, 44%)
-  
+  background: var(--ifm-color-primary-dark);
 }
 .no-external-icon >svg {
   display: none!important;
@@ -121,6 +133,6 @@ article > header > h2 {
 }
 
 mark {
-  background-color: rgba(42,127,255,0.5);
+  background-color: rgba(232, 72, 85, 0.35);
   color: inherit;
 }
