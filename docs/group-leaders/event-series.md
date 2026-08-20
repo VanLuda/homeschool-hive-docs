@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 title: Event Series
 description: Learn how to create recurring events with series passes and drop-in options for your homeschool group.
 ---

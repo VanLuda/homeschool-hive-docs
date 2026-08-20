@@ -1,5 +1,5 @@
 ---
-sidebar_position: 13
+sidebar_position: 2
 title: Group Settings Overview
 description: Learn how to access and navigate your group settings to configure every aspect of your Famlo group.
 ---

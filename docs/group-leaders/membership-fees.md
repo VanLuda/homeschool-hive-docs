@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 12
 title: Membership Fees
 description: Learn how to configure and manage membership fees for your group.
 ---

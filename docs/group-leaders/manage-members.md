@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 title: Manage Members
 description: Learn how to approve member requests, assign roles, and manage your group's membership.
 ---

@@ -67,8 +67,8 @@ const footerLinks: FooterLinkColumn[] = [
     title: 'Famlo',
     items: [
       { label: 'Go to App', href: 'https://famlo.co' },
-      { label: 'Find Groups', href: 'https://famlo.co/groups' },
-      { label: 'Find Events', href: 'https://famlo.co/events' },
+      { label: 'Browse activities', href: 'https://famlo.co/activities' },
+      { label: 'Browse organizations', href: 'https://famlo.co/places' },
     ],
   },
   {

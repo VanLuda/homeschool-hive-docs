@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
 title: Manage Events
 description: Learn how to manage RSVPs, series events, and attendance tracking for your group's events.
 ---

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 15
 title: Announcements
 description: Learn how to communicate with your group members through announcements and updates.
 ---

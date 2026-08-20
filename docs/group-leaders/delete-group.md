@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 18
 title: Delete a Group
 description: Learn how to safely close your group, export data, and handle member refunds during the 14-day grace period.
 ---

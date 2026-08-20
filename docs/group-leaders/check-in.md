@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 10
 title: Check-In & Attendance
 description: Learn how to check in attendees and track attendance at your events.
 ---

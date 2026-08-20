@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 11
 title: Stripe Payment Setup
 description: Learn how to connect Stripe to receive payments for memberships and events.
 ---

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 14
+sidebar_position: 17
 title: Custom Reports
 description: Create, run, and export custom reports to track event signups, emergency contacts, scholarship invoices, and group members.
 ---

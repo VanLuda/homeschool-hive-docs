@@ -1,5 +1,5 @@
 ---
-sidebar_position: 12
+sidebar_position: 3
 title: Custom Roles & Permissions
 description: Learn how to create custom roles and manage permissions for your group members.
 ---

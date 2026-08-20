@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 13
 title: Discount Codes
 description: Learn how to create and manage discount codes for your group's events and memberships.
 ---

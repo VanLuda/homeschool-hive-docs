@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 14
 title: Scholarship Invoices
 description: Learn how to generate and manage scholarship invoices for families using education scholarship programs.
 ---

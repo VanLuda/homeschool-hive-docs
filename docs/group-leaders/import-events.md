@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 8
 title: Import Events
 description: Learn how to bulk import events from a CSV file.
 ---

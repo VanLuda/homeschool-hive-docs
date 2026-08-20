@@ -228,12 +228,12 @@ const config: Config = {
               href: 'https://famlo.co',
             },
             {
-              label: 'Find Groups',
-              href: 'https://famlo.co/groups',
+              label: 'Browse activities',
+              href: 'https://famlo.co/activities',
             },
             {
-              label: 'Find Events',
-              href: 'https://famlo.co/events',
+              label: 'Browse organizations',
+              href: 'https://famlo.co/places',
             },
           ],
         },

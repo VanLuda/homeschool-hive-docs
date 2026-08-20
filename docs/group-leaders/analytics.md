@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 16
 title: Analytics and Reporting
 description: Track your group's performance with analytics and reports.
 ---

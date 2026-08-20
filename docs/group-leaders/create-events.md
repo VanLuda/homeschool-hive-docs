@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 title: Create Events
 description: Learn how to create and configure events for your homeschool group.
 ---

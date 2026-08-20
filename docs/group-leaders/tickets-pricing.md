@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 9
 title: Tickets and Pricing
 description: Learn how to configure ticket types, pricing, and add-ons for your events.
 ---
