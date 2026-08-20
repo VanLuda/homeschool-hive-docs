@@ -15,43 +15,43 @@ Base URL: https://help.famlo.co
 
 ### Getting Started
 - https://help.famlo.co/docs/intro - Welcome and platform overview
-- https://help.famlo.co/docs/getting-started/create-account - Account creation and email verification
-- https://help.famlo.co/docs/getting-started/complete-profile - Profile setup and adding family members
-- https://help.famlo.co/docs/getting-started/notifications - Email and push notification preferences
+- https://help.famlo.co/docs/families/getting-started - Account creation and email verification
+- https://help.famlo.co/docs/families/getting-started - Profile setup and adding family members
+- https://help.famlo.co/docs/account/notifications - Email and push notification preferences
 
 ### For Parents
-- https://help.famlo.co/docs/parents/find-groups - Discovering and filtering homeschool groups by location, category, and faith
-- https://help.famlo.co/docs/parents/find-events - Finding events with map view, filters, and watchlist feature
-- https://help.famlo.co/docs/parents/rsvp-events - Event registration, ticket selection, and checkout process
-- https://help.famlo.co/docs/parents/calendar - Personal calendar view and subscription sync to external calendars
-- https://help.famlo.co/docs/parents/group-membership - Joining groups and managing memberships
-- https://help.famlo.co/docs/parents/payments - Payment methods, transaction history, and receipts
+- https://help.famlo.co/docs/families/organizations - Discovering and filtering homeschool groups by location, category, and faith
+- https://help.famlo.co/docs/families/finding-activities - Finding events with map view, filters, and watchlist feature
+- https://help.famlo.co/docs/families/registering - Event registration, ticket selection, and checkout process
+- https://help.famlo.co/docs/families/calendar - Personal calendar view and subscription sync to external calendars
+- https://help.famlo.co/docs/families/organizations - Joining groups and managing memberships
+- https://help.famlo.co/docs/families/payments-and-refunds - Payment methods, transaction history, and receipts
 - https://help.famlo.co/docs/parents/social-feed - Group social feed, posts, reactions, and comments
 
 ### For Group Leaders
-- https://help.famlo.co/docs/group-leaders/create-group - Creating groups with public/private settings and membership models
-- https://help.famlo.co/docs/group-leaders/manage-members - Member management, approvals, roles, and bulk import
-- https://help.famlo.co/docs/group-leaders/create-events - Event creation with tickets, capacity, and custom fields
-- https://help.famlo.co/docs/group-leaders/manage-events - Managing registrations, attendees, and event updates
-- https://help.famlo.co/docs/group-leaders/event-series - Creating recurring event series with series passes
+- https://help.famlo.co/docs/organizations/listing-your-organization - Creating groups with public/private settings and membership models
+- https://help.famlo.co/docs/organizations/members-and-roles - Member management, approvals, roles, and bulk import
+- https://help.famlo.co/docs/organizations/activities - Event creation with tickets, capacity, and custom fields
+- https://help.famlo.co/docs/organizations/activities - Managing registrations, attendees, and event updates
+- https://help.famlo.co/docs/organizations/activities - Creating recurring event series with series passes
 - https://help.famlo.co/docs/group-leaders/import-events - Bulk event import via CSV
-- https://help.famlo.co/docs/group-leaders/check-in - Attendance tracking and check-in system
-- https://help.famlo.co/docs/group-leaders/tickets-pricing - Ticket types, pricing tiers, and capacity management
-- https://help.famlo.co/docs/group-leaders/payments-stripe - Stripe Connect integration for receiving payments
-- https://help.famlo.co/docs/group-leaders/membership-fees - Setting up paid memberships and billing cycles
-- https://help.famlo.co/docs/group-leaders/discount-codes - Creating promotional and discount codes
-- https://help.famlo.co/docs/group-leaders/scholarship-invoices - Generating scholarship invoices for families
-- https://help.famlo.co/docs/group-leaders/analytics - Dashboard metrics and group analytics
-- https://help.famlo.co/docs/group-leaders/announcements - Sending group announcements via feed and email
+- https://help.famlo.co/docs/organizations/attendance - Attendance tracking and check-in system
+- https://help.famlo.co/docs/organizations/tickets-and-pricing - Ticket types, pricing tiers, and capacity management
+- https://help.famlo.co/docs/organizations/getting-paid - Stripe Connect integration for receiving payments
+- https://help.famlo.co/docs/organizations/membership-dues - Setting up paid memberships and billing cycles
+- https://help.famlo.co/docs/organizations/promo-codes - Creating promotional and discount codes
+- https://help.famlo.co/docs/organizations/scholarships - Generating scholarship invoices for families
+- https://help.famlo.co/docs/organizations/insights - Dashboard metrics and group analytics
+- https://help.famlo.co/docs/organizations/members-and-roles - Sending group announcements via feed and email
 - https://help.famlo.co/docs/group-leaders/custom-roles - Creating custom roles with granular permissions
-- https://help.famlo.co/docs/group-leaders/delete-group - Group deletion process and data export
+- https://help.famlo.co/docs/organizations/closing-your-listing - Group deletion process and data export
 
 ### Account & Settings
-- https://help.famlo.co/docs/account/profile-settings - Profile editing, password, and two-factor authentication (MFA)
-- https://help.famlo.co/docs/account/family-members - Managing children, adults, and emergency contacts
-- https://help.famlo.co/docs/account/payment-methods - Saved payment methods and default card settings
+- https://help.famlo.co/docs/account/login-and-security - Profile editing, password, and two-factor authentication (MFA)
+- https://help.famlo.co/docs/families/your-family - Managing children, adults, and emergency contacts
+- https://help.famlo.co/docs/families/payments-and-refunds - Saved payment methods and default card settings
 - https://help.famlo.co/docs/account/help-feedback - Submitting bug reports and feature requests
-- https://help.famlo.co/docs/account/delete-account - Account deletion and data removal
+- https://help.famlo.co/docs/account/closing-your-account - Account deletion and data removal
 
 ### Changelog
 - https://help.famlo.co/changelog - Release notes and version history

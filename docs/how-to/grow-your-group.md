@@ -42,7 +42,7 @@ Regular communication keeps your group top-of-mind and encourages word-of-mouth 
 - **Share photos and recaps** from recent events (with permission) to show the value of membership
 - **Welcome new members publicly** to make them feel included immediately
 
-See [Announcements](/docs/group-leaders/announcements) for detailed guidance on effective group communications.
+See [Announcements](/docs/organizations/members-and-roles) for detailed guidance on effective group communications.
 
 ### 4. Encourage Member Referrals
 
@@ -109,7 +109,7 @@ Track these metrics to understand your progress:
 
 ## Related Articles
 
-- [Announcements](/docs/group-leaders/announcements) - Master group communications
-- [Create Events](/docs/group-leaders/create-events) - Plan events that attract families
-- [Manage Members](/docs/group-leaders/manage-members) - Handle membership requests effectively
+- [Announcements](/docs/organizations/members-and-roles) - Master group communications
+- [Create Events](/docs/organizations/activities) - Plan events that attract families
+- [Manage Members](/docs/organizations/members-and-roles) - Handle membership requests effectively
 - [How Do I Build Community in My Homeschool Group?](/docs/how-to/build-community) - Deepen member engagement

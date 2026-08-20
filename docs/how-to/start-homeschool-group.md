@@ -173,7 +173,7 @@ If you chose paid membership, connect a Stripe account:
 3. Provide business information and banking details
 4. Complete verification
 
-Your group remains in draft status until Stripe verification is complete. See [Stripe Setup](/docs/group-leaders/payments-stripe) for detailed instructions.
+Your group remains in draft status until Stripe verification is complete. See [Stripe Setup](/docs/organizations/getting-paid) for detailed instructions.
 
 ### Step 10: Review and Launch
 
@@ -224,8 +224,8 @@ If you are collecting membership fees, consider whether to absorb platform fees 
 
 ## Related Articles
 
-- [Manage Group Members](/docs/group-leaders/manage-members) - Approve requests and assign roles
-- [Create Events](/docs/group-leaders/create-events) - Organize activities for your group
-- [Set Up Stripe Payments](/docs/group-leaders/payments-stripe) - Configure payment processing
-- [Membership Fees](/docs/group-leaders/membership-fees) - Advanced membership billing options
-- [Custom Roles](/docs/group-leaders/manage-members) - Create specialized permissions for your team
+- [Manage Group Members](/docs/organizations/members-and-roles) - Approve requests and assign roles
+- [Create Events](/docs/organizations/activities) - Organize activities for your group
+- [Set Up Stripe Payments](/docs/organizations/getting-paid) - Configure payment processing
+- [Membership Fees](/docs/organizations/membership-dues) - Advanced membership billing options
+- [Custom Roles](/docs/organizations/members-and-roles) - Create specialized permissions for your team

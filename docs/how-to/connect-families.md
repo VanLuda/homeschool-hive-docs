@@ -285,8 +285,8 @@ If large events feel overwhelming, look for smaller gatherings, one-on-one playd
 
 ## Related Articles
 
-- [Find Groups](/docs/parents/find-groups) - Discover homeschool groups in your area
-- [Join a Group](/docs/parents/group-membership) - Learn about the membership process
-- [Social Feed](/docs/parents/group-membership) - Detailed guide to feed features
-- [Find Events](/docs/parents/find-events) - Browse activities and events
+- [Find Groups](/docs/families/organizations) - Discover homeschool groups in your area
+- [Join a Group](/docs/families/organizations) - Learn about the membership process
+- [Social Feed](/docs/families/organizations) - Detailed guide to feed features
+- [Find Events](/docs/families/finding-activities) - Browse activities and events
 - [Start a Group](/docs/how-to/start-homeschool-group) - Create your own homeschool community

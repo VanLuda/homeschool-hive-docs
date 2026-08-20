@@ -1,8 +1,8 @@
 {
-  "label": "How-To Guides",
-  "position": 6,
+  "label": "How-to guides",
+  "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Step-by-step answers to common questions about homeschooling and using Famlo."
+    "description": "Answers to specific questions."
   }
 }

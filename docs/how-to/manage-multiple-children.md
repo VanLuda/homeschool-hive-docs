@@ -243,7 +243,7 @@ Medical information remains in your family profile. It's only shared with organi
 
 ## Related Articles
 
-- [Profile Settings](/docs/account/profile-settings) - Managing your own account
-- [RSVPing to Events](/docs/parents/rsvp-events) - Event registration details
-- [Payment Methods](/docs/account/payment-methods) - Managing payment for registrations
-- [Finding Events](/docs/parents/find-events) - Discovering activities for your family
+- [Profile Settings](/docs/account/login-and-security) - Managing your own account
+- [RSVPing to Events](/docs/families/registering) - Event registration details
+- [Payment Methods](/docs/families/payments-and-refunds) - Managing payment for registrations
+- [Finding Events](/docs/families/finding-activities) - Discovering activities for your family

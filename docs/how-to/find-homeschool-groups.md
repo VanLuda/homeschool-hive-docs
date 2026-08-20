@@ -145,7 +145,7 @@ If you live in a rural area with few local options, filter for **Online Groups**
 
 ## Related Articles
 
-- [Join a Group](/docs/parents/group-membership) - Learn how to request membership or complete payment
-- [Find Events](/docs/parents/find-events) - Browse activities from groups you have joined
-- [RSVP for Events](/docs/parents/rsvp-events) - Register your family for group activities
+- [Join a Group](/docs/families/organizations) - Learn how to request membership or complete payment
+- [Find Events](/docs/families/finding-activities) - Browse activities from groups you have joined
+- [RSVP for Events](/docs/families/registering) - Register your family for group activities
 - [Start Your Own Group](/docs/how-to/start-homeschool-group) - Create a new homeschool co-op if you cannot find what you need

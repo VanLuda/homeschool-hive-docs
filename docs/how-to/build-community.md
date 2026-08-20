@@ -24,7 +24,7 @@ Consistent communication creates connection even when families are not together:
 - **Event recaps**: Post photos and highlights (with permission) so families feel included even if they missed an event
 - **Quick updates**: Share timely information like weather changes or last-minute opportunities
 
-Use the social feed to maintain an ongoing conversation. See [Social Feed](/docs/parents/group-membership) for how members can interact with your posts.
+Use the social feed to maintain an ongoing conversation. See [Social Feed](/docs/families/organizations) for how members can interact with your posts.
 
 ### 2. Create Opportunities for Unstructured Connection
 
@@ -161,7 +161,7 @@ You know your community is thriving when:
 
 ## Related Articles
 
-- [Social Feed](/docs/parents/group-membership) - Help members engage with your posts
-- [Announcements](/docs/group-leaders/announcements) - Communicate effectively with your group
-- [Manage Members](/docs/group-leaders/manage-members) - Onboard new families well
+- [Social Feed](/docs/families/organizations) - Help members engage with your posts
+- [Announcements](/docs/organizations/members-and-roles) - Communicate effectively with your group
+- [Manage Members](/docs/organizations/members-and-roles) - Onboard new families well
 - [How Do I Grow My Homeschool Group?](/docs/how-to/grow-your-group) - Expand your community thoughtfully

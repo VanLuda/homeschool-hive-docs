@@ -46,7 +46,7 @@ Use the ticketing system to create flexible pricing options:
 - **Family ticket**: Discounted rate for families bringing multiple children
 - **Sibling discount**: Reduced price for additional children from the same family
 
-See [Tickets and Pricing](/docs/group-leaders/tickets-pricing) for detailed instructions on configuring ticket types.
+See [Tickets and Pricing](/docs/organizations/tickets-and-pricing) for detailed instructions on configuring ticket types.
 
 ### 4. Consider Your Group's Philosophy
 
@@ -115,7 +115,7 @@ Unfortunately, some registered families will not attend. Consider requiring paym
 :::
 
 :::note Payment Processing Fees
-Remember that Famlo and Stripe charge payment processing fees. Factor these into your pricing or note them as a separate line item. See [Payments and Stripe](/docs/group-leaders/payments-stripe) for details.
+Remember that Famlo and Stripe charge payment processing fees. Factor these into your pricing or note them as a separate line item. See [Payments and Stripe](/docs/organizations/getting-paid) for details.
 :::
 
 ## Sample Pricing Scenarios
@@ -149,7 +149,7 @@ Remember that Famlo and Stripe charge payment processing fees. Factor these into
 
 ## Related Articles
 
-- [Tickets and Pricing](/docs/group-leaders/tickets-pricing) - Configure ticket types and discounts
-- [Payments and Stripe](/docs/group-leaders/payments-stripe) - Set up payment processing
-- [Create Events](/docs/group-leaders/create-events) - Build your event listings
-- [Membership Fees](/docs/group-leaders/membership-fees) - Set up recurring group membership billing
+- [Tickets and Pricing](/docs/organizations/tickets-and-pricing) - Configure ticket types and discounts
+- [Payments and Stripe](/docs/organizations/getting-paid) - Set up payment processing
+- [Create Events](/docs/organizations/activities) - Build your event listings
+- [Membership Fees](/docs/organizations/membership-dues) - Set up recurring group membership billing

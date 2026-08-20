@@ -198,6 +198,6 @@ If you have tried the steps above and still cannot access your account:
 
 ## Related Articles
 
-- [Creating an Account](/docs/getting-started/create-account) - How to sign up for Famlo
-- [Profile Settings](/docs/account/profile-settings) - Managing your account information
-- [Notification Preferences](/docs/getting-started/notifications) - Setting up email and push notifications
+- [Creating an Account](/docs/families/getting-started) - How to sign up for Famlo
+- [Profile Settings](/docs/account/login-and-security) - Managing your account information
+- [Notification Preferences](/docs/account/notifications) - Setting up email and push notifications

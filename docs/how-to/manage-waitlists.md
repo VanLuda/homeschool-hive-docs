@@ -190,6 +190,6 @@ Yes, group leaders have the ability to add attendees even when an event is at ca
 
 ## Related Articles
 
-- [Managing Events](/docs/group-leaders/manage-events) - Complete guide to event management
-- [RSVP and Registration](/docs/parents/rsvp-events) - How to register for events
-- [Notification Preferences](/docs/getting-started/notifications) - Configure your notification settings
+- [Managing Events](/docs/organizations/activities) - Complete guide to event management
+- [RSVP and Registration](/docs/families/registering) - How to register for events
+- [Notification Preferences](/docs/account/notifications) - Configure your notification settings

@@ -86,7 +86,7 @@ Tell families exactly what to do next:
 - "Register by Friday to ensure we have enough materials for your child."
 - "Questions? Contact [leader name] through Famlo messaging."
 
-See [Create Events](/docs/group-leaders/create-events) for step-by-step instructions on building your event listing.
+See [Create Events](/docs/organizations/activities) for step-by-step instructions on building your event listing.
 
 ## Tips
 
@@ -162,7 +162,7 @@ Use this structure as a starting point:
 
 ## Related Articles
 
-- [Create Events](/docs/group-leaders/create-events) - Build and publish your event
-- [Manage Events](/docs/group-leaders/manage-events) - Handle RSVPs and updates
-- [Announcements](/docs/group-leaders/announcements) - Promote events to your members
+- [Create Events](/docs/organizations/activities) - Build and publish your event
+- [Manage Events](/docs/organizations/activities) - Handle RSVPs and updates
+- [Announcements](/docs/organizations/members-and-roles) - Promote events to your members
 - [How Do I Grow My Homeschool Group?](/docs/how-to/grow-your-group) - Attract more families to your events

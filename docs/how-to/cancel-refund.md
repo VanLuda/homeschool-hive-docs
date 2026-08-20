@@ -153,6 +153,6 @@ Refunds typically appear on your statement within 5-10 business days, depending 
 
 ## Related Articles
 
-- [RSVP and Event Registration](/docs/parents/rsvp-events) - Learn how to register for events
-- [Payment Methods](/docs/account/payment-methods) - Managing your saved payment methods
-- [Finding Events](/docs/parents/find-events) - Discover events in your area
+- [RSVP and Event Registration](/docs/families/registering) - Learn how to register for events
+- [Payment Methods](/docs/families/payments-and-refunds) - Managing your saved payment methods
+- [Finding Events](/docs/families/finding-activities) - Discover events in your area

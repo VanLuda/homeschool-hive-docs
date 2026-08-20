@@ -204,6 +204,6 @@ The new owner should refresh their browser. They will see their new Owner role r
 
 ## Related Articles
 
-- [Custom Roles](/docs/group-leaders/manage-members) - Creating custom roles for your group
-- [Managing Members](/docs/group-leaders/manage-members) - Approving and managing group membership
-- [Create a Group](/docs/group-leaders/create-group) - Setting up a new homeschool group
+- [Custom Roles](/docs/organizations/members-and-roles) - Creating custom roles for your group
+- [Managing Members](/docs/organizations/members-and-roles) - Approving and managing group membership
+- [Create a Group](/docs/organizations/listing-your-organization) - Setting up a new homeschool group

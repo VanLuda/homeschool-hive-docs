@@ -224,7 +224,7 @@ You cannot add, edit, or delete Famlo events from your calendar app. All changes
 
 ## Related Articles
 
-- [Calendar Views and Navigation](/docs/parents/calendar) - Using the Famlo calendar
-- [RSVPing to Events](/docs/parents/rsvp-events) - How to register for events
-- [Managing Your RSVPs](/docs/parents/find-events) - Viewing and managing registrations
-- [Notification Settings](/docs/getting-started/notifications) - Event reminders and alerts
+- [Calendar Views and Navigation](/docs/families/calendar) - Using the Famlo calendar
+- [RSVPing to Events](/docs/families/registering) - How to register for events
+- [Managing Your RSVPs](/docs/families/finding-activities) - Viewing and managing registrations
+- [Notification Settings](/docs/account/notifications) - Event reminders and alerts

@@ -248,8 +248,8 @@ Your personal calendar on Famlo shows all events you have attended. This provide
 
 ## Related Articles
 
-- [Check-In and Attendance](/docs/group-leaders/check-in) - Detailed check-in feature documentation
-- [Event Series](/docs/group-leaders/event-series) - Create recurring events with series passes
-- [Analytics](/docs/group-leaders/analytics) - Use attendance data for insights
-- [Calendar](/docs/parents/calendar) - View your personal event history
-- [Manage Events](/docs/group-leaders/manage-events) - Complete event management guide
+- [Check-In and Attendance](/docs/organizations/attendance) - Detailed check-in feature documentation
+- [Event Series](/docs/organizations/activities) - Create recurring events with series passes
+- [Analytics](/docs/organizations/insights) - Use attendance data for insights
+- [Calendar](/docs/families/calendar) - View your personal event history
+- [Manage Events](/docs/organizations/activities) - Complete event management guide

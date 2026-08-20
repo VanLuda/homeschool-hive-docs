@@ -172,7 +172,7 @@ Each session has its own attendance tracking. You can view cumulative attendance
 
 ## Related Articles
 
-- [Creating Events](/docs/group-leaders/create-events) - Basic event creation guide
-- [Managing Event Series](/docs/group-leaders/event-series) - Advanced series management
-- [Tickets and Pricing](/docs/group-leaders/tickets-pricing) - Setting up paid events
-- [Event Capacity and RSVPs](/docs/group-leaders/manage-events) - Managing registrations
+- [Creating Events](/docs/organizations/activities) - Basic event creation guide
+- [Managing Event Series](/docs/organizations/activities) - Advanced series management
+- [Tickets and Pricing](/docs/organizations/tickets-and-pricing) - Setting up paid events
+- [Event Capacity and RSVPs](/docs/organizations/activities) - Managing registrations

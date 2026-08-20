@@ -201,6 +201,6 @@ No. Payment methods are only required for paid transactions.
 
 ## Related Articles
 
-- [Payment Methods Account Page](/docs/account/payment-methods) - Detailed account settings guide
-- [Payments for Parents](/docs/parents/payments) - Understanding payment history and receipts
+- [Payment Methods Account Page](/docs/families/payments-and-refunds) - Detailed account settings guide
+- [Payments for Parents](/docs/families/payments-and-refunds) - Understanding payment history and receipts
 - [Refunds and Cancellations](/docs/how-to/cancel-refund) - Getting refunds for events

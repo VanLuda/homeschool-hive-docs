@@ -58,9 +58,9 @@ const footerLinks: FooterLinkColumn[] = [
     title: 'Documentation',
     items: [
       { label: 'Getting Started', to: '/docs/intro' },
-      { label: 'For Parents', to: '/docs/category/for-parents' },
-      { label: 'For Group Leaders', to: '/docs/category/for-group-leaders' },
-      { label: 'Account & Settings', to: '/docs/category/account--settings' },
+      { label: 'For families', to: '/docs/category/for-families' },
+      { label: 'For organizations', to: '/docs/category/for-organizations' },
+      { label: 'Account', to: '/docs/category/account' },
     ],
   },
   {

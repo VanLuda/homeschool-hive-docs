@@ -30,9 +30,9 @@ Famlo is a platform designed to help homeschool families connect with local grou
 
 New to Famlo? Here's how to get started:
 
-1. **[Create Your Account](/docs/getting-started/create-account)** - Sign up and verify your email
-2. **[Complete Your Profile](/docs/getting-started/complete-profile)** - Add your family information and children
-3. **[Set Up Notifications](/docs/getting-started/notifications)** - Choose how you want to stay informed
+1. **[Create Your Account](/docs/families/getting-started)** - Sign up and verify your email
+2. **[Complete Your Profile](/docs/families/getting-started)** - Add your family information and children
+3. **[Set Up Notifications](/docs/account/notifications)** - Choose how you want to stay informed
 
 ## Choose Your Path
 
@@ -46,7 +46,7 @@ New to Famlo? Here's how to get started:
         <p>Learn how to find groups, register for events, and manage your family's homeschool activities.</p>
       </div>
       <div className="card__footer">
-        <a className="button button--primary button--block" href="/docs/category/for-parents">Parent Guides</a>
+        <a className="button button--primary button--block" href="/docs/category/for-families">Parent Guides</a>
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@ New to Famlo? Here's how to get started:
         <p>Learn how to create groups, manage members, organize events, and handle payments.</p>
       </div>
       <div className="card__footer">
-        <a className="button button--primary button--block" href="/docs/category/for-group-leaders">Group Leader Guides</a>
+        <a className="button button--primary button--block" href="/docs/category/for-organizations">Group Leader Guides</a>
       </div>
     </div>
   </div>

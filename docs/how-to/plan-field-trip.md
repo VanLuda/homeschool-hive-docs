@@ -255,7 +255,7 @@ Use the group feed or announcement feature to reach all registered families.
 - **Request group rates** - Always ask about homeschool group discounts; many venues offer 20-30% off
 - **Create a parent volunteer role** - Designate parents to help with headcounts, supervision, and logistics
 - **Build a trip planning template** - Save successful event configurations to reuse for future trips
-- **Consider series passes** - For recurring trips (monthly museum visits), use [Event Series](/docs/group-leaders/event-series) to let families purchase all sessions together
+- **Consider series passes** - For recurring trips (monthly museum visits), use [Event Series](/docs/organizations/activities) to let families purchase all sessions together
 - **Plan backup activities** - Have indoor alternatives ready for weather-dependent outdoor trips
 - **Share educational tie-ins** - Post curriculum connections and discussion questions for families to use before and after the trip
 
@@ -265,8 +265,8 @@ If your group offers scholarship assistance, enable **Scholarship Eligible** on 
 
 ## Related Articles
 
-- [Create Events](/docs/group-leaders/create-events) - Complete event creation guide
-- [Manage Events](/docs/group-leaders/manage-events) - Handle RSVPs, cancellations, and changes
-- [Tickets and Pricing](/docs/group-leaders/tickets-pricing) - Advanced ticketing configuration
-- [Check-In and Attendance](/docs/group-leaders/check-in) - Track attendance at your field trip
-- [Event Series](/docs/group-leaders/event-series) - Create recurring field trip programs
+- [Create Events](/docs/organizations/activities) - Complete event creation guide
+- [Manage Events](/docs/organizations/activities) - Handle RSVPs, cancellations, and changes
+- [Tickets and Pricing](/docs/organizations/tickets-and-pricing) - Advanced ticketing configuration
+- [Check-In and Attendance](/docs/organizations/attendance) - Track attendance at your field trip
+- [Event Series](/docs/organizations/activities) - Create recurring field trip programs
