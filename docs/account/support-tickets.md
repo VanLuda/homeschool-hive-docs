@@ -114,6 +114,6 @@ Closed tickets cannot be reopened. If you need further assistance, create a new 
 
 ## What's Next?
 
-1. **[Help & Feedback](/docs/account/help-feedback)** -- Report bugs or request features
+1. **[Help & Feedback](/docs/account/support-tickets)** -- Report bugs or request features
 2. **[Profile Settings](/docs/account/profile-settings)** -- Manage your account
 3. **[Subscriptions](/docs/account/subscriptions)** -- View your membership billing

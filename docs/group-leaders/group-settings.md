@@ -103,7 +103,7 @@ Manage the roles available in your group and control what each role can do.
 - **Permissions** -- Toggle individual permissions for each custom role
 - **Member Counts** -- See how many members are assigned to each role
 
-For step-by-step instructions, see [Custom Roles & Permissions](/docs/group-leaders/custom-roles).
+For step-by-step instructions, see [Custom Roles & Permissions](/docs/group-leaders/manage-members).
 
 ### Group Rules
 
@@ -184,7 +184,7 @@ Report reasons include spam, harassment, inappropriate content, misinformation, 
 
 - [Creating a Group](/docs/group-leaders/create-group)
 - [Stripe Connect Setup](/docs/group-leaders/payments-stripe)
-- [Custom Roles & Permissions](/docs/group-leaders/custom-roles)
+- [Custom Roles & Permissions](/docs/group-leaders/manage-members)
 - [Discount Codes](/docs/group-leaders/discount-codes)
 - [Scholarship Invoices](/docs/group-leaders/scholarship-invoices)
 - [Membership Fees](/docs/group-leaders/membership-fees)

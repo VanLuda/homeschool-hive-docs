@@ -216,4 +216,4 @@ If the tickets you want are no longer available, add the event to your [Watchlis
 - [Payments](/docs/parents/payments) -- managing payment methods and billing
 - [Watchlist](/docs/parents/watchlist) -- tracking events and capacity alerts
 - [Family Members](/docs/account/family-members) -- managing your family profile
-- [Scholarship Invoices](/docs/parents/scholarship-invoices) -- understanding scholarship requests
+- [Scholarship Invoices](/docs/parents/payments) -- understanding scholarship requests

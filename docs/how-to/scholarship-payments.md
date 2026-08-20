@@ -212,4 +212,4 @@ The invoice format is standardized to meet scholarship provider requirements. Yo
 - [Scholarship Invoice Management](/docs/group-leaders/scholarship-invoices) - Detailed invoice management guide
 - [Tickets and Pricing](/docs/group-leaders/tickets-pricing) - Setting up paid events
 - [Payment Processing](/docs/group-leaders/payments-stripe) - Understanding payments on Famlo
-- [Parent Guide to Scholarship Invoices](/docs/parents/scholarship-invoices) - Help for families using scholarships
+- [Parent Guide to Scholarship Invoices](/docs/parents/payments) - Help for families using scholarships

@@ -58,7 +58,7 @@ If a group leader sends you an invite link:
 5. Complete payment if the group has a membership fee
 6. You'll be added to the group automatically
 
-For more details on the invitation process, see [Accepting Group Invitations](/docs/parents/invite-flow).
+For more details on the invitation process, see [Accepting Group Invitations](/docs/parents/group-membership).
 
 ## Checking Your Membership Status
 

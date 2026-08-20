@@ -251,5 +251,5 @@ If you can't find or access your virtual event meeting link:
 ## What's Next?
 
 1. **[Manage your payments](/docs/parents/payments)** - View payment history and receipts
-2. **[Track scholarship invoices](/docs/parents/scholarship-invoices)** - For scholarship reimbursement
+2. **[Track scholarship invoices](/docs/parents/payments)** - For scholarship reimbursement
 3. **[View your calendar](/docs/parents/calendar)** - See all upcoming events

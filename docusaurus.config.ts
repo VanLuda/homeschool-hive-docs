@@ -127,6 +127,32 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // Pages removed in the 2026-08 audit because they documented features
+        // that do not exist. Each points at the nearest page that answers the
+        // question the reader actually had — never a generic landing page.
+        //
+        // NOTE: GitHub Pages cannot serve real 301s. This plugin emits
+        // meta-refresh stubs, which Google treats as soft redirects and
+        // consolidates more slowly. Keep the list short for that reason.
+        redirects: [
+          {from: '/docs/parents/invite-flow', to: '/docs/parents/group-membership'},
+          {from: '/docs/parents/scholarship-invoices', to: '/docs/parents/payments'},
+          {from: '/docs/parents/social-feed', to: '/docs/parents/group-membership'},
+          {from: '/docs/group-leaders/custom-roles', to: '/docs/group-leaders/manage-members'},
+          {from: '/docs/group-leaders/group-reports', to: '/docs/group-leaders/analytics'},
+          {from: '/docs/group-leaders/import-events', to: '/docs/group-leaders/create-events'},
+          {from: '/docs/account/blocked-users', to: '/docs/parents/group-membership'},
+          {from: '/docs/how-to/membership-tiers', to: '/docs/group-leaders/membership-fees'},
+          {from: '/docs/account/help-feedback', to: '/docs/account/support-tickets'},
+        ],
+      },
+    ],
+  ],
+
   themes: [
     [
       '@easyops-cn/docusaurus-search-local',

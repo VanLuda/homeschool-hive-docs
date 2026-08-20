@@ -228,4 +228,4 @@ If you are collecting membership fees, consider whether to absorb platform fees 
 - [Create Events](/docs/group-leaders/create-events) - Organize activities for your group
 - [Set Up Stripe Payments](/docs/group-leaders/payments-stripe) - Configure payment processing
 - [Membership Fees](/docs/group-leaders/membership-fees) - Advanced membership billing options
-- [Custom Roles](/docs/group-leaders/custom-roles) - Create specialized permissions for your team
+- [Custom Roles](/docs/group-leaders/manage-members) - Create specialized permissions for your team

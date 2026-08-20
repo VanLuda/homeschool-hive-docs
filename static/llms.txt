@@ -26,7 +26,6 @@ Base URL: https://help.famlo.co
 - https://help.famlo.co/docs/parents/calendar - Personal calendar view and subscription sync to external calendars
 - https://help.famlo.co/docs/parents/group-membership - Joining groups and managing memberships
 - https://help.famlo.co/docs/parents/payments - Payment methods, transaction history, and receipts
-- https://help.famlo.co/docs/parents/scholarship-invoices - Viewing and downloading scholarship reimbursement invoices
 - https://help.famlo.co/docs/parents/social-feed - Group social feed, posts, reactions, and comments
 
 ### For Group Leaders

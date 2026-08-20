@@ -202,10 +202,10 @@ const categories: CategoryItem[] = [
         <polyline points="10 9 9 9 8 9"/>
       </svg>
     ),
-    link: '/docs/parents/scholarship-invoices',
+    link: '/docs/group-leaders/scholarship-invoices',
     articles: [
-      {title: 'View Your Invoices', link: '/docs/parents/scholarship-invoices'},
-      {title: 'Generate Invoices', link: '/docs/group-leaders/scholarship-invoices'},
+      {title: 'Paying with a scholarship', link: '/docs/parents/payments'},
+      {title: 'Billing scholarship usage', link: '/docs/group-leaders/scholarship-invoices'},
     ],
   },
   {

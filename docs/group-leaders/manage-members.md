@@ -102,7 +102,7 @@ Full administrative control:
 :::tip Custom Roles
 In addition to the default roles, group leaders can create custom roles with granular permissions tailored to your group's needs. This allows you to define exactly what different members can do, from managing specific features to accessing certain settings.
 
-Learn more in [Custom Roles](/docs/group-leaders/custom-roles).
+Learn more in [Custom Roles](/docs/group-leaders/manage-members).
 :::
 
 ## Assign Roles

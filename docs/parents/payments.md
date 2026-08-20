@@ -168,6 +168,6 @@ Your payment information is protected:
 
 ## What's Next?
 
-1. **[Track scholarship invoices](/docs/parents/scholarship-invoices)** - For scholarship reimbursement
+1. **[Track scholarship invoices](/docs/parents/payments)** - For scholarship reimbursement
 2. **[Manage payment methods](/docs/account/payment-methods)** - Update your saved cards
 3. **[View your calendar](/docs/parents/calendar)** - See upcoming events
