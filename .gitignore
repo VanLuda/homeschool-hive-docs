@@ -18,3 +18,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Agent configuration and internal working notes.
+# This repo is PUBLIC and serves help.famlo.co. Anything here that describes
+# the application's internals must never be committed.
+.claude/
+FACTS.md
+AUDIT.md
+knowledge-base-link-recommendations.md
