@@ -24,3 +24,6 @@ jobs:
         run: npm ci
       - name: Test build website
         run: npm run build
+
+      - name: Check terminology and disclosure
+        run: npm run lint:terms
