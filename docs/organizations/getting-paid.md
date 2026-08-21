@@ -2,250 +2,109 @@
 sidebar_position: 9
 title: Getting paid
 description: Set up payouts, and understand the platform fee.
+keywords: [famlo platform fee, organization payouts, connect stripe, merchant of record, how much does famlo charge]
 ---
-<!-- SOURCE: docs/group-leaders/payments-stripe.md -->
-# Stripe Payment Setup
 
-To accept payments for memberships and events, you'll need to connect a Stripe account to your group. This guide walks you through the setup process.
+# Getting paid
 
-## What is Stripe?
+Set up payouts once, and every paid booking and every membership payment lands in your own bank account. Only the organization's owner can reach the **Payouts** page, because it is their bank details and their identity Stripe verifies. You need payouts finished before anyone can put a price on a ticket or turn on membership dues.
 
-Stripe is a secure payment processing service that handles all financial transactions for your group. When members pay for events or memberships:
+## The platform fee
 
-1. Payment is processed securely by Stripe
-2. Funds are deposited to your connected bank account
-3. Famlo never sees or stores payment card details
+Famlo charges a **flat 10%** of what a family pays by card. There are no tiers, no volume ladder, no setup fee and no monthly subscription.
 
-## Before You Start
+**Scholarship money carries 0%.** When an award covers part of an order, no fee is taken on that part.
 
-To connect Stripe, you'll need:
+The fee comes out of your payout. It is not added to what the family pays, and families are never shown a fee line at checkout. A $50 ticket costs the family exactly $50.00.
 
-- Your group must be a paid group (membership fee) or have paid events
-- A valid email address
-- Bank account information for receiving payouts
-- Business or personal information for identity verification
+### A $50 booking, end to end
 
-## Connect Your Stripe Account
+| Line | Amount |
+| --- | --- |
+| What the family pays | $50.00 |
+| Famlo platform fee (10%) | -$5.00 |
+| Card processing | -$1.75 |
+| Your payout | $43.25 |
 
-### Start the Connection
+Card processing is Stripe's own charge, not Famlo's. It is typically 2.9% + $0.30 on a US card, and Stripe publishes the current rates.
 
-1. Go to your group page
-2. Click **Settings** > **Payments** or **Payment Setup**
-3. Click **Connect with Stripe**
+If a promo code or an account credit reduces the order, the 10% is charged on the smaller amount. A $50 ticket with a $10 code carries a $4.00 fee, not $5.00.
 
-### Choose Account Type
+## Set up payouts
 
-Select the type of Stripe account:
+1. Open the account menu and choose **Manage organizations**.
+2. Pick the organization you are setting up.
+3. Open **More**, then **Payouts**.
+4. Select **Connect with Stripe**.
+5. Complete Stripe's onboarding — identity details, business details if you have them, and the bank account you want paid.
+6. Return to Famlo when Stripe sends you back.
 
-**Individual**
-- For personal use or informal groups
-- Payouts to your personal bank account
-- Simpler setup process
+Stripe asks whether you are an individual or a business, and which country you are in. Those questions belong to Stripe's onboarding, not to Famlo, and you answer them there.
 
-**Business**
-- For registered organizations, co-ops, or LLCs
-- Requires business information
-- Can accept higher payment volumes
+## Check where you stand
 
-### Complete Stripe Onboarding
+The **Payouts** page shows one status line and two indicators.
 
-Stripe will ask for:
+| Status | What it means |
+| --- | --- |
+| Not connected | You have not started. Select **Connect with Stripe**. |
+| Onboarding incomplete | Stripe still needs something. Select **Continue Stripe onboarding**. |
+| Pending verification | Stripe is reviewing your details. Nothing is required from you. |
+| Active | You can accept paid bookings and bill dues. |
 
-1. **Personal Information**
-   - Legal name
-   - Date of birth
-   - Address
-   - Last 4 digits of SSN (for US)
+Below that, **Charges** and **Payouts** each read Enabled or Pending. Both need to read Enabled before money moves.
 
-2. **Business Information** (if applicable)
-   - Business name
-   - Business type
-   - EIN or Tax ID
+While Stripe is reviewing, the page offers **Check again** rather than an onboarding button, because there is nothing left for you to fill in. Once you are Active, the button becomes **Update payout details**, which reopens Stripe so you can change your bank account or your business information.
 
-3. **Bank Account**
-   - Account holder name
-   - Routing number
-   - Account number
+:::note Payout timing is Stripe's
+How often Stripe deposits to your bank, and how long a first payout is held, are Stripe's settings. Change them in your own Stripe Dashboard.
+:::
 
-4. **Identity Verification**
-   - May require photo ID
-   - Used to prevent fraud
+## Who the family pays
 
-### Complete the Setup
+Your organization is the merchant of record. Your name appears on the family's card statement, you own the customer relationship, and you handle your own disputes. Famlo takes its 10% off the top of the transfer and passes the rest to your connected account.
 
-1. Review and accept Stripe's terms
-2. Complete any additional verification steps
-3. Return to Famlo
-4. Your account is now connected
+That is also why refunds, disputes and payout schedules are settled against your Stripe account rather than a Famlo balance.
 
-## Verify Connection
+## Refunds come from policy, not a button
 
-After connecting:
+There is no "issue refund" action anywhere in Famlo. Refund amounts follow the policy, based on who cancelled and when.
 
-1. Go to **Settings** > **Payments**
-2. You should see "Stripe Connected" status
-3. View your Stripe account details
+- A family cancelling **24 hours or more** before the activity starts gets a full refund, and the platform fee is returned to you.
+- A family cancelling **inside 24 hours** gets nothing back, and the fee is not returned.
+- If you cancel the activity with **Cancel activity**, every registered family is made whole and the platform fee is returned to you.
+- An activity can be marked **No Refunds**, which overrides the 24-hour rule.
 
-## Receiving Payments
+Scholarship money never passes through Stripe, so it is never part of a card refund. You and the family settle that directly and you record the outcome in Famlo.
 
-### How Payouts Work
+Full detail is in [Cancellations and refunds](/docs/how-to/cancel-refund) and, from the family's side, [Payments and refunds](/docs/families/payments-and-refunds).
 
-When members pay for events or memberships:
+## Limits worth knowing
 
-1. Payment is collected by Stripe
-2. Fees are deducted (Stripe processing + platform fee)
-3. Remaining amount is added to your Stripe balance
-4. Stripe deposits funds to your bank account
-
-### Payout Schedule
-
-By default, Stripe pays out:
-- **Daily** - Funds available next business day
-- Can be changed to weekly or monthly in Stripe settings
-
-### View Your Balance
-
-1. Go to **Settings** > **Payments**
-2. See your current Stripe balance
-3. View recent transactions and payouts
-
-Or log into your Stripe dashboard directly for detailed reporting.
-
-## Understanding Fees
-
-### Processing Fees
-
-Standard Stripe processing fees:
-- 2.9% + $0.30 per transaction (US cards)
-- Higher for international cards
-
-### Platform Fee
-
-Famlo charges a small platform fee:
-- Percentage of each transaction
-- Helps maintain and improve the platform
-- View current rates in your account
-
-### Example Transaction
-
-For a $50 event registration:
-```
-Ticket Price:         $50.00
-Stripe Fee (2.9%+30¢): -$1.75
-Platform Fee:          -$1.25
-Your Payout:          $47.00
-```
-
-*Fees are approximate and may vary*
-
-## Managing Your Stripe Account
-
-### Access Stripe Dashboard
-
-For detailed financial management:
-
-1. Go to **Settings** > **Payments**
-2. Click **View Stripe Dashboard**
-3. Or go directly to dashboard.stripe.com
-
-In the Stripe dashboard you can:
-- View all transactions
-- Download reports
-- Manage payout schedule
-- Update bank information
-- Handle disputes
-
-### Update Bank Account
-
-To change where payouts go:
-
-1. Log into Stripe dashboard
-2. Go to **Settings** > **Bank accounts**
-3. Add a new bank account
-4. Set it as default for payouts
-5. Remove old account if desired
-
-### Update Business Information
-
-If your group's information changes:
-
-1. Log into Stripe dashboard
-2. Go to **Settings** > **Business settings**
-3. Update your information
-4. May require re-verification
-
-## Handling Refunds
-
-### Process Refunds
-
-When you need to refund a payment:
-
-1. Go to the event or membership in Famlo
-2. Find the specific transaction
-3. Click **Refund**
-4. Enter refund amount (full or partial)
-5. Confirm the refund
-
-Refunds are:
-- Deducted from your Stripe balance
-- Returned to the original payment method
-- Processing fees may or may not be refunded (depends on timing)
-
-### Refund Timeline
-
-- Refunds typically take 5-10 business days to appear
-- Customer sees refund on their card statement
-- Stripe sends notification when processed
+- You cannot put a price on a ticket until payouts are Active. Try it and the price field refuses to save.
+- You cannot turn on membership dues until payouts are Active either. See [Membership dues](/docs/organizations/membership-dues).
+- There is no way to disconnect Stripe from inside Famlo. Access is granted and revoked from your own Stripe Dashboard.
+- Free activities need no payout setup at all.
 
 ## Troubleshooting
 
-### Connection Issues
+**I finished Stripe onboarding but the page still says Onboarding incomplete.**
+Stripe has more to ask. Select **Continue Stripe onboarding** to reopen the form at the outstanding fields. If it says Pending verification instead, Stripe is reviewing and the page updates on its own.
 
-If Stripe won't connect:
-- Check that you completed all verification steps
-- Ensure your browser allows popups from Stripe
-- Try a different browser
-- Contact support if issues persist
+**Nothing happens when I select Connect with Stripe.**
+Allow pop-ups and redirects for Stripe, then try again. If the button is greyed out rather than unresponsive, [contact support](/docs/account/support).
 
-### Verification Required
+**I can't set a ticket price.**
+Payouts are not Active. Finish onboarding first, then set the price.
 
-Stripe may request additional verification:
-- Check your email for requests from Stripe
-- Log into Stripe dashboard to complete requirements
-- Payouts may be paused until verified
+**A red banner says Famlo can no longer reach my Stripe account.**
+Someone removed Famlo from the Connected applications list in your Stripe Dashboard. Paid bookings, dues and refunds all stop until it is restored, and that has to be re-authorised from your side. Select **Contact support** on the Payouts page and we will get you reconnected.
 
-### Payout Delays
+**My payout is smaller than I expected.**
+Subtract 10% for the platform fee, then Stripe's processing charge. Promo codes, account credit and scholarship awards all reduce the amount charged to the card, and your payout follows the smaller number.
 
-If payouts aren't arriving:
-- Check your bank account details in Stripe
-- Verify your identity is confirmed
-- Review any holds or issues in Stripe dashboard
-- Contact Stripe support for payout questions
+## What's next
 
-### Disputes and Chargebacks
-
-If a member disputes a charge:
-1. Stripe notifies you of the dispute
-2. Provide evidence (registration details, communication)
-3. Stripe reviews and makes a decision
-4. Disputed amount may be held during review
-
-## Disconnect Stripe
-
-If you need to disconnect your Stripe account:
-
-1. Go to **Settings** > **Payments**
-2. Click **Disconnect Stripe**
-3. Confirm the disconnection
-
-:::warning Before Disconnecting
-- Process any pending refunds first
-- You won't be able to accept payments until reconnected
-- Members won't be able to pay for events or memberships
-:::
-
-## What's Next?
-
-1. **[Set membership fees](/docs/organizations/membership-dues)** - Configure group membership pricing
-2. **[Create paid events](/docs/organizations/activities)** - Set up ticketed events
-3. **[Generate scholarship invoices](/docs/organizations/scholarships)** - Invoice for scholarship families
+- [Tickets and pricing](/docs/organizations/tickets-and-pricing) — price an activity against the 10%.
+- [Membership dues](/docs/organizations/membership-dues) — charge recurring dues.
+- [Scholarships](/docs/organizations/scholarships) — accept award money at zero fee.

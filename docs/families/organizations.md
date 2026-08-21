@@ -343,3 +343,4 @@ Now that you're a group member:
 1. **[Find events](/docs/families/finding-activities)** - Browse your group's activities
 2. **[RSVP for events](/docs/families/registering)** - Register for upcoming events
 3. **[View your calendar](/docs/families/calendar)** - See all your scheduled activities
+4. **[Messages](/docs/families/messages)** - Ask an organization a question and read its announcements

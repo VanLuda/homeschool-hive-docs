@@ -2,480 +2,133 @@
 sidebar_position: 7
 title: Promo codes
 description: Create codes that work on bookings and on dues.
+keywords: [promo code, discount code, early bird, percent off, minimum order, redemption limit]
 ---
-<!-- SOURCE: docs/group-leaders/discount-codes.md -->
-# Discount Codes
 
-Discount codes help you offer special promotions, early bird pricing, or member benefits for your events and group memberships.
+# Promo codes
 
-## Overview
+A promo code is a word a family types at checkout for a discount. Every code you create belongs to your whole organization and works on both paid activities and membership dues. Owners and co-leaders can manage them.
 
-Discount codes allow you to:
-- Offer percentage or fixed-amount discounts
-- Create promotional campaigns for events or memberships
-- Reward early sign-ups or loyal members
-- Control usage with limits and expiration dates
-- Track redemption and revenue impact
+## One code, both kinds of purchase
 
-## Accessing Discount Codes
+There is no split between activity codes and membership codes. `SPRING25` discounts a field trip booking and a membership join request, and every redemption of it — whichever it was — counts against the same ledger.
 
-1. Navigate to your **Group Settings**
-2. Click **Discount Codes** in the sidebar
-3. View all your active and inactive codes
+That matters most for **One redemption per family**. A family who spends the code on a booking cannot then spend it on their dues.
 
-## Creating Discount Codes
+## Create a code
 
-### Basic Setup
+1. Open the account menu and choose **Manage organizations**.
+2. Pick your organization.
+3. Open **More**, then **Promo codes**.
+4. Select **New code**.
+5. Fill in the form and select **Create promo code**.
 
-1. Click **Create Code** button
-2. Enter a unique code identifier (e.g., SUMMER2024, WELCOME10)
-3. Add an optional description for your own reference
+## The nine fields
 
-:::tip Code Naming
-Use uppercase letters, numbers, underscores, and hyphens. Make codes memorable and relevant to the promotion (e.g., EARLYBIRD, NEWMEMBER, SPRING25).
-:::
+| Field | What it does |
+| --- | --- |
+| **Code** | What the family types. Letters, numbers, dashes and underscores, 3 to 50 characters. Stored in capitals and matched case-insensitively, so a family can type it any way. Must be unique within your organization. |
+| **Type** | **Percent off** or **Fixed amount off**. |
+| **Percent off** | 1 to 100. Shown when Type is Percent off. |
+| **Amount off** | A dollar figure. Shown when Type is Fixed amount off. Never takes an order below $0. |
+| **Minimum order (optional)** | The code only applies when the subtotal is at least this much. |
+| **Starts (optional)** | Before this moment the code is Scheduled and will not apply. Leave blank to start now. |
+| **Expires (optional)** | After this moment the code is Expired. Leave blank for no end. |
+| **Max total redemptions (optional)** | A cap across everybody. Leave blank for no cap. |
+| **One redemption per family** | Each family may use the code once, on a booking or on dues, not both. |
+| **Active — families can apply this code right now** | The on switch. Untick to pause a code without deleting it. |
 
-### Code Identifier Requirements
+**Percent off** and **Amount off** are the same field wearing two labels — the form swaps one for the other when you change **Type**, so you only ever fill in one.
 
-- **Length:** 3-50 characters
-- **Allowed characters:** Letters, numbers, underscores (_), hyphens (-)
-- **Case:** Automatically converted to uppercase
-- **Must be unique** within your group
+There is nothing else on the form. No membership duration, no member-only restriction, no way to limit a code to particular activities, and no per-family redemption count above one.
 
-## Discount Types
+## The five statuses
 
-Choose the type of discount that best fits your promotion:
+Every code carries one status, worked out from its own settings.
 
-### Percentage Discount
+| Status | Why |
+| --- | --- |
+| **Active** | Working now. |
+| **Scheduled** | **Starts** is in the future. It will begin on its own. |
+| **Expired** | **Expires** has passed. Edit the date to bring it back. |
+| **Limit reached** | **Max total redemptions** has been hit. |
+| **Inactive** | **Active** is unticked. |
 
-Reduces the price by a percentage:
-- Enter a value between 1-100
-- Examples: 10% off, 25% off, 50% off
-- Best for flexible pricing across different ticket types
+## Reading the list
 
-**Example:** A 20% code on a $50 ticket = $10 discount
+The **Promo codes** page lists each code with its value, how many times it has been used against its cap, its date window, its status, and any **Minimum order** or **One per family** restriction. Each row offers **Edit** and **Delete**.
 
-### Fixed Amount Discount
+Deleting is permanent, and families holding the code stop getting the discount straight away. Untick **Active** instead when you only want to pause a promotion — the code keeps its redemption history and you can switch it back on.
 
-Reduces the price by a specific dollar amount:
-- Enter amount in dollars (up to $10,000)
-- Examples: $5 off, $10 off, $25 off
-- Best for consistent savings regardless of price
+## The three places a family uses a code
 
-**Example:** A $10 code on a $50 ticket = $40 final price
+**At activity checkout**, there is a **Promo code** box. The family types the code, selects **Apply**, and the order summary shows a **Discount** line with the code name and the amount taken off.
 
-:::note Fee Calculations
-Discounts are applied to the subtotal before platform and processing fees are calculated.
-:::
+**On a membership join request**, the field is labelled **Discount code (optional)**. Nothing is charged until you approve the request, and the discount comes off that first charge.
 
-## Applies To: Events vs. Memberships
+**On a membership they already hold**, a family opens their own membership and uses **Have a discount code?** followed by **Apply code**.
 
-Each discount code can apply to either events or memberships:
+That last one behaves differently, and it is worth knowing: a code applied to a membership that is already running discounts **every renewal from then on**, not just the next one. A code used on a join request discounts the first charge only.
 
-### Events Only
+## Offering a code to a member who is failing
 
-- Code works for event ticket purchases
-- Can be limited to specific events or all events
-- Applies once at checkout
+When a membership payment fails, the **Subscriptions** page under **Billing** puts your codes to work. Pick one from **Offer a discount…** on that member's row and select **Offer**.
 
-### Memberships Only
+The family then sees "Your group offered you a discount" on their own membership page, with a one-tap **Apply** button for that code. Because it lands on a running membership, it holds for every renewal — so offer a small percentage rather than a large one. See [Membership dues](/docs/organizations/membership-dues).
 
-- Code works for joining your group
-- Reduces membership fees
-- Includes duration options (see below)
+## How a code changes what you are paid
 
-:::warning Important
-A discount code cannot apply to both events and memberships. Choose one type when creating the code.
-:::
+The platform fee is 10% of what the family actually pays by card, so a discount shrinks the fee alongside it. A $50 ticket with a 20% code charges $40, and the fee is $4.00 rather than $5.00. You absorb the $10 of discount.
 
-## Membership Discount Duration
+Existing bookings are never revalued. Changing or deleting a code leaves families who already used it exactly where they were.
 
-When creating a membership discount, specify how long the discount applies:
+## Worked examples
 
-### First Payment Only
+**Early bird on a summer camp**
 
-- Discount applied only to the initial membership payment
-- Subsequent renewals are full price
-- **Best for:** Welcome offers, new member incentives
+Codes cannot be limited to one activity, so lean on the date window instead. Set **Expires** to two weeks before the camp starts, tick **One redemption per family**, and announce it only to the families you want to reach.
 
-**Example:** "WELCOME50" gives 50% off first month only
+**First fifty families**
 
-### All Payments (Forever)
+Set **Max total redemptions** to 50 and leave the dates blank. The code flips itself to Limit reached on the fiftieth use.
 
-- Discount applies to every billing cycle
-- Continues indefinitely for that member
-- **Best for:** Permanent member benefits, scholarships
+**A welcome offer on dues**
 
-**Example:** "VIP25" gives 25% off every month forever
+Create a percent code and share it wherever families find your join page. Used on a join request, it comes off the first charge and nothing after. There is no setting that makes a join-request discount run for a fixed number of months.
 
-### Limited Months
+**A code that goes live on Monday**
 
-- Discount applies for a specific number of months (1-36)
-- After the limit, member pays full price
-- **Best for:** Trial periods, promotional campaigns
-
-**Example:** "SPRING3" gives discount for first 3 months only
-
-:::tip Strategic Use
-Use "First Payment Only" to attract new members, "Limited Months" for promotions, and "Forever" sparingly for special cases like board members or volunteers.
-:::
-
-## Limiting to Specific Events
-
-For event discount codes, you can:
-
-### Apply to All Events
-
-- Leave event selection empty
-- Code works on any event in your group
-- **Best for:** Group-wide promotions
-
-### Apply to Specific Events
-
-1. Select one or more events from the list
-2. Code only works on those events
-3. **Best for:** Event-specific early bird pricing
-
-**Example Use Cases:**
-- Early bird code for summer camp only
-- Member discount for field trips only
-- Partner organization discount for specific workshops
-
-## Usage Limits
-
-Control how many times your code can be used:
-
-### Unlimited
-
-- No restrictions on usage
-- Code can be used indefinitely (until expired)
-- **Best for:** General promotions, member benefits
-
-### Per Member
-
-- Each member can use the code a specific number of times
-- Example: 3 uses per member
-- **Best for:** Preventing abuse while allowing flexibility
-- Tracks usage per user account
-
-### Total Uses
-
-- Code becomes inactive after X total uses
-- Example: First 50 people to use the code
-- **Best for:** Flash sales, limited promotions
-- Creates urgency
-
-**Current Uses Tracking:**
-The system automatically tracks how many times each code has been used and displays current usage vs. limits.
-
-## Member-Only Codes
-
-For event discount codes, you can restrict usage:
-
-### Member-Only Enabled
-
-- Only active group members can use the code
-- Non-members see an error message
-- **Best for:** Member perks, early access
-
-### Available to Everyone
-
-- Anyone can use the code, including non-members
-- **Best for:** Public promotions, attracting new families
-
-:::note Membership Codes
-Membership discount codes cannot be member-only (since they're used when joining the group).
-:::
-
-## Expiration Dates
-
-Set when codes stop working:
-
-1. **No Expiration:** Code works indefinitely
-2. **Specific Date:** Select calendar date when code expires
-3. **Automatic Expiration:** Code automatically deactivates on expiration date
-
-:::tip Best Practice
-Always set expiration dates for promotional codes to create urgency and control costs.
-:::
-
-## Managing Discount Codes
-
-### Viewing Discount Codes
-
-Your discount codes table shows:
-- **Code:** The unique identifier (click copy icon to copy)
-- **Discount:** Amount and type (10% off, $5 off)
-- **Applies To:** Events or Memberships
-- **Usage:** Current uses / limit (or "Unlimited")
-- **Status:** Active, Inactive, Expired, or Limit Reached
-
-### Status Indicators
-
-**Active** (Green)
-- Code is working and can be used
-- Within usage limits and not expired
-
-**Inactive** (Gray)
-- Manually deactivated by you
-- Can be reactivated anytime
-
-**Expired** (Red)
-- Past the expiration date
-- Cannot be used (can be edited to extend)
-
-**Limit Reached** (Amber)
-- Total usage limit reached
-- No longer accepting redemptions
-
-### Show Inactive Codes
-
-Toggle **Show inactive codes** to:
-- View all codes (active and inactive)
-- Filter to only active codes
-
-## Editing Discount Codes
-
-1. Click the **three-dot menu** on a code
-2. Select **Edit**
-3. Modify any settings:
-   - Code name
-   - Discount type and amount
-   - Usage limits
-   - Expiration date
-   - Event restrictions
-4. Click **Update Code**
-
-:::note Usage Tracking
-You can edit usage limits, but current usage count cannot be manually changed. It tracks actual redemptions.
-:::
-
-## Deactivating vs. Deleting
-
-### Deactivate a Code
-
-1. Click the **three-dot menu**
-2. Select **Deactivate**
-3. Code becomes inactive but remains in your list
-4. Can be reactivated later
-
-**When to Deactivate:**
-- Temporarily pause a promotion
-- End a sale but keep the record
-- Want to preserve usage statistics
-
-### Delete a Code
-
-1. Click the **three-dot menu**
-2. Select **Delete**
-3. Confirm deletion
-4. Code is permanently removed
-
-**When to Delete:**
-- Code was created by mistake
-- No longer need the record
-- Clean up old/unused codes
-
-:::warning Cannot Undo
-Deleting a discount code is permanent and cannot be undone. Consider deactivating instead if you want to preserve the record.
-:::
-
-## Impact on Existing Orders
-
-### Active Registrations
-
-- Changing or deleting a code **does not affect** existing registrations
-- Members who already used the code keep their discount
-- Only new registrations are affected
-
-### Refunds and Cancellations
-
-- If someone cancels, refund is based on what they paid (with discount applied)
-- Discount code is not "refunded" for reuse in per-user limits
-
-## Viewing Discount Code Usage
-
-Click on a discount code to view detailed usage:
-
-### Usage Statistics
-
-- **Total Uses:** How many times the code has been used
-- **Remaining Uses:** How many uses are left (if limited)
-- **Total Discounted:** Revenue impact (total amount discounted)
-
-### Usage History
-
-View up to 50 recent uses showing:
-- **User:** Who used the code
-- **Date/Time:** When it was used
-- **Amount:** How much was discounted
-- **Order:** Link to the associated registration or membership
-
-### Event Details
-
-For event-specific codes:
-- List of events the code applies to
-- Event names, dates, and status
-- Quick navigation to event management
-
-## How Members Apply Codes
-
-### During Event Checkout
-
-1. Member proceeds to payment step
-2. Clicks **Have a discount code?**
-3. Enters the code
-4. Clicks **Apply**
-5. Sees discount reflected in order summary
-6. Completes payment with reduced total
-
-### During Group Join
-
-1. New member starts join process
-2. On payment step, enters discount code
-3. Duration displayed (e.g., "First payment only", "3 months")
-4. Discount applied to checkout
-5. Future billing reflects duration settings
-
-### Error Messages
-
-Members see helpful errors if:
-- Code doesn't exist
-- Code is inactive or expired
-- Code is for wrong type (event vs. membership)
-- Code is member-only and they're not a member
-- Usage limit reached (total or per-user)
-- Code doesn't apply to that specific event
-
-:::tip Member Communication
-Share discount codes via announcements, emails, or social media. Include expiration dates and any restrictions to set clear expectations.
-:::
-
-## Best Practices
-
-### Strategic Discount Amounts
-
-**Events:**
-- Early bird: 10-20% off
-- Member perks: 15-25% off
-- Flash sales: Up to 50% off
-- Fixed amount for simplicity: $5-$10 off
-
-**Memberships:**
-- New members: 25-50% first payment
-- Promotional periods: 10-20% for 3-6 months
-- Partner discounts: 15-30% ongoing
-- Trial offers: 50% off first month
-
-### Managing Costs
-
-1. **Set usage limits** to control total discount impact
-2. **Use expiration dates** to create urgency
-3. **Monitor usage** regularly to gauge effectiveness
-4. **Adjust based on results** - increase limits if underused, decrease if costly
-
-### Code Organization
-
-- **Naming convention:** Use consistent patterns (SEASON-YEAR, PURPOSE-AMOUNT)
-- **Descriptions:** Note the campaign or purpose for your records
-- **Regular cleanup:** Archive or delete old codes periodically
-
-### Promotional Campaigns
-
-**Effective strategies:**
-- Early bird codes with expiration before event
-- Member referral codes for new members
-- Seasonal promotions aligned with your calendar
-- Limited-quantity codes for urgency
-- Member appreciation codes for loyalty
-
-## Common Use Cases
-
-### Early Bird Event Pricing
-
-```
-Code: EARLYBIRD
-Type: Percentage - 20%
-Applies To: Specific event (Summer Camp)
-Usage Limit: Unlimited
-Expires: 2 weeks before event
-```
-
-### New Member Welcome
-
-```
-Code: WELCOME
-Type: Percentage - 50%
-Applies To: Memberships
-Duration: First payment only
-Usage Limit: Unlimited
-Expires: End of month
-```
-
-### Flash Sale
-
-```
-Code: FLASH24
-Type: Fixed amount - $10
-Applies To: All events
-Usage Limit: First 25 uses
-Expires: 48 hours from now
-```
-
-### Member Exclusive
-
-```
-Code: MEMBERLOVE
-Type: Percentage - 15%
-Applies To: All events
-Member Only: Yes
-Usage Limit: 3 per member
-Expires: End of season
-```
-
-### Partner Organization
-
-```
-Code: PARTNER2024
-Type: Percentage - 20%
-Applies To: Memberships
-Duration: Forever
-Usage Limit: Unlimited
-Expires: Never
-```
+Set **Starts** to Monday morning. The code sits at Scheduled until then, so you can publish it in advance without anybody using it early.
 
 ## Troubleshooting
 
-### Code Not Working for Members
+**A family says the code does not work.**
+The message they see tells you which check failed:
 
-**Check:**
-- Is the code active?
-- Has it expired?
-- Is the usage limit reached?
-- Does it apply to events/memberships correctly?
-- Is it member-only and user isn't a member?
-- Does it apply to that specific event (if event-restricted)?
+- "This promo code is no longer active." — **Active** is unticked.
+- "This promo code isn't available yet." — **Starts** is still in the future.
+- "This promo code has expired." — past **Expires**.
+- "This promo code has reached its redemption limit." — **Max total redemptions** is used up.
+- "This code requires a minimum order of…" — the order is under **Minimum order**.
+- "You've already used this promo code." — **One redemption per family** is on and they have used it, on a booking or on dues.
 
-### Discount Not Applied Correctly
+**I can't create a code with the name I want.**
+Codes have to be unique within your organization, and can only contain letters, numbers, dashes and underscores. Check whether an old inactive code is already holding the name.
 
-**Verify:**
-- Discount type (percentage vs. fixed amount)
-- Amount is correct
-- Fees are calculated after discount
-- Member is looking at the right line item
+**I want a code for one class only.**
+There is no per-activity restriction. Use the date window and share the code only where that class is advertised.
 
-### Cannot Edit Code
+**I want a discount that lasts a member's first three months.**
+There is no duration setting. A join-request code discounts the first charge; a code applied to a running membership holds for every renewal. There is nothing in between.
 
-**Common reasons:**
-- Not a group owner or co-leader
-- Code was deleted
-- Browser cache issue (try refreshing)
+**I want to see who redeemed a code.**
+The list row shows the running total against the cap. There is no per-redemption history page.
 
-## What's Next?
+**I can't open Promo codes.**
+Only the owner and co-leaders can. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
 
-Learn about related payment features:
+## What's next
 
-- **[Tickets & Pricing](/docs/organizations/tickets-and-pricing)** - Configure event tickets and add-ons
-- **[Scholarship Invoices](/docs/organizations/scholarships)** - Generate invoices for scholarship families
-- **[Stripe Payments](/docs/organizations/getting-paid)** - Set up your payment account
-- **[Membership Fees](/docs/organizations/membership-dues)** - Configure group membership billing
+- [Tickets and pricing](/docs/organizations/tickets-and-pricing) — set the prices the codes discount.
+- [Membership dues](/docs/organizations/membership-dues) — the other place codes apply.
+- [Getting paid](/docs/organizations/getting-paid) — payouts and the platform fee.

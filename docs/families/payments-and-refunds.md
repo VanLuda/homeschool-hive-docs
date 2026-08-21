@@ -3,402 +3,144 @@ sidebar_position: 6
 title: Payments and refunds
 description: How you are charged, how refunds work, and managing your cards.
 ---
-<!-- SOURCE: docs/parents/payments.md -->
-# Payments
 
-This guide covers everything you need to know about payments in Famlo, including viewing your payment history, managing payment methods, and understanding refunds.
+# Payments and refunds
 
-## Payment Methods
+Famlo is free for families. You pay the organization for what you register for, and nothing else. This guide covers what you are charged, how to save and remove cards, and exactly what comes back when you cancel.
 
-Famlo accepts the following payment methods:
+## What you pay
 
-- **Credit Cards** - Visa, Mastercard, American Express, Discover
-- **Debit Cards** - Cards with Visa or Mastercard logos
+The price on the listing is the price you pay. Nothing is added at checkout.
 
-All payments are processed securely through Stripe.
+Organizations pay Famlo a flat 10% platform fee. That fee is taken out of the organization's share of your payment rather than added to your total. The checkout order summary shows a **Platform Fee** row, and the value beside it reads "included".
 
-## Manage Payment Methods
+The organization is the merchant of record. Their name appears on your card statement, not Famlo's, and they are responsible for their own refund decisions. Famlo never adds a booking fee or a processing fee of its own.
 
-### Add a Payment Method
+## Saving a card
 
-1. Go to **Account Settings**
-2. Click **Payment Methods**
-3. Click **Add Payment Method**
-4. Enter your card details:
-   - Card number
-   - Expiration date
-   - CVV/Security code
-   - Billing zip code
-5. Click **Save**
+A card you save works at every organization on Famlo. You enter it once.
 
-### Set a Default Payment Method
+1. Open the account menu and select **Account settings**.
+2. Select **Payments**. The page is headed **Payment methods**.
+3. Under **Add a card**, enter your card details.
+4. Select **Save card**.
 
-Your default payment method is used for:
-- Event registrations
-- Membership renewals
-- Automatic recurring payments
+Your card details go directly to Stripe and are never stored on Famlo's servers. You can also save a card at checkout instead, then reuse it everywhere.
 
-To set a default:
+### Managing your saved cards
 
-1. Go to **Account Settings** > **Payment Methods**
-2. Find the card you want as default
-3. Click **Set as Default**
+**Your cards** lists each saved card with its brand, last four digits and expiry date. A **Default** badge marks the card offered first at checkout, and an **Expired** badge marks one that can no longer be charged.
 
-### Remove a Payment Method
+Two controls sit on each row:
 
-1. Go to **Account Settings** > **Payment Methods**
-2. Find the card you want to remove
-3. Click **Remove**
-4. Confirm the removal
+- **Make default** moves the default badge to that card. It appears only on cards that are not already the default and have not expired.
+- **Remove** deletes the card. You are asked to confirm first.
 
-:::note Active Subscriptions
-You cannot remove a payment method if it's being used for active membership subscriptions. Update your subscription payment method first.
+There is no edit screen for a saved card. To replace a card that is about to expire, add the new one and then remove the old one.
+
+:::warning
+You cannot remove a card that is paying for an active membership. Famlo names the organization it is on file for and asks you to change the card there first. See [Your memberships](/docs/families/memberships).
 :::
 
-## View Payment History
+## Account credit
 
-To see all your past payments:
+If your account holds credit, Famlo applies it automatically at checkout against whatever is due after any promo code. There is nothing to redeem. The order summary shows a **Credits applied** line for the amount used.
 
-1. Go to **Account Settings**
-2. Click **Card Payments** or **Payment History**
-3. View your transactions
+Your balance appears as **Account credit** at the bottom of the account settings navigation whenever it is above zero.
 
-Each transaction shows:
-- Date of payment
-- Description (event or membership)
-- Amount charged
-- Payment method used
-- Receipt link
+Cancel a booking that used credit and that credit returns to your balance in full. This happens whether or not any card money comes back.
 
-### Download Receipts
+## Promo codes
 
-For each payment:
+Type a code into the **Promo code** field in the checkout order summary and select **Apply**. A valid code changes your total straight away and the discount appears as its own line.
 
-1. Find the transaction in your payment history
-2. Click **View Receipt** or **Download**
-3. A PDF receipt will download or open
+Applying a code books nothing on its own. You still complete checkout afterwards. Some organizations also offer a code against a membership you already hold — see [Your memberships](/docs/families/memberships).
 
-## Understanding Fees
+## Cancelling and refunds
 
-When you pay for events or memberships, you may see:
+### Cancel a booking
 
-- **Ticket/Registration Price** - The base cost set by the group
-- **Platform Fee** - A small fee that supports Famlo
-- **Processing Fee** - Payment processing costs
+Cancelling shows you the refund before you commit to it.
 
-The total amount charged includes all applicable fees, which are displayed before you complete payment.
+1. Open the activity you registered for. **Bookings** in the account menu and [your calendar](/docs/families/calendar) both list what you are booked into.
+2. Select **Cancel registration**.
+3. Read the breakdown on the **Cancel booking** screen: **Amount paid**, **Activity refund**, **Service fee refund** and **Total refund**, with a plain sentence explaining the outcome.
+4. Select **Cancel booking** to confirm, or **Keep booking** to back out.
 
-## Refunds
+Cancelling cannot be undone. To come back you register again, and only if a spot is still open.
 
-### Requesting a Refund
+A free activity you booked in a single tap has a one-tap **Cancel RSVP** instead. There is no refund screen, because there is no money to return.
 
-If you need a refund for an event registration:
+### When money comes back
 
-1. Go to the event page
-2. Click **Cancel Registration**
-3. Review the refund policy
-4. Confirm your cancellation
-5. Refund will be processed according to the group's policy
+Refund timing is the same at every organization on Famlo. It is a single cutoff, not a sliding scale.
 
-### Refund Policies
+| When you cancel | Card refund |
+| --- | --- |
+| 24 hours or more before the activity starts | Full |
+| Less than 24 hours before it starts | None |
+| After it has started | None |
 
-Refund policies are set by each group and may include:
+There is no partial-refund band, and no organization sets its own cutoff. A self-cancellation either returns the whole card charge or returns nothing.
 
-- **Full refund** - Cancel before a specific deadline
-- **Partial refund** - Reduced refund after the deadline
-- **No refund** - Non-refundable after registration
-- **Credit** - Receive credit toward future events instead of refund
+One exception exists, set on the individual activity. An organization can mark an activity as no-refunds, and cancelling it returns nothing however early you do it. The cancel screen tells you plainly: "This activity has a no-refunds policy. Contact the organizer for help."
 
-Always check the event's refund policy before registering.
+### What a refund is measured against
 
-### Refund Processing Time
+Refunds are card-only. The refundable amount is what your card was actually charged: the ticket price after any promo code, account credit and scholarship award.
 
-Once a refund is approved:
+Money that never went through your card cannot come back through it.
 
-- Credit/debit cards: 5-10 business days to appear on your statement
-- The refund goes back to the original payment method
+- A **promo discount** was never charged, so nothing returns for it.
+- **Account credit** returns to your credit balance rather than your card.
+- A **scholarship award** was never charged and is never held by Famlo. The organization settles that side with you directly — see [Scholarships](/docs/families/scholarships).
 
-### Membership Refunds
+An order that cost you nothing on a card has no card refund to issue. That covers a free ticket and an order fully covered by promo, credit and scholarship. The cancel screen says so rather than showing a zero you might read as a fault.
 
-For membership cancellations:
+### The platform fee on a refund
 
-- Monthly memberships: Generally no refund, access continues until end of billing period
-- Annual memberships: Refund policies vary by group
+The platform fee is refunded or kept according to who cancelled and when.
 
-Contact the group leader for membership refund questions.
+| Who cancels | Platform fee |
+| --- | --- |
+| You, 24 hours or more before the start | Refunded |
+| You, inside the 24-hour cutoff | Not refunded |
+| The organization or one of its leaders | Refunded |
+| Famlo, because the activity was cancelled | Refunded |
 
-## Payment Issues
+This line decides what the organization keeps, not what you paid, because the fee came out of their share in the first place. Whenever the fee is refunded, the full card charge comes back to you.
 
-### Payment Declined
+If the organization cancels, a leader cancels on your behalf, or the activity is called off, you are made whole. The full card charge is returned no matter how close to the start it happens.
 
-If your payment is declined:
+### How long it takes
 
-1. Verify your card details are correct
-2. Check that your card hasn't expired
-3. Ensure sufficient funds or credit limit
-4. Try a different payment method
-5. Contact your bank if issues persist
+Approved refunds go back to the original card and take five to ten business days to appear on your statement. Famlo emails you when one is sent, with the subject "Your refund for … is on the way".
 
-### Double Charged
+## Receipts
 
-If you believe you were charged twice:
+Famlo does not produce a receipt document of its own. Card receipts are issued by Stripe.
 
-1. Check your payment history in Famlo
-2. Wait 24-48 hours for pending charges to clear
-3. Some banks show temporary authorizations that disappear
-4. Contact support if you see two completed charges
+- Your confirmation email, "You're registered for …", arrives immediately and is your record of the booking.
+- A **View Stripe receipt** link appears beside your order in your [message thread](/docs/families/messages) with the organization, once Stripe has issued the receipt.
+- Membership dues have their own receipts on the memberships page. See [Your memberships](/docs/families/memberships).
 
-### Subscription Payment Failed
+## Troubleshooting
 
-If an automatic membership payment fails:
+**My card was declined at checkout.** Check the number, expiry date and security code, then confirm the card has room on it. If it still fails, try another card or ask your bank — a card saved months ago may have been blocked for an online charge.
 
-1. You'll receive an email notification
-2. Update your payment method
-3. The payment will be retried automatically
-4. Your membership may be paused until payment succeeds
+**I cannot remove a card.** It is paying for an active membership. Change the card on that membership first, then remove this one.
 
-## Payment Security
+**A saved card shows Expired.** It cannot be charged and cannot be made the default. Add the replacement card, then remove the expired one.
 
-Your payment information is protected:
+**I cancelled but nothing came back to my card.** Either you cancelled inside the 24-hour cutoff, or your card was never charged at all because promo, credit or scholarship covered the order. The cancel screen states which before you confirm.
 
-- All transactions use secure SSL encryption
-- Card details are stored securely by Stripe
-- Famlo never sees your full card number
-- PCI-compliant payment processing
+**I do not recognise a charge on my statement.** The organization is the merchant of record, so their name appears rather than Famlo's. Check the organization name against your bookings and your memberships.
 
-## What's Next?
+**My refund has not arrived.** Allow ten business days from the cancellation. If it is still missing after that, [contact support](/docs/account/support).
 
-1. **[Track scholarship invoices](/docs/families/payments-and-refunds)** - For scholarship reimbursement
-2. **[Manage payment methods](/docs/families/payments-and-refunds)** - Update your saved cards
-3. **[View your calendar](/docs/families/calendar)** - See upcoming events
+## Related
 
-
-<!-- MERGED FROM: docs/account/payment-methods.md — Phase 4: fold into the sections above, do not leave as an appendix -->
-
-## Payment Methods
-
-Manage your saved payment methods to make checkout faster and keep your memberships active. This guide covers adding, updating, and removing payment cards.
-
-### Access Payment Methods
-
-1. Go to **Account Settings**
-2. Click **Payment Methods** or **Payments**
-
-### Your Saved Cards
-
-#### View Saved Cards
-
-See all your saved payment methods:
-- Card type (Visa, Mastercard, etc.)
-- Last 4 digits
-- Expiration date
-- Default status
-
-#### Default Payment Method
-
-Your default card is used for:
-- Automatic membership renewals
-- Quick checkout (one-click when available)
-- Any automatic charges
-
-A star or "Default" label indicates your default card.
-
-### Adding a Payment Method
-
-#### Add a New Card
-
-1. Go to **Payment Methods**
-2. Click **Add Payment Method** or **Add Card**
-3. Enter your card details:
-   - Card number
-   - Expiration date (MM/YY)
-   - CVV/Security code
-   - Billing zip code
-4. Click **Save**
-
-#### Supported Cards
-
-Famlo accepts:
-- Visa
-- Mastercard
-- American Express
-- Discover
-
-Debit cards with Visa or Mastercard logos are also accepted.
-
-#### Save During Checkout
-
-You can also save cards during checkout:
-1. At checkout, enter your card details
-2. Check **Save this card for future use**
-3. Complete your payment
-4. Card is saved to your account
-
-### Managing Payment Methods
-
-#### Set Default Card
-
-To change your default payment method:
-
-1. Go to **Payment Methods**
-2. Find the card you want as default
-3. Click **Set as Default** or the star icon
-4. Confirm the change
-
-Your default card will be used for automatic payments.
-
-#### Update Card Information
-
-If your card details change (new expiration date, etc.):
-
-1. Go to **Payment Methods**
-2. Find the card to update
-3. Click **Edit** or **Update**
-4. Enter new information
-5. Click **Save**
-
-:::tip Card Updates
-If you receive a new card with the same number but new expiration, update it before the old one expires to avoid failed payments.
-:::
-
-#### Remove a Card
-
-To delete a saved card:
-
-1. Go to **Payment Methods**
-2. Find the card to remove
-3. Click **Remove** or the trash icon
-4. Confirm the removal
-
-:::warning Active Subscriptions
-You cannot remove a card that's being used for active membership subscriptions. Either cancel the subscription or set a different default card first.
-:::
-
-### Payment Security
-
-#### How Your Data is Protected
-
-Your payment information is secure:
-
-- **Encryption** - All data is encrypted during transmission
-- **Stripe Security** - Card details stored by Stripe, not Famlo
-- **PCI Compliance** - Meets industry security standards
-- **Tokenization** - Actual card numbers aren't stored on our servers
-
-#### What We Store
-
-Famlo stores:
-- Card type and last 4 digits (for display)
-- Expiration date
-- Billing zip code
-
-We never see or store:
-- Full card number
-- CVV/Security code
-
-#### Secure Checkout
-
-Every payment uses:
-- SSL encryption
-- Fraud detection
-- Secure payment processing through Stripe
-
-### Automatic Payments
-
-#### How They Work
-
-If you have active memberships:
-
-1. Renewal date approaches
-2. Default payment method is charged
-3. Receipt is emailed to you
-4. Membership continues uninterrupted
-
-#### Failed Automatic Payments
-
-If an automatic payment fails:
-
-1. You receive an email notification
-2. Stripe retries the charge (typically 3 times)
-3. Update your payment method if needed
-4. Membership may pause after failed attempts
-
-#### Update Before Renewal
-
-To avoid failed payments:
-- Check your default card before renewal dates
-- Update expired cards promptly
-- Ensure sufficient funds/credit limit
-
-### Payment History
-
-#### View Past Payments
-
-See all your transactions:
-
-1. Go to **Account Settings** > **Payments** or **Card Payments**
-2. View your payment history
-3. See details for each transaction:
-   - Date
-   - Description
-   - Amount
-   - Card used
-   - Status
-
-#### Download Receipts
-
-For any payment:
-
-1. Find the transaction in your history
-2. Click **View Receipt** or **Download**
-3. Get a PDF receipt for your records
-
-#### Filter Transactions
-
-Find specific payments:
-- Filter by date range
-- Filter by type (membership, event)
-- Search by description
-
-### Troubleshooting
-
-#### Card Declined
-
-If your card is declined:
-
-1. **Check card details** - Ensure number, expiration, CVV are correct
-2. **Check funds** - Ensure sufficient balance or credit
-3. **Check expiration** - Card may have expired
-4. **Contact bank** - They may have blocked the transaction
-5. **Try different card** - Use another payment method
-
-#### Card Not Saving
-
-If your card won't save:
-- Verify all required fields are filled
-- Check for typos in card number
-- Ensure expiration date is in the future
-- Try a different browser
-- Contact support if issues persist
-
-#### Unknown Charge
-
-If you see an unexpected charge:
-1. Check your payment history in Famlo
-2. Review your active memberships
-3. Check for family members who may have registered
-4. Contact support if you can't identify it
-
-#### Refund Not Appearing
-
-If you're waiting for a refund:
-- Refunds take 5-10 business days to process
-- Check your card statement after this period
-- The refund goes to the original payment method
-- Contact support if not received after 10 business days
-
-### What's Next?
-
-1. **[View payment history](/docs/families/payments-and-refunds)** - See all your transactions
-2. **[Manage subscriptions](/docs/families/organizations)** - Control membership billing
-3. **[Account settings](/docs/account/login-and-security)** - Update your profile
+- [Registering and checking out](/docs/families/registering)
+- [Scholarships](/docs/families/scholarships)
+- [Your memberships](/docs/families/memberships)
+- [Your calendar](/docs/families/calendar)

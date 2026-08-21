@@ -3,136 +3,140 @@ sidebar_position: 7
 title: Your memberships
 description: Membership dues, changing your card, and leaving an organization.
 ---
-<!-- SOURCE: docs/account/subscriptions.md -->
-# Subscriptions
 
-The Subscriptions page gives you a centralized view of all your paid group memberships. You can check billing dates, update payment methods, view invoices, and cancel subscriptions -- all from one place.
+# Your memberships
+**My memberships** is one page listing every organization you belong to, paid and free. It is where you check what you are paying, when it renews, which card is on file, and how to stop.
 
-## Access Your Subscriptions
+To get there, open the account menu, select **Account settings**, then select **Memberships**.
 
-1. Click your **profile icon** in the top right corner
-2. Select **Account Settings**
-3. Click **Subscriptions** in the sidebar
+## What the page shows
 
-You will see a summary of your active paid memberships along with your estimated monthly total.
+Organizations that charge dues are listed under **Paid memberships**. Each row carries the organization's name, a status badge, the price, the renewal date and the amount due next.
 
-:::info Free Memberships
-Only paid group memberships appear on this page. If you belong to groups that do not charge a membership fee, they will not be listed here.
+Organizations that charge nothing are listed under **Free groups**, each with the role you hold there.
+
+Organizations you own are not listed. You manage those from the organization console, not from here.
+
+If you belong to nothing yet, the page says so and offers **Discover groups**.
+
+### Membership statuses
+
+There are three badges you will see.
+
+| Badge | What it means |
+| --- | --- |
+| **Active** | Dues are being collected on schedule |
+| **Payment due** | A charge failed and the membership is at risk |
+| **Canceled** | The membership has ended |
+
+A separate **Leaving Famlo** badge appears if the organization has scheduled its own closure. Your membership is cancelled on that date and the unused part of your term is refunded then.
+
+## How dues are billed
+
+The organization sets the billing cadence when it sets its price. You do not choose it, and you cannot change it from your side.
+
+There are six cadences: **Monthly**, **Every 2 months**, **Quarterly**, **Every 6 months**, **Annually** and **One-time fee**. The price on your row is written the same way, for example "$25.00 / month" or "$60.00 / quarter". A one-time fee is charged once when you join and never renews.
+
+Recurring dues renew automatically until you cancel. Your row shows **Renews** and the date, so the next charge is never a surprise. Famlo emails a reminder before an annual renewal about a month ahead, and a few days ahead of a monthly one.
+
+Dues are paid to the organization. They are the merchant of record, so their name appears on your statement.
+
+## Change the card on a membership
+
+You can move a membership onto a different card at any time, before anything goes wrong.
+
+1. Find the membership under **Paid memberships**. The card on file is shown with its brand and last four digits.
+2. Select **Change card**.
+3. On **Change payment method**, choose one of your saved cards, or choose **Use a new card** and enter the details.
+4. Select **Save card**.
+
+The page tells you what will happen: "The new card takes over your next renewal. You won't be charged now."
+
+Each membership has its own card on file. Changing one does not change the others. Cards themselves are managed on the payments page — see [Payments and refunds](/docs/families/payments-and-refunds).
+
+## When a payment fails
+
+A failed charge flips the badge to **Payment due** and puts an amber panel on the row. It reads "Payment issue — we couldn't charge your card, so this membership is at risk." It also tells you how long ago the last attempt was.
+
+Famlo escalates in three stages while the card keeps failing.
+
+| Stage | What you are told |
+| --- | --- |
+| Retry | A first courtesy reminder. The card is still being retried automatically. |
+| Action required | Your bank needs you to approve the charge before it can go through. |
+| Final warning | Retries are nearly exhausted and the membership will lapse. |
+
+You have three ways to fix it from the same panel.
+
+- Pick a card from the **Pay with** list and select **Update & retry payment**. This switches the membership to that card and retries the outstanding charge at once. Expired cards are listed but cannot be picked.
+- Select **Use a different or new card** to open **Change payment method**, where the button reads **Save card & retry payment**.
+- If you have no cards saved at all, select **Add a card** and save one first.
+
+When it works, the page confirms "Payment updated — your membership is active again."
+
+## Use a discount code
+
+Discount codes work against a live membership, not only at the moment you join.
+
+1. Find the active membership under **Paid memberships**.
+2. Type your code into **Have a discount code?**
+3. Select **Apply code**.
+
+A code the organization has set aside for you appears on the row by itself. It is headed "Your group offered you a discount", with the terms below. Select **Apply** with the code named on the button and it is applied for you.
+
+A code has to belong to the organization you are applying it to. Codes from one organization do not work at another.
+
+## Receipts and payment history
+
+Each paid membership carries a collapsed **Payment history** section listing recent invoices. Open it to see the amount, the status and the date each was paid.
+
+Where a receipt exists, a **Receipt** link opens the Stripe-hosted invoice in a new tab.
+
+## Cancel a paid membership
+
+Cancelling asks you one question first: when it should stop.
+
+1. Find the membership under **Paid memberships**.
+2. Under **When should it end?**, choose **At the end of this period** or **Immediately**.
+3. Select **Cancel membership**.
+4. Confirm when asked.
+
+Choosing **At the end of this period** stops future charges. Your access stays in place until the term you have already paid for runs out. Famlo confirms the exact end date.
+
+:::warning
+Choosing **Immediately** ends the membership on the spot and issues no refund. You lose the rest of the term you paid for and nothing comes back to your card. Unless you need it gone today, choose **At the end of this period** instead.
 :::
 
-## Understanding the Subscriptions Page
+If an organization removes you, or Famlo cancels a membership on its own, the unused part of your current period is refunded. That treatment applies to those cancellations, not to your own.
 
-### Filter Tabs
+Cancelling a membership does not cancel bookings you have already made for that organization's activities. Those follow the booking refund rules in [Payments and refunds](/docs/families/payments-and-refunds).
 
-At the top of the page, three filter tabs let you view subscriptions by status:
+## Leave a free organization
 
-- **Active** -- Subscriptions that are currently billing on schedule
-- **Pending** -- Subscriptions you have canceled but that remain active until the end of the current billing period
-- **Canceled** -- Subscriptions that have fully ended
+Free memberships have nothing to cancel, so they have a single control.
 
-Each tab shows a count of how many subscriptions fall into that category.
+1. Find the organization under **Free groups**.
+2. Select **Leave**.
+3. Confirm when asked.
 
-### Monthly Total
+The membership is removed straight away and Famlo confirms you have left. To come back you rejoin like any new member, and if the organization screens applicants you go through that again. See [Finding and joining organizations](/docs/families/organizations).
 
-When you have active subscriptions, the page displays your estimated **monthly total**. Annual subscriptions are divided by 12 to give you a comparable monthly figure.
+## Troubleshooting
 
-### Subscription Cards
+**An organization I belong to is not on this page.** You are its owner, and owners are managed from the organization console rather than here.
 
-Each subscription is displayed as an expandable card showing:
+**I cancelled but I was charged again.** Check the badge. A membership cancelled at the end of the period stays **Active** until that date. The last charge may also have been in flight already.
 
-- **Group name and image**
-- **Status badge** -- Active, Canceling, Grace Period, Expired, or Canceled
-- **Your role** in the group (if you are a co-leader or event manager)
-- **Price and billing cycle** -- monthly or annual amount
-- **Next billing date** -- when your next payment is due
+**I cancelled immediately and want my money back.** Famlo does not issue a refund for an immediate cancellation. Message the organization directly — they decide their own refunds.
 
-Click on a subscription card to expand it and see additional details.
+**My card was refused when I tried to remove it.** It is on file for an active membership. Change the card on that membership first, then remove it from the payments page.
 
-## View Subscription Details
+**My discount code was refused.** Codes are tied to one organization and can expire, start later, run out of redemptions, or be limited to one use per family. Ask the organization to confirm which code applies to you.
 
-Click any subscription card to expand it and view:
+**I still have access to an organization I cancelled.** Access runs to the end of the period you paid for. The row shows the date it stops.
 
-### Payment Method
+## Related
 
-The card on file for this subscription, showing the card brand and last four digits along with the expiration date. If no payment method is linked, you will see a prompt to add one.
-
-### Billing Information
-
-- **Next payment date** and amount for active subscriptions
-- **End date** for canceled subscriptions
-- **Member since** date showing when you originally joined the group
-
-### Latest Invoice
-
-If available, a link to view your most recent invoice. This opens the Stripe-hosted invoice page in a new tab where you can download a PDF receipt.
-
-## Update Your Payment Method
-
-If you need to change the card used for a specific group subscription:
-
-1. Go to **Account Settings** > **Subscriptions**
-2. Click the subscription card to expand it
-3. Click **Update Payment**
-4. Enter your new card details in the secure payment form
-5. Confirm the update
-
-:::tip Per-Subscription Payment Methods
-Each group subscription can have its own payment method. Updating the card on one subscription does not affect your other subscriptions.
-:::
-
-## Cancel a Subscription
-
-If you no longer want to pay for a group membership, you can cancel the subscription:
-
-1. Go to **Account Settings** > **Subscriptions**
-2. Click the subscription card to expand it
-3. Click **Cancel Subscription**
-4. Review the cancellation details in the confirmation dialog
-5. Confirm the cancellation
-
-### What Happens After Cancellation
-
-- Your subscription moves to the **Pending** tab with a "Canceling" status
-- You continue to have full access to the group until the end of your current billing period
-- A banner on the subscription card shows the exact date your access will end
-- Once the billing period ends, the subscription moves to the **Canceled** tab
-- You will no longer be charged
-
-:::warning No Partial Refunds
-Canceling a subscription does not issue a refund for the remaining time in your current billing period. You retain access until that period ends.
-:::
-
-## Subscription Statuses
-
-| Status | Meaning |
-|--------|---------|
-| **Active** | Your subscription is current and billing normally |
-| **Canceling** | You have canceled, but access continues until the billing period ends |
-| **Grace Period** | A payment failed, but you still have temporary access while we retry |
-| **Trial** | You are in a free trial period before billing begins |
-| **Expired** | Your subscription has ended after a grace period lapsed |
-| **Canceled** | Your subscription has fully ended |
-
-## Common Questions
-
-### Why don't I see a subscription for a group I belong to?
-
-Only groups that charge a membership fee appear on this page. Free groups and groups where you are the owner are not listed.
-
-### Can I reactivate a canceled subscription?
-
-If your subscription is in the **Pending** (canceling) state, contact the group leader to discuss options. Once a subscription is fully canceled, you would need to rejoin the group and set up a new membership.
-
-### What happens if my payment fails?
-
-If a payment fails, your subscription enters a **Grace Period**. Stripe will automatically retry the charge. You can update your payment method during this time to avoid losing access.
-
-### Where can I find past invoices?
-
-Expand any subscription card and click **View Invoice** to access your latest Stripe invoice. From the Stripe invoice page, you can view your payment history.
-
-## What's Next?
-
-1. **[Payment Methods](/docs/families/payments-and-refunds)** -- Manage your saved cards
-2. **[Group Membership](/docs/families/organizations)** -- Learn about group membership options
-3. **[Payments](/docs/families/payments-and-refunds)** -- View your full payment history
+- [Payments and refunds](/docs/families/payments-and-refunds)
+- [Finding and joining organizations](/docs/families/organizations)
+- [Registering and checking out](/docs/families/registering)

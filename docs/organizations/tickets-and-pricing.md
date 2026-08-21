@@ -2,253 +2,136 @@
 sidebar_position: 4
 title: Tickets and pricing
 description: Ticket types, scopes, add-ons, and what to charge.
+keywords: [activity ticket price, per family ticket, series pass, add-ons, what to charge homeschool class]
 ---
-<!-- SOURCE: docs/group-leaders/tickets-pricing.md -->
-# Tickets and Pricing
 
-This guide covers advanced ticketing options for your events, including multiple ticket types, add-ons, and pricing strategies.
+# Tickets and pricing
 
-## Ticket Types
+Every paid activity is priced through tickets. A ticket carries a name, a price, an optional capacity and a few options, and a family picks one when they register. This guide is for anyone who can edit activities.
 
-### Why Use Multiple Ticket Types
+Before you can save a price above $0, payouts have to be Active. Set that up first in [Getting paid](/docs/organizations/getting-paid).
 
-Multiple ticket types let you:
-- Offer different prices for adults vs. children
-- Create member vs. non-member pricing
-- Limit certain ticket types (e.g., only 10 scholarship spots)
-- Bundle different experiences (e.g., VIP vs. standard)
+## Open the ticket editor
 
-### Creating Ticket Types
+1. Open the account menu and choose **Manage organizations**.
+2. Pick your organization, then open **Activities**.
+3. Choose the activity and open it for editing.
+4. Expand the **Tickets & Pricing** section.
 
-For each ticket type, configure:
+## Free or paid
 
-**Name**
-- Clear, descriptive name
-- Examples: "Adult", "Child (5-12)", "Family Pass"
+The section opens with the question **How would you like to handle admission?** and two buttons.
 
-**Price**
-- Cost per ticket
-- Set to $0 for free tickets
+- **Free** sets every ticket to $0. Families register without paying.
+- **Paid** reveals the ticket editor.
 
-**Description**
-- What's included with this ticket
-- Any restrictions or requirements
+You can switch back. Choosing **Free** on an activity that already has priced tickets sets those prices to $0.
 
-**Quantity Available**
-- Total number of this ticket type
-- Leave blank for unlimited
+## What is on a ticket
 
-**Purchase Limits**
-- Minimum per order (usually 1)
-- Maximum per order (to prevent overselling)
+Each ticket row shows three fields, and folds the rest behind **Options**.
 
-### Example Ticket Configurations
+| Field | What it does |
+| --- | --- |
+| **Ticket Name** | What the family picks. "General Admission", "Sibling", "Second child". |
+| **Price ($)** | The amount charged. $0 makes this ticket free. |
+| **Capacity** | How many of this ticket exist. Leave it blank for **Unlimited**. |
+| **Scope** | Whether the ticket covers one person, one family, or one group. |
+| **Type** | **Standard**, **Series pass** or **Intro session**. |
+| **Eligible for scholarship** | Flags this ticket for scholarship families. See [Scholarships](/docs/organizations/scholarships). |
+| **Description** | What is included. Shown to the family under the ticket name. |
 
-**Simple Adult/Child Pricing:**
-| Ticket Type | Price | Quantity |
-|-------------|-------|----------|
-| Adult | $15 | Unlimited |
-| Child (5-17) | $10 | Unlimited |
-| Child (under 5) | Free | Unlimited |
+There are no minimum or maximum purchase limits, and no per-ticket member pricing. Use **Add Ticket** for another row, **Drag to reorder** to move one, and **Remove ticket** to delete one.
 
-**Family Event:**
-| Ticket Type | Price | Quantity |
-|-------------|-------|----------|
-| Family (up to 6) | $40 | 20 |
-| Individual | $12 | 50 |
+### Scope
 
-**Limited Spots:**
-| Ticket Type | Price | Quantity |
-|-------------|-------|----------|
-| General Admission | $20 | 25 |
-| Scholarship | $20 | 5 |
+**Scope** decides what one ticket buys.
 
-## Add-Ons
+- **Per person** — one seat. Two children means two tickets.
+- **Per family** — the whole family on one ticket. Use this when your price is per household rather than per head.
+- **Per group** — one ticket covering a party, for a venue or an attraction that charges by the booking.
 
-Add-ons are optional extras attendees can purchase with their registration.
+### Type
 
-### Per-Attendee Add-Ons
-
-Purchased for each person attending:
-
-**Examples:**
-- Lunch - $8 per person
-- Materials/supplies - $5 per person
-- T-shirt - $15 per person
-
-**Configuration:**
-1. Click **Add Add-On**
-2. Enter name and price
-3. Select **Per Attendee**
-4. Set quantity limits if needed
-
-### Per-Order Add-Ons
-
-Purchased once per registration, regardless of attendee count:
-
-**Examples:**
-- Parking pass - $10 per vehicle
-- Family photo package - $25
-- Facility fee - $5
-
-**Configuration:**
-1. Click **Add Add-On**
-2. Enter name and price
-3. Select **Per Order**
-
-### Add-On Settings
-
-For each add-on:
-- **Required vs. Optional** - Must they purchase or can they skip?
-- **Quantity limits** - Maximum available
-- **Description** - What's included
-
-## Pricing Strategies
-
-### Early Bird Pricing
-
-Encourage early registration:
-
-1. Create two ticket types with same name
-2. Set the early bird with lower price and limited quantity
-3. When early bird sells out, regular price remains
-
-**Example:**
-- Early Bird - $15 (first 20 registrations)
-- Regular - $20 (unlimited)
-
-### Member vs. Non-Member Pricing
-
-If non-members can attend:
-
-1. Create member-priced tickets
-2. Create non-member tickets at higher price
-3. Configure visibility based on membership status
-
-### Sliding Scale / Pay What You Can
-
-For accessibility:
-
-1. Create multiple ticket types at different prices
-2. Let attendees choose their level
-3. Example: "Standard - $20", "Reduced - $10", "Supporter - $30"
-
-### Group Discounts
-
-For families or large groups:
-
-1. Create a "Family Pass" ticket type
-2. Price it lower than buying individual tickets
-3. Set a maximum family size in the description
-
-## Free Events
-
-### Completely Free
-
-For no-cost events:
-- Don't add any ticket types
-- Or add a single $0 ticket type
-- Attendees simply RSVP
-
-### Free with Paid Add-Ons
-
-Event is free but extras cost:
-- Set base ticket to $0
-- Add paid add-ons (lunch, materials, etc.)
-- Attendees can register free and optionally purchase extras
-
-## Capacity and Tickets
-
-### Overall Event Capacity
-
-Set in event settings:
-- Total attendees allowed
-- Applies across all ticket types
-
-### Per-Ticket Capacity
-
-Set on each ticket type:
-- Limits that specific ticket
-- Example: Only 5 scholarship spots
-
-### How They Work Together
-
-If event capacity is 50 and you have:
-- Adult tickets: 30 available
-- Child tickets: 30 available
-
-Total registrations stop at 50, even if individual ticket types haven't sold out.
-
-## Fees and Pricing Display
-
-### Understanding Fees
-
-When attendees pay, they may see:
-- **Ticket price** - Your set price
-- **Platform fee** - Famlo fee
-- **Processing fee** - Payment processing cost
-
-### Price Display Options
-
-Choose how prices appear:
-- **Show fees separately** - Attendees see base price + fees
-- **Include fees in price** - All-inclusive pricing
-
-## Managing Ticket Sales
-
-### View Sales
-
-Monitor ticket sales:
-1. Go to **Manage Event**
-2. View sales by ticket type
-3. See total revenue collected
-
-### Close Ticket Sales
-
-Stop sales for a specific ticket:
-1. Go to **Edit Event**
-2. Find the ticket type
-3. Set quantity to 0 or mark as sold out
-
-### Modify Prices
-
-To change prices after publishing:
-
-1. Go to **Edit Event**
-2. Update ticket prices
-3. Save changes
-
-:::warning Price Changes
-Changing prices doesn't affect existing registrations. New price applies to new registrations only.
+:::warning A series pass does not hold a seat at every session
+**Series pass** and **Intro session** are labels on a ticket. They change what the family reads, and nothing else. A repeating activity creates a separate occurrence for each date, and a family registers for each occurrence on its own. Selling a "12-week pass" does not book those twelve dates. If you need a family in the room every week, say so in the **Description** and check the roster for each date.
 :::
+
+Use **Standard** unless you have a reason not to.
+
+## Add-ons and extras
+
+Below the tickets sits **Add-ons & Extras** — optional items a family can buy alongside their ticket. Lunch, materials, a T-shirt.
+
+1. Select **Add Extra**.
+2. Fill in **Add-on Name** and **Price ($)**.
+3. Set **Capacity** if you only have so many, or leave it blank.
+4. Expand **Options** to add a **Description**.
+
+An add-on has no scope and no type. There is no choice between charging it once per order and once per attendee — an add-on is simply an item the family can add.
+
+## Capacity
+
+You set **Capacity** on each ticket row, and that ticket stops selling once it is reached. Leave it blank and the ticket is uncapped. Your activity list shows registrations against capacity so you can see how full a date is at a glance.
+
+When a paid activity fills, it closes rather than queuing anyone. Families save it, and the button they see reads **Join the waitlist**. Nobody holds a position in that waitlist and nobody is next in line. When a place frees up, everyone watching is told at the same moment and the first to register takes it.
+
+## Pricing against the 10% fee
+
+Famlo takes a flat 10% of what the family pays by card, out of your payout rather than on top of the ticket price. Stripe's processing charge comes out too. Price with both in mind.
+
+| List price | Platform fee | Card processing | You keep |
+| --- | --- | --- | --- |
+| $10.00 | $1.00 | $0.59 | $8.41 |
+| $25.00 | $2.50 | $1.03 | $21.47 |
+| $50.00 | $5.00 | $1.75 | $43.25 |
+| $100.00 | $10.00 | $3.20 | $86.80 |
+
+Card processing above assumes Stripe's typical US rate of 2.9% + $0.30. Stripe publishes the current figures.
+
+A few practical rules:
+
+- Working backwards from what you need to clear: divide by 0.9 for the platform fee, then add roughly another 3% for processing. To keep $45, list about $52.
+- Charge per session rather than per term where you can. A family who has to find $240 in one go hesitates; $20 a week does not.
+- A promo code, an account credit or a scholarship award reduces the card charge, and the 10% follows the smaller number.
+- Scholarship money carries no platform fee at all.
+
+## Changing a price after you publish
+
+Edit the ticket, change **Price ($)**, and save. Existing bookings are untouched — a family who already paid keeps what they paid. The new price applies to whoever registers next.
+
+If you are raising a price on a running series, tell your families before you save it.
 
 ## Refunds
 
-### Automatic Refunds
+You cannot issue a refund by hand. There is no refund button on a booking, no partial refund, and no way to type an amount. Refund outcomes follow the policy.
 
-When attendees cancel (if allowed):
-- System processes refund automatically
-- Based on your cancellation policy
-- Refund goes to original payment method
+- A family cancelling **24 hours or more** before start gets a full refund.
+- A family cancelling **inside 24 hours** gets nothing back.
+- Turn on **No Refunds** in the activity's **Settings** section to override that and refund nothing at any point. The help text reads "Disable refunds (otherwise allowed up to 24 hours before)".
+- **Cancel activity** on the activity's console page refunds and notifies everyone registered, then unpublishes it.
 
-### Manual Refunds
+Set **No Refunds** before you take bookings, not after, and put the reason in the activity description.
 
-For special situations:
-1. Go to the attendee's registration
-2. Click **Issue Refund**
-3. Enter refund amount
-4. Add a note explaining the reason
-5. Process the refund
+## Troubleshooting
 
-### Partial Refunds
+**The price field won't save.**
+Payouts are not finished. A ticket cannot carry a price above $0 until your organization can accept money. See [Getting paid](/docs/organizations/getting-paid).
 
-You can issue partial refunds:
-- For unused add-ons
-- When transferring registrations
-- For goodwill gestures
+**A family says they registered for the series but is missing from week three.**
+Each date is registered separately, whatever the ticket is called. Check the roster for that date and let the family know they need to register for the ones they want.
 
-## What's Next?
+**I can't find a purchase limit setting.**
+There isn't one. Use **Capacity** on the ticket to cap how many exist in total.
 
-1. **[Set up Stripe payments](/docs/organizations/getting-paid)** - Connect your payment account
-2. **[Generate scholarship invoices](/docs/organizations/scholarships)** - For scholarship families
-3. **[Manage events](/docs/organizations/activities)** - Handle registrations
+**I can't find where to switch fee display on or off.**
+There is nothing to switch. Families are charged exactly the price you list, with no fee line at checkout.
+
+**I want to refund one family but not cancel the activity.**
+There is no control for that. The family can cancel their own booking, and the 24-hour rule decides what comes back to them.
+
+## What's next
+
+- [Scheduling activities](/docs/organizations/activities) — set up the activity the tickets hang off.
+- [Promo codes](/docs/organizations/promo-codes) — discount a booking at checkout.
+- [Getting paid](/docs/organizations/getting-paid) — payouts and the platform fee.

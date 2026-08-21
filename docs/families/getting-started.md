@@ -2,183 +2,135 @@
 sidebar_position: 1
 title: Getting started as a new family
 description: Create your account, add your family, and register for your first activity.
+keywords: [famlo sign up, create account, family account, sign in code, homeschool account]
 ---
-<!-- SOURCE: docs/getting-started/create-account.md -->
-# Create Your Account
 
-Getting started with Famlo begins with creating your account. This guide walks you through the registration process.
+# Getting started as a new family
 
-## Sign Up Options
+This guide takes you from no account to your first booking. It is for the parent
+or guardian who sets Famlo up for the household. Famlo is free for families, and
+stays free.
 
-You can create a Famlo account in two ways:
+## Create your account
 
-1. **Email and Password** - Create an account using your email address
-2. **Social Login** - Sign up quickly using your Google account
+Signing in and signing up happen on the same screen. It is titled **Log in or
+sign up**, and the line underneath reads "Enter your email and we'll send you a
+code."
 
-## Creating an Account with Email
+1. Go to [famlo.co/login](https://famlo.co/login), or select **Log in or sign
+   up** from the menu.
+2. Type your address in the **Email** field.
+3. Select **Continue**. Famlo emails you a six-digit code.
+4. On **Confirm it's you**, enter the six digits and select **Continue**.
+5. On **Let's create your account**, fill in your first name, last name, and a
+   password of at least eight characters.
+6. Select **Agree and continue**.
+7. On **Everyone belongs here**, read the Community Commitment and select
+   **Agree and continue**.
 
-1. Go to [famlo.co/register](https://famlo.co/register)
-2. Enter your information:
-   - **First Name** - Your first name
-   - **Last Name** - Your last name
-   - **Email Address** - A valid email you have access to
-   - **Password** - Create a secure password (at least 8 characters)
-3. Click **Create Account**
+You are signed in from that moment. Entering the code confirms your address, so
+there is no separate verification email to open.
 
-:::tip Password Tips
-Choose a strong password that includes:
-- At least 8 characters
-- A mix of uppercase and lowercase letters
-- Numbers and special characters
+:::note
+On the last screen, **Decline** removes the account you just created. It is a
+real choice, not a way to skip the step.
 :::
 
-## Creating an Account with Google
+### If the code does not arrive
 
-For a faster sign-up experience:
+Check your spam or junk folder first. On the code screen, **Send a new code**
+sends a fresh one. **Try another way** offers **Continue with a passkey** and
+**Enter your password** instead.
 
-1. Go to [famlo.co/register](https://famlo.co/register)
-2. Click **Continue with Google**
-3. Select your Google account or sign in to Google
-4. Review the permissions and click **Allow**
+## Other ways to sign in
 
-Your account will be created automatically using your Google account information.
+Famlo does not require a password day to day, but several routes exist and you
+can use whichever suits you.
 
-## Verify Your Email
+- **Continue with a passkey** — sits above the social buttons, and appears only
+  on a device that can run it. On a device that already holds one, the button
+  names that device instead.
+- **Google**, **Facebook**, and **Apple** — the social buttons under the divider.
+  On a wide screen they collapse into three icons.
+- **Use a password instead** — the link at the bottom of **Log in or sign up**.
+  It leads to **Enter your password**, which also carries **Forgot your
+  password?**.
 
-After creating your account with email and password, you need to verify your email address:
+For managing passkeys, passwords, and connected accounts afterwards, see
+[Login and security](/docs/account/login-and-security).
 
-1. Check your inbox for an email from Famlo
-2. Click the **Verify Email** link in the email
-3. You'll be redirected to Famlo with your email confirmed
+## Who can hold an account
 
-:::note Didn't receive the email?
-- Check your spam or junk folder
-- Make sure you entered the correct email address
-- Click "Resend verification email" on the login page
-:::
+You must be 18 or older, or of legal age to enter agreements where you live. You
+confirm this when you select **Agree and continue**.
 
-## Age Requirements
+Children do not have their own Famlo accounts. An adult adds them to their own
+account as family members. That is what puts a child's name, age, and safety
+details in front of the organization running an activity.
 
-Famlo requires users to be at least 13 years old to create an account, in compliance with the Children's Online Privacy Protection Act (COPPA).
+## Add your family
 
-### If You're Under 13
+Adding your children and other household members is what lets you register a
+specific person rather than a whole household.
 
-If you're under 13, a parent or guardian must create and manage the account on your behalf. Parents can add children as family members through their own account without needing separate accounts for minors.
+1. Open the account menu and select **My family**.
+2. Select **+ Add family member**.
+3. Enter their **Name** in the single name field.
+4. Choose a **Relationship** — Child, Spouse, or Other.
+5. Set the **Birthdate**.
+6. Select **Add**.
 
-### Parental Consent
+The add form asks those three things only. Allergies, health, medications,
+pickup, and the emergency contact are filled in afterwards on the member's own
+page, one section at a time. [Your family profile](/docs/families/your-family)
+covers all six sections and who can see each one.
 
-During registration, you may be asked to verify your age. If the system detects that an account holder may be under 13:
+## What Famlo costs your family
 
-1. The registration process will pause
-2. A parental consent verification step will be required
-3. A parent or guardian must complete the verification before the account can be activated
+Nothing. Families never pay Famlo a fee, and there is no add-on platform fee or
+processing fee at checkout. You pay only the price an organization sets for a
+class, camp, or field trip, plus any membership dues you choose to take on.
 
-:::info Why Age Verification?
-This process protects children's privacy online and ensures compliance with federal regulations. Parents maintain full control over their children's information through the [Family Members](/docs/families/your-family) feature.
-:::
+Organizations pay a flat 10% platform fee out of their own share. It is never
+added to your total. See [Payments and
+refunds](/docs/families/payments-and-refunds) for how charges, credit, and
+refunds work.
 
-## Sign In to Your Account
+## Register for your first activity
 
-Once your account is created and verified:
+1. Select **Browse activities** to see what is running near you.
+2. Open an activity and read its dates, price, and age range.
+3. Start a registration from the activity page.
+4. Choose who is attending, then complete checkout.
 
-1. Go to [famlo.co/login](https://famlo.co/login)
-2. Enter your email and password, or click **Continue with Google**
-3. Click **Sign In**
+[Finding activities](/docs/families/finding-activities) covers searching and
+filtering. [Registering and checking out](/docs/families/registering) covers the
+checkout screen in detail. To join an organization rather than book a single
+activity, see [Finding and joining
+organizations](/docs/families/organizations).
 
-## Forgot Your Password?
+## Troubleshooting
 
-If you forget your password:
+**The code never arrived.** Check spam, then select **Send a new code**. If your
+address was mistyped, go back and start again from **Log in or sign up** — the
+address on the code screen is the one the code went to.
 
-1. Go to [famlo.co/login](https://famlo.co/login)
-2. Click **Forgot password?**
-3. Enter your email address
-4. Click **Send Reset Link**
-5. Check your email for a password reset link
-6. Click the link and create a new password
+**I never set a password.** You do not need one. Ask for a code from **Log in or
+sign up** each time, or set up a passkey. If you did set a password and lost it,
+use **Forgot your password?** on the **Enter your password** screen.
 
-## What's Next?
+**I want an account for my child.** There is no child account. Add them as a
+family member on your own account instead.
 
-After creating your account, you should:
+**My child is not listed at checkout.** The "Who's attending?" section only
+lists members you have added. Select **Add family members** there, or add them
+from **My family** first.
 
-1. **[Complete your profile](/docs/families/getting-started)** - Add your family information
-2. **[Set up notifications](/docs/account/notifications)** - Choose how you want to be notified
-3. **[Find groups to join](/docs/families/organizations)** - Discover homeschool groups in your area
+## What's next
 
-
-<!-- MERGED FROM: docs/getting-started/complete-profile.md — Phase 4: fold into the sections above, do not leave as an appendix -->
-
-## Complete Your Profile
-
-After creating your account, take a few minutes to complete your profile. A complete profile helps group leaders know who you are and ensures your family is ready to register for events.
-
-### Access Your Profile Settings
-
-1. Click your profile icon in the top right corner
-2. Select **Account Settings** from the dropdown menu
-
-### Update Your Basic Information
-
-On the Account Settings page, you can update:
-
-- **Profile Photo** - Upload a photo to help group members recognize you
-- **First Name** and **Last Name** - Your display name
-- **Email Address** - Your primary contact email
-- **Phone Number** - Optional contact number
-
-Click **Save Changes** after making updates.
-
-### Add Family Members
-
-Adding your children to your profile is important for:
-
-- Registering them for events
-- Tracking allergies and special needs
-- Providing accurate attendee information to event organizers
-
-#### To Add a Child
-
-1. Go to **Account Settings**
-2. Click the **Family Members** tab
-3. Click **Add Child**
-4. Enter their information:
-   - **Name** - Your child's first and last name
-   - **Date of Birth** - Used to calculate their age for events
-   - **Allergies** - Any food or environmental allergies (with severity level)
-   - **Special Needs** - Any accommodations or special considerations
-   - **Medical Information** - Emergency medical details for event safety
-5. Click **Save**
-
-:::tip Why Add Family Members?
-When you register for events, you can quickly select which family members are attending. Their allergy and special needs information is automatically shared with event organizers to help keep them safe.
-:::
-
-#### Edit or Remove a Child
-
-1. Go to **Account Settings** > **Family Members**
-2. Find the child you want to update
-3. Click **Edit** to modify their information, or **Remove** to delete them
-
-### Recording Allergies
-
-When adding allergies for a family member:
-
-1. Click **Add Allergy**
-2. Enter the allergy name (e.g., "Peanuts", "Bee stings")
-3. Select the severity level:
-   - **Mild** - Causes minor discomfort
-   - **Moderate** - Requires attention but not life-threatening
-   - **Severe** - Life-threatening, requires immediate medical attention
-4. Add any notes about treatment or precautions
-5. Click **Save**
-
-:::warning Important
-Always keep allergy information up to date. Event organizers rely on this information to ensure your child's safety during activities.
-:::
-
-### What's Next?
-
-Once your profile is complete:
-
-1. **[Set up your notification preferences](/docs/account/notifications)** - Choose how you want to receive updates
-2. **[Find groups in your area](/docs/families/organizations)** - Start discovering homeschool groups
-3. **[Browse upcoming events](/docs/families/finding-activities)** - See what activities are available
+1. [Fill in your family profiles](/docs/families/your-family) — allergies,
+   medications, pickup, and emergency contact.
+2. [Choose your notifications](/docs/account/notifications) — which updates
+   reach you, and where.
+3. [Save activities and set alerts](/docs/families/saved-and-alerts) — track
+   what fills up before you are ready to book.
