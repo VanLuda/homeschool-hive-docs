@@ -37,6 +37,7 @@ const config: Config = {
 
   clientModules: [
     './src/clientModules/routeListener.ts',
+    './src/clientModules/analytics.ts',
   ],
 
   markdown: {
