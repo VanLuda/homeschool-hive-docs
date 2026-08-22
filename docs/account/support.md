@@ -1,119 +1,107 @@
 ---
 sidebar_position: 3
 title: Getting help
-description: Open a ticket, and what to include so it gets answered quickly.
+description: Open a support ticket from your account settings, follow its status, and write a first message that gets your problem answered without a long back and forth.
+keywords: [famlo support, contact famlo, support ticket, help]
 ---
-<!-- SOURCE: docs/account/support-tickets.md -->
-# Support Tickets
 
-Famlo includes a built-in support ticket system so you can get help directly from the support team. You can create tickets, track their progress, and exchange messages -- all from within your account.
+# Getting help
 
-## Access Support Tickets
+Support lives in one place: **Account settings** → **Support**. You open a ticket
+there, and the whole conversation stays on that page.
 
-1. Click your **profile icon** in the top right corner
-2. Select **Account Settings**
-3. Click **Support** in the sidebar
+If you would rather write from your own mail app, email **support@famlo.co**. It
+reaches the same team. That is the only support address — there is no separate
+billing or privacy address.
 
-This page shows all of your support tickets with their current status.
+## Open a ticket
 
-## Create a New Ticket
+The form is already on the Support page, under **How can we help?**. There is no
+button to press first.
 
-1. From the Support page, click the **New Ticket** button in the top right corner
-2. **Select a category** that best describes your issue:
+1. Open **Account settings** → **Support**.
+2. Choose the category that fits best.
+3. Add a subject — a short summary, up to 200 characters.
+4. Write the detail in the message box.
+5. Select **Open ticket**.
 
-   | Category | Use For |
-   |----------|---------|
-   | **Technical Issue** | Bugs, errors, or features not working correctly |
-   | **Billing & Payments** | Charges, invoices, payment method problems |
-   | **Refund Request** | Requesting a refund for an event or membership |
-   | **Getting Started** | Help with setting up your account or joining groups |
-   | **Report Issue** | Reporting inappropriate content or user behavior |
-   | **Other** | Anything that does not fit the categories above |
+Famlo confirms your ticket and says *"We'll be in touch soon."* No response time
+is promised, so treat that as the whole commitment.
 
-3. Enter a **Subject** -- a brief summary of your issue (up to 200 characters)
-4. Write a **Description** with the details of your problem or question (up to 10,000 characters)
-5. Click **Submit Ticket**
+### Categories
 
-After submission, you will see a confirmation with your ticket number (for example, "TKT-0042"). The support team aims to respond within 24 hours.
+| Category | Use it for |
+| --- | --- |
+| **Account** | Signing in, your email address, your family profile |
+| **Billing & payments** | Charges, cards, and payments that did not work |
+| **Technical issue** | Something on the site behaving the wrong way |
+| **Refund request** | Money back on a booking or a membership |
+| **Getting started** | Setting up, finding activities, joining an organization |
+| **Something else** | Anything the other five do not cover |
 
-:::tip Write a Clear Description
-The more detail you provide, the faster the team can help. Include what you were doing, what you expected to happen, and what actually happened. If the issue involves a specific group or event, mention it by name.
+The category only routes your ticket. Pick the closest one and put the real
+detail in your message.
+
+## Following a ticket
+
+Your tickets stay listed on the Support page. Each row shows the category and
+when the ticket was last updated. Open a row to read the thread and reply.
+
+| Status | What it means |
+| --- | --- |
+| **Open** | Your ticket is in and nobody has replied yet |
+| **Awaiting your reply** | Support has answered and needs something from you |
+| **Awaiting support** | You have replied and it is back with support |
+| **Resolved** | The problem has been settled |
+| **Closed** | The ticket is finished |
+
+There are no ticket numbers. If you need to point back to an earlier ticket,
+name it by its subject.
+
+:::note
+A closed ticket is not a dead end. Open it and reply, and it comes back to life.
+The page tells you so: *"This ticket is closed. Replying will reopen it."*
 :::
 
-## Ticket Statuses
+## Writing a report that gets answered quickly
 
-Each ticket has a status that tells you where it is in the support process:
+Most slow tickets are slow because the first message left something out. A good
+first message usually answers all of these:
 
-| Status | What It Means |
-|--------|---------------|
-| **Open** | Your ticket has been submitted and is waiting to be picked up |
-| **Awaiting Your Reply** | The support team has responded and is waiting for you to reply |
-| **Awaiting Response** | You have replied and the team is reviewing your message |
-| **In Progress** | The team is actively working on your issue |
-| **Resolved** | Your issue has been resolved |
-| **Closed** | The ticket is closed and no further action is needed |
+- **What you expected, and what happened instead.** Both halves. "It did not
+  work" gives support nothing to look for.
+- **Where.** Name the organization, the activity, and the date.
+- **The exact words on screen.** Copy any message you were shown, verbatim.
+- **When it happened**, and whether it happens every time.
+- **What you were using** — phone or computer, and which browser.
 
-Status badges are color-coded on the tickets list so you can quickly see which tickets need your attention.
+One problem per ticket. Two problems in one thread means the second one waits
+for the first.
 
-## View and Respond to a Ticket
+If your ticket is about money, say what you were charged and when. If it is
+about a refund, say which booking or membership it belongs to.
 
-1. From the Support page, click on any ticket to open it
-2. The ticket detail page shows:
-   - **Ticket number** and current status
-   - **Subject** and creation date
-   - **Full message thread** between you and the support team
-3. To reply, type your message in the text box at the bottom
-4. Click the **Send** button or press **Cmd+Enter** (Mac) / **Ctrl+Enter** (Windows)
+## Troubleshooting
 
-Your messages appear on the right side of the conversation, and support team responses appear on the left. System messages (such as status changes) appear centered.
+**I cannot find a button to start a ticket.** There is not one. The form itself
+sits on the Support page under **How can we help?** — scroll to it, fill it in,
+and select **Open ticket**.
 
-:::info Awaiting Your Reply
-When a ticket shows "Awaiting Your Reply," the support team needs information from you before they can continue. Check the latest message and respond as soon as you can to keep things moving.
-:::
+**My subject will not fit.** The subject is capped at 200 characters. It is only
+a headline; the message box below it is where the detail goes.
 
-## Ticket History
+**I do not know which category to choose.** Choose the nearest, or **Something
+else**. It changes how your ticket is routed, not what you are allowed to write.
 
-All your tickets remain on the Support page so you can reference past conversations. The list shows:
+**My ticket is closed and the problem came back.** Open it and reply. Replying
+reopens it, so you keep the earlier thread instead of starting over.
 
-- **Ticket number** -- a unique identifier for each ticket
-- **Subject** -- the title you provided
-- **Status** -- the current state of the ticket
-- **Created date** -- how long ago the ticket was opened
+**I cannot sign in, so I cannot reach the form.** Email **support@famlo.co**
+directly, and see [How Do I Recover My Account?](/docs/how-to/recover-account).
 
-Tickets are listed with the most recent activity first.
+## Related
 
-## After a Ticket Is Resolved or Closed
-
-When a ticket is resolved or closed:
-
-- The message thread is preserved for your reference
-- The reply box is replaced with a notice confirming the ticket status
-- If you need further help on the same issue, you can create a new ticket
-
-:::tip Need More Help?
-If a resolved ticket did not fully address your issue, click **Create a New Ticket** from the closed ticket page to open a follow-up.
-:::
-
-## Common Questions
-
-### How long does it take to get a response?
-
-The support team aims to respond within 24 hours. Response times may vary depending on ticket volume and complexity.
-
-### Can I edit a ticket after submitting it?
-
-You cannot edit the original subject or description, but you can add more details by sending a follow-up message in the ticket thread.
-
-### How do I check if there is a known issue?
-
-Visit the [Help Center](https://help.famlo.co) for common troubleshooting guides and known issues before creating a ticket.
-
-### Can I reopen a closed ticket?
-
-Closed tickets cannot be reopened. If you need further assistance, create a new ticket and reference your previous ticket number.
-
-## What's Next?
-
-1. **[Help & Feedback](/docs/account/support)** -- Report bugs or request features
-2. **[Profile Settings](/docs/account/login-and-security)** -- Manage your account
-3. **[Subscriptions](/docs/families/memberships)** -- View your membership billing
+- [Login and security](/docs/account/login-and-security) — if you cannot get in
+- [Payments and refunds](/docs/families/payments-and-refunds) — before opening a billing ticket
+- [What's free and what's paid](/docs/families/whats-free-and-whats-paid) — what Famlo charges for
+- [Closing your account](/docs/account/closing-your-account) — if you are leaving

@@ -1,243 +1,54 @@
 ---
 sidebar_position: 4
 title: Closing your account
-description: How to have your account and data deleted.
+description: How to have your Famlo account and its data deleted, what to settle before you ask, and how long the deletion takes once your request is in.
+keywords: [delete famlo account, close account, data deletion, leave famlo]
 ---
-<!-- SOURCE: docs/account/delete-account.md -->
-# Delete Your Account
 
-If you decide to leave Famlo, you can delete your account. This guide explains the process and what happens to your data.
+# Closing your account
 
-## Before You Delete
+Email **support@famlo.co** and ask for your account to be deleted.
 
-### Consider These Alternatives
+That is the whole process on your side. There is no delete button in your
+settings — closing an account is handled by support, on request.
 
-Before deleting, you might want to:
+Write from the email address on the account if you can. If you cannot, name
+that address in the message, so it is clear which account to close.
 
-- **Leave groups** instead of deleting your account
-- **Disable notifications** if you're getting too many emails
-- **Take a break** - you can always log back in later
-- **Contact support** if you're having issues we can help resolve
+## How long it takes
 
-### What You'll Lose
+Famlo's published policy is **30 to 45 days** from your request.
 
-Deleting your account permanently removes:
+Your account is not gone the moment you send the email. If you would rather stop
+using it in the meantime, simply stop signing in.
 
-- Your profile and personal information
-- Family member profiles
-- Event registration history
-- Payment history access
-- Group memberships
-- Scholarship invoice records
-- All associated data
+## Settle these first
 
-### What Remains
+Deletion does not cancel things for you, so tidy up before you write.
 
-Some data may be retained:
+- **Paid memberships.** Cancel them yourself on
+  [Your memberships](/docs/families/memberships), so nothing bills while your
+  request is being handled.
+- **The 7-day window.** If you are within seven days of your first dues payment
+  on a membership, cancelling refunds that payment in full. The rules are on
+  [Your memberships](/docs/families/memberships).
+- **Upcoming bookings.** Cancel any you want refunded before you write. What
+  comes back, and when, is on
+  [Payments and refunds](/docs/families/payments-and-refunds).
+- **An organization you run.** A listing is closed separately from your personal
+  account — see [Closing your listing](/docs/organizations/closing-your-listing).
 
-- Transaction records (required for financial/legal purposes)
-- Data in group records that doesn't identify you personally
-- Anonymized data used for platform statistics
+## Getting a copy of your data
 
-## Cancel Subscriptions First
+Famlo has no self-service export. There is no button in your settings that
+downloads your account.
 
-If you have active paid memberships:
+If you want a copy of something before your account is deleted, ask
+**support@famlo.co** — the same address, and worth raising in the same email
+rather than after the fact.
 
-1. Go to each group you're a paying member of
-2. Cancel your membership
-3. Wait for the cancellation to process
-4. Then proceed with account deletion
+## Related
 
-:::warning Active Subscriptions
-If you delete your account with active subscriptions, you won't receive refunds for unused time. Cancel memberships first to avoid unexpected charges.
-:::
-
-## Delete Your Account
-
-### Start the Deletion Process
-
-1. Go to **Account Settings**
-2. Scroll to the bottom or find **Delete Account**
-3. Click **Delete My Account**
-
-### Confirm Your Identity
-
-For security, you'll need to:
-
-1. Enter your password
-2. Or verify via email
-3. Confirm you understand the consequences
-
-### Final Confirmation
-
-Before deletion completes:
-
-1. Review what will be deleted
-2. Read the confirmation message
-3. Type "DELETE" or your email to confirm
-4. Click **Permanently Delete Account**
-
-## After Deletion
-
-### Immediate Effects
-
-Once deleted:
-
-- You're logged out immediately
-- You cannot log back in
-- Your profile is removed from groups
-- Other members can no longer see your profile
-
-### Data Removal Timeline
-
-Data is handled as follows:
-
-| Data Type | When Removed |
-|-----------|-------------|
-| Profile information | Immediately |
-| Login credentials | Immediately |
-| Family member data | Immediately |
-| Event registrations | Within 30 days |
-| Payment records | Retained for legal requirements |
-| Anonymized analytics | Retained indefinitely |
-
-### Email Confirmation
-
-You'll receive a confirmation email:
-- Confirms account deletion
-- Lists what was removed
-- Provides support contact if needed
-
-## Data Deletion Requests
-
-### Additional Data Requests
-
-For additional data removal beyond standard deletion:
-
-1. Email privacy@famlo.co
-2. Include "Data Deletion Request" in the subject
-3. Provide:
-   - Email address used on your account
-   - Specific data you want removed
-   - Reason (optional)
-
-### Legal Requirements
-
-Some data must be retained for:
-- Tax and financial reporting
-- Legal compliance
-- Fraud prevention
-- Dispute resolution
-
-This data is:
-- Stored securely
-- Not used for marketing
-- Deleted when retention period ends
-
-### Data Export
-
-Before deleting, you can download a copy of your data:
-
-1. Go to **Account Settings**
-2. Click **Export My Data** or **Download My Data**
-3. Click **Request Export** to generate your data file
-4. You'll receive an email when the export is ready to download
-
-**Your export includes:**
-- Profile information (name, email, preferences)
-- Family member profiles and children's information
-- Group memberships and history
-- Event registrations and RSVP history
-- Payment transaction records
-- Notification preferences
-
-**Export format:**
-- Data is provided as a downloadable file
-- Contains structured data you can open and review
-- Download the file promptly — the link expires after a limited time
-
-:::tip Export Before Deleting
-Always download your data export before deleting your account. Once your account is deleted, this data cannot be recovered.
-:::
-
-## Rejoining Later
-
-### Can I Come Back?
-
-If you change your mind:
-
-- You can create a new account with the same email
-- Your old data will not be restored
-- You'll start fresh as a new user
-- You'll need to rejoin groups and set up your profile again
-
-### Waiting Period
-
-Some platforms have a grace period, but at Famlo:
-- Deletion begins immediately upon confirmation
-- There is no recovery window
-- Make sure you're certain before confirming
-
-## Special Circumstances
-
-### Group Leaders
-
-If you're a group leader:
-
-1. Transfer ownership to another leader first
-2. Or ensure there's another owner/co-leader
-3. If you're the only leader, the group may be affected
-4. Contact support for guidance on transitioning leadership
-
-### Pending Transactions
-
-If you have pending transactions:
-
-- Wait for payments to process
-- Resolve any refund requests
-- Complete or cancel any pending registrations
-- Then delete your account
-
-### Linked Accounts
-
-If you signed up with Google or another provider:
-
-- Deleting your Famlo account doesn't affect your Google account
-- You can revoke Famlo's access in your Google settings afterward
-
-## Need Help?
-
-### Contact Support
-
-If you have questions or issues:
-
-- **Before deletion**: Use the Report a Problem feature
-- **After deletion**: Email support@famlo.co
-
-### Change Your Mind
-
-If you accidentally deleted your account:
-- Contact support immediately
-- Data may be recoverable for a short time
-- No guarantees, but we'll try to help
-
-## Privacy Rights
-
-You have the right to:
-
-- **Access** - Request a copy of your data
-- **Rectification** - Correct inaccurate data
-- **Deletion** - Delete your personal data
-- **Portability** - Receive your data in a standard format
-- **Object** - Object to certain processing
-
-For any privacy concerns, contact privacy@famlo.co.
-
-## What's Next?
-
-If you're staying:
-1. **[Update your profile](/docs/account/login-and-security)** - Keep information current
-2. **[Manage notifications](/docs/account/notifications)** - Control what you receive
-3. **[Explore groups](/docs/families/organizations)** - Find new communities
-
-If you're leaving, we're sorry to see you go. Thank you for being part of Famlo, and best wishes for your homeschool journey!
+- [Getting help](/docs/account/support) — the support page and how tickets work
+- [Your memberships](/docs/families/memberships) — cancelling before you go
+- [Notifications](/docs/account/notifications) — if it is the email you want to stop, not the account
