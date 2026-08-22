@@ -22,7 +22,7 @@ If your join policy is **They request to join and you review each one**, familie
 
 To turn someone down, use **Deny request** on the review page — not from the list, because denying asks for a reason. Choose one of **Incomplete answers**, **Does not meet criteria**, **At capacity**, **Duplicate** or **Other**, and add a note if it helps.
 
-If your organization charges dues, approving is the moment the card is charged. The confirmation says so: "Approve them? Their card will be charged." See [Membership dues](/docs/organizations/membership-dues).
+If your organization charges dues, approving is the moment the card is charged. The confirmation names the applicant and warns that their card will be charged. See [Membership dues](/docs/organizations/membership-dues).
 
 Owners, co-leaders and member managers can work this queue.
 
@@ -32,7 +32,7 @@ There are six roles, and each carries a fixed set of permissions. You cannot bui
 
 The roster describes them under **What each role can do**:
 
-| Role | What the app says it is for |
+| Role | How the roster describes it |
 | --- | --- |
 | **Owner** | "Full control — settings, roles, events, members, and billing." |
 | **Co-Leader** | "Leadership: edit the group, run events, and approve members." |
@@ -84,9 +84,9 @@ The roster is 25 people to a page, and a search box appears above the list once 
 - **Assigned activities only** — threads on activities this person is assigned to
 - **All conversations** — every thread belonging to the organization
 
-There is also **Match their role**, which clears any override and returns the person to whatever their role implies. That is not the same as **No conversations**.
+There is also an option beginning **Match their role**, which names the level their role already implies. Choosing it clears any override and hands them back to their role. That is not the same as **No conversations**.
 
-This separation exists for one specific case. A teacher who holds the plain **Member** role can be given **Assigned activities only** so they can answer questions about their own classes, without being promoted to **Event Manager** and handed activity editing and RSVPs along with it.
+This separation exists for one specific case. A teacher who holds the plain **Member** role can be given **Assigned activities only** so they can answer questions about their own classes, without being promoted to **Event Manager** and handed activity editing and bookings along with it.
 
 :::warning "All conversations" is a wide grant
 It opens every family's private messages with your organization, including anything they wrote about a child. Give it deliberately. Role and message-access changes are both recorded under **Recent changes** at the foot of the roster, with who made them and when.
@@ -101,7 +101,7 @@ There is no transfer-ownership flow, no danger-zone step for it, and nothing to 
 3. Set **Role** to **Owner**.
 4. Select **Save**.
 
-Two things follow. You are **not** demoted — an organization can have several owners at once, and both of you keep full control. And the last owner is protected: attempting to change or remove them returns "You can't change the last owner's role — promote another owner first."
+Two things follow. You are **not** demoted — an organization can have several owners at once, and both of you keep full control. And the last owner is protected: changing their role is refused with "You can't change the last owner's role — promote another owner first."
 
 There is one real limit. **Payouts** and the **Danger zone** stay with the person who created or claimed the listing, and giving somebody the **Owner** role does not move them. If you need those in someone else's hands, [contact support](/docs/account/support).
 
@@ -142,7 +142,7 @@ There is no block list and no way to bar someone from asking again. There are al
 
 ## How a leader is described publicly
 
-Members holding a staff role appear on your public staff page. Select **Add bio** on their row — or **Bio** if they already have one — to write the sentence or two shown beside their name. Up to 400 characters, and leaving it empty removes it. Owners and co-leaders can edit these.
+Members holding a staff role appear on the **Staff** tab of your public page. Select **Add bio** on their row — or **Bio** if they already have one — to write the sentence or two shown beside their name. Up to 400 characters, and leaving it empty removes it. Owners and co-leaders can edit these.
 
 ## Recording dues paid outside Famlo
 
