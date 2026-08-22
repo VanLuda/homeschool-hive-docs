@@ -104,7 +104,19 @@ Cancelling asks you one question first: when it should stop.
 Choosing **At the end of this period** stops future charges. Your access stays in place until the term you have already paid for runs out. Famlo confirms the exact end date.
 
 :::warning
-Choosing **Immediately** ends the membership on the spot and issues no refund. You lose the rest of the term you paid for and nothing comes back to your card. Unless you need it gone today, choose **At the end of this period** instead.
+Choosing **Immediately** ends the membership on the spot.
+
+Whether money comes back depends on how long you have been a member:
+
+- **Within 7 days of your first payment**, cancelling immediately refunds that
+  first payment in full. Your memberships page shows the date the window closes
+  while you are still inside it.
+- **After that**, an immediate cancellation issues no refund — you give up the
+  rest of the term you have paid for.
+
+So unless you are inside the 7-day window or you need the membership gone today,
+choose **At the end of this period** instead. You keep everything you have paid
+for until the term runs out.
 :::
 
 If an organization removes you, or Famlo cancels a membership on its own, the unused part of your current period is refunded. That treatment applies to those cancellations, not to your own.
@@ -127,7 +139,10 @@ The membership is removed straight away and Famlo confirms you have left. To com
 
 **I cancelled but I was charged again.** Check the badge. A membership cancelled at the end of the period stays **Active** until that date. The last charge may also have been in flight already.
 
-**I cancelled immediately and want my money back.** Famlo does not issue a refund for an immediate cancellation. Message the organization directly — they decide their own refunds.
+**I cancelled immediately and want my money back.** If you cancelled within 7
+days of your first payment, that payment is refunded in full automatically —
+there is nothing to request. Outside that window, no refund is issued
+automatically; message the organization, which decides its own refunds.
 
 **My card was refused when I tried to remove it.** It is on file for an active membership. Change the card on that membership first, then remove it from the payments page.
 
