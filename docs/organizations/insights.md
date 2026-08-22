@@ -1,325 +1,85 @@
 ---
 sidebar_position: 11
 title: Insights
-description: Your dashboard, and what families near you are searching for.
+description: What Famlo shows you about your organization — the console dashboard, Local insights, the one export that exists, and where reports are not.
+keywords: [organization reports, homeschool group analytics, local insights, export data, dashboard widgets]
 ---
-<!-- SOURCE: docs/group-leaders/analytics.md -->
-# Analytics and Reporting
 
-Understanding your group's activity helps you make better decisions and grow your community. This guide covers the analytics and reporting tools available to group leaders.
+# Insights
 
-## Accessing Analytics
+If you came here looking for reports, read this first: **Famlo has no reports section.**
 
-1. Go to your group page
-2. Click **Analytics** or **Dashboard**
-3. View your group's performance metrics
+There is no analytics dashboard, no set of tabs to click through, no charts to filter by date range, no scheduled report arriving by email, and no screen where you pick what to export.
 
-## Group Overview
+What exists is smaller and more useful than that. Two surfaces answer almost every question a leader actually has, and one export exists in the whole console.
 
-### Member Metrics
+## Your console dashboard
 
-Track your membership:
+**Dashboard** is the first thing you land on when you open your organization, and it is the closest thing Famlo has to an overview.
 
-- **Total Members** - Current active member count
-- **New Members** - Members who joined recently
-- **Member Growth** - Trend over time
-- **Pending Requests** - Awaiting approval (private groups)
+It is a grid of widgets. Each covers one thing you would otherwise go hunting for: what is happening today, who is new, where you stand on money. Each links through to the section that owns it. The today widget carries a **Take roll** button that goes straight to the meeting list, so you can start a roster without finding the activity first.
 
-### Membership Retention
+You can arrange the grid. Move the widgets you use to the top, move the ones you never read out of the way, and the layout is saved for next time you open it.
 
-For paid groups:
-- **Active Memberships** - Currently paying members
-- **Cancelled** - Members who cancelled
-- **Retention Rate** - Percentage who renew
-- **Churn Rate** - Percentage who leave
+Every role except **Member** can open **Dashboard**. What each person sees inside it still follows their permissions, so a billing manager and an event manager do not see the same grid.
 
-## Event Analytics
+## Local insights
 
-### Event Performance
+**Local insights** is the one genuinely predictive thing in the console: what families near you searched for and did not find.
 
-See how your events are doing:
+It is demand you are not meeting yet. A run of searches for a subject nobody nearby offers beats any attendance chart as a signal. It comes from families who went looking and left empty-handed. Read it before you plan a term.
 
-- **Total Events** - Events created this period
-- **Total Registrations** - RSVPs across all events
-- **Average Attendance** - Typical turnout
-- **Capacity Utilization** - How full your events get
+Owners, co-leaders and event managers can open it. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
 
-### Popular Events
+## The one export
 
-Identify what works:
-- See your most registered events
-- Compare attendance rates
-- Find patterns in popular event types
-- Use insights for future planning
+The family ledger on your console dashboard exports a CSV of the dues figures on screen. That is the only export in the organizer console.
 
-### Event Trends
+It is available to anyone who can open billing, which means the owner and a billing manager. See [Membership dues](/docs/organizations/membership-dues).
 
-Track changes over time:
-- Registration trends by month
-- Seasonal patterns
-- Growth or decline in participation
-- Impact of pricing changes
+Everything else stays on screen. There is no member export, no attendance report, no emergency-contact download, no medical export, no scholarship export, no archive of messages, and no PDF of anything.
 
-## Financial Reports
+:::note Plan around this before you need it
+The absence matters most at two moments: the day before a field trip, when you want a printed contact sheet, and the day you close your listing. Neither produces a file. Decide now what you keep outside Famlo. See [Closing your listing](/docs/organizations/closing-your-listing).
+:::
 
-### Revenue Overview
+## Where the numbers actually live
 
-For paid groups and events:
+Each console section carries its own figures, at the point where you would act on them.
 
-- **Total Revenue** - All money collected
-- **Membership Revenue** - From membership fees
-- **Event Revenue** - From event registrations
-- **Average Transaction** - Typical payment amount
-
-### Revenue by Source
-
-Break down where money comes from:
-
-| Source | This Month | Last Month | Change |
-|--------|------------|------------|--------|
-| Memberships | $X | $Y | +Z% |
-| Events | $X | $Y | +Z% |
-| Add-ons | $X | $Y | +Z% |
-
-### Payment Status
-
-Track payment health:
-- Successful payments
-- Failed payments
-- Pending payments
-- Refunds issued
-
-## Scholarship Invoice Reports
-
-### Invoice Metrics
-
-Track scholarship activity:
-
-- **Invoices Generated** - Total created
-- **Total Value** - Sum of all invoices
-- **Submission Rate** - Percentage submitted by parents
-- **Approval Rate** - Percentage approved by providers
-
-### Status Breakdown
-
-See invoices by status:
-- Pending
-- Submitted
-- Approved
-- Paid
-- Rejected
-
-### Usage vs. Plan
-
-Monitor your subscription:
-- Invoices used this month
-- Plan limit
-- Overage charges (if any)
-- Suggested plan based on usage
-
-## Analytics Tabs
-
-The analytics dashboard is organized into tabs, each focusing on a different aspect of your group's performance.
-
-### Members Tab
-
-Track membership activity and growth:
-- New members over time
-- Member demographics
-- Active vs. inactive members
-- Join source tracking
-
-### Events Tab
-
-Analyze event performance:
-- Event attendance rates
-- Popular event types and categories
-- Registration trends
-- Capacity utilization across events
-
-### Revenue Tab
-
-Monitor financial performance (paid groups):
-- Total revenue over time
-- Revenue breakdown by source (memberships, events, add-ons)
-- Average transaction value
-- Payment success rates
-
-### Email Tab
-
-Track communication effectiveness:
-- Email send volume
-- Open rates by notification type
-- Click-through rates
-- Optimal send times
-
-### Scholarship Tab
-
-Monitor scholarship program activity:
-- Invoices generated and submitted
-- Total scholarship value
-- Submission and approval rates
-- Usage trends over time
-
-### Insights Tab
-
-Get actionable recommendations:
-- Growth opportunities
-- Engagement patterns
-- Suggestions for improving retention
-- Comparisons with similar groups
-
-### Membership Trends Tab
-
-Deep dive into membership lifecycle:
-- Retention and churn rates over time
-- Average membership duration
-- Renewal patterns
-- Cancellation reasons
-
-## Engagement Metrics
-
-### Member Activity
-
-Understand member engagement:
-
-- **Active Members** - Members who've logged in recently
-- **Event Participation** - Percentage attending events
-- **Feed Engagement** - Posts, comments, reactions
-- **Notification Open Rate** - Email engagement
-
-### Communication Effectiveness
-
-Track how well your messages reach members:
-- Announcement open rates
-- Click-through rates
-- Response rates
-- Optimal posting times
-
-## Export and Reports
-
-### Export Data
-
-Download data for your records:
-
-1. Go to **Analytics** > **Export**
-2. Choose what to export:
-   - Member list
-   - Event registrations
-   - Payment history
-   - Scholarship invoices
-3. Select date range
-4. Choose format (CSV, Excel)
-5. Download
-
-### Scheduled Reports
-
-Set up automatic reports:
-
-1. Go to **Analytics** > **Scheduled Reports**
-2. Choose report type
-3. Select frequency (weekly, monthly)
-4. Add recipients
-5. Save
-
-Reports are emailed automatically on your schedule.
-
-## Using Analytics Effectively
-
-### Identify Trends
-
-Look for patterns:
-- Which days/times get most registrations?
-- What event types are most popular?
-- When do members typically join?
-- What causes cancellations?
-
-### Make Data-Driven Decisions
-
-Use insights to improve:
-
-**Low Event Attendance?**
-- Try different days/times
-- Adjust pricing
-- Improve event descriptions
-- Promote earlier
-
-**High Membership Churn?**
-- Survey departing members
-- Add more value
-- Improve communication
-- Address common complaints
-
-**Low Engagement?**
-- Post more frequently
-- Try different content types
-- Ask for member input
-- Create more interactive events
-
-### Set Goals
-
-Use analytics to set and track goals:
-
-- "Increase membership by 20% this year"
-- "Fill 80% of event capacity on average"
-- "Reduce membership churn to under 10%"
-- "Generate 50 scholarship invoices per month"
-
-## Privacy Considerations
-
-### What's Tracked
-
-Analytics include:
-- Aggregate group data
-- Event performance
-- Payment information
-- Member activity patterns
-
-### Member Privacy
-
-- Individual member behavior is not exposed
-- Personal information is protected
-- Data is used only for group management
-- Compliant with privacy regulations
-
-## Comparing Periods
-
-### Time Comparisons
-
-Compare performance across periods:
-
-1. Select current period
-2. Choose comparison period
-3. View side-by-side metrics
-4. See percentage changes
-
-**Example:**
-| Metric | This Month | Last Month | Change |
-|--------|------------|------------|--------|
-| New Members | 15 | 12 | +25% |
-| Events | 8 | 6 | +33% |
-| Revenue | $450 | $380 | +18% |
+| What you want to know | Where it is |
+| --- | --- |
+| How full a date is | The activity list shows registrations against capacity. See [Scheduling activities](/docs/organizations/activities). |
+| Who is coming to one session | The activity's roster. See [Attendance and check-in](/docs/organizations/attendance). |
+| Who turned up, and who collected them | The meeting's attendance record, kept per session. |
+| How many are waiting on a full activity | The activity page counts them: "N are waiting for a spot." |
+| Who is paying dues, and who has lapsed | **Billing**, and the family ledger. See [Membership dues](/docs/organizations/membership-dues). |
+| What has reached your bank | **Payouts**, which is owner-only. See [Getting paid](/docs/organizations/getting-paid). |
+| How a promo code is being used | The code's own status and redemption history. See [Promo codes](/docs/organizations/promo-codes). |
 
 ## Troubleshooting
 
-### Data Not Showing
+**Where did reports go?**
+There was never a reports feature to lose. Use the table above — the number you want is on the section that owns it.
 
-If analytics aren't displaying:
-- Wait 24 hours for new data to process
-- Check your date range selection
-- Ensure you have the necessary permissions
-- Try refreshing the page
+**I want attendance history for the year.**
+Attendance is recorded per session and read per session. There is no roll-up across a term and no export. If you need a yearly record, keep your own as you go.
 
-### Numbers Don't Match
+**I need a contact sheet for a field trip.**
+There is no export that produces one. Open the roster on a phone at the door, or write out what you need beforehand.
 
-If data seems incorrect:
-- Verify date ranges match
-- Check filter settings
-- Note that some metrics update in real-time, others are batched
-- Contact support for discrepancies
+**I want a report emailed to me every month.**
+Nothing schedules or emails a report. Open **Dashboard** when you want to look.
 
-## What's Next?
+**Local insights is empty.**
+It reflects searches near you. A quiet area, or a very new listing, can genuinely have nothing to show yet.
 
-1. **[Create more events](/docs/organizations/activities)** - Act on your insights
-2. **[Manage members](/docs/organizations/members-and-roles)** - Grow your community
-3. **[Send announcements](/docs/organizations/members-and-roles)** - Engage your members
+**I cannot see Local insights.**
+It is limited to owners, co-leaders and event managers. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
+
+## What's next
+
+- [Scheduling activities](/docs/organizations/activities) — act on what Local insights tells you.
+- [Membership dues](/docs/organizations/membership-dues) — the family ledger and its export.
+- [Getting paid](/docs/organizations/getting-paid) — payouts and what reaches your bank.
+- [Closing your listing](/docs/organizations/closing-your-listing) — what you can and cannot take with you.

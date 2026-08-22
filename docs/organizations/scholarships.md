@@ -1,327 +1,137 @@
 ---
 sidebar_position: 10
 title: Scholarships
-description: Fund awards, give them to families, and bill your usage.
+description: Set money aside, award it to a family in advance, let the award spend itself at their checkout, and invoice your own fund for what you gave away.
+keywords: [homeschool scholarship, award scholarship to family, scholarship invoice, ESA, financial aid for co-op]
 ---
-<!-- SOURCE: docs/group-leaders/scholarship-invoices.md -->
-# Scholarship Invoices
 
-Many homeschool families use education scholarship programs (ESA, school choice programs, etc.) to fund their educational activities. Famlo allows you to generate professional invoices that families can submit for reimbursement.
+# Scholarships
 
-## What Are Scholarship Invoices?
+A scholarship on Famlo is your own money, set aside in advance and given to a named family. It comes off automatically when they register, so nobody has to ask you at the door and nobody has to be told no in front of their child.
 
-Scholarship invoices are professional, itemized documents that:
+Four things happen, in this order:
 
-- Detail educational activities and their costs
-- Include your group's business information
-- Meet requirements of scholarship providers
-- Can be downloaded as PDFs by parents
-- Track submission and reimbursement status
+1. You **fund a budget** — the pot the awards come out of.
+2. You **award** some of it to a family.
+3. The award **applies itself** when that family registers. There is nothing for them to claim.
+4. You **invoice your own fund** for what has been used, period by period.
 
-## Prerequisites
+Owners and co-leaders can open **Scholarships** in the console.
 
-Before generating scholarship invoices:
+## Fund a budget
 
-1. **Enable Scholarship Payments** for your group
-2. **Configure your business information** (name, EIN, address)
-3. **Have a subscription plan** that includes invoice generation
+Start by deciding how much you are giving away, and over what period. The budget is what the awards draw down, so it is the number that stops you promising more than you have.
 
-### Enable Scholarship Payments
+Fund it before you promise anything. An award with nothing behind it helps nobody.
 
-1. Go to **Settings** > **Scholarship**
-2. Toggle **Enable Scholarship Payments** on
-3. Configure your settings
+## Award it to a family
 
-### Set Up Business Information
+An award goes to one family, for an amount you choose, and it is either:
 
-Your invoices need professional business details:
+- **Tied to one activity** — it applies to that registration and nothing else, or
+- **Open across your organization** — it applies to any eligible activity you run.
 
-1. Go to **Settings** > **Scholarship**
-2. Enter your business information:
-   - **Group/Business Name** - Legal name for invoices
-   - **EIN** - Employer Identification Number (if applicable)
-   - **Address** - Business address
-   - **Contact Information** - Phone, email
-3. Upload your **Group Logo** (appears on invoices)
-4. Add **Default Instructions** - Text that appears on all invoices
+You can also set a date the award runs out. Leave it open if you would rather it kept.
 
-## Subscription Plans
+The family gets an email headed "You've received a scholarship". It names your organization, the amount, the activity if there is one, and the expiry date if you set one.
 
-Scholarship invoice generation requires a subscription. Plans are based on your monthly invoice needs:
+That email is the entire notification. There is no scholarship page in a family's account settings, nothing for them to accept, and nothing to activate. If a family tells you they cannot find where to apply, that is why — there is nothing to apply for.
 
-| Plan | Invoices/Month | Best For |
-|------|----------------|----------|
-| Starter | 25 | Small groups starting out |
-| Growth | 100 | Growing groups |
-| Pro | 250 | Active groups |
-| Scale | 500 | Large groups |
-| Unlimited | Unlimited | Co-ops and large organizations |
+## Which activities an award can pay for
 
-Choose a plan in **Settings** > **Scholarship** > **Subscription**.
+Scholarship payments are turned on per activity, and that switch covers the whole activity.
 
-## Generating Invoices
+Every ticket on an activity that accepts scholarship money is payable from an award. There is no way to hold one ticket back from scholarship families while allowing the rest. If some part of what you are charging should not come out of an award, price it as its own activity.
 
-### Invoice Generation Wizard
+See [Scheduling activities](/docs/organizations/activities).
 
-1. Go to your group page
-2. Click **Scholarship** > **Generate Invoices**
-3. Follow the 4-step wizard
+## What happens at checkout
 
-### Step 1: Select Event
+The family registers exactly as anyone else does. Nothing about their checkout looks different, and there is no "pay with scholarship" button for them to look for.
 
-Choose which event to invoice for:
+When they complete the booking, Famlo works down what is owed in this order:
 
-1. See list of events with registered attendees
-2. Select the event
-3. See how many families are eligible
-4. Click **Continue**
+1. Any promo code they entered.
+2. Any account credit on their balance.
+3. Their scholarship award, against whatever is still left.
 
-### Step 2: Configure Line Items
+Whatever remains is what their card is charged. If the award covers the rest, no card is charged at all and the booking confirms straight away. Where a family holds more than one award from you, the one expiring soonest is spent first.
 
-Set up what appears on the invoice:
-
-**Automatic Line Items:**
-- Pulled from event ticket types
-- Shows ticket name, quantity, price
-
-**Add Custom Line Items:**
-1. Click **Add Line Item**
-2. Enter description (e.g., "Art supplies", "Field trip fee")
-3. Set quantity and price
-4. Item appears on all invoices
-
-**Edit Line Items:**
-- Adjust descriptions for clarity
-- Modify amounts if needed
-- Remove items that shouldn't be invoiced
-
-### Step 3: Select Families
-
-Choose which families to generate invoices for:
-
-1. See list of registered families with scholarship-eligible payments
-2. Select all or specific families
-3. View total invoice amounts
-4. Click **Continue**
-
-### Step 4: Generate
-
-Review and generate:
-
-1. Confirm event and line items
-2. Review selected families
-3. See total invoices to generate
-4. Click **Generate Invoices**
-
-:::note Invoice Limits
-You can generate up to 50 invoices at once. For more, run the wizard multiple times.
+:::note The checkout page does not preview the award
+The award is applied when the family completes the booking, not when the page renders. The **Total** they see can be higher than what actually reaches their card. This is the single most common question families ask about scholarships, and it is worth saying in your award email.
 :::
 
-## Managing Invoices
+## What it costs you
 
-### View All Invoices
+Nothing beyond the money itself.
 
-See invoices you've generated:
+Scholarship money carries no platform fee. It never passes through the card processor, so there is nothing to deduct. You and the family settle it directly, and Famlo records the award and spends it down.
 
-1. Go to **Scholarship** > **Invoices**
-2. View all invoices in a list
-3. See status at a glance
+See [What's free and what's paid](/docs/families/whats-free-and-whats-paid).
 
-### Invoice Statuses
+## If the family cancels
 
-Track where each invoice is in the process:
+A refund returns what a card was charged. Scholarship money was never charged to a card, so there is nothing for the card to get back.
 
-| Status | Meaning |
-|--------|---------|
-| **Pending** | Generated, parent hasn't submitted yet |
-| **Downloaded** | Parent has downloaded the PDF |
-| **Submitted** | Parent marked as submitted to provider |
-| **Approved** | Provider approved the invoice |
-| **Paid** | Reimbursement received |
+Instead the coverage goes back onto the award. The balance is the family's again, to spend on another eligible activity you run. Nothing is lost and nothing leaves your budget twice.
 
-### Filter and Search
+The family's cancel screen shows **Amount paid** as the full ticket price and **Total refund** as only the card money, which reads alarmingly when an award covered everything. Expect to explain it once. [Scholarships, for families](/docs/families/scholarships) covers the same ground in their words if you would rather send a link.
 
-Find specific invoices:
+## Invoice your fund
 
-- **Search** by parent name or invoice number
-- **Filter by status** to see pending, submitted, etc.
-- **Filter by event** to see invoices for specific activities
-- **Filter by date** to see a time range
+Scholarship invoices are how your organization bills its own fund for what it has awarded. They are generated per period, in the child's name, so a funding body can see who the money was spent on.
 
-### Export Invoices
+Every invoice carries one of four statuses:
 
-Download invoice data:
+| Status | What it means |
+| --- | --- |
+| **Draft** | Built, not sent. Still yours to change. |
+| **Sent** | Issued to the fund. |
+| **Paid** | Settled. |
+| **Void** | Cancelled. It no longer counts. |
 
-1. Click **Export** or **Download CSV**
-2. Get a spreadsheet with:
-   - Invoice numbers
-   - Parent information
-   - Amounts
-   - Statuses
-3. Use for your records and tracking
+Move an invoice on one at a time. There is no bulk status change.
 
-## Invoice Details
+Invoices are emailed to the organization's owner.
 
-### What's on Each Invoice
+:::warning Families never receive a scholarship invoice
+An invoice belongs to your organization and bills your fund. It is generated for you, sent to you, and never appears in a family's account. There is nothing for a family to download, sign or submit through Famlo.
 
-Every invoice includes:
+If a family's own funding program needs paperwork from you, send it to them yourself.
+:::
 
-**Header**
-- Your group logo
-- Group/business name
-- EIN and address
-- Invoice number and date
+Scholarship invoicing belongs to the plan built for organizations funded this way. [What's free and what's paid](/docs/families/whats-free-and-whats-paid) sets out which plan includes what.
 
-**Parent/Student Information**
-- Parent name
-- Child name and age
-- Associated event
+## What Famlo does not do here
 
-**Line Items**
-- Description of each item
-- Quantity
-- Unit price
-- Line total
+Worth knowing before you plan a process around it:
 
-**Totals**
-- Subtotal
-- Any fees
-- Total amount
-
-**Footer**
-- Your custom instructions
-- Contact information
-
-### Download Individual Invoice
-
-1. Find the invoice in your list
-2. Click **Download PDF**
-3. Professional PDF ready for submission
-
-## Updating Invoice Status
-
-### Automatic Status Updates
-
-Some statuses update automatically:
-- **Downloaded** - When parent downloads the PDF
-- **Submitted** - When parent marks as submitted
-
-### Manual Status Updates
-
-You can also update statuses manually:
-
-1. Find the invoice
-2. Click **Update Status**
-3. Select new status
-4. Add notes if needed
-5. Save
-
-### Bulk Status Updates
-
-Update multiple invoices at once:
-
-1. Select multiple invoices (checkboxes)
-2. Click **Bulk Actions**
-3. Choose **Update Status**
-4. Select the new status
-5. Apply
-
-## Usage Tracking
-
-### Monitor Your Usage
-
-Track how many invoices you've generated:
-
-1. Go to **Scholarship** > **Usage**
-2. See:
-   - Invoices generated this month
-   - Invoices included in your plan
-   - Remaining invoices
-   - Usage percentage
-
-### Usage Warnings
-
-You'll receive notifications when:
-- You reach 80% of your monthly limit
-- You reach 100% of your limit
-- You have overage charges
-
-### Overage Charges
-
-If you exceed your plan limit:
-- Additional invoices incur overage fees
-- Consider upgrading your plan for better rates
-- Overages are charged at the end of the billing period
-
-## Customization
-
-### Invoice Branding
-
-Make invoices match your group's brand:
-
-1. Go to **Settings** > **Scholarship**
-2. Upload your logo
-3. Configure header and footer text
-4. Set default instructions
-
-### Default Instructions
-
-Add instructions that appear on every invoice:
-
-**Example:**
-```
-For questions about this invoice, contact [Group Name] at [email].
-Submit this invoice through your scholarship provider's portal.
-Keep a copy for your records.
-```
-
-## Best Practices
-
-### For Accurate Invoices
-
-- Double-check line items before generating
-- Use clear, descriptive item names
-- Ensure amounts match what families paid
-- Keep your business information current
-
-### For Parent Success
-
-- Generate invoices promptly after events
-- Include clear submission instructions
-- Be responsive to questions
-- Track statuses and follow up on pending items
-
-### For Your Records
-
-- Export invoice data regularly
-- Keep copies for tax purposes
-- Track reimbursement rates
-- Monitor which providers approve your invoices
+- There is no invoice generation wizard, and no batch run across a whole activity.
+- There is no invoice branding. No logo upload, no EIN field, no custom header or footer text.
+- There is no PDF for a family to download, because families do not receive invoices at all.
+- There are no usage tiers, no monthly invoice allowance and no overage charges.
+- There is no bulk status update.
 
 ## Troubleshooting
 
-### Invoice Shows Wrong Amount
+**A family says the price did not change.**
+Check three things in order: that the award came from your organization, that the activity accepts scholarship payments, and that the award has not expired or already been spent down.
 
-1. Check the event registration details
-2. Verify line items were configured correctly
-3. You may need to generate a corrected invoice
-4. Contact the parent to explain
+**A family says the checkout total still showed the full price.**
+It always does. The award is applied when they complete the booking, and their card is charged the lower amount.
 
-### Parent Can't Find Invoice
+**A family cancelled and nothing came back to their card.**
+Their card was probably never charged. The coverage has gone back onto their award instead, and they can use it again.
 
-1. Have them check **Account Settings** > **Scholarship Invoices**
-2. Verify you generated an invoice for their registration
-3. Confirm they're logged into the correct account
+**A family is asking me for their scholarship invoice.**
+They will not have one. Invoices bill your fund, not the family. Send them whatever their funding program needs, directly.
 
-### Provider Rejected Invoice
+**I cannot open Scholarships in the console.**
+It is limited to owners and co-leaders. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
 
-1. Find out why (missing info, formatting, etc.)
-2. Update your invoice configuration if needed
-3. Generate a new invoice with corrections
-4. Mark old invoice as rejected
+## What's next
 
-## What's Next?
-
-1. **[Send announcements](/docs/organizations/members-and-roles)** - Notify members about invoices
-2. **[View analytics](/docs/organizations/insights)** - Track scholarship usage
-3. **[Manage members](/docs/organizations/members-and-roles)** - Handle member questions
+- [Scheduling activities](/docs/organizations/activities) — turn on scholarship payments for an activity.
+- [Getting paid](/docs/organizations/getting-paid) — how the rest of the money reaches you.
+- [What's free and what's paid](/docs/families/whats-free-and-whats-paid) — the plans in full.
+- [Scholarships, for families](/docs/families/scholarships) — the same feature from their side.

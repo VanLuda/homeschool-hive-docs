@@ -38,7 +38,7 @@ Each ticket row shows three fields, and folds the rest behind **Options**.
 | **Capacity** | How many of this ticket exist. Leave it blank for **Unlimited**. |
 | **Scope** | Whether the ticket covers one person, one family, or one group. |
 | **Type** | **Standard**, **Series pass** or **Intro session**. |
-| **Eligible for scholarship** | Flags this ticket for scholarship families. See [Scholarships](/docs/organizations/scholarships). |
+| **Eligible for scholarship** | Has no effect today. Scholarship eligibility is decided for the whole activity, not per ticket. See [Scholarships](/docs/organizations/scholarships). |
 | **Description** | What is included. Shown to the family under the ticket name. |
 
 There are no minimum or maximum purchase limits, and no per-ticket member pricing. Use **Add Ticket** for another row, **Drag to reorder** to move one, and **Remove ticket** to delete one.
