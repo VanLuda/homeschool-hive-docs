@@ -48,7 +48,9 @@ The order summary on the checkout page does not show a scholarship line. It show
 
 ## Why scholarship money carries no fee
 
-Famlo charges organizations a flat 10% of what they collect by card. Scholarship money is different: it never passes through the card processor at all, so there is no fee on it. The organization keeps every cent of what it awards you. See [What's free and what's paid](/docs/families/whats-free-and-whats-paid).
+Famlo charges an organization only on money it actually handles. Scholarship money is not that. It never passes through the card processor, so no fee is taken on it, and the organization keeps every cent of what it awards you.
+
+Organizations whose families pay mostly by scholarship have a plan built around exactly that. It changes nothing for you. See [What's free and what's paid](/docs/families/whats-free-and-whats-paid).
 
 This is also why the money is settled between you and the organization directly. Famlo records the award and spends it down; it never holds the money.
 

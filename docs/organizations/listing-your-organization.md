@@ -2,216 +2,132 @@
 sidebar_position: 1
 title: Listing your organization
 description: Create a listing, from the setup wizard to publishing.
+keywords: [list your organization, create a listing, organization type, publish a listing, draft listing]
 ---
-<!-- SOURCE: docs/group-leaders/create-group.md -->
-# Create a Group
 
-This guide walks you through creating your own homeschool group on Famlo, from basic setup to configuring membership options.
+# Listing your organization
 
-## Before You Start
+A listing is your organization's page on Famlo. It is how families find you, read about you, and join or book what you offer. Anyone with a Famlo account can create one, and you become its owner.
 
-Before creating your group, consider:
+Setup is a guided flow. It is presented in three parts — **Step 1**, **Step 2** and **Step 3** — with twelve screens between them. Nothing is public until you select **Publish** on the last one.
 
-- **Group Purpose** - What is the focus of your group?
-- **Membership Model** - Will membership be free or paid?
-- **Privacy Level** - Should anyone be able to join, or do you want to approve members?
-- **Location** - Will you meet in person or online?
+## Start your listing
 
-## Start Creating Your Group
+1. Open the account menu and choose **List your organization**. If you already run one, the same menu offers **Add organization**.
+2. Read the opening screen and select **Get started**.
 
-1. Click **Groups** in the navigation
-2. Click **Create Group**
-3. Follow the multi-step setup process
+Your progress is saved from the moment you answer the location question, so you can close the tab and come back.
 
-## Step 1: Basic Information
+## Step 1: the basics
 
-### Group Name
+### Which of these best describes your organization?
 
-Choose a clear, descriptive name that helps families understand what your group is about.
+Eighteen types, grouped four ways. Pick the one closest to what you run — the rest of the flow adapts to it.
 
-**Examples:**
-- "Westside Homeschool Co-op"
-- "Nature Explorers Field Trip Group"
-- "Classical Conversations - Springfield"
+| Group | Types |
+| --- | --- |
+| **Community-led** | Co-op, Learning pod, Community, Meetup, Faith-based community, Support group |
+| **Educator-led** | Micro-school, Charter school, Online school, Tutor, Enrichment program, Studio, Sports club, Camp |
+| **Place** | Venue, Attraction, Library |
+| **Other** | Business |
 
-### Group Type
+Each card carries a one-line description, so **Learning pod** reads "Small group with shared curriculum" and **Venue** reads "Space for events & activities". The type you pick becomes part of your public address, so it is worth getting right — you can still change it later.
 
-Select how your group operates:
+### Where do you serve families?
 
-- **Local Group** - Your group meets at physical locations
-- **Online Group** - Your group operates virtually without in-person meetings
+Choose one of two shapes:
 
-### Privacy Setting
+- **We have a physical location** — meets in person, or has a building families can visit. Start typing your address and pick a suggestion so the map pin lands correctly.
+- **We're online** — operates virtually, no physical address. Then either tick **Available nationwide** or pick the states you serve under **Or pick the states you serve**.
 
-Choose who can see and join your group:
+A listing is one or the other. You cannot be online and also carry a street address.
 
-**Public Group**
-- Anyone can find your group
-- Group details are visible to everyone
-- Members can join directly (free) or through checkout (paid)
+### Who can join?
 
-**Private Group**
-- Group appears in search results
-- Limited details visible until approved
-- Members must request to join and be approved
+Three presets, each setting how you are listed and how people get in at the same time.
 
-### Visibility (Private Groups Only)
+| Choice | What it means |
+| --- | --- |
+| **Open** | "Listed publicly and anyone can join instantly." Best for meetups, libraries, and attractions. |
+| **Closed** | "Listed publicly, but people request to join and you review each one. Members-only events stay private." Best for co-ops, pods, and schools. |
+| **Private** | "Hidden from search and directories — reachable only by a link you share, and invite-only." Best for private groups. |
 
-For private groups, choose visibility:
+The screen says so itself: "You can change this any time from your organization settings." Settings also splits these into two separate controls, so a listed organization that still screens applicants is possible later. See [Organization settings](/docs/organizations/settings).
 
-- **Visible** - Group appears in search results, but details are limited
-- **Hidden** - Group doesn't appear in search; members join via invite link only
+## Step 2: make it stand out
 
-### Location (Local Groups)
+### Name
 
-For local groups, set your meeting location:
-
-1. Start typing your address or city
-2. Select from the autocomplete suggestions
-3. Adjust the map pin if needed
-
-This helps families find groups in their area.
-
-## Step 2: Membership Settings
-
-### Free vs. Paid Membership
-
-**Free Membership**
-- No cost for members to join
-- Best for informal groups or groups funded other ways
-
-**Paid Membership**
-- Set a membership fee
-- Best for co-ops, organizations with expenses
-
-### Membership Pricing (Paid Groups)
-
-If you choose paid membership:
-
-1. **Price** - Set your membership fee amount
-2. **Billing Cycle** - Choose how often members are charged:
-   - **Monthly** - Recurring monthly payment
-   - **Annual** - One payment per year
-
-:::tip Pricing Strategy
-Annual memberships often provide better value for members and more predictable income for your group. Consider offering a small discount for annual vs. monthly payments.
-:::
-
-### Membership Questions (Optional)
-
-Add questions that applicants must answer when requesting to join:
-
-1. Click **Add Question**
-2. Enter your question text
-3. Make it required or optional
-4. Add more questions as needed
-
-**Example questions:**
-- "What ages are your children?"
-- "How did you hear about our group?"
-- "What are you hoping to get from this group?"
-
-These help you evaluate applicants before approving them.
-
-## Step 3: Group Details
+Type the name families will recognise, up to 100 characters. It needs at least three characters, and it saves as you type.
 
 ### Description
 
-Write a compelling description of your group:
+What it is, who it is for, and what makes it worth joining. Up to 2,000 characters.
 
-- What is your group's mission or purpose?
-- What activities do you offer?
-- What educational philosophy do you follow (if any)?
-- What should families expect as members?
+This one is optional. With the box empty the button reads **Skip for now**, and a listing can publish without a description.
+
+### Cover photo
+
+Drag a photo in, or select the box to choose one. You can add several — the first is your cover.
+
+A photo is also optional. With nothing chosen the button reads **Skip for now**, and your listing shows a designed colour block until you add one. You can add photos any time afterwards from the **Photos** page.
 
 ### Categories
 
-Select categories that describe your group:
+The tags families filter the directory by. Which groups you are asked about depends on your type, so a library is not asked about educational approach.
 
-- Academic co-ops
-- Field trip groups
-- Sports and recreation
-- Arts and music
-- STEM activities
-- Social groups
-- Religious/faith-based
-- And more
+**Pick at least one to continue.** This is the only screen in Step 2 you cannot skip.
 
-Categories help families find your group when searching.
+## Step 3: finish up
 
-### Group Image
+### Screening questions
 
-Upload an image that represents your group:
+Up to three free-text questions an applicant answers when they request to join. Each has a **Required** checkbox, and leaving a question blank drops it.
 
-- Recommended size: 1200 x 630 pixels
-- Formats: JPG, PNG
-- Choose an image that reflects your group's activities
+This screen only appears for organization types that run a membership. A venue or a library has nobody to screen, so the flow skips straight to the review.
 
-## Step 4: Payment Setup (Paid Groups)
+### Review
 
-If you're creating a paid group, you'll need to connect a Stripe account to receive payments.
+A summary of **Type**, **Location**, **Who can join**, **Categories** and, where it applies, **Screening questions**. Each row has an **Edit** link that takes you back to that screen and returns you here afterwards.
 
-See [Stripe Setup](/docs/organizations/getting-paid) for detailed instructions.
+When it is right, select **Publish**. Your listing goes live and you land on its public page.
 
-## Save as Draft
+## There is no pricing step
 
-Not ready to finish setting up? Your progress is saved automatically as a draft:
+The flow never asks for a price, a membership fee, or your bank details, and publishing is not held up waiting for any of them. Membership dues and payouts are both configured later, from **Settings**, and only if you want them. See [Membership dues](/docs/organizations/membership-dues) and [Getting paid](/docs/organizations/getting-paid).
 
-1. At any point during the creation process, you can close the page
-2. Your work is saved and you can return later
-3. Find your drafts under **Groups** > **My Groups** > **Drafts**
-4. Click on a draft to pick up where you left off
+## Picking up a part-finished listing
 
-:::tip Take Your Time
-Group creation has several steps. You don't need to complete everything in one sitting — drafts are saved so you can come back whenever you're ready.
-:::
+Drafts live under **Your listings**.
 
-## Complete Group Creation
+1. Open the account menu and choose **List your organization**.
+2. Under **In progress**, find the draft. Each row shows its type, the word "Draft", and when you last edited it.
+3. Select **Continue**. You return to the first screen that still needs an answer, not to the beginning.
 
-1. Review all your settings
-2. Click **Create Group**
-3. Your group is now live!
+**Start new organization** begins a separate listing. The trash icon on a row deletes that draft, and asks "Delete this draft? This can't be undone." first.
 
-## After Creating Your Group
+## Your address once you publish
 
-### Invite Members
+Your public address is built from your type and your name, so a co-op called Riverbend becomes `famlo.co/co-op/riverbend`. A micro-school sits under `famlo.co/micro-school/...`, an enrichment program under `famlo.co/enrichment-program/...`.
 
-Share your group with potential members:
+You can also claim a short link — `famlo.co/@riverbend` — from **Settings**. It is easier to text or print than the full address.
 
-1. Go to your group page
-2. Click **Invite Members** or copy the group link
-3. Share via email, social media, or messaging
+## What to do next
 
-### Create Your First Event
+1. [Fill in the rest of your settings](/docs/organizations/settings) — logo, photos, tagline, contact email, time zone.
+2. [Schedule your first activity](/docs/organizations/activities).
+3. [Add your team](/docs/organizations/members-and-roles) and approve people who ask to join.
 
-Get your group active by creating an event:
+## Troubleshooting
 
-1. Go to your group page
-2. Click **Create Event**
-3. See [Creating Events](/docs/organizations/activities) for details
+**I can't get past the categories screen.** Pick at least one tag. The screen says "Pick at least one to continue," and publishing is refused without one.
 
-### Customize Your Group
+**Publish came back with "Not quite ready to publish".** Three things are checked at that moment. The name has to be real and at least three characters. The location has to be filled in — an online listing needs either **Available nationwide** or at least one state. And you need at least one category. The reasons are listed above the summary.
 
-Fine-tune your group settings:
+**I never saw a screen about photos being required.** A photo is not required. If you want to skip it, the button says **Skip for now**.
 
-- Add more detail to your description
-- Update your group image
-- Adjust membership settings as needed
+**I closed the tab and lost my work.** You did not. Open **List your organization** again and select **Continue** on the draft.
 
-## Edit Group Settings
+**I picked the wrong type.** On the review screen, select **Edit** beside **Type**. After publishing, change **Type** on the **Settings** page.
 
-To change your group settings later:
-
-1. Go to your group page
-2. Click **Settings** or the gear icon
-3. Navigate to the section you want to edit
-4. Make your changes
-5. Click **Save**
-
-## What's Next?
-
-Now that your group is created:
-
-1. **[Manage members](/docs/organizations/members-and-roles)** - Approve requests and manage roles
-2. **[Create events](/docs/organizations/activities)** - Organize activities for your group
-3. **[Set up payments](/docs/organizations/getting-paid)** - Configure Stripe for paid features
+**I can't find my listing in search.** Check that **Published (visible in the directory)** is ticked on the **Settings** page. A listing set to **Private** visibility is deliberately not listed anywhere.

@@ -1,109 +1,115 @@
 ---
 sidebar_position: 2
 title: What's free and what's paid
-description: Famlo costs families nothing at all, and organizations a flat 10% of what they collect. No plans, no tiers, no booking fee, and no fee on scholarships.
-keywords: [famlo pricing, famlo fees, is famlo free, platform fee, booking fee, which plan]
+description: Famlo is free for families, always. Organizations pay only when they collect card payments, and the fee is capped at $15 per enrollment.
+keywords: [famlo pricing, homeschool co-op fees, platform fee, free for families]
 ---
 
 # What's free and what's paid
 
-Famlo costs families nothing. Organizations pay a flat 10% of the money they collect. That is the entire pricing model. There are no plans to choose between, nothing to upgrade to, and no bill that arrives because you used the product more.
+Famlo is free for families. Organizations pay only when money actually moves,
+and never on money Famlo did not touch.
 
 ## If you are a family
 
-You never pay Famlo. Not to sign up, not to search, not to register, not to keep a family profile, and not per booking. There is no subscription and no trial that ends.
+**You pay $0. Always. It is not a trial.**
 
-What you do pay goes to the organization running the thing you signed up for:
+You pay the price the organizer set for a class, a field trip, or membership
+dues. Nothing else, to anyone.
 
-- **The ticket price** on an activity, exactly as listed.
-- **Membership dues**, if that organization charges them and you join.
+- No booking fee and no service charge. The number on the activity page is the
+  number you pay.
+- No subscription, and no trial that quietly ends.
+- No ads, and your information is never sold.
 
-That is the complete list. Everything else — browsing, saving, messaging, your calendar, your family profile — is free and stays free.
+That covers everything: searching, registering, keeping one profile for your
+whole family, calendar sync, reminders, and messaging.
 
-### Nothing is added at checkout
-
-The price on the listing is the price on your card. The order summary on the checkout page breaks it out so you can see that for yourself:
-
-| Row | What it means |
-| --- | --- |
-| **Subtotal** | the tickets you chose |
-| **Discount** | a promo code you applied |
-| **Credits applied** | account credit spent automatically |
-| **Platform Fee** | reads "included" — never an amount |
-| **Total** | what you pay |
-
-The **Platform Fee** row is there so you can see the fee exists, not so you can be charged for it. It is already inside the listed price and comes out of the organization's share. Famlo adds no booking fee, no service charge and no processing fee of its own.
-
-### Whose name appears on your statement
-
-The organization takes the payment directly, so their name is what shows up on your card statement, not Famlo's. If a charge looks unfamiliar, open your confirmation email — it names both the organization and the activity.
-
-### Three things that make your total smaller
-
-- **Promo codes.** Type a code into the **Promo code** field in the order summary and select **Apply**. See [Payments and refunds](/docs/families/payments-and-refunds).
-- **Account credit.** If your account holds credit, it is applied automatically against whatever is due. You do not have to redeem it.
-- **Scholarship awards.** If an organization has awarded your family scholarship money, it comes off automatically when you book. See [Scholarships](/docs/families/scholarships).
-
-None of these are Famlo fees being waived. They reduce what you owe the organization.
+There is no paid tier for families and no plan to add one. Organizations pay
+only when they collect money through Famlo, and that is the whole business
+model.
 
 ## If you run an organization
 
-One rate. A flat **10%** of what you collect, and nothing else.
+Listing is free permanently — not for a trial period. A fee applies only to card
+payments you actually collect.
 
-- **Listing is free.** Creating an organization, publishing activities, taking bookings and running your roster cost nothing.
-- **You pay only when money moves.** A free activity costs you nothing, however many families register.
-- **The fee comes out of your cut.** It is deducted from your payout, never added to what the family is charged. A $20 ticket charges the family $20 and the fee is $2 of that $20.
-- **Membership dues work the same way.** Each dues payment carries the same flat 10%, taken from your share.
-- **Scholarship money carries no fee at all.** When you cover part of a family's registration with a scholarship award, Famlo takes nothing from it. See [Scholarships](/docs/organizations/scholarships).
+### The three plans
 
-Card processing costs are also taken out of your payout rather than added to the family's total.
+| Plan | Price | Fee on card payments |
+| --- | --- | --- |
+| **Free** | $0 / month | 10%, **capped at $15 per enrollment** |
+| **Scholarship** | $49 / month | For organizations whose families pay by scholarship, so no card fee arises |
+| **Platform** | $99 / month | **0%**, whatever the amount |
 
-### A worked example
+Every plan includes the whole product: your listing on the map, unlimited
+activities, rosters, attendance, messaging, allergy and pickup information, card
+checkout through your own payment account, offline payments recorded against
+tuition, and a financial ledger export.
 
-A family registers for a $20 class.
+### The cap is the part that matters
 
-| | Amount |
+The fee stops at **$15 per enrollment**, no matter how large the payment.
+
+| Family pays | Famlo takes |
 | --- | --- |
-| Charged to the family | $20.00 |
-| Platform fee (10%, from your share) | $2.00 |
-| Family's total | $20.00 |
+| $120 | $12.00 |
+| $250 | $15.00 |
+| $2,000 | $15.00 |
 
-The family's total does not change because you are on Famlo. That is the point of taking the fee out of your share rather than adding it on top.
+The cap is per *enrollment*, not per student, and that is deliberate. Co-ops
+price per family and offer sibling discounts, so capping per student would
+charge the largest families in your group the most.
 
-### Which plan am I on?
+### What a real payment looks like
 
-There is no plan. Every organization on Famlo pays the same flat 10%, from the first booking onward.
+A $250 semester payment:
 
-To be explicit, none of these exist:
+| | |
+| --- | --- |
+| Family pays | $250.00 |
+| Famlo, capped | −$15.00 |
+| Card processing, paid to Stripe | −$7.55 |
+| **You keep** | **$227.45** |
 
-- No tiers, and no rate that improves with volume.
-- No setup fee.
-- No monthly or annual subscription.
-- No per-activity listing fee.
-- No charge for extra team members, extra activities or extra members.
-- No contract or minimum.
+### Card processing is separate
 
-If you have been trying to find the page where you choose a plan, you have not missed it.
+Stripe charges **2.9% + $0.30** for cards, and **0.8% capped at $5** for bank
+transfers. That goes to Stripe on every plan, not to Famlo, and it is not marked
+up. Budget for both when you price an activity.
 
-:::tip
-Because the fee only applies to money you collect, you can put a whole season of free meetups on Famlo and never pay anything.
-:::
+### You pay nothing on money Famlo never touched
 
-## Troubleshooting
+Cash, check, bank transfer, and scholarship funds carry **no fee at all**.
+Record them against the same balance and that family gets everything a card
+payment unlocks.
 
-**I was charged more than the listed price.** Check whether you registered more than one attendee, or added an extra ticket. Famlo does not add anything to the total shown on the checkout page. If the amount still does not match, [contact support](/docs/account/support).
+If you run a vendor hall where teachers bill families directly, or you simply
+keep collecting the way you already do, you never pay Famlo anything.
 
-**My statement shows a business I do not recognize.** The organization is the one taking the payment, so their legal or trading name appears rather than the name on their Famlo page. Your confirmation email names the activity it belongs to.
+### When the $99 plan is worth it
 
-**I cannot find where to choose or change my plan.** There is not one to choose. Every organization is on the flat 10%.
+Around **$990 a month** through card checkout. Below that, the free plan costs
+you less. Above it, the flat $99 wins.
 
-**I completed a registration and paid nothing.** Either the activity is free, or a promo code, account credit and a scholarship award between them covered the whole price. Your booking is confirmed either way.
+## Common questions
 
-**I want to know what a refund gives back.** Refunds return what your card was actually charged, and the rules are the same at every organization. See [Payments and refunds](/docs/families/payments-and-refunds).
+**Is the free plan a trial?** No. There is no time limit, and no feature turns
+off at day 30. If you never collect money through Famlo, you never pay Famlo.
+
+**Where does the fee come from?** Your own payment account, at the moment a
+family pays by card. It is deducted at checkout, so no invoice arrives and there
+is nothing to reconcile at month end.
+
+**Do families see the fee?** No. It comes out of your side. Families are never
+shown a service charge added to their total.
+
+**What happens if we leave?** Export everything, and it is deleted. No exit fee.
+Your roster is yours.
 
 ## Related
 
-- [Registering and checking out](/docs/families/registering)
-- [Payments and refunds](/docs/families/payments-and-refunds)
-- [Scholarships](/docs/families/scholarships)
-- [Your memberships](/docs/families/memberships)
+- [Getting paid](/docs/organizations/getting-paid) — setting up payouts
+- [Tickets and pricing](/docs/organizations/tickets-and-pricing) — what to charge
+- [Scholarships](/docs/families/scholarships) — how scholarship money works
+- [Payments and refunds](/docs/families/payments-and-refunds) — what a family is charged

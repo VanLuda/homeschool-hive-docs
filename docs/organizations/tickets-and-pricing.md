@@ -76,9 +76,16 @@ You set **Capacity** on each ticket row, and that ticket stops selling once it i
 
 When a paid activity fills, it closes rather than queuing anyone. Families save it, and the button they see reads **Join the waitlist**. Nobody holds a position in that waitlist and nobody is next in line. When a place frees up, everyone watching is told at the same moment and the first to register takes it.
 
-## Pricing against the 10% fee
+## Pricing against the fee
 
-Famlo takes a flat 10% of what the family pays by card, out of your payout rather than on top of the ticket price. Stripe's processing charge comes out too. Price with both in mind.
+Two charges come out of a card payment, and neither is added to the price the family sees.
+
+- **Famlo's platform fee.** On the free plan it is 10% of what the family pays by card, **capped at $15 per enrollment**. The cap is reached at $150, so every payment above that costs you the same $15. On the $99 Platform plan there is no fee at all.
+- **Stripe's processing.** Typically 2.9% + $0.30 on a US card. It goes to Stripe on every plan, Famlo does not mark it up, and Stripe publishes the current figures.
+
+[What's free and what's paid](/docs/families/whats-free-and-whats-paid) sets out the plans in full.
+
+On the free plan:
 
 | List price | Platform fee | Card processing | You keep |
 | --- | --- | --- | --- |
@@ -86,14 +93,16 @@ Famlo takes a flat 10% of what the family pays by card, out of your payout rathe
 | $25.00 | $2.50 | $1.03 | $21.47 |
 | $50.00 | $5.00 | $1.75 | $43.25 |
 | $100.00 | $10.00 | $3.20 | $86.80 |
-
-Card processing above assumes Stripe's typical US rate of 2.9% + $0.30. Stripe publishes the current figures.
+| $250.00 | $15.00 | $7.55 | $227.45 |
+| $2,000.00 | $15.00 | $58.30 | $1,926.70 |
 
 A few practical rules:
 
-- Working backwards from what you need to clear: divide by 0.9 for the platform fee, then add roughly another 3% for processing. To keep $45, list about $52.
-- Charge per session rather than per term where you can. A family who has to find $240 in one go hesitates; $20 a week does not.
-- A promo code, an account credit or a scholarship award reduces the card charge, and the 10% follows the smaller number.
+- Under $150, work backwards by dividing by 0.9 for the fee, then add roughly another 3% for processing. To keep $45, list about $52.
+- At $150 and above the fee is a flat $15, so a large payment costs you proportionally less. A $2,000 payment costs $15, not $200.
+- Each registration is its own enrollment, so a term paid session by session meets the fee each time. Ten $30 sessions carry $3.00 of fee apiece; one $300 term payment carries $15.00 once.
+- Weigh that against what a family can find in one go. The term price is cheaper for you, and the weekly price is easier for them. The gap is small, so let the family decide it.
+- A promo code, an account credit or a scholarship award reduces the card charge, and the fee follows the smaller number.
 - Scholarship money carries no platform fee at all.
 
 ## Changing a price after you publish

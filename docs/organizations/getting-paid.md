@@ -11,24 +11,54 @@ Set up payouts once, and every paid booking and every membership payment lands i
 
 ## The platform fee
 
-Famlo charges a **flat 10%** of what a family pays by card. There are no tiers, no volume ladder, no setup fee and no monthly subscription.
+What Famlo takes depends on your plan, and on the free plan it never exceeds **$15 per enrollment**. Whichever plan you are on, the fee comes out of your side. It is not added to what the family pays, and families are never shown a fee line at checkout. A $50 ticket costs the family exactly $50.00.
 
-**Scholarship money carries 0%.** When an award covers part of an order, no fee is taken on that part.
+### Your plan
 
-The fee comes out of your payout. It is not added to what the family pays, and families are never shown a fee line at checkout. A $50 ticket costs the family exactly $50.00.
+| Plan | Price | Fee on card payments |
+| --- | --- | --- |
+| **Free** | $0 / month | 10%, **capped at $15 per enrollment** |
+| **Scholarship** | $49 / month | For organizations whose families pay by scholarship |
+| **Platform** | $99 / month | **0%**, whatever the amount |
 
-### A $50 booking, end to end
+Every plan includes the whole product. [What's free and what's paid](/docs/families/whats-free-and-whats-paid) sets out what each one covers, and where the $99 plan starts paying for itself — around $990 a month through card checkout.
+
+### The cap is the part that matters
+
+On the free plan the fee stops at $15, however large the payment.
+
+| Family pays | Famlo takes |
+| --- | --- |
+| $120 | $12.00 |
+| $250 | $15.00 |
+| $2,000 | $15.00 |
+
+The cap is per *enrollment*, not per student, and that is deliberate. Co-ops price per family and offer sibling discounts, so capping per student would charge your largest families the most.
+
+### A $250 semester payment, end to end
 
 | Line | Amount |
 | --- | --- |
-| What the family pays | $50.00 |
-| Famlo platform fee (10%) | -$5.00 |
-| Card processing | -$1.75 |
-| Your payout | $43.25 |
+| What the family pays | $250.00 |
+| Famlo, capped | -$15.00 |
+| Card processing, paid to Stripe | -$7.55 |
+| **You keep** | **$227.45** |
 
-Card processing is Stripe's own charge, not Famlo's. It is typically 2.9% + $0.30 on a US card, and Stripe publishes the current rates.
+### Card processing is separate
 
-If a promo code or an account credit reduces the order, the 10% is charged on the smaller amount. A $50 ticket with a $10 code carries a $4.00 fee, not $5.00.
+Stripe charges **2.9% + $0.30** on cards, and **0.8% capped at $5** on bank transfers. That is Stripe's own charge on every plan. It goes to Stripe rather than Famlo, and Famlo does not mark it up. Budget for both charges when you set a price.
+
+### Nothing comes out of money Famlo never touched
+
+Cash, check, bank transfer and scholarship funds carry **no fee at all**. Record them against the same balance and that family gets everything a card payment unlocks.
+
+**Scholarship money carries 0%.** When an award covers part of an order, no fee is taken on that part.
+
+### There is no invoice to reconcile
+
+The fee is deducted at checkout, from your own payment account, the moment a family pays by card. No bill arrives from Famlo, and there is nothing to settle up at month end.
+
+If a promo code or an account credit reduces the order, the fee follows the smaller amount. A $50 ticket with a $10 code carries a $4.00 fee, not $5.00.
 
 ## Set up payouts
 
@@ -62,7 +92,7 @@ How often Stripe deposits to your bank, and how long a first payout is held, are
 
 ## Who the family pays
 
-Your organization is the merchant of record. Your name appears on the family's card statement, you own the customer relationship, and you handle your own disputes. Famlo takes its 10% off the top of the transfer and passes the rest to your connected account.
+Your organization is the merchant of record. Your name appears on the family's card statement, you own the customer relationship, and you handle your own disputes. The platform fee comes off the transfer, and the rest goes to your connected account.
 
 That is also why refunds, disputes and payout schedules are settled against your Stripe account rather than a Famlo balance.
 
@@ -101,10 +131,11 @@ Payouts are not Active. Finish onboarding first, then set the price.
 Someone removed Famlo from the Connected applications list in your Stripe Dashboard. Paid bookings, dues and refunds all stop until it is restored, and that has to be re-authorised from your side. Select **Contact support** on the Payouts page and we will get you reconnected.
 
 **My payout is smaller than I expected.**
-Subtract 10% for the platform fee, then Stripe's processing charge. Promo codes, account credit and scholarship awards all reduce the amount charged to the card, and your payout follows the smaller number.
+Subtract the platform fee for your plan — at most $15 on the free plan, nothing on the $99 plan — then Stripe's processing charge. Promo codes, account credit and scholarship awards all reduce the amount charged to the card, and your payout follows the smaller number.
 
 ## What's next
 
-- [Tickets and pricing](/docs/organizations/tickets-and-pricing) — price an activity against the 10%.
+- [What's free and what's paid](/docs/families/whats-free-and-whats-paid) — the plans in full.
+- [Tickets and pricing](/docs/organizations/tickets-and-pricing) — price an activity against the fee.
 - [Membership dues](/docs/organizations/membership-dues) — charge recurring dues.
 - [Scholarships](/docs/organizations/scholarships) — accept award money at zero fee.

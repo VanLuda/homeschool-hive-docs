@@ -78,7 +78,7 @@ The family then sees "Your group offered you a discount" on their own membership
 
 ## How a code changes what you are paid
 
-The platform fee is 10% of what the family actually pays by card, so a discount shrinks the fee alongside it. A $50 ticket with a 20% code charges $40, and the fee is $4.00 rather than $5.00. You absorb the $10 of discount.
+The platform fee follows what the family actually pays by card, so a discount shrinks the fee alongside it. You absorb the discount itself. [Getting paid](/docs/organizations/getting-paid) covers what comes out of a payment.
 
 Existing bookings are never revalued. Changing or deleting a code leaves families who already used it exactly where they were.
 

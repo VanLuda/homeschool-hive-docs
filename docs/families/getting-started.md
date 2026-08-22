@@ -87,13 +87,15 @@ covers all six sections and who can see each one.
 
 ## What Famlo costs your family
 
-Nothing. Families never pay Famlo a fee, and there is no add-on platform fee or
-processing fee at checkout. You pay only the price an organization sets for a
-class, camp, or field trip, plus any membership dues you choose to take on.
+Nothing. **Families pay $0, always.** It is not a trial. There is no add-on
+platform fee and no processing fee at checkout. You pay only the price an
+organization sets for a class, camp, or field trip, plus any membership dues you
+choose to take on.
 
-Organizations pay a flat 10% platform fee out of their own share. It is never
-added to your total. See [Payments and
-refunds](/docs/families/payments-and-refunds) for how charges, credit, and
+Organizations pay Famlo out of their own share of what they collect, and it is
+never added to your total. [What's free and what's
+paid](/docs/families/whats-free-and-whats-paid) covers that side. [Payments and
+refunds](/docs/families/payments-and-refunds) covers how charges, credit, and
 refunds work.
 
 ## Register for your first activity

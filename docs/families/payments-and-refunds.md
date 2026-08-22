@@ -12,7 +12,9 @@ Famlo is free for families. You pay the organization for what you register for, 
 
 The price on the listing is the price you pay. Nothing is added at checkout.
 
-Organizations pay Famlo a flat 10% platform fee. That fee is taken out of the organization's share of your payment rather than added to your total. The checkout order summary shows a **Platform Fee** row, and the value beside it reads "included".
+**Families pay Famlo $0, always.** There is no booking fee, no service charge and no subscription. Organizations pay Famlo out of their own share of what they collect, and it is never added to your total. The checkout order summary shows a **Platform Fee** row, and the value beside it reads "included".
+
+What an organization pays is set out in [What's free and what's paid](/docs/families/whats-free-and-whats-paid). None of it changes your total.
 
 The organization is the merchant of record. Their name appears on your card statement, not Famlo's, and they are responsible for their own refund decisions. Famlo never adds a booking fee or a processing fee of its own.
 
@@ -140,6 +142,7 @@ Famlo does not produce a receipt document of its own. Card receipts are issued b
 
 ## Related
 
+- [What's free and what's paid](/docs/families/whats-free-and-whats-paid)
 - [Registering and checking out](/docs/families/registering)
 - [Scholarships](/docs/families/scholarships)
 - [Your memberships](/docs/families/memberships)

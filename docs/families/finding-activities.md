@@ -1,276 +1,123 @@
 ---
 sidebar_position: 3
 title: Finding activities
-description: Search, filter, and browse activities near you.
+description: Browse activities on the map, narrow them with the Filters panel, and page through results to find classes, camps and field trips near your family.
 ---
-<!-- SOURCE: docs/parents/find-events.md -->
-# Find Events
 
-Famlo helps you discover a wide variety of educational events and activities for your family. This guide shows you how to find and explore events.
+# Finding activities
 
-## Browse Events
+This guide covers how to search the directory, set the area you are looking in, and read what an activity card tells you. It is for any family browsing Famlo, whether or not you have signed in.
 
-### All Events
+## Where activities live
 
-1. Click **Events** in the main navigation
-2. Browse the list of upcoming events
-3. Events are sorted by date, with the soonest events first
+There are two kinds of page, and they answer different questions.
 
-### Events from Your Groups
+- **/activities** is the landing page. It shows rows of activities near you and a grid of links to browse by state. It does not read filters.
+- **/s/activities** is where results live. Every search, filter and map movement lands here, and every combination is a real address you can bookmark or share.
 
-To see events from groups you've joined:
+You reach the results page by using the search pill, opening **Filters**, or moving the map. You never have to type the address yourself.
 
-1. Click **Events** in the navigation
-2. Select **My Events**
-3. View events from all your groups in one place
+Location pages sit under the state and city:
 
-## Search for Events
+- `/activities/florida` — everything in one state
+- `/activities/florida/fort-myers` — everything in one city
+- `/activities/florida/fort-myers/nature-outdoors` — one category within a city
 
-Use the search bar to find specific events:
+These are good links to share with other families in your area.
 
-1. Enter keywords related to the event
-2. Press **Enter** or click the search icon
-3. Results show matching events
+## Set the area you are searching
 
-**Search examples:**
-- Activity type: "field trip", "art class", "nature walk"
-- Subject: "science", "history", "music"
-- Location: "zoo", "museum", "park"
+Famlo picks a starting area for you. It uses the map viewport carried in the address if there is one, then a location handed over from a link, then your approximate location from your connection.
 
-## Filter Events
+Famlo does not ask your browser for your location when the page loads. You have to ask for that yourself.
 
-Narrow your search using filters:
+1. Find the location control beside the first row of activities. It reads **Change** when Famlo has already placed you, or **Set location** when it has not.
+2. Click it. A small panel opens.
+3. Type into **Search a city or ZIP** and pick a place from the list, **or** click **Use my current location** to let your browser answer.
+4. If you chose **Use my current location**, your browser asks permission. The panel reports progress, and the page reloads once it has an answer.
 
-### By Date
+On the results page you can also just move the map. Panning and zooming rewrites the results underneath it.
 
-- **Today** - Events happening today
-- **This Week** - Events in the next 7 days
-- **This Month** - Events in the current month
-- **Custom Range** - Select specific start and end dates
-
-### By Location
-
-Finding events near you is now smarter with automatic location detection:
-
-- **Automatic Location Detection** - When you visit the Events page, your browser will ask for permission to access your location. Allowing this shows you events closest to you automatically, sorted by proximity.
-- **Smart Search Expansion** - If there are only a few events nearby, Famlo automatically expands the search radius to show you more options, ensuring you always find great activities.
-- **City/Zip Code** - Enter a specific location to search if you prefer not to share your location
-- **Radius** - Choose how far you're willing to travel (5, 10, 25, 50+ miles)
-- **Virtual** - Online events you can attend from home
-
-:::tip Location Permissions
-For the best experience, allow your browser to access your location when prompted. This helps show you the most relevant events in your area first, sorted by distance.
+:::note
+If you decline the browser permission, nothing breaks. Searching a city or ZIP gives you exactly the same results.
 :::
 
-### By Category
+## Filter the results
 
-Filter by event type:
-- Field trips
-- Classes and workshops
-- Social events
-- Sports and recreation
-- Arts and music
-- STEM activities
-- Co-op meetings
+All filtering lives in one panel.
 
-### By Price
+1. Click **Filters** in the header. On a phone this is the sliders icon.
+2. Set any of the following:
+   - **Search** — free text, matched against activity titles and descriptions
+   - **Category** — one category at a time, or **Any**
+   - **Ages** — one or more age bands: Preschool, Elementary, Middle, High
+   - **Format** — **Any**, **In person**, or **Virtual**
+   - **On or after** — a date; activities starting before it drop out
+3. Click **Show results**.
 
-- **Free** - No cost events
-- **Paid** - Events with registration fees
+A **Selected** block at the top of the panel lists what is currently applied. **Clear all** removes every filter at once. When filters are active, the **Filters** button carries a count badge.
 
-## Using the Interactive Map
+Categories with nothing nearby are hidden, and the ones that remain show how many activities match. So the menu you see is a real menu for the area you are looking at, not a fixed list.
 
-The Events page includes an interactive map that makes it easy to visualize where events are located:
-
-### Map Features
-
-1. **Map Markers** - Each event appears as a marker on the map showing its location
-2. **Hover Previews** - Move your cursor over any map marker to see a quick preview of the event, including:
-   - Event name
-   - Date and time
-   - Distance from your location
-   - Price (if any)
-   - Brief description
-3. **Click for Details** - Click on a map marker to open the full event details page
-
-### Tips for Using the Map
-
-- **Zoom In/Out** - Use the map controls or your mouse wheel to adjust the view
-- **Pan Around** - Click and drag to explore different areas
-- **Compare Locations** - Quickly see which events are closest to you or along your regular routes
-- **Combined with Filters** - The map updates automatically when you apply filters, showing only events that match your criteria
-
-:::tip Finding Events Along Your Routes
-The map makes it easy to find events along your daily routes. Look for markers near places you already visit regularly like libraries, parks, or shopping areas.
+:::note
+There is no free-or-paid filter on activities. Price is shown on every card, so you can see it as you scan. The **Membership** filter that offers **Free to join** and **Paid** applies to organizations, not activities.
 :::
 
-## Browse Events by Location
+## Read an activity card
 
-Discover events organized by state and city using dedicated location pages:
+Each card carries only what it can state as fact:
 
-1. Navigate to **Events** and select a state from the location filters
-2. Or visit URLs like `/events/in/texas` or `/events/in/california` to browse events in a specific state
-3. Drill down to specific cities or filter by category within each location
+- A **Virtual** badge, in the top-left of the photo, on online activities
+- A heart, in the top-right, to save the activity
+- The activity title
+- The organization running it
+- The day and start time
+- The distance from the area you are searching
+- A repeat line — "Repeats weekly", "Repeats every 2 weeks" or "Repeats monthly" — on a recurring series
+- The price, or **Free**. A priced activity reads as an amount followed by **per session**
 
-These location pages are great for sharing with other families in your area.
+Above the grid, a note reads **Prices include all fees**, and the heading counts what matched.
 
-## Virtual Events
+Cards do not show how many people are attending, how full an activity is, or whether it is happening today. To find out whether places are left, open the activity.
 
-Browse events you can attend from anywhere:
+## Use the map
 
-1. Click **Events** in the navigation
-2. Select **Virtual** to see the dedicated virtual events section
-3. Browse online classes, workshops, and activities that don't require travel
+The map beside the results draws a pin for every activity in view, not just the ones on the page you are reading.
 
-Virtual events include a meeting link (Zoom, Google Meet, etc.) that's shared with registered attendees.
+- One pin stands for one location, and carries a count when several activities share it.
+- Click a pin to see what is there. The popup lists up to five, then offers **See everything here** to search that spot properly.
+- The popup respects the filters you already set, so it never shows you something the list would have hidden.
+- Panning or zooming re-runs the search for the new viewport.
 
-:::tip Expand Your Horizons
-Virtual events let you join groups and activities anywhere in the country. You're not limited to your local area for online events.
-:::
+On a phone the map sits behind the results. Scroll down and a **Map** pill appears; tap it to bring the map full-screen, and tap the strip of results at the bottom to come back.
 
-## Understanding Event Listings
+## Page through the results
 
-Each event card shows key information:
+Results are paginated, twenty-four to a page. Under the grid you get numbered page links with arrows either side.
 
-### Event Status Badges
+These are ordinary links, so you can open a page in a new tab, bookmark it, or send it to somebody. Results do not load as you scroll.
 
-- **Event Today!** - The event is happening today
-- **Soon** - The event is within the next 7 days
-- **Almost Full** - Only a few spots remaining
-- **Full** - No spots available (add to Watchlist to get notified when spots open)
+## Save an activity for later
 
-### Event Details
+Click the heart on any card, or on the activity itself, to save it. Saved activities collect under **Saved & watchlist** in your account menu.
 
-- **Title** - Name of the event
-- **Date & Time** - When the event takes place
-- **Location** - Where the event is held (or "Virtual" for online events)
-- **Group** - Which group is hosting the event
-- **Attendees** - How many people are going
-- **Price** - Cost to attend (if any)
+If an activity is full, saving it is how you join the waitlist. See [Saved activities and alerts](/docs/families/saved-and-alerts) for what that does and does not mean.
 
-## View Event Details
+## Troubleshooting
 
-Click on any event to see the full details:
+**I only see activities in the wrong town.** Famlo placed you from your connection, which can be a county out on mobile data or a VPN. Use **Change** beside the first row, then **Search a city or ZIP**.
 
-- **Description** - What the event is about
-- **Schedule** - Start time, end time, duration
-- **Location** - Address with map (for in-person events)
-- **Virtual Link** - Meeting URL (for online events)
-- **Tickets** - Available ticket types and prices
-- **Capacity** - Total spots and remaining availability
-- **Attendee Requirements** - Information needed for registration
-- **Discussion** - Comments and questions about the event
+**The results are empty.** The empty state suggests panning the map, picking a different city, or relaxing filters. Start with **Clear all** in the **Filters** panel, then narrow again one filter at a time.
 
-## Save Events to Your Watchlist
+**A category I expected is missing from the Filters panel.** Categories with nothing in the current viewport are hidden. Zoom out or pick a wider area and it comes back.
 
-The Watchlist feature helps you keep track of events you're interested in, even if you're not ready to RSVP yet. Save events to your watchlist to stay updated on availability and get quick access when you're ready to register.
+**The map shows a pin but the list does not show that activity.** The map draws every pin in the viewport; the list shows one page at a time. Click the pin, or go to the next page.
 
-### What is the Watchlist?
+**I clicked Use my current location and nothing happened.** Your browser may have refused the permission, or refused it silently from an earlier visit. The panel reports what it heard. Searching a city or ZIP works regardless.
 
-Your Watchlist is a personalized collection of events you want to keep tabs on. Think of it as a favorites list that helps you:
+## What next
 
-- **Save events** you're interested in attending
-- **Track availability** for events that are near capacity or full
-- **Get notifications** when spots open up in full events
-- **Receive alerts** when watched events have 3 tickets or less remaining
-- **Quick access** to events you want to attend without searching again
-
-:::tip Stay Informed
-When you add an event to your watchlist, Famlo will notify you about important updates like capacity changes and spot availability.
-:::
-
-### Adding Events to Your Watchlist
-
-You can add any event to your watchlist directly from event listings:
-
-1. **Browse or search** for events you're interested in
-2. **Hover over an event card** - a bookmark icon appears in the top-right corner
-3. **Click the bookmark icon** to add the event to your watchlist
-4. The bookmark icon turns red and fills in, confirming the event is saved
-
-The bookmark button appears on:
-- Event cards in the Events browse page
-- Event search results
-- Event detail pages
-- Events shown on the interactive map
-
-:::note Already in Your Watchlist
-Events you've already saved show a filled red bookmark icon, even without hovering.
-:::
-
-### Viewing Your Watchlist
-
-Access your complete watchlist to see all saved events in one organized view:
-
-1. Navigate to `/watchlist` in your browser, or
-2. Look for the watchlist link in the account menu
-3. Your watchlist displays events organized by helpful categories
-
-**Watchlist Tabs:**
-
-- **Upcoming** - Events you've saved that still have availability
-- **Near Capacity** - Events with 3 tickets or less remaining (act fast!)
-- **Full** - Events at capacity where you're waiting for spots to open
-- **Past** - Historical events you had saved
-
-Each tab shows the count of events in that category, making it easy to see what needs your attention.
-
-:::tip Capacity Alerts
-The "Near Capacity" tab shows events with only a few spots left. These events may fill up soon, so review them first!
-:::
-
-### Quick RSVP from Watchlist
-
-Once you've decided to attend a watched event, you can register directly from your watchlist:
-
-1. **Open your watchlist** at `/watchlist`
-2. **Find the event** you want to attend
-3. **Click the event card** to view full details
-4. **Click the RSVP button** to start registration
-5. Complete the registration process as normal
-
-No need to search for the event again - everything is ready at your fingertips.
-
-### Removing Events from Watchlist
-
-You can remove events from your watchlist at any time:
-
-**From Event Cards:**
-1. **Hover over any event card** showing a filled red bookmark
-2. **Click the bookmark icon** - it changes to unfilled gray
-3. The event is immediately removed from your watchlist
-
-**From the Watchlist Page:**
-1. Navigate to your watchlist at `/watchlist`
-2. Find the event you want to remove
-3. Click the bookmark icon on the event card
-4. The event disappears from your watchlist
-
-:::note Automatic Cleanup
-Events are automatically removed from your watchlist after they've passed, but you can still view them in the "Past" tab for reference.
-:::
-
-### Understanding Watchlist Status Badges
-
-When viewing your watchlist, you'll see helpful status badges:
-
-- **X% Full** (yellow badge) - Event is near capacity, shown in "Near Capacity" tab
-- **Sold Out** (red badge) - Event is full, shown in "Full" tab
-- **Added date** - Shows when you added the event to your watchlist
-- **Ticket type** - If you indicated interest in a specific ticket type
-
-### View Your Events
-
-See all events you're registered for:
-
-1. Click **Events** > **My Events**
-2. View your upcoming events
-3. Filter by status: Going, Past
-
-## What's Next?
-
-Ready to register for an event?
-
-1. **[Learn how to RSVP](/docs/families/registering)** - Register your family for events
-2. **[Understand payments](/docs/families/payments-and-refunds)** - Learn about event payments
-3. **[View your calendar](/docs/families/calendar)** - See all your scheduled activities
+- [Registering and checking out](/docs/families/registering) — how to take a place
+- [Finding and joining organizations](/docs/families/organizations) — the groups running these activities
+- [Saved activities and alerts](/docs/families/saved-and-alerts) — save one activity, or watch an area
+- [Your calendar](/docs/families/calendar) — everything you have booked, in one place

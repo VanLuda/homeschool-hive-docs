@@ -11,7 +11,7 @@ Setting the right price for your homeschool group events can feel challenging. P
 
 ## Quick Answer
 
-To price events effectively, calculate your total costs (venue, materials, instructor fees), divide by your minimum expected attendance, then add a small buffer for unexpected expenses. Consider offering member discounts of 10-20% to encourage membership, and use Famlo's ticket tiers to create flexible pricing options for different family sizes.
+To price events effectively, calculate your total costs (venue, materials, instructor fees), divide by your minimum expected attendance, then add a small buffer for unexpected expenses. Add the two charges that come out of a card payment: Famlo's platform fee, capped at $15 per enrollment, and Stripe's processing at 2.9% + $0.30. Consider offering member discounts of 10-20% to encourage membership, and use Famlo's ticket tiers to create flexible pricing options for different family sizes.
 
 ## Step-by-Step Guide
 
@@ -22,18 +22,24 @@ Before setting any price, understand exactly what the event will cost to run:
 - **Venue fees**: Rental costs, deposits, or facility fees
 - **Materials and supplies**: Craft supplies, science equipment, printed materials
 - **Instructor compensation**: Fair payment for teachers or workshop leaders
-- **Administrative costs**: Payment processing fees (typically 2.9% + $0.30 per transaction)
+- **Card charges**: Stripe's processing, typically 2.9% + $0.30 per payment, plus Famlo's platform fee — 10% on the free plan, capped at $15 per enrollment
 - **Insurance or permits**: Any required coverage or permissions
 - **Contingency buffer**: Add 10-15% for unexpected expenses
 
 ### 2. Determine Your Break-Even Point
 
-Divide your total costs by the number of participants needed to cover expenses:
+Divide your total costs by the number of participants needed to cover expenses, then raise that figure to cover the card charges. What you list is not what you keep.
 
 **Example:**
 - Total event cost: $200
 - Expected attendance: 20 children
-- Break-even price: $10 per child
+- Cost per child: $10.00
+- Listed at $10.00, you keep $8.41 of each ticket — $168.20 in all, and $31.80 short
+- Listed at $12.00, you keep $10.15 of each ticket — about $203, which covers the event
+
+**Your break-even price is $12, not $10.**
+
+The quick version: divide what you need to clear by 0.9, then add roughly another 3% and $0.30. Above $150 the platform fee stops at $15, so on larger payments only Stripe's percentage keeps growing.
 
 This is your minimum price. You will likely want to price above this to account for lower-than-expected attendance.
 
@@ -45,6 +51,8 @@ Use the ticketing system to create flexible pricing options:
 - **Member ticket**: Discounted rate for group members (typically 10-20% off)
 - **Family ticket**: Discounted rate for families bringing multiple children
 - **Sibling discount**: Reduced price for additional children from the same family
+
+Famlo caps its fee per enrollment rather than per student, so a per-family ticket never carries more than $15 however many children it covers. Pricing per household costs you nothing extra.
 
 See [Tickets and Pricing](/docs/organizations/tickets-and-pricing) for detailed instructions on configuring ticket types.
 
@@ -114,9 +122,19 @@ Consider offering event packages (like a semester of weekly classes) at a discou
 Unfortunately, some registered families will not attend. Consider requiring payment at registration (rather than at the door) to reduce no-shows and ensure you cover costs.
 :::
 
-:::note Payment Processing Fees
-Remember that Famlo and Stripe charge payment processing fees. Factor these into your pricing or note them as a separate line item. See [Payments and Stripe](/docs/organizations/getting-paid) for details.
-:::
+## What Comes Out of a Card Payment
+
+Two charges come out, and neither is added to what the family pays.
+
+**Famlo's platform fee.** On the free plan it is 10% of the card payment, capped at **$15 per enrollment**. The cap is reached at $150, so a $250 payment and a $2,000 payment both cost you $15. On the $99 Platform plan there is no fee at all.
+
+**Stripe's processing.** Typically 2.9% + $0.30 on a US card. It goes to Stripe on every plan, and Famlo does not mark it up.
+
+A $250 semester payment works out like this. The family pays $250.00, Famlo takes $15.00, Stripe takes $7.55, and you keep $227.45.
+
+Cash, check, bank transfer and scholarship money carry nothing at all. Record them against the same balance and the family gets everything a card payment unlocks.
+
+See [What's Free and What's Paid](/docs/families/whats-free-and-whats-paid) for the plans in full.
 
 ## Sample Pricing Scenarios
 
@@ -124,24 +142,33 @@ Remember that Famlo and Stripe charge payment processing fees. Factor these into
 - Venue: Free public park
 - Materials: $20 for simple craft supplies
 - Participants: 15 children
-- **Suggested price**: $2-3 per child (covers materials with small buffer)
+- **Suggested price**: $3 per child. You keep $2.31 of each ticket, or $34.65 in all
+- Stripe's $0.30 per payment bites hardest on small amounts. At $2 a child you keep $1.44, barely covering the supplies. Collect very small amounts in cash, or make the day free.
 
 ### Science Workshop with Instructor
 - Venue: $50 community center rental
 - Materials: $75 for experiment supplies
 - Instructor: $100 for 2-hour workshop
 - Participants: 20 children
-- **Suggested price**: $12-15 per child
+- Costs total $225, or $11.25 a child before card charges
+- **Suggested price**: $14 per child. You keep $11.89 of each ticket, or $237.80 in all
 
 ### Field Trip with Admission
 - Venue: $8 per person museum admission
 - Bus rental: $300
 - Participants: 30 people (children and parents)
-- **Suggested price**: $18-20 per person
+- Costs total $540, or $18 a person before card charges
+- **Suggested price**: $22 per person. You keep $18.86 of each ticket, or $565.80 in all
+
+### A Semester Charged in One Payment
+- Twelve weekly sessions, worth about $50 each
+- **List price**: $600 for the term. Famlo's fee is capped at $15, Stripe takes $17.70, and you keep $567.30
+- Billed as twelve separate $50 registrations, each one is its own enrollment and carries its own $5.00 fee. You keep $519.00 for the same money
+- Charge the term in one payment where families can manage it, and offer the weekly price where they cannot
 
 ## Common Pricing Mistakes to Avoid
 
-1. **Forgetting payment processing fees**: These add up quickly
+1. **Forgetting the card charges**: Stripe's 2.9% + $0.30 and Famlo's capped platform fee both come out of what you collect
 2. **Underestimating materials**: Art and science supplies are expensive
 3. **Not valuing volunteer time**: While not a cash cost, it has real value
 4. **Pricing the same for all events**: Different events have different costs
@@ -149,6 +176,7 @@ Remember that Famlo and Stripe charge payment processing fees. Factor these into
 
 ## Related Articles
 
+- [What's Free and What's Paid](/docs/families/whats-free-and-whats-paid) - The plans, the cap, and what a payment costs
 - [Tickets and Pricing](/docs/organizations/tickets-and-pricing) - Configure ticket types and discounts
 - [Payments and Stripe](/docs/organizations/getting-paid) - Set up payment processing
 - [Create Events](/docs/organizations/activities) - Build your event listings

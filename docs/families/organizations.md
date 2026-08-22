@@ -1,346 +1,209 @@
 ---
 sidebar_position: 4
 title: Finding and joining organizations
-description: Discover co-ops, classes, and groups, and become a member.
+description: Find co-ops, micro-schools, tutors and venues on Famlo, understand how each one is listed and how it lets people in, and join the ones you want.
 ---
-<!-- SOURCE: docs/parents/find-groups.md -->
-# Find Groups
 
-Famlo makes it easy to discover homeschool groups that match your family's interests and location. This guide shows you how to find and explore groups.
+# Finding and joining organizations
 
-## Browse All Groups
+An organization is whoever runs the activities: a co-op, a micro-school, a tutor, a library. This guide covers finding them, reading how a listing is set up, and getting in. It is for families, not for organizers.
 
-1. Click **Groups** in the main navigation
-2. You'll see a list of available groups in your area
+## The eighteen kinds of organization
 
-## Search for Groups
+Every listing on Famlo is one of eighteen types. The type shapes the listing and is the first thing in its address.
 
-Use the search bar to find specific groups:
+**Community-led** — Co-op · Learning pod · Community · Meetup · Faith-based community · Support group
 
-1. Enter keywords related to the group name or focus
-2. Press **Enter** or click the search icon
-3. Results will show matching groups
+**Educator-led** — Micro-school · Charter school · Online school · Tutor · Enrichment program · Studio · Sports club · Camp
 
-**Search tips:**
-- Search by group name ("Classical Conversations")
-- Search by activity type ("nature study", "co-op")
-- Search by educational approach ("Charlotte Mason", "Montessori")
+**Places** — Venue · Attraction · Library
 
-## Filter Groups
+**Catch-all** — Business
 
-Narrow down your search using filters:
+## How organization addresses are built
 
-### By Location
+The type is the first segment of the address, with underscores written as hyphens:
 
-Finding groups near you is now smarter with automatic location detection:
+- `famlo.co/co-op/riverbend`
+- `famlo.co/micro-school/oak-and-acorn`
+- `famlo.co/enrichment-program/coastal-robotics`
+- `famlo.co/library/riverside-branch`
 
-- **Automatic Location Detection** - When you visit the Groups page, your browser will ask for permission to access your location. Allowing this shows you groups closest to you automatically.
-- **Smart Search Expansion** - If there are only a few groups nearby, Famlo automatically expands the search radius to show you more options, ensuring you always find great communities.
-- **City/Zip Code** - Enter a specific location to search if you prefer not to share your location
-- **Radius** - Choose how far you're willing to travel (5, 10, 25, 50+ miles)
+An organization can also claim a short handle, which works as a second address: `famlo.co/@riverbend`. Both reach the same listing, so either is fine to share.
 
-:::tip Location Permissions
-For the best experience, allow your browser to access your location when prompted. This helps show you the most relevant groups in your area first.
+## Find an organization
+
+The directory works the same way the activity directory does.
+
+- **/places** is the landing page, with rows near you and links by state.
+- **/s/places** is where results live. The search pill, the **Filters** panel and the map all land there.
+
+To narrow the list:
+
+1. Click **Filters**.
+2. Set any of:
+   - **Category** — grouped by things like academic focus and faith affiliation; pick as many as you like
+   - **Organization type** — any of the eighteen above, multi-select
+   - **Membership** — **Any**, **Free to join**, or **Paid**
+   - **Search** — free text against the organization's name
+3. Click **Show results**.
+
+Options with nothing in the area you are looking at are hidden, and the rest carry counts. **Clear all** resets the panel. Results are paginated twenty-four to a page, with numbered links underneath.
+
+Each card shows the organization's name, its location and one summary line. That line is its dues price if it charges, **Free to join** if it runs memberships without charging, a count of upcoming activities if it has no membership system, or a member count if it has nothing scheduled either.
+
+## Read a listing
+
+A listing has a tab row under its header. Which tabs appear depends on what the organization has:
+
+- Its schedule, named for the type of organization — **Classes** for a co-op, a micro-school, a tutor, an enrichment program or a studio; **Events** for a library, an attraction, a venue, a business, a community or a meetup; **Schedule** for everything else
+- **Staff** — who runs it and who teaches there
+- **About** — the description, and the section the listing opens on
+- **Photos** — its album, plus photos from its activities
+- **Where we meet** — jumps to the map, on organizations with a real address
+
+In the header you get **Follow** and, where the organization accepts questions, **Message**.
+
+**Follow** is not joining. Following tells Famlo you want to hear when this organization posts something new; it gives you no member access. To become a member, use the join control described below.
+
+## Two settings decide what you can see and how you get in
+
+These are separate settings, and mixing them up is the usual reason a listing surprises people. An organization sets both.
+
+**Visibility** answers "is this listed, and is member content gated":
+
+| Visibility | What it means for you |
+| --- | --- |
+| **Open** | In the directory, everything on the page public |
+| **Closed** | In the directory with a real public page, but member content gated |
+| **Hidden** | Not in the directory at all; reachable only by a direct link or an invitation |
+
+**Join policy** answers "how do you get in":
+
+| Join policy | What it means for you |
+| --- | --- |
+| **Open** | You join yourself, straight away |
+| **Approval required** | You send a request and organizers review it |
+| **Invite-only** | You cannot ask; an organizer has to invite you |
+
+The two combine freely. A co-op can sit in the directory with a full public page and still screen everyone who applies — that is **Open** visibility with an **Approval required** join policy, and it is a common setup.
+
+On a **Closed** listing you still see the shape of the programme. A panel counts the members-only sessions, names some of them, and says when they run and what ages they suit. Times, teachers and fees are what membership buys, so those stay hidden until you are in.
+
+An organization that charges dues has to be **Closed** or **Hidden**. A fully open listing cannot bill.
+
+## Join an organization
+
+What you see on the listing depends on how that organization is set up.
+
+### Joining a free, open organization
+
+1. Open the listing.
+2. Click **Join** followed by the organization's name.
+
+You are a member immediately.
+
+### Requesting to join
+
+Where organizers screen applicants, the control reads **Request to join**.
+
+1. Click **Request to join**. A request page opens, headed **Request to join** and the organization's name.
+2. Read **How joining works** at the top. It tells you what happens after you send.
+3. If there is a **Group rules** section, read it and tick **I agree to these rules**. Some organizations make this required.
+4. Answer anything under **A few questions**. An organization can ask up to three, and they are free text. Required ones are marked.
+5. Click **Send request**.
+
+The listing then reads "Your request to join is under review." Organizers are notified, and you hear back when they approve or decline.
+
+### Requesting to join an organization that charges dues
+
+Paid organizations use the same request flow, with a card step. You are not charged for sending the request.
+
+1. Click **Request to join**.
+2. Work through **Group rules** and **A few questions** as above.
+3. Under **Payment method**, pick a saved card or choose **Use a new card** and enter one. The page states it plainly: saved now, charged only if you are approved.
+4. If you have one, enter it under **Discount code (optional)**.
+5. Check the **Membership** summary on the right. It shows the amount and how often it recurs, and repeats that you will not be charged until the organizers approve your request.
+6. Click **Send request**.
+
+Your card is held, not charged. If organizers approve you, the first payment is taken at that moment. If they decline, or you withdraw, nothing is taken.
+
+:::note
+You do not choose how often you are billed. The organization picks one cadence for everybody: **Monthly**, **Every 2 months**, **Quarterly**, **Every 6 months**, **Annually**, or a **One-time fee**. Whatever it chose is what the summary shows you before you send.
 :::
 
-### By Age Range
+What your family pays is set by the organization, not by Famlo. See [What's free and what's paid](/docs/families/whats-free-and-whats-paid).
 
-Filter groups based on the ages they serve:
+### Withdrawing a request
 
-1. Click the **Age Range** filter
-2. Select the age ranges that match your children
-3. Groups will show only those that serve your selected ages
+While a request is still under review you can take it back.
 
-This helps you quickly find groups that are age-appropriate for your family.
+1. Go back to the organization's listing.
+2. Under "Your request to join is under review.", pick a **Reason (optional)** from the list — changed mind, joined elsewhere, cost, schedule conflict, applied by mistake, review too slow, or other.
+3. Add a note in the box below if you want the organizers to know why. This is optional too.
+4. Click **Withdraw request** and confirm.
 
-### By Faith
+If a card was held for a paid organization, withdrawing releases it. Nothing was charged.
 
-Find communities that align with your family's values:
-
-1. Click the **Faith** filter
-2. Choose from options like Christian, Secular, Jewish, Muslim, and more
-3. View groups that match your faith preference
-
-### By Academic Focus
-
-Search by educational philosophy or subject emphasis:
-
-1. Click the **Academic Focus** filter
-2. Select approaches like:
-   - Classical Education
-   - Montessori
-   - Charlotte Mason
-   - Unschooling
-   - Traditional
-   - STEM-focused
-   - And more
-3. Find groups that match your homeschooling style
-
-### By Group Type
-
-- **Local Groups** - Groups that meet in person
-- **Online Groups** - Virtual communities without physical meetings
-
-### By Category
-
-Browse groups by their focus area, such as:
-- Academic co-ops
-- Field trip groups
-- Sports and recreation
-- Arts and music
-- STEM activities
-- Social groups
-
-## Using the Interactive Map
-
-The Groups page includes an interactive map that makes it easy to visualize where groups are located:
-
-### Map Features
-
-1. **Map Markers** - Each group appears as a marker on the map showing its location
-2. **Hover Previews** - Move your cursor over any map marker to see a quick preview of the group, including:
-   - Group name
-   - Distance from your location
-   - Membership type (free or paid)
-   - Brief description
-3. **Click for Details** - Click on a map marker to open the full group details page
-
-### Tips for Using the Map
-
-- **Zoom In/Out** - Use the map controls or your mouse wheel to adjust the view
-- **Pan Around** - Click and drag to explore different areas
-- **Compare Locations** - Quickly see which groups are closest to you or along your regular routes
-- **Combined with Filters** - The map updates automatically when you apply filters, showing only groups that match your criteria
-
-:::tip Finding Nearby Groups
-The map makes it easy to find groups along your daily routes. Look for markers near places you already visit regularly like libraries, parks, or shopping areas.
+:::warning
+Requests to the same organization are capped over a rolling seven days. Apply, withdraw and re-apply too often and the form stops accepting new requests for a while, with a message asking you to try again later. Withdraw only when you mean it.
 :::
 
-## Browse Groups by Location
+### Joining by invitation
 
-You can browse groups organized by state and city using dedicated location pages:
+There are no invite links and no invite codes on Famlo. An organizer invites your **email address**.
 
-1. Navigate to **Groups** and select a state from the location filters
-2. Or visit URLs like `/groups/in/texas` or `/groups/in/california` to browse groups in a specific state
-3. Drill down to specific cities for more targeted results
+- **If you already have a Famlo account** under that address, you are added and you get an email welcoming you and naming your role.
+- **If you do not have an account yet**, you get an invitation email. Create your free account using that same email address and you join the organization automatically. The email says so in as many words: "no invite code needed."
 
-These location pages are useful for sharing with other homeschool families in your area — just send them the link for your state.
+The invitation names the organization and the role you were invited as. If you sign up with a different address than the one that was invited, the invitation will not find you — sign up with the invited address, or ask the organizer to re-invite the one you use.
 
-## Browsing Groups
+## Your role once you are in
 
-Groups load seamlessly as you scroll down the page - no need to click through multiple pages. Simply scroll to see more groups, and new results will load automatically. This makes it easy to browse through all available options at your own pace.
+Every member holds one of six roles. Most families are **Member**.
 
-## Understanding Group Types
+| Role | What it can do |
+| --- | --- |
+| **Member** | View the organization |
+| **Member manager** | View the organization, and approve join requests |
+| **Billing manager** | View the organization, and handle its billing and payouts |
+| **Event manager** | View the organization, and run its activities and registrations |
+| **Co-leader** | Everything an event manager can do, plus edit the organization and approve members |
+| **Owner** | Full control of the organization |
 
-### Public vs. Private Groups
+**Member manager** is not an administrator. Approving join requests is the only thing it adds.
 
-**Public Groups**
-- Anyone can view group details
-- Join immediately (free) or through checkout (paid)
-- Open membership
+Organizers set roles; you cannot change your own. Separately from your role, an organizer can grant you access to messages about specific activities without moving you off **Member** — useful for a parent who teaches one class.
 
-**Private Groups**
-- Limited information visible before joining
-- Requires approval from group leaders
-- May have membership questions to answer
+## Managing what you belong to
 
-### Free vs. Paid Membership
+**My memberships** in your account lists everything, split into **Paid memberships** and **Free groups**. Your role is shown under each name.
 
-**Free Groups**
-- No cost to join
-- Click "Join" to become a member instantly
+- **Leave** removes you from a free group.
+- **Cancel membership** ends a paid one.
 
-**Paid Groups**
-- Require a membership fee (monthly or annual)
-- Complete payment during the join process
-- May offer different membership tiers
+For dues, renewals, failed payments and what happens to your access when you cancel, see [Your memberships](/docs/families/memberships).
 
-## View Group Details
+## Troubleshooting
 
-Click on any group to see more information:
+**There is no join button on the listing.** The organization is invite-only, or it is closing down. A listing scheduled to leave Famlo shows "Not accepting new members" with the date.
 
-- **About** - Group description and mission
-- **Events** - Upcoming activities and events
-- **Members** - Number of families in the group
-- **Location** - Where the group meets (for local groups)
-- **Membership** - Cost and requirements to join
+**The button says Log in to join.** Joining needs an account. Sign in and you land back on the listing.
 
-## Save Groups for Later
+**I can see the co-op but not its class times.** It has **Closed** visibility. The panel tells you how many members-only sessions there are and roughly when they run; times, teachers and fees appear once you are a member.
 
-If you find a group you're interested in but aren't ready to join:
+**I searched for a group I know exists and found nothing.** It may be **Hidden**, which keeps it out of every listing. Ask them for a direct link or an invitation. It may also just be outside your map viewport — widen the area and try again.
 
-1. Click the **Bookmark** icon on the group card
-2. Access your saved groups from your profile
+**My request has been under review for a while.** Only the organization's approvers can act on it. Use **Message** on the listing to ask, or withdraw the request and apply elsewhere.
 
-## What's Next?
+**My request was declined.** Organizers decline for their own reasons and Famlo does not share them with you. Message them if you want to ask.
 
-Found a group you like? Learn how to:
+**I was invited but Famlo says I am not a member.** The invitation is tied to the exact email address it was sent to. Check which address you signed up with.
 
-1. **[Join a group](/docs/families/organizations)** - Request membership or complete payment
-2. **[Find events](/docs/families/finding-activities)** - Browse activities from groups you've joined
-3. **[RSVP for events](/docs/families/registering)** - Register your family for activities
+## What next
 
-
-<!-- MERGED FROM: docs/parents/group-membership.md — Phase 4: fold into the sections above, do not leave as an appendix -->
-
-## Group Membership
-
-This guide explains how to join homeschool groups and manage your memberships.
-
-### Joining a Group
-
-The process for joining a group depends on the group's settings:
-
-#### Joining a Free Public Group
-
-1. Find the group you want to join
-2. Click **Join [Group Name]**
-3. You're now a member and can access group events
-
-#### Joining a Paid Group
-
-1. Find the group you want to join
-2. Click **Join [Group Name]**
-3. Review the membership options:
-   - **Monthly** - Pay each month
-   - **Quarterly** - Pay every 3 months
-   - **Semi-Annual** - Pay every 6 months
-   - **Annual** - Pay once per year (often discounted)
-4. Select your preferred billing cycle
-5. Enter your payment information
-6. Click **Complete Payment**
-7. You're now a member with full access
-
-#### Joining a Private Group
-
-Private groups require approval from the group leaders:
-
-1. Find the group you want to join
-2. Click **Request to Join**
-3. Answer any membership questions (if required)
-4. Click **Submit Request**
-5. Wait for approval from the group leaders
-6. You'll receive a notification when your request is approved or declined
-
-:::note Paid Private Groups
-If the private group has a membership fee, you'll complete payment after your request is approved.
-:::
-
-#### Joining via Invitation Link
-
-If a group leader sends you an invite link:
-
-1. Click the invitation link you received (via email or message)
-2. If you're not logged in, you'll be prompted to sign in or create an account
-3. Answer any membership questions the group requires
-4. Review and agree to the group's rules (if applicable)
-5. Complete payment if the group has a membership fee
-6. You'll be added to the group automatically
-
-For more details on the invitation process, see [Accepting Group Invitations](/docs/families/organizations).
-
-### Checking Your Membership Status
-
-To see all your group memberships:
-
-1. Click **Groups** in the navigation
-2. Select **My Groups**
-3. View your membership status for each group:
-   - **Active** - Full membership access
-   - **Pending** - Awaiting approval
-   - **Expired** - Membership needs renewal
-
-### Managing Your Membership
-
-#### View Membership Details
-
-1. Go to the group's page
-2. Click **My Membership** or **Membership** tab
-3. See your membership details:
-   - Membership type
-   - Billing cycle (monthly/annual)
-   - Next renewal date
-   - Payment history
-
-#### Update Payment Method
-
-If you need to update your payment method for a membership:
-
-1. Go to **Account Settings** > **Payment Methods**
-2. Add a new payment method or update existing one
-3. Your membership will use the default payment method
-
-#### Cancel Membership
-
-To leave a group or cancel a paid membership:
-
-1. Go to the group's page
-2. Click **My Membership**
-3. Click **Cancel Membership** or **Leave Group**
-4. Confirm your cancellation
-
-:::warning Cancellation Policy
-For paid memberships:
-- Monthly memberships: You'll retain access until the end of your current billing period
-- Annual memberships: Check the group's refund policy for partial refunds
-:::
-
-### Renewing Your Membership
-
-#### Automatic Renewal
-
-Paid memberships renew automatically:
-
-1. You'll receive a reminder email before renewal
-2. Payment is processed using your saved payment method
-3. Your membership continues uninterrupted
-
-#### Manual Renewal
-
-If automatic renewal fails or is disabled:
-
-1. Go to the group's page
-2. Click **Renew Membership**
-3. Update payment information if needed
-4. Complete the payment
-
-### Membership Roles
-
-When you join a group, you're assigned a role that determines what you can do:
-
-| Role | Capabilities |
-|------|-------------|
-| **Member** | View group content, RSVP for events, see member directory |
-| **Event Manager** | All member abilities + create and manage events |
-| **Co-Leader** | All event manager abilities + manage members, approve requests |
-| **Owner** | Full administrative control of the group |
-
-Group leaders may promote members to higher roles based on their involvement.
-
-### Troubleshooting
-
-#### My Join Request Was Declined
-
-If your request to join a private group was declined:
-
-- The group may have specific membership requirements
-- Try contacting the group leaders for more information
-- Look for other groups that might be a better fit
-
-#### Payment Failed
-
-If your membership payment fails:
-
-1. Check that your payment method is valid and has sufficient funds
-2. Update your payment method in **Account Settings**
-3. Try the payment again
-4. Contact support if issues persist
-
-### What's Next?
-
-Now that you're a group member:
-
-1. **[Find events](/docs/families/finding-activities)** - Browse your group's activities
-2. **[RSVP for events](/docs/families/registering)** - Register for upcoming events
-3. **[View your calendar](/docs/families/calendar)** - See all your scheduled activities
-4. **[Messages](/docs/families/messages)** - Ask an organization a question and read its announcements
+- [Finding activities](/docs/families/finding-activities) — what these organizations are running
+- [Your memberships](/docs/families/memberships) — dues, renewals and cancelling
+- [Registering and checking out](/docs/families/registering) — taking a place in an activity
+- [Messages](/docs/families/messages) — ask an organization a question and read its announcements
+- [Your calendar](/docs/families/calendar) — everything you have booked, in one place

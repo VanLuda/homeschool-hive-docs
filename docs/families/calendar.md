@@ -1,282 +1,118 @@
 ---
 sidebar_position: 9
 title: Your calendar
-description: See what you have booked and subscribe to it from another calendar.
+description: See everything your family has booked in Week or List view, filter it by child or organization, and subscribe to it from Apple, Google or Outlook.
 ---
-<!-- SOURCE: docs/parents/calendar.md -->
-# Calendar
 
-The Famlo calendar gives you a comprehensive view of all your scheduled activities in one place. See events you're registered for, your groups' upcoming activities, and more.
+# Your calendar
 
-## Access the Calendar
+Your calendar is one page holding everything your family has booked. This guide covers reading it, filtering it, and subscribing to it from the calendar app you already use.
 
-1. Click **Calendar** in the main navigation
-2. Your calendar displays with all your events
+Open it from **Calendar** in the navigation.
 
-## Calendar Views
-
-Switch between different views to see your schedule:
-
-### Month View
-
-- See the entire month at a glance
-- Events appear as dots or small cards on each day
-- Click any day to see that day's events
-- Navigate between months using the arrows
-
-### Week View
-
-- See a full week with time slots
-- Events display at their scheduled times
-- Better for seeing detailed scheduling
-- Scroll to see different time slots
-
-### Timeline View
-
-- See events in a chronological list
-- Good for seeing what's coming up next
-- Shows events with full details
-- Scroll to load more events
-
-## What Shows on Your Calendar
-
-Your calendar includes:
-
-- **Events you're registered for** - All events where you've RSVPed "Going"
-- **Group events** - Events from groups you've joined (optional)
-
-## Event Details
-
-Click on any event in the calendar to see:
-
-- Event name and description
-- Date and time
-- Location or virtual meeting link
-- Your registration status
-- Quick link to the full event page
-
-## Filter Calendar Events
-
-Customize what appears on your calendar:
-
-### By Group
-
-- Show events from all groups
-- Select specific groups to display
-- Hide groups you're less active in
-
-### By Status
-
-- **Going** - Events you're registered for
-- **All Group Events** - Include events you haven't RSVPed for
-
-### By Category
-
-Filter by event type:
-- Field trips
-- Classes
-- Social events
-- Sports
-- Arts
-- And more
-
-## Calendar Colors
-
-Events may appear in different colors:
-
-- Each group can have its own color
-- Makes it easy to see which group is hosting each event
-- Color coding helps when you're in multiple groups
-
-## Navigate the Calendar
-
-### Quick Navigation
-
-- **Today** button - Jump to today's date
-- **Arrows** - Move forward or backward in time
-- **Date picker** - Jump to a specific date
-
-### Keyboard Shortcuts
-
-- **Arrow keys** - Navigate between days
-- **Enter** - Select a day or event
-- **Escape** - Close event details
-
-## Subscribe to Calendar
-
-Automatically sync your RSVP'd events to your personal calendar app using a secure calendar subscription.
-
-### What Gets Synced
-
-Your personal calendar feed includes:
-
-- All events you've RSVP'd "Going" to
-- Series pass sessions you have access to
-- Event updates and cancellations
-- All session dates for recurring series events
-
-Events sync automatically (typically every 15 minutes to a few hours, depending on your calendar app).
-
-### Getting Your Calendar Feed URL
-
-1. Click **Calendar** in the main navigation
-2. Click the **Subscribe** button in the calendar view
-3. Click **Generate Calendar URL** to create your personal feed
-4. Your unique subscription URL appears - keep this private
-
-:::note Security First
-Your calendar feed URL is personal and secure. It contains a unique token that only gives read-only access to your RSVP'd events. Don't share this URL with others.
+:::note
+The calendar holds what you have booked, and nothing else. Activities you have saved, activities run by organizations you follow, and activities you were merely browsing do not appear here. Saved ones live under [Saved & watchlist](/docs/families/saved-and-alerts).
 :::
 
-### Adding to Google Calendar
+**Bookings** in the account menu brings you to this same page, in **List** view.
 
-1. Open [Google Calendar](https://calendar.google.com)
-2. On the left side, find **Other calendars** and click the **+** icon
-3. Select **From URL**
-4. Paste your calendar feed URL from Famlo
-5. Click **Add calendar**
+## Two views
 
-Your Famlo events will now appear in your Google Calendar and sync automatically.
+The toggle at the top right offers **Week** and **List**. There is no month grid and no timeline.
 
-### Adding to Apple Calendar
+**Week** lays the week out with times down the side, so you can see clashes and gaps. Alongside it you get:
 
-1. Open the **Calendar** app on your Mac or iOS device
-2. Go to **File** → **New Calendar Subscription** (Mac) or tap **Calendars** → **Add Subscription** (iOS)
-3. Paste your calendar feed URL from Famlo
-4. Click **Subscribe**
-5. Choose your preferred refresh frequency (recommended: every hour)
-6. Select which account to add it to
-7. Click **OK**
+- **Previous week** and **Next week** arrows
+- The date range you are looking at
+- **Today**, which jumps back to this week
 
-Your events will sync based on the refresh frequency you selected.
+On a phone, **Week** shows the same bookings as a day-by-day agenda rather than a grid, because a seven-column timetable does not fit a phone screen.
 
-### Adding to Outlook
+**List** runs straight down in date order. It is the faster view for "what have we got coming up".
 
-#### Outlook on the Web
+## Filter what you see
 
-1. Open [Outlook Calendar](https://outlook.office.com/calendar)
-2. Click **Add calendar** in the left sidebar
-3. Select **Subscribe from web**
-4. Paste your calendar feed URL from Famlo
-5. Name your calendar (e.g., "Famlo Events")
-6. Click **Import**
+The sidebar down the left has two sets of checkboxes, all ticked to begin with. Untick anything to hide it.
 
-#### Outlook Desktop App
+- **Who's going** — one row per child, with a count of the upcoming activities they are booked into. Each child has their own colour.
+- **Communities** — one row per organization, covering the organizations you follow and any organization with something on your calendar.
 
-1. Open Outlook and go to your Calendar view
-2. Select **Add Calendar** → **From Internet**
-3. Paste your calendar feed URL
-4. Click **OK**
+Above them sits a small month grid for jumping to another date.
 
-### How Calendar Syncing Works
+## Open a booking
 
-Understanding the sync process helps set expectations:
+In **Week** view, click a block. A panel opens with the time, the place, the organization, which of your children are booked in, and the booking's status. **View details** takes you through to the activity.
 
-- **Automatic Updates**: Your calendar app checks for changes periodically (usually every 15 minutes to several hours)
-- **New RSVPs**: When you RSVP to an event, it will appear in your subscribed calendar within the next sync cycle
-- **Cancelled Events**: If an event is cancelled or you change your RSVP, it will be removed from your calendar
-- **Series Sessions**: All sessions in a recurring series appear as individual events with session numbers
-- **Event Changes**: Updates to event times, locations, or details sync automatically
+In **List** view, the activity's title is a link straight to the activity page.
 
-:::tip Refresh Frequency
-Most calendar apps refresh subscribed calendars every few hours by default. Check your calendar app's settings if you need more frequent updates.
+Either way, cancelling happens on the activity page, not on the calendar. An activity the organizer has cancelled is struck through and badged **Cancelled**.
+
+## Add one activity to your calendar app
+
+For a single booking, use the .ics download rather than a subscription.
+
+- On the activity page, under the RSVP area, click **Add to calendar**.
+- In **List** view, each row has an **Add to calendar** button at the right-hand end.
+
+This downloads one file. It is a snapshot: if the organizer later moves the activity, your copy does not update. For that, subscribe.
+
+## Subscribe from Apple, Google or Outlook
+
+A subscription keeps your calendar app in step with Famlo automatically. It is a link, not a file.
+
+### Turn the feed on
+
+1. Open **Calendar**.
+2. Click **Subscribe**.
+3. Click **Enable calendar feed**.
+
+Your private link appears. Click it to copy it, or click **Add to calendar** to hand it straight to your default calendar app.
+
+### Add it to your calendar app
+
+The panel's **Setup instructions** carry the same three recipes:
+
+- **Apple Calendar** — File → New Calendar Subscription, paste the link.
+- **Google Calendar** — Other calendars → From URL, paste the link.
+- **Outlook** — Add calendar → Subscribe from web, paste the link.
+
+Your calendar app decides how often it checks for changes, so a new booking can take a while to appear. That is your app's schedule, not Famlo's.
+
+### Keep the link private
+
+:::danger
+The link is the only thing protecting the feed. Anyone who has it can read your family's schedule without signing in to anything.
+
+The feed reaches back ninety days as well as forward, and each entry names the children you booked in, on a line reading "For:" and their names. Treat the link like a password: do not post it, do not put it in a shared document, and do not send it to the organizers of anything.
 :::
 
-### Managing Your Calendar Subscription
+Famlo says the same thing on the panel: anyone with this link can see your calendar, so do not share it, and regenerate it if it leaks.
 
-#### Regenerate Your URL
+### If the link gets out
 
-If you suspect your calendar feed URL has been shared or compromised:
+**Regenerate link** issues a new one and kills the old one instantly. Apps subscribed to the old link stop updating until you paste in the new one, so plan to re-add it everywhere you use it.
 
-1. Open the Calendar Subscription modal
-2. Click **Regenerate URL**
-3. Update your calendar app subscriptions with the new URL
+**Turn off feed** switches the whole thing off. The link stops working and subscribed apps stop updating. You can enable it again later, which mints a fresh link.
 
-:::warning Old URL Stops Working
-When you regenerate your URL, the old one immediately stops working. Make sure to update all calendar apps where you've added the subscription.
-:::
-
-#### Revoke Access
-
-To completely disable your calendar feed:
-
-1. Open the Calendar Subscription modal
-2. Click **Revoke Access**
-3. Your calendar feed URL will no longer work
-4. Remove the subscription from your calendar apps
-
-You can generate a new URL anytime you want to re-enable the feature.
-
-## Add to External Calendar
-
-Export individual events to your personal calendar:
-
-1. Click on an event
-2. Look for the **Add to Calendar** option
-3. Choose your calendar:
-   - Google Calendar
-   - Apple Calendar
-   - Outlook
-   - Download .ics file
-
-:::tip Stay Synchronized
-For the best experience, use the calendar subscription feature above to automatically sync all your events. Use the "Add to Calendar" option only for one-off events you want to ensure you don't miss.
-:::
-
-## Calendar Notifications
-
-Stay informed about your schedule:
-
-- **Event reminders** - Get notified before events start
-- **Schedule changes** - Be alerted when event times change
-- **Cancellations** - Know immediately if events are cancelled
-
-Configure notification preferences in your [notification settings](/docs/account/notifications).
-
-## Mobile Calendar
-
-On mobile devices:
-
-- The calendar adapts to your screen size
-- Swipe to navigate between days and weeks
-- Tap events to see details
-- All the same features as desktop
-
-## Tips for Using the Calendar
-
-:::tip Check Regularly
-Make it a habit to check your calendar at the start of each week to see what's coming up.
-:::
-
-:::tip Use Filters
-If you're in many groups, use filters to focus on what's most important to you.
-:::
-
-:::tip Export Important Events
-For can't-miss events, export them to your personal calendar and set additional reminders.
-:::
+Both controls live on the calendar's own **Subscribe** panel. There is nothing to configure in your account settings.
 
 ## Troubleshooting
 
-### Events Not Showing
+**An activity I registered for is not here.** Check the sidebar first — the child or the organization may be unticked. If the filters are all on, the booking may not be confirmed; open the activity and check its status.
 
-If expected events aren't appearing:
+**Something I saved is missing.** Saving is not booking. Saved activities are under **Saved & watchlist**, not here.
 
-1. Check that you're actually registered (not just interested)
-2. Verify your filter settings aren't hiding the events
-3. Make sure you're in the correct date range
-4. Try refreshing the page
+**Times look wrong.** Everything renders in your device's timezone. If your device is set to another zone, or you are travelling, that is what you are seeing.
 
-### Wrong Times Displayed
+**My calendar app is not picking up a change.** Subscribed calendars refresh on the app's own schedule, and some apps only check a few times a day. Look in your calendar app's settings for its refresh interval.
 
-If event times seem incorrect:
+**The feed link stopped working.** Either it was regenerated, or the feed was turned off. Open **Subscribe** on your calendar and see which — then copy the current link, or click **Enable calendar feed** to start a new one.
 
-1. Check your device's timezone settings
-2. Events display in your local timezone
-3. Contact the group leader if the listed time seems wrong
+**I only want to see one child's schedule.** Untick everyone else under **Who's going**.
 
-## What's Next?
+## What next
 
-1. **[Find more events](/docs/families/finding-activities)** - Discover new activities
-2. **[RSVP for events](/docs/families/registering)** - Register for upcoming events
-3. **[Manage notifications](/docs/account/notifications)** - Set up event reminders
+- [Registering and checking out](/docs/families/registering) — how bookings get here
+- [Saved activities and alerts](/docs/families/saved-and-alerts) — activities you are watching but have not booked
+- [Notification settings](/docs/account/notifications) — reminders before an activity starts
+- [Your family profile](/docs/families/your-family) — the children who appear under **Who's going**
