@@ -7,203 +7,127 @@ keywords: [transfer group ownership, change group leader, homeschool group admin
 
 # How Do I Transfer Group Leadership?
 
-Whether you are stepping down, moving away, or simply want to share responsibilities, transferring group leadership on Famlo is straightforward. This guide covers everything from adding Co-Leaders to fully transferring ownership.
+Whether you are stepping down, moving away, or just want to stop being the only person who can do everything, handing over an organization on Famlo takes one change on the members roster. This guide covers how to do it, and what to sort out around it.
 
 ## Quick Answer
 
-To transfer group ownership, go to your group's Settings, select "Transfer Ownership," choose the new owner from your members list, and confirm by typing "TRANSFER." The new owner gains full control, and you become a Co-Leader. This action cannot be undone without the new owner's cooperation.
+There is no separate transfer-ownership flow. You hand over by changing someone's role.
 
-## Understanding Group Leadership Roles
+Open **Members**, select **Edit** on their row, set **Role** to **Owner**, and select **Save**. That is the whole mechanism. Only an existing owner can do it, and you are not demoted when you do — an organization can have several owners at once.
 
-Before transferring leadership, understand the different roles available:
+## The six roles
 
-| Role | Permissions |
-|------|-------------|
-| **Owner** | Full control including deletion, ownership transfer, Stripe settings |
-| **Co-Leader** | Most admin functions except ownership transfer and deletion |
-| **Event Manager** | Create and manage events only |
+Famlo has six fixed roles. You cannot build a new one or edit the permissions on an existing one.
+
+| Role | What it covers |
+| --- | --- |
+| **Owner** | Full control: settings, roles, activities, members and billing |
+| **Co-Leader** | Edit the listing, run activities, approve members |
+| **Event Manager** | Create and run activities, and manage registrations |
+| **Member Manager** | Review and approve people asking to join, and nothing else |
+| **Billing Manager** | Payments and billing |
 | **Member** | Standard participation |
 
-:::note
-Each group can only have one Owner, but can have multiple Co-Leaders and Event Managers.
-:::
+Two of these surprise people.
 
-## Option 1: Add Co-Leaders (Share Responsibilities)
+A **Co-Leader** is not a deputy owner. They cannot change anyone's role, and they cannot open payouts or billing. Editing the listing, running activities and approving members is the extent of it.
 
-If you want to share leadership duties without giving up ownership, add Co-Leaders.
+A **Member Manager** is not an administrator at all. Approving people who ask to join is the only thing the role does. It cannot edit the listing, schedule anything, or see money.
 
-### Step-by-Step: Adding a Co-Leader
+For exactly which console section each role can open, see [Members, roles, and messaging](/docs/organizations/members-and-roles).
 
-1. Go to your group page
-2. Click **Settings** (gear icon)
-3. Select **Members** or **Membership**
-4. Find the member you want to promote
-5. Click the **three-dot menu** next to their name
-6. Select **Change Role**
-7. Choose **Co-Leader** from the dropdown
-8. Click **Save**
+## Make someone else an owner
 
-### What Co-Leaders Can Do
+1. Open the account menu and choose **Manage organizations**.
+2. Select your organization, then open **Members**.
+3. Find the person and select **Edit** on their row.
+4. Set **Role** to **Owner**. The hint under the box changes to describe the role you are about to give them.
+5. Select **Save**.
 
-- Create, edit, and cancel events
-- Approve or deny membership requests
-- Manage member roles (except Owner)
-- Send announcements
-- View payment and attendance reports
-- Manage group settings (except ownership and Stripe)
+Only the owner sees these controls. Everyone else is told so at the foot of the roster.
 
-### What Co-Leaders Cannot Do
+### What does not happen
 
-- Transfer group ownership
-- Delete the group
-- Modify Stripe Connect settings
-- Remove the Owner
+Three things people expect from a transfer do not happen here, and it is worth knowing which.
 
-## Option 2: Transfer Full Ownership
+- **You are not demoted.** You keep the **Owner** role until you change your own, and both of you have full control in the meantime.
+- **Nothing is typed to confirm.** There is no danger-zone step and no confirmation word.
+- **Nothing is undone.** Changing a role takes effect on save, and the change is recorded under **Recent changes** at the foot of the roster with who made it and when.
 
-When you need to completely hand over the group to someone else.
+An organization supporting several owners at once is the point, not a side effect. It is what lets you overlap with the new owner instead of handing over in one jump.
 
-### Before You Transfer
+### The last owner is protected
 
-:::warning
-Ownership transfer cannot be undone by you. Only the new owner can transfer ownership back. Make sure you are ready to give up control.
-:::
+Famlo refuses to change the role of the only remaining owner. You are told: "You can't change the last owner's role — promote another owner first."
 
-Consider these factors:
-- The new owner will have complete control
-- You will become a Co-Leader after transfer
-- Stripe payment settings remain unchanged
-- All members and events stay intact
+So the order matters. Give someone else the **Owner** role first. Only then can you change your own role, or leave.
 
-### Step-by-Step: Transferring Ownership
+## Sharing the load without handing over
 
-1. **Navigate to Group Settings**
-   - Go to your group page
-   - Click the **Settings** gear icon
-   - Select **General** settings
+If you want help rather than a successor, give out the narrower roles instead. All of them are set the same way, on **Edit** on the person's row.
 
-2. **Find Transfer Option**
-   - Scroll down to the "Danger Zone" section
-   - Click **Transfer Ownership**
+- **Co-Leader** for someone who runs the organization alongside you day to day.
+- **Event Manager** for someone who schedules and runs activities but has no business with membership or money.
+- **Member Manager** for someone who works the join queue and nothing else.
+- **Billing Manager** for someone who watches payments while you keep the rest.
 
-3. **Select New Owner**
-   - A modal will appear with a searchable list of members
-   - Search for and select the member who will become the new owner
-   - Review their current role
+There is also **Message access**, which is separate from role. A teacher holding the plain **Member** role can be given access to conversations on their own activities, without being promoted to **Event Manager** and handed activity editing along with it.
 
-4. **Review the Changes**
-   - The modal will show what happens:
-     - Selected member becomes the new Owner
-     - You become a Co-Leader
-     - Stripe payments continue normally
+## Planning the transition
 
-5. **Confirm the Transfer**
-   - Type "TRANSFER" in the confirmation field (must be in capitals)
-   - Click **Transfer Ownership**
+The role change takes a second. The handover does not.
 
-6. **Confirmation**
-   - You will see a success message
-   - The page will refresh to reflect your new Co-Leader role
+### 1. Overlap deliberately
 
-### What Happens to Payments
+Give them **Owner** while you are still there. Both of you hold it, so they can learn on the real thing with you available. Change your own role once they are confident, and not before.
 
-When you transfer ownership:
-- The group's Stripe Connect account remains attached to the group
-- Payment processing continues without interruption
-- The original Stripe account owner retains access to their Stripe dashboard
-- The new group owner can view payment reports in Famlo
+### 2. Tell your members
 
-:::tip
-If the Stripe account needs to change (for example, payments should go to the new owner's bank account), the new owner should set up their own Stripe Connect account in group settings after the transfer.
-:::
+Members find out from you, not from a role badge. Say who is taking over, when, and what changes for them, and say it on the activities they are already registered for.
 
-## Option 3: Add Event Managers
+Announcements on Famlo attach to a single activity and reach the people connected to it. There is no organization-wide broadcast, so a message meant for everyone goes out from each activity it concerns.
 
-For groups where you want help with events but not full admin access.
+### 3. Hand over what is not in the software
 
-### Step-by-Step: Adding an Event Manager
+Write down the things that only live in your head:
 
-1. Go to your group's **Members** page
-2. Find the member you want to make an Event Manager
-3. Click the **three-dot menu** next to their name
-4. Select **Change Role**
-5. Choose **Event Manager**
-6. Click **Save**
+- The regular meeting schedule, and the venues and contacts behind it
+- Vendors and hosts you use for field trips
+- Pricing decisions, and who is on a comped or scholarship place
+- Anything outstanding: pending requests, unanswered messages, promised favours
 
-### Event Manager Capabilities
+### 4. Walk them through the console
 
-Event Managers can:
-- Create new events
-- Edit events they created
-- Manage RSVPs for their events
-- View attendance for their events
+Sit with them for one pass through the parts they will actually use: scheduling an activity, approving a join request, sending an announcement, taking attendance, and recording a payment made outside Famlo.
 
-Event Managers cannot:
-- Edit events created by others
-- Manage group membership
-- Access payment settings
-- Change group settings
+### 5. Check what moved and what did not
 
-## Planning a Leadership Transition
-
-For a smooth transition, follow these best practices:
-
-### 1. Communicate with Your Group
-
-Before making changes:
-- Announce the upcoming transition to members
-- Introduce the new leader(s)
-- Explain any changes to expect
-
-### 2. Document Important Information
-
-Share with the new leader:
-- Regular meeting schedules and locations
-- Vendor contacts for field trips
-- Recurring event templates
-- Membership policies and pricing decisions
-- Any outstanding issues or pending requests
-
-### 3. Train the New Leader
-
-Walk them through:
-- Creating and managing events
-- Approving membership requests
-- Using the announcement feature
-- Accessing payment reports
-- Managing member roles
-
-### 4. Execute the Transfer
-
-- Add them as Co-Leader first to let them practice
-- When ready, complete the ownership transfer
-- Remain as Co-Leader during the transition period
-- Step back gradually as they gain confidence
+Before you step back, have the new owner open every section they will need, especially **Payouts** and **Settings**. Roles and console access are set out in [Members, roles, and messaging](/docs/organizations/members-and-roles), and payout setup is in [Getting paid](/docs/organizations/getting-paid). Find out now, together, rather than three months from now on your own.
 
 ## Tips
 
-- **Start with Co-Leader** - Before full transfer, add the person as a Co-Leader so they can learn the system
-- **Time it right** - Avoid transferring during busy registration periods
-- **Keep communication open** - Stay available to answer questions during the transition
-- **Update your contact info** - Make sure the new leader's contact information is visible to members
-- **Review connected accounts** - Remind the new owner to review Stripe settings if needed
+- **Promote before you plan to leave.** The last owner cannot change their own role, so you need a second owner in place before anything else works.
+- **Avoid busy periods.** A handover during open registration means two people learning the console while families are trying to pay.
+- **Leave the roster tidy.** Remove roles that belong to people who have drifted away, so the new owner inherits a list that means something.
+- **Stay reachable for a term.** Being on the roster as a plain **Member** costs nothing and makes you easy to ask.
 
 ## Troubleshooting
 
-**I transferred ownership by accident**
-Contact the new owner immediately and ask them to transfer it back. Only they can do this.
+**I cannot see Edit on the roster.** Changing roles is owner-only. The foot of the page says so: "Only the organization owner can add members or change roles."
 
-**The member I want is not showing in the list**
-They must be an active member of the group. Check if their membership is pending approval.
+**I cannot change my own role.** You are the only owner. Give someone else the **Owner** role first, then change yours.
 
-**I want to leave the group completely after transfer**
-After transferring ownership, you can leave the group like any other member. Go to your membership settings and select "Leave Group."
+**I promoted someone and I still have full control.** That is expected. Promotion does not demote you, and an organization can have several owners.
 
-**The new owner has not received any notification**
-The new owner should refresh their browser. They will see their new Owner role reflected in the group settings.
+**The person I want is not on the roster.** They have not joined yet, or their request is still waiting in **Requests**. Approve or invite them first, then set their role.
+
+**They say nothing changed on their side.** Ask them to reload. The new role shows on their next page load.
+
+**I want to leave completely.** Make someone else an owner, change your own role, then leave the organization from **Memberships** in your account settings.
 
 ## Related Articles
 
-- [Custom Roles](/docs/organizations/members-and-roles) - Creating custom roles for your group
-- [Managing Members](/docs/organizations/members-and-roles) - Approving and managing group membership
-- [Create a Group](/docs/organizations/listing-your-organization) - Setting up a new homeschool group
+- [Members, roles, and messaging](/docs/organizations/members-and-roles) - What each role can open, and how to change one
+- [Organization settings](/docs/organizations/settings) - The listing, joining, dues and the danger zone
+- [Getting paid](/docs/organizations/getting-paid) - Payout setup, and who can reach it
+- [List your organization](/docs/organizations/listing-your-organization) - Setting up a new homeschool group

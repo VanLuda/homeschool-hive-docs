@@ -92,6 +92,8 @@ See [Create Events](/docs/organizations/activities) for step-by-step instruction
 
 :::tip Use Headers and Formatting
 Break up your description with headers like "What to Expect," "What to Bring," and "About the Instructor." Busy parents scan before they read - make key information easy to find.
+
+The description field renders `**bold**` and nothing else. A header here is a bold line rather than a heading style, which is why every section label in the template below is bold.
 :::
 
 :::tip Write for Search

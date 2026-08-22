@@ -7,209 +7,160 @@ keywords: [homeschool scholarship, ESA payment, education savings account, schol
 
 # How Do I Accept Scholarship Payments for Events?
 
-Many homeschool families use Education Savings Accounts (ESAs), scholarship programs, or other educational funding to pay for activities. Famlo makes it easy to accept these payments by generating professional invoices that families can submit to their scholarship providers.
+A scholarship on Famlo is your own money, set aside in advance and given to a named family. It comes off automatically when they register, so nobody has to ask you at the door and nobody has to be told no in front of their child.
+
+This guide is for owners and co-leaders, who are the only roles that can open **Scholarships** in the console.
 
 ## Quick Answer
 
-To accept scholarship payments: Go to your **Group Settings** > **Scholarship Settings**, configure your organization information for invoices, then enable scholarship eligibility on individual events or tickets. When families choose scholarship payment at checkout, Famlo automatically generates a detailed invoice they can submit to their funding provider.
+Fund a budget, award part of it to a family in advance, and turn scholarship payments on for the activities the award can pay for. The award applies itself when the family completes their booking — there is nothing for them to request, choose or submit at checkout.
 
-## Understanding Scholarship Payments
+## How it actually works
 
-### How It Works
+Four things happen, in this order.
 
-1. **Group Setup**: You configure your organization's details for invoice generation
-2. **Event Setup**: You mark events or tickets as scholarship-eligible
-3. **Family Checkout**: Families select "Pay with Scholarship" at checkout
-4. **Invoice Generation**: The system creates a professional invoice with all required details
-5. **Payment Tracking**: You track which invoices have been paid by scholarship providers
+1. You **fund a budget** — the pot the awards come out of.
+2. You **award** some of it to a family, before they register.
+3. The award **applies itself** when that family registers.
+4. You **invoice your own fund** for what has been used, period by period.
 
-### Supported Funding Types
+The order matters. An award has to exist before the booking does, because there is no way for a family to ask for one during checkout.
 
-Famlo invoices are designed to work with:
+## Step 1: Fund a budget
 
-- **Education Savings Accounts (ESAs)** - Arizona, Florida, North Carolina, etc.
-- **Scholarship Programs** - Private and state-funded scholarships
-- **Educational Grants** - Foundation and nonprofit grants
-- **529 Plan Distributions** - For qualifying educational expenses
-- **Coverdell ESAs** - Education savings accounts
+Decide how much you are giving away, and over what period. The budget is what the awards draw down, so it is the number that stops you promising more than you have.
 
-## Step-by-Step Guide
+Fund it before you promise anything. An award with nothing behind it helps nobody.
 
-### Part 1: Configure Scholarship Settings
+## Step 2: Award it to a family
 
-Before accepting scholarship payments, set up your organization's invoice information.
+An award goes to one family, for an amount you choose, and it is either:
 
-#### Step 1: Access Scholarship Settings
+- **Tied to one activity** — it applies to that registration and nothing else, or
+- **Open across your organization** — it applies to any eligible activity you run.
 
-1. Go to your group's **Dashboard**
-2. Click **Settings** in the navigation
-3. Select **Scholarship** from the settings menu
+You can set a date the award runs out, or leave it open.
 
-#### Step 2: Add Organization Information
+The family gets an email headed "You've received a scholarship". It names your organization, the amount, the activity if there is one, and the expiry date if you set one.
 
-Fill in the details that will appear on generated invoices:
+That email is the entire notification. There is no scholarship page in a family's account settings, nothing for them to accept, and nothing to activate. If a family tells you they cannot find where to apply, that is why — there is nothing to apply for.
 
-**Required Information:**
-- **Organization Name**: Your group or co-op's official name
-- **Address**: Street address, city, state, and ZIP code
+## Step 3: Turn scholarship payments on for the activity
 
-**Recommended Information:**
-- **EIN (Tax ID)**: Many scholarship providers require this
-- **Phone Number**: For provider inquiries
-- **Email Address**: Contact email for payment questions
-- **Website**: Your group's website (if applicable)
-- **Logo URL**: A link to your organization's logo for professional invoices
+Scholarship payments are switched on per activity, and that switch covers the whole activity.
 
-#### Step 3: Set Default Instructions
+Every ticket on an activity that accepts scholarship money is payable from an award. There is no way to hold one ticket back from scholarship families while allowing the rest. If some part of what you are charging should not come out of an award, price it as its own activity.
 
-Add instructions that appear on all invoices:
+The **Eligible for scholarship** checkbox on an individual ticket row has no effect today. Set eligibility on the activity. See [Scheduling activities](/docs/organizations/activities).
 
-```
-Example instructions:
-"Please submit this invoice to your scholarship provider within 30 days of the
-event date. Include the invoice number in all correspondence. For questions
-about this invoice, contact treasurer@yourhomeschoolgroup.com"
-```
+## What the family sees at checkout
 
-:::tip EIN Requirements
-Many ESA and scholarship programs require a valid Employer Identification Number (EIN) to process payments. If your group doesn't have an EIN, consider:
-- Applying for one through the IRS (free)
-- Operating under a fiscal sponsor that has an EIN
-- Checking if your state allows payments without an EIN
+Nothing different. They register exactly as anyone else does, and there is no "pay with scholarship" option for them to look for.
+
+When they complete the booking, Famlo works down what is owed in this order:
+
+1. Any promo code they entered.
+2. Any account credit on their balance.
+3. Their scholarship award, against whatever is still left.
+
+Whatever remains is what their card is charged. If the award covers the rest, no card is charged at all and the booking confirms straight away. Where a family holds more than one award from you, the one expiring soonest is spent first.
+
+:::note The checkout page does not preview the award
+The award is applied when the family completes the booking, not when the page renders. The **Total** they see can be higher than what actually reaches their card. This is the single most common question families ask about scholarships, and it is worth putting in your award email.
 :::
 
-#### Step 4: Save Your Settings
+## What it costs you
 
-Click **Save Settings** to store your configuration. These settings apply to all scholarship invoices generated for your group.
+Nothing beyond the money itself.
 
-### Part 2: Enable Scholarship Eligibility on Events
+Scholarship money carries no platform fee. It never passes through the card processor, so there is nothing to deduct and nothing routed anywhere — you and the family settle it directly, and Famlo records the award and spends it down.
 
-#### Method 1: Enable for Entire Event
+The same is true of any money Famlo never handles. Cash, check and bank transfer carry no fee either. Record them against the same balance and that family gets everything a card payment unlocks. See [What's free and what's paid](/docs/families/whats-free-and-whats-paid).
 
-1. Create or edit an event
-2. In the **Event Settings** section, find **Scholarship Eligible**
-3. Toggle the option to **On**
-4. All tickets for this event will accept scholarship payments
+## If a family cancels
 
-#### Method 2: Enable for Specific Tickets
+A refund returns what a card was charged. Scholarship money was never charged to a card, so there is nothing for the card to get back.
 
-1. In your event's **Tickets & Pricing** section
-2. Click to edit the specific ticket type
-3. Enable **Scholarship Eligible** for that ticket
-4. Only that ticket type will show scholarship payment option
+Instead the coverage goes back onto the award. The balance is the family's again, to spend on another eligible activity you run. Nothing is lost and nothing leaves your budget twice.
 
-:::note Mixed Payment Events
-You can have some tickets that accept scholarships and others that don't. For example, a "Member" ticket might accept scholarships while an "Adult Chaperone" ticket requires regular payment.
+Their cancel screen shows **Amount paid** as the full ticket price and **Total refund** as only the card money, which reads alarmingly when an award covered everything. Expect to explain it once. [Scholarships, for families](/docs/families/scholarships) covers the same ground in their words if you would rather send a link.
+
+## Invoicing your fund
+
+Scholarship invoices are how your organization bills its own fund for what it has awarded. They are generated per period, in the child's name, so a funding body can see who the money was spent on. They are emailed to the organization's owner.
+
+:::warning Families never receive a scholarship invoice
+An invoice belongs to your organization and bills your fund. It is generated for you, sent to you, and never appears in a family's account. There is nothing for a family to download, sign or submit through Famlo.
+
+If a family's own funding program needs paperwork from you, send it to them yourself.
 :::
 
-### Part 3: Managing Scholarship Invoices
+Scholarship invoicing belongs to the plan built for organizations funded this way. [What's free and what's paid](/docs/families/whats-free-and-whats-paid) sets out which plan includes what.
 
-#### Viewing Generated Invoices
+## What Famlo does not do here
 
-1. Go to your group **Dashboard**
-2. Click **Scholarships** in the navigation
-3. View all generated scholarship invoices
-4. Filter by status: Pending, Paid, or Overdue
+Worth knowing before you build a process around it.
 
-#### Invoice Information Includes
+- There is no **Pay with Scholarship** option at checkout, and no way for a family to request an award while registering.
+- There is no **Mark as Paid** step that confirms a family's registration. A booking is confirmed by the booking, not by an invoice status.
+- There is no invoice generation wizard, and no batch run across a whole activity.
+- There is no invoice branding — no logo upload, no EIN field, no custom header or footer text.
+- There is no PDF for a family to download, because families do not receive invoices at all.
+- There are no usage tiers, no monthly invoice allowance and no overage charges.
+- There is no bulk status update. Move an invoice on one at a time.
 
-Each generated invoice contains:
+## If families use an outside ESA or scholarship program
 
-- Unique invoice number
-- Parent/guardian name and contact info
-- Student name(s) attending
-- Event details (name, date, location)
-- Itemized list of tickets/fees
-- Your organization's information
-- Payment instructions
-- Due date
+Plenty of families pay with money that never touches Famlo — a state ESA, a tax-credit scholarship, a private grant, a 529 distribution. That is between the family, their funding program and you.
 
-#### Updating Invoice Status
-
-When you receive payment from a scholarship provider:
-
-1. Find the invoice in your Scholarships dashboard
-2. Click the invoice to open details
-3. Click **Mark as Paid**
-4. Enter payment details (date received, reference number)
-5. The family's registration is automatically confirmed
-
-#### Exporting Invoice Data
-
-For record-keeping and tax purposes:
-
-1. Go to the Scholarships dashboard
-2. Click **Export**
-3. Select date range and status filters
-4. Download as CSV or PDF
-
-## What Families See
-
-### During Checkout
-
-When a family registers for a scholarship-eligible event:
-
-1. They select their tickets and attendees
-2. At payment, they see a **"Pay with Scholarship"** option
-3. Selecting this shows information about the process
-4. They confirm and receive their invoice immediately
-
-### Invoice Delivery
-
-Families receive their invoice:
-
-- **Immediately via email** after checkout
-- **Downloadable PDF** from their account
-- **In their Payment History** under "Scholarship Invoices"
-
-### Invoice Format
-
-The professional invoice includes:
-
-- Your organization's letterhead/logo
-- Clear itemization of charges
-- Student and event information
-- Your custom instructions
-- Payment remittance details
+- Famlo takes nothing on money it never handled.
+- Different programs have different rules about what counts as an eligible expense. Encourage families to check with their provider before they register, not after.
+- Say in your activity description whether you can supply the paperwork a provider wants, and what you need from the family to produce it.
+- If you want the money to move through Famlo's scholarship mechanism instead, the route is the same as any other award: fund a budget and award it.
 
 ## Tips
 
-:::tip Invoice Timing
-Generate invoices as close to the event date as possible. Many scholarship providers require invoices dated within a specific timeframe of the service being provided.
-:::
-
-:::tip Track Payment Timeline
-Scholarship payments often take 2-4 weeks to process. Set your invoice due dates accordingly and follow up on overdue invoices promptly.
-:::
-
-:::tip Communicate Requirements
-Include in your event description if scholarship payment is accepted. Mention any documentation families might need to provide.
-:::
-
-:::warning Verify Eligibility
-Different scholarship programs have different rules about eligible expenses. Encourage families to verify with their provider that your event qualifies before registering.
-:::
+- **Award before you advertise.** A family who hears "scholarships available" and then finds no button at checkout will assume it is broken.
+- **Say the amount in your award email context.** Families cannot see a balance anywhere, so what you tell them is what they know.
+- **Tie an award to one activity when it is for one activity.** An open award is spent on whatever they register for first.
+- **Set an expiry that matches your term.** Money awarded for spring should not quietly carry into autumn unless you meant it to.
+- **Explain the checkout total once, in advance.** It is the question you will otherwise be asked every time.
 
 ## Common Questions
 
-**What if a scholarship payment is denied?**
-Contact the family to arrange alternative payment. You can update the payment method in their registration or cancel and refund their spot.
+**Can a family apply for a scholarship through Famlo?**
+No. Awards are yours to grant, in advance. There is no application form and no request at checkout.
 
-**Can families pay partially with scholarship?**
-Yes, families can split payment between scholarship and card. At checkout, they specify the scholarship amount and pay the remainder with their saved payment method.
+**Can a family split payment between an award and a card?**
+That is what happens automatically. The award covers what it can and the card covers the rest.
 
-**How do I handle refunds for scholarship payments?**
-If you haven't received the scholarship payment yet, simply cancel the invoice. If payment was received, you'll need to arrange refund directly with the scholarship provider according to their policies.
+**What if I award more than my budget?**
+Fund the budget first. It is what the awards draw down.
 
-**Do I need to be a registered business?**
-Requirements vary by scholarship program. Some accept invoices from informal groups while others require an EIN and formal business status. Check with common providers in your area.
+**Does a scholarship-covered registration cost me a platform fee?**
+No. Scholarship money never passes through the card processor, so no fee is taken on it.
 
-**Can I customize invoice templates?**
-The invoice format is standardized to meet scholarship provider requirements. You can customize your organization information and instructions, but not the overall layout.
+**Can I refund a scholarship to my fund?**
+When a family cancels, the coverage returns to their award automatically. It is theirs to spend again on another eligible activity you run.
+
+## Troubleshooting
+
+**A family says the price did not change.** Check three things in order: that the award came from your organization, that the activity accepts scholarship payments, and that the award has not expired or already been spent down.
+
+**A family says the checkout total still showed the full price.** It always does. The award is applied when they complete the booking, and their card is charged the lower amount.
+
+**A family cancelled and nothing came back to their card.** Their card was probably never charged. The coverage has gone back onto their award instead.
+
+**A family is asking me for their scholarship invoice.** They will not have one. Invoices bill your fund, not the family. Send them whatever their funding program needs, directly.
+
+**I ticked Eligible for scholarship on a ticket and nothing changed.** That checkbox has no effect. Eligibility is set for the whole activity.
+
+**I cannot open Scholarships in the console.** It is limited to owners and co-leaders. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
 
 ## Related Articles
 
-- [Scholarship Invoice Management](/docs/organizations/scholarships) - Detailed invoice management guide
-- [Tickets and Pricing](/docs/organizations/tickets-and-pricing) - Setting up paid events
-- [Payment Processing](/docs/organizations/getting-paid) - Understanding payments on Famlo
-- [Parent Guide to Scholarship Invoices](/docs/families/payments-and-refunds) - Help for families using scholarships
+- [Scholarships](/docs/organizations/scholarships) - the full organizer reference
+- [Scholarships, for families](/docs/families/scholarships) - the same feature from their side
+- [Scheduling activities](/docs/organizations/activities) - turn scholarship payments on for an activity
+- [Getting paid](/docs/organizations/getting-paid) - how the rest of the money reaches you
+- [What's free and what's paid](/docs/families/whats-free-and-whats-paid) - the plans in full

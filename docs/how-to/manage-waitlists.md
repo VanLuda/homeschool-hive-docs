@@ -7,189 +7,124 @@ keywords: [event waitlist, manage waitlist, sold out event, event capacity, watc
 
 # How Do I Handle Waitlists for Popular Events?
 
-When your events fill up fast, you need a fair way to handle overflow interest. Famlo uses a Watchlist system that notifies interested families when spots become available. This guide explains how to manage capacity and keep your community engaged even when events are full.
+Famlo has a waitlist, and calls it a waitlist. On a full activity the button reads **Join the waitlist**, and once you are on it the button reads **You're on the waitlist**. What it is not is a queue, and that difference decides how you should use it. This guide is for organizers running activities that fill up, and for families trying to get into one.
 
 ## Quick Answer
 
-Famlo uses a Watchlist (Favorites) system instead of a traditional waitlist. When an event is full, interested families can add it to their Watchlist. If a spot opens up (someone cancels), all Watchlist members receive a notification and can register on a first-come, first-served basis. This creates a fair, transparent system for popular events.
+When an activity is full, select **Join the waitlist**. That saves the activity to your list, and saving is the whole mechanism.
 
-## Understanding the Watchlist System
+When a place frees up, **everyone** waiting on that activity is alerted at the same moment, and whoever registers first takes it. Nobody holds a position, nobody is promoted, and no seat is set aside for anyone.
 
-### How It Works
+## A waitlist, not a queue
 
-1. **Event fills up** - All available spots are taken
-2. **Families add to Watchlist** - Interested members click the heart/favorite icon
-3. **Spot opens** - When someone cancels their registration
-4. **All Watchlist members notified** - Everyone watching the event gets an alert
-5. **First to register gets the spot** - Members register normally when they receive the notification
+Most people arrive expecting a line: you sign up, you are third, and when three places open you are in. Famlo does not work that way, and the difference matters before you rely on it.
 
-### Watchlist vs. Traditional Waitlist
-
-| Feature | Watchlist (Famlo) | Traditional Waitlist |
-|---------|----------------------------|---------------------|
-| Notification | All interested parties notified equally | Only next person in line |
-| Fairness | First to respond gets the spot | Based on sign-up order |
-| Transparency | Members know they are competing fairly | Uncertain position |
-| Automatic promotion | No (members must act) | Often automatic |
-| Member engagement | Members stay informed | Members wait passively |
-
-:::note
-The Watchlist system was designed to be more transparent and fair than traditional first-in-first-out waitlists. All interested families have an equal opportunity to claim available spots.
-:::
-
-## For Group Leaders
-
-### Setting Up Event Capacity
-
-When creating an event, you can control capacity to ensure the Watchlist system works effectively.
-
-#### Step 1: Set Maximum Capacity
-
-1. Go to your group page
-2. Click **Create Event** or edit an existing event
-3. Find the **Capacity** section
-4. Enter the **Maximum Attendees** for your event
-5. Consider your venue size, adult-to-child ratios, and activity requirements
-
-#### Step 2: Consider Per-Family Limits
-
-For high-demand events:
-1. Set a **per-family limit** on the number of spots one family can reserve
-2. This prevents one large family from taking most available spots
-3. Typical limits range from 2-6 depending on the event type
-
-### Monitoring Event Capacity
-
-To see how your event is filling up:
-
-1. Go to your group's **Events** page
-2. Click on the event you want to monitor
-3. View the **Attendance** section showing:
-   - Current registrations
-   - Remaining spots
-   - Number of families watching (Watchlist count)
-
-### When Someone Cancels
-
-When a registered family cancels:
-
-1. **Automatic notification** - The system sends "Spots Available" notifications to all Watchlist members
-2. **Email and in-app** - Notifications go through both channels based on member preferences
-3. **No action required** - You do not need to manually notify anyone
-
-### Manually Managing Registrations
-
-If you need to add someone who missed the notification:
-
-1. Go to the event's **Attendees** list
-2. Click **Add Attendee**
-3. Search for the member
-4. Confirm their registration
-
-:::tip
-If you frequently have more demand than capacity, consider running the event multiple times or finding a larger venue.
-:::
-
-## For Parents
-
-### Adding Events to Your Watchlist
-
-When an event you want is full:
-
-1. Go to the event page
-2. Click the **heart icon** (Favorite/Watch)
-3. The event is now on your Watchlist
-
-### Managing Your Watchlist
-
-To view all events you are watching:
-
-1. Click **Watchlist** in the main navigation
-2. See all favorited events, including:
-   - Events you are interested in
-   - Sold-out events you are watching
-   - Upcoming events you have saved
-
-### Getting Notified About Open Spots
-
-When a spot opens on a watched event:
-
-1. **Check notifications** - Look for the "Spots Available" notification
-2. **Act quickly** - Other families received the same notification
-3. **Register normally** - Click through to the event and complete registration
-
-### Setting Up Notification Preferences
-
-To ensure you receive Watchlist notifications:
-
-1. Go to **Account** > **Notification Preferences**
-2. Find the **Events** section
-3. Enable **Spots Available** notifications
-4. Choose your preferred channels (email, push, in-app)
+| | Famlo's waitlist | A queue |
+| --- | --- | --- |
+| Who hears a place opened | Everyone waiting, at the same moment | The next person in line |
+| Who gets it | Whoever registers first | Whoever is at the front |
+| Your position | There is none. Joining earlier does not put you ahead | Fixed by sign-up order |
+| Getting in | You register yourself | You are promoted into the place |
+| Is a seat held | No | Yes, for the person promoted |
 
 :::warning
-If you disable "Spots Available" notifications, you will not be alerted when spots open on events you are watching.
+Nobody holds a position on a Famlo waitlist. Joining early does not put you ahead of anyone. You are told a place exists, at the same time as everyone else, and you have to go and register for it.
 :::
 
-## Strategies for Popular Events
+The upside is that nothing depends on being watched. There is no queue to administer, no promotion to chase, and no family sitting at position four wondering whether their turn is ever coming.
 
-### For Group Leaders
+## For organizers
 
-**Prevent overwhelming demand:**
-- Open registration at a specific time and announce it in advance
-- Consider a "members-only" registration window before opening to the public
-- Run the same event multiple times if demand is consistently high
+### Set a limit, then leave it alone
 
-**Manage expectations:**
-- Clearly state the capacity limit in the event description
-- Let families know about the Watchlist system
-- Communicate realistic chances of spots opening up
+Capacity is set on the activity when you create or edit it. Once the places are gone, the activity page stops selling and starts offering **Join the waitlist** instead. See [Scheduling activities](/docs/organizations/activities).
 
-**Handle special cases:**
-- You can manually add members if warranted
-- Consider reserving a few spots for last-minute additions
-- Be transparent about any exceptions you make
+The activity page shows how many families are waiting, so you can see demand without going looking for it. Before anyone joins, it reads "This event is full — be the first on the waitlist."
 
-### For Parents
+### When someone cancels
 
-**Increase your chances:**
-- Register as soon as registration opens
-- Add sold-out events to your Watchlist immediately
-- Enable push notifications for fastest alerts
-- Check notifications regularly during high-demand periods
+Nothing is asked of you. The cancelled place goes back on sale, and every family waiting is alerted automatically. You do not have to notify anyone, choose anyone, or approve anyone.
 
-**Be prepared:**
-- Have payment information saved for quick checkout
-- Know your availability before the event date
-- Be ready to respond quickly when notified
+### What you cannot do
 
-## Tips
+- **You cannot register a family into a full activity.** There is no add-attendee control. If you want someone in, the place has to exist first.
+- **You cannot cap how many places one family takes.** There is no per-family limit field. If that matters for your activity, say so in the description and price it accordingly.
+- **You cannot reorder or prioritise the waitlist.** There is no order to work with.
 
-- **Enable push notifications** - These arrive faster than email for time-sensitive openings
-- **Check event capacity early** - Register before events fill up
-- **Save payment methods** - Faster checkout means better chances of securing a spot
-- **Be patient** - Popular events often have cancellations as the date approaches
-- **Consider all times** - Less popular time slots may have availability
+What you do have on the day is the attendance roster. See [Attendance and check-in](/docs/organizations/attendance).
+
+### If demand keeps beating capacity
+
+- **Run it again.** A second date is the only real answer to a waitlist that never shrinks.
+- **Raise the limit** if the venue and the ratios allow it. The extra places go on sale like any others.
+- **Announce the opening time** in advance so everyone starts level, rather than rewarding whoever happened to be refreshing.
+- **Say the capacity in the description.** Families plan differently for twelve places than for forty.
+
+## For families
+
+### Join the waitlist
+
+1. Open the full activity.
+2. Select **Join the waitlist**. On an activity card, the heart does the same thing.
+3. The button changes to **You're on the waitlist**, and a line beneath says how many families are waiting.
+
+The activity now appears on **Saved & watchlist** in your account menu, badged **You're on the waitlist**.
+
+To leave the waitlist, unsave the activity. Select the filled heart on the row, on the card, or on the activity page.
+
+### Getting told when a place opens
+
+A saved activity sends exactly one kind of alert: a place opened. It arrives in Famlo and by email, and it links to the activity page rather than straight to checkout, so you can see what you are claiming.
+
+Be quick. Everyone else waiting got the same alert at the same second.
+
+Famlo will not send it if you already hold a booking for that activity, and it will not send a second one while an earlier one is still unread.
+
+### Make sure the alert reaches you
+
+1. Open **Account settings** → **Notifications**.
+2. Find the **Activity updates** row. That is the one covering freed-up spots.
+3. Tick **In-app**, **Email**, or both.
+4. Select **Save preferences**. Nothing is saved until you do.
+
+:::note
+Famlo sends notifications in the app and by email, and nowhere else. There are no browser or phone push notifications, no digests, and no quiet hours. If you want to hear about a place quickly, leave **Email** ticked.
+:::
+
+### Improve your odds
+
+- **Save the activity the moment you find it full.** You cannot be alerted about something you are not watching.
+- **Save a card first.** Checkout is faster when you are not typing card details against the clock.
+- **Know your answer in advance.** Which child, which ticket, whether the date still works.
+- **Watch the alternatives too.** A less popular time slot often has places when the headline one does not.
+- **Stay on after a near miss.** Cancellations cluster as the date approaches, and the alert can come more than once.
 
 ## Frequently Asked Questions
 
-**Why does not Famlo use a traditional waitlist?**
-The Watchlist system is fairer because everyone has an equal chance to claim available spots, rather than being locked into a queue position.
+**Where am I on the waitlist?**
+Nowhere in particular, and that is deliberate. There are no positions. Everyone waiting is told at the same moment and the first to register takes the place.
 
-**How quickly should I respond to a "Spots Available" notification?**
-As quickly as possible. Other families received the same notification and spots are filled on a first-come, first-served basis.
+**Does joining earlier help?**
+No. It makes no difference to who gets the place. It only makes sure you hear about it.
 
-**Can I see how many people are on the Watchlist for an event?**
-Group leaders can see Watchlist counts. Regular members can see if they have added an event to their Watchlist.
+**How quickly should I respond?**
+Immediately. Other families received the same alert, and the place goes to whoever finishes registering first.
 
-**What if I miss the notification?**
-You can still try to register. If spots remain, you will be able to complete registration.
+**I clicked through and it was full again.**
+Somebody was faster. Stay on the waitlist and you will be told next time.
 
-**Can the group leader manually add me to a full event?**
-Yes, group leaders have the ability to add attendees even when an event is at capacity. Contact your group leader for special circumstances.
+**Can I see how many people are waiting?**
+Yes. The activity page shows the count to anyone looking at it.
+
+**Can an organizer let me in as a favour?**
+They cannot add you to a full activity. There is no control for it. If they can take more people, they raise the limit, and the new places go on sale to everyone.
+
+**How do I get off the waitlist?**
+Unsave the activity. The filled heart removes it immediately, with no confirmation step.
 
 ## Related Articles
 
-- [Managing Events](/docs/organizations/activities) - Complete guide to event management
-- [RSVP and Registration](/docs/families/registering) - How to register for events
-- [Notification Preferences](/docs/account/notifications) - Configure your notification settings
+- [Saved activities and alerts](/docs/families/saved-and-alerts) - The saved page, badges, and location alerts
+- [Managing Events](/docs/organizations/activities) - Capacity and the rest of activity setup
+- [RSVP and Registration](/docs/families/registering) - Claiming a place when one opens
+- [Notification Preferences](/docs/account/notifications) - Which channels these alerts use

@@ -11,7 +11,7 @@ Growing your homeschool group takes intentional effort, but with the right strat
 
 ## Quick Answer
 
-To grow your homeschool group, focus on three key areas: optimize your group's discoverability in Famlo's search, create engaging events that attract new families, and leverage announcements and social features to keep current members active and referring others. Consistent communication and quality programming are the foundation of sustainable growth.
+To grow your homeschool group, focus on three key areas: make your listing easy to find, run activities that give new families a reason to show up, and keep the families you already have. Consistent programming and a quick, welcoming join process do more for growth than any amount of promotion.
 
 ## Step-by-Step Guide
 
@@ -33,34 +33,36 @@ Events are your best marketing tool. When families see exciting activities, they
 - **Plan signature events** that become associated with your group (annual science fair, monthly park days)
 - **Use clear, descriptive event titles** that appear in search results
 
-### 3. Leverage the Announcements Feature
+### 3. Use Announcements for What They Actually Do
 
-Regular communication keeps your group top-of-mind and encourages word-of-mouth referrals:
+An announcement on Famlo belongs to a single activity and reaches the people connected to that activity. There is no organization-wide announcement, no newsletter, and no feed, so a message meant for everybody goes out from each activity it concerns.
 
-- **Post weekly updates** highlighting upcoming events and group news
-- **Celebrate member achievements** to build community pride
-- **Share photos and recaps** from recent events (with permission) to show the value of membership
-- **Welcome new members publicly** to make them feel included immediately
+That shapes how you use it:
 
-See [Announcements](/docs/organizations/members-and-roles) for detailed guidance on effective group communications.
+- **Choose the audience deliberately.** **Everyone registered** is for practical detail that only matters to people who are coming. **Registered + interested** widens it to families who saved the activity or have written to you about it, which is the right choice for "three spots left".
+- **Announce from the activity people care about**, rather than trying to reach everyone from your busiest one.
+- **Write it once, properly.** An announcement cannot be edited, deleted or scheduled. It sends when you select the button.
+- **Keep the rest in the listing.** Anything a family needs before they decide belongs in the activity description, where new families can read it too.
+
+See [Members, roles, and messaging](/docs/organizations/members-and-roles) for both composers and what each audience covers.
 
 ### 4. Encourage Member Referrals
 
 Your current members are your best recruiters:
 
 - **Ask satisfied members** to invite homeschooling friends
-- **Create referral incentives** like discounted event tickets for successful referrals
+- **Create referral incentives** with a [promo code](/docs/organizations/promo-codes) that gives a discount on a booking or on dues
 - **Make joining easy** by keeping your approval process straightforward
 - **Respond quickly** to membership requests so interested families do not lose momentum
 
-### 5. Build an Active Online Presence
+### 5. Make Your Listing Easy to Share
 
-Use Famlo's social features to create community between events:
+Growth usually comes from one family telling another, so give them something short to send:
 
-- **Post regularly** to your group's social feed
-- **Encourage member interaction** by asking questions and sharing resources
-- **Respond to comments** to show you are engaged and accessible
-- **Share your group link** on your personal social media and local homeschool forums
+- **Use your short link.** Your listing has a readable address built from your organization type and name, and you can set a handle as well. Either one fits in a text message. See [Organization settings](/docs/organizations/settings).
+- **Publish activities early.** Families who have set a location alert for your area are told when a new activity is published near them, so a listing put up three weeks ahead reaches people a listing put up on Thursday never will.
+- **Ask families to follow you.** Following is what tells Famlo a family wants to hear when you post something new.
+- **Put the link where homeschoolers already are** - local forums, curriculum swaps, library noticeboards, and your own social media.
 
 ### 6. Partner with Other Groups and Organizations
 
@@ -75,8 +77,8 @@ Collaboration expands your reach:
 
 Sustainable growth requires maintaining what made your group attractive:
 
-- **Delegate responsibilities** by promoting trusted members to co-leader or event manager roles
-- **Gather feedback regularly** through informal conversations or simple polls
+- **Delegate responsibilities** by giving trusted members the **Co-Leader** or **Event Manager** role
+- **Gather feedback regularly** through informal conversations and direct messages
 - **Stay true to your mission** while remaining open to new ideas
 - **Address issues promptly** to maintain a positive group culture
 
@@ -87,7 +89,7 @@ You do not need to implement everything at once. Pick two or three strategies an
 :::
 
 :::tip Track What Works
-Pay attention to which events attract the most new members and what types of announcements get the most engagement. Double down on what resonates with your community.
+Pay attention to which events attract the most new members. Your join screening questions are free text and you get up to three, so one of them can simply ask how a family heard about you.
 :::
 
 :::tip Quality Over Quantity
@@ -109,7 +111,7 @@ Track these metrics to understand your progress:
 
 ## Related Articles
 
-- [Announcements](/docs/organizations/members-and-roles) - Master group communications
+- [Members, roles, and messaging](/docs/organizations/members-and-roles) - Announcements, roles, and the join queue
 - [Create Events](/docs/organizations/activities) - Plan events that attract families
-- [Manage Members](/docs/organizations/members-and-roles) - Handle membership requests effectively
+- [Organization settings](/docs/organizations/settings) - Your listing, your short link, and how people join
 - [How Do I Build Community in My Homeschool Group?](/docs/how-to/build-community) - Deepen member engagement

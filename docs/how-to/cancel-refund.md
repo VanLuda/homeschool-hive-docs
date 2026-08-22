@@ -7,152 +7,117 @@ keywords: [cancel event registration, homeschool event refund, cancel RSVP, even
 
 # How Do I Cancel or Get a Refund for an Event?
 
-Life happens, and sometimes you need to cancel your plans. This guide explains how to cancel your event registration on Famlo and understand when you may be eligible for a refund.
+Plans change. This guide shows you where to cancel a booking on Famlo, what comes back to your card, and what does not. It is written for families who have already registered for something.
 
 ## Quick Answer
 
-To cancel an event registration, go to the event page and click "Cancel RSVP." For paid events, refund eligibility depends on how far in advance you cancel and the group's refund policy. Most groups offer full refunds when you cancel at least 24 hours before the event starts.
+Open the activity and select **Cancel registration**. A free one-tap booking has **Cancel RSVP** instead.
 
-## Understanding Refund Policies
+Refunds run on a single cutoff, and it is the same at every organization on Famlo. Cancel **24 hours or more** before the start and your card charge comes back in full. Cancel any later and nothing comes back. There is nothing in between.
 
-Before canceling, it helps to understand how refund policies work on Famlo.
+## Cancel a paid registration
 
-### How Refund Eligibility Is Determined
+Cancelling starts on the activity page, not on a bookings list.
 
-Refund amounts are calculated based on:
+1. Open the activity you registered for. Your [calendar](/docs/families/calendar) and your confirmation email both link to it.
+2. Select **Cancel registration**.
+3. Read the breakdown on the **Cancel booking** screen. It shows **Amount paid**, **Activity refund**, **Service fee refund** and **Total refund**, with a sentence explaining the outcome in plain words.
+4. Select **Cancel booking** to go ahead, or **Keep booking** to back out.
 
-1. **Time until the event** - How many hours remain before the event starts
-2. **The group's refund policy** - Each group can set their own cutoff times and refund percentages
-3. **Platform default policy** - If no group policy exists, the platform default applies
+You see the refund before you commit to it. Nothing is charged or returned until you confirm.
 
-### Common Refund Scenarios
+## Cancel a free RSVP
 
-| Time Before Event | Typical Refund |
-|-------------------|----------------|
-| 24+ hours | Full refund (100%) |
-| 12-24 hours | Partial refund (50-75%) |
-| Less than 12 hours | No refund or small percentage |
-| After event starts | No refund |
+A free activity you booked in a single tap has **Cancel RSVP** on the same page. There is no refund screen, because no money changed hands. It cancels immediately.
 
-:::note
-Each group sets their own refund policy. Check the event details or contact the group leader if you are unsure about the specific policy.
-:::
+Cancel anyway, even though it costs you nothing. A free place you release goes back into circulation, and everyone on the waitlist is told at once.
 
-## Step-by-Step Guide
+## Where the cancel control is not
 
-### Step 1: Navigate to the Event
+**Bookings** in the account menu opens your calendar in list view. It shows what you are booked into and links through to each activity, but it carries no cancel control of its own.
 
-1. Log in to your Famlo account
-2. Go to **My Events** from the main menu, or find the event in your **Calendar**
-3. Click on the event you want to cancel
+There is no account-wide payment history page either. Your confirmation email is your record of a booking, and a refund is confirmed by its own email. Membership invoices are the exception, and they are listed on your [memberships page](/docs/families/memberships).
 
-### Step 2: View Your Registration
+## What comes back, and when
 
-On the event page, you will see your current registration status showing "Going" or "Registered."
+| When you cancel | Card refund |
+| --- | --- |
+| 24 hours or more before the start | Full |
+| Less than 24 hours before the start | None |
+| After it has started | None |
 
-### Step 3: Cancel Your RSVP
+That is the whole policy. There is no partial band, no sliding scale, and no organization that sets a different cutoff for itself.
 
-1. Click the **Cancel RSVP** button on the event page
-2. A confirmation dialog will appear showing:
-   - Your current registration details
-   - The number of spots you are canceling
-   - For paid events: your refund eligibility and amount
+### Activities marked no refunds
 
-### Step 4: Confirm the Cancellation
+An organization can mark an individual activity as no refunds. Cancelling one returns nothing however early you do it, and the cancel screen tells you so before you confirm.
 
-1. Review the cancellation details carefully
-2. If you have paid for the event, note the refund amount shown
-3. Click **Confirm Cancellation** to proceed
+Check the activity page before you register for anything expensive.
 
-### Step 5: Receive Confirmation
+### Refunds are measured against your card
 
-After canceling:
-- You will see a confirmation message on screen
-- An email confirmation is sent to your registered email address
-- For paid events, refund processing information is included
+A refund returns what your card was actually charged. That is the ticket price after any promo code, account credit and scholarship award have come off it.
 
-## Refund Processing
+Money that never went through your card cannot come back through it.
 
-### For Eligible Refunds
+- A **promo discount** was never charged, so nothing returns for it.
+- **Account credit** goes back to your credit balance rather than to your card.
+- A **scholarship award** never passes through Famlo. The organization settles that side with you directly. See [Scholarships](/docs/families/scholarships).
 
-When you cancel and qualify for a refund:
+An order that cost you nothing on a card has no card refund to issue. That covers a free ticket, and a paid one that promo, credit and scholarship covered in full. The cancel screen says so rather than showing you a zero that looks like a fault.
 
-1. **Automatic processing** - Eligible refunds are processed automatically
-2. **Same payment method** - Refunds return to the original payment method
-3. **Processing time** - Allow 5-10 business days for the refund to appear on your statement
+### The platform fee on a refund
 
-### What Gets Refunded
+Organizations pay Famlo a platform fee out of their own share of what they collect. Whether that fee is returned to them depends on who cancelled and when.
 
-For paid events, your refund may include:
-- **Event ticket price** - The base price you paid
-- **Processing fees** - Depending on the group's policy, some fees may be non-refundable
+| Who cancels | Platform fee |
+| --- | --- |
+| You, 24 hours or more before the start | Refunded |
+| You, inside the 24-hour cutoff | Not refunded |
+| The organization, or one of its leaders | Refunded |
+| Famlo, because the activity was called off | Refunded |
 
-:::tip
-If you need to cancel but the automatic refund window has passed, contact the group leader directly. Many leaders will work with you on a case-by-case basis.
-:::
+This line decides what the organization keeps. It never changes what you paid, because the fee was never added to your total. See [What's free and what's paid](/docs/families/whats-free-and-whats-paid).
 
-## Special Situations
+### How long it takes
 
-### Event Cancellation by the Organizer
+Approved refunds go back to the original card and take five to ten business days to reach your statement. Famlo emails you when one is sent.
 
-If the group leader cancels the event:
-- All attendees receive automatic full refunds
-- You will be notified via email
-- No action is required on your part
+## If the organization cancels
 
-### Modifying Your Registration
+If an activity is called off, or a leader cancels your booking for you, you are made whole. The full card charge comes back however close to the start it happens.
 
-Instead of canceling entirely, you may be able to modify your registration:
-
-1. **Reduce spots** - If you registered multiple family members, you can reduce the number
-2. **Change attendees** - Some events allow swapping who is attending
-3. **Transfer to another family** - Contact the group leader about transferring your spot
-
-### Past the Refund Cutoff
-
-If you are past the refund deadline:
-
-1. Contact the group leader through the group's messaging
-2. Explain your situation
-3. Leaders have the ability to issue manual refunds at their discretion
-
-## Checking Refund Status
-
-To check the status of a pending refund:
-
-1. Go to **Account** > **Payment History**
-2. Find the original payment for the event
-3. Look for a "Refund" status or pending refund notation
-4. Check your email for refund confirmation
-
-## Tips
-
-- **Cancel early** - The sooner you cancel, the better your refund eligibility
-- **Check the policy first** - Review the event's refund policy before registering for paid events
-- **Use the Watchlist** - Add events to your Watchlist before committing if you are unsure about attendance
-- **Communicate with leaders** - Group leaders can often help with special circumstances
-- **Keep confirmation emails** - Save your registration and cancellation confirmation emails for your records
+Leaders do not have an "issue refund" button and cannot choose an amount. What they can do is cancel the booking themselves, which returns everything. So if something has genuinely gone wrong past the cutoff, message the organization and ask.
 
 :::warning
-Refunds cannot be issued for no-shows. Always cancel your registration if you cannot attend, even for free events. This helps the group leader manage capacity and may allow someone on the Watchlist to attend.
+A no-show is not a cancellation. Missing an activity you did not cancel returns nothing, and it holds a place that another family could have used.
 :::
 
-## Frequently Asked Questions
+## You cannot edit a booking
 
-**Can I get a refund if I just forgot to attend?**
-No, refunds are not issued for no-shows. You must cancel your registration before the event to be eligible for any refund.
+Bookings can be cancelled but not changed. There is no control for adding tickets, reducing the number of spots, swapping which child is attending, or handing your place to another family.
 
-**What if the event description was misleading?**
-Contact the group leader first. If the issue is not resolved, you can reach out to Famlo support.
+To change any of that, cancel and register again. Check the refund breakdown first, because cancelling inside the cutoff returns nothing and re-registering costs full price.
 
-**Can I transfer my ticket to someone else?**
-This depends on the group's policy. Contact the group leader to ask about transfer options.
+## Troubleshooting
 
-**How long do refunds take to process?**
-Refunds typically appear on your statement within 5-10 business days, depending on your payment provider.
+**I cannot find a cancel button on my bookings list.** There is not one there. Open the activity itself and use **Cancel registration** or **Cancel RSVP**.
+
+**The cancel screen says my refund is nothing.** Either you are inside the 24-hour cutoff, or the activity is marked no refunds, or your card was never charged because promo, credit or scholarship covered the order. The screen names which before you confirm.
+
+**I cancelled and nothing reached my card.** Check the same three reasons above. Account credit returns to your balance, not to your card, so a credit-funded booking shows no card refund.
+
+**My refund has not arrived.** Allow ten business days from the cancellation. If it is still missing, [contact support](/docs/account/support).
+
+**I need to change my registration, not cancel it.** Cancel and register again. There is no edit.
+
+**I missed the activity and want my money back.** Refunds follow the cutoff, and a no-show is past it. Message the organization if there were circumstances they should know about.
+
+**The activity description was not what I got.** Message the organization first, through your [message thread](/docs/families/messages) with them. If that does not settle it, [contact support](/docs/account/support).
 
 ## Related Articles
 
 - [RSVP and Event Registration](/docs/families/registering) - Learn how to register for events
-- [Payment Methods](/docs/families/payments-and-refunds) - Managing your saved payment methods
+- [Payments and refunds](/docs/families/payments-and-refunds) - Cards, credit, and what you are charged
 - [Finding Events](/docs/families/finding-activities) - Discover events in your area
+- [Handling waitlists](/docs/how-to/manage-waitlists) - What happens to the place you release

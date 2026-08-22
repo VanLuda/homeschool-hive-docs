@@ -7,286 +7,169 @@ keywords: [homeschool community, homeschool friends, connect homeschool families
 
 # How Do I Connect with Other Homeschool Families?
 
-Building connections with other homeschool families enriches your children's social experiences and provides valuable support for parents. Famlo offers multiple ways to find, connect with, and build relationships with homeschooling families in your community and beyond.
+Famlo connects families by putting them in the same room. It finds the co-ops, classes and park days near you, gets your family registered, and keeps you talking to the people running them. The friendships happen at the activities.
+
+That is worth saying plainly, because it shapes how you use it. There is no feed to scroll and no posts to like. Connection here is a schedule you actually keep.
 
 ## Quick Answer
 
-Connect with homeschool families by joining groups that match your interests and location, participating in group events, engaging with the social feed through posts, comments, and reactions, and attending both in-person and virtual activities. The more you participate, the more connections you will build.
+Join two or three organizations that fit your family, register for the things they run, and go to the same ones repeatedly. Use **Message** on an organization's page to ask questions before you commit, **Follow** to hear when they post something new, and **Location alerts** to catch new activities in your area as they are published.
 
-## Why Community Matters for Homeschoolers
+## What Famlo has, and what it does not
 
-Connecting with other homeschool families provides:
+Knowing this up front saves you looking for a button that is not there.
 
-**For Children:**
-- Friendships with peers who understand homeschooling
-- Socialization in diverse settings and age groups
-- Group learning experiences and collaboration
-- Extracurricular activities and sports teams
-- Field trip companions and study buddies
+**What exists:**
 
-**For Parents:**
-- Support from others who understand homeschooling challenges
-- Resource sharing and curriculum recommendations
-- Co-teaching opportunities
-- Adult friendships and community
-- Mentorship from experienced homeschoolers
+- Organization listings you can browse, join, or request to join
+- Activities you register for, and a calendar of everything you have booked
+- One inbox covering organizations you deal with and people you already correspond with
+- Announcements from the organizations running the activities you are in
+- **Follow**, **Saved & watchlist**, and **Location alerts** for keeping track of what is coming
 
-## Step-by-Step Guide
+**What does not exist:**
 
-### Step 1: Find and Join Groups
+- No social feed, and no posts
+- No comments, no polls, no @mentions, and no photo tagging
+- No family directory to browse, and no way to message a family you have never corresponded with
+- No public family profile — your family profile is private setup data, seen only by organizers you register with
 
-The foundation of connecting is joining homeschool groups that align with your interests.
+## Step 1: Join organizations that actually fit
 
-**Discover Local Groups:**
-1. Click **Groups** in the main navigation
-2. Allow location access to see nearby groups
-3. Browse groups sorted by distance
-4. Use filters to narrow results:
-   - Age range matching your children
-   - Faith alignment
-   - Academic focus (Classical, Charlotte Mason, etc.)
-   - Activity type (co-ops, field trips, sports)
+The single highest-value thing you can do is pick well and pick few.
 
-**Evaluate Groups Before Joining:**
-- Read the group description carefully
-- Check the event frequency to gauge activity level
-- Review membership requirements
-- Look at the member count for community size
+1. Open the organization directory at `famlo.co/places`.
+2. Set the area you are searching, or move the map.
+3. Click **Filters** and narrow by **Category**, **Organization type** and **Membership**.
+4. Click **Show results**.
 
-**Join Groups:**
-- **Public groups:** Click **Join** to become a member instantly
-- **Private groups:** Click **Request to Join** and answer any membership questions
-- **Paid groups:** Complete the checkout process to join
+**Category** is where educational approach and faith affiliation live, so a classical co-op or a faith-based community is found by ticking the matching category. There is no separate faith or academic-focus filter and no distance radius — the map is your radius.
 
-:::tip Multiple Groups
-Most homeschool families participate in several groups for different purposes - an academic co-op, a field trip group, a sports group, and perhaps a support group for parents.
+Before you join, read the listing properly. The tabs carry its schedule, its **Staff**, its **About**, and its **Photos**. What it runs and how often it runs it tells you more about the community than any description.
+
+Then:
+
+- **Join** followed by the organization's name makes you a member immediately.
+- **Request to join** sends an application. You may be asked to accept the organization's rules and answer up to three free-text questions.
+- An organization that charges dues uses the same request flow with a card step. Your card is saved, not charged, until organizers approve you.
+
+The full walkthrough is in [Finding and joining organizations](/docs/families/organizations).
+
+:::tip Two or three, not eight
+Depth beats breadth. Seeing the same six families every week for a term builds more than appearing once at eight different groups. Pick a weekly commitment, a monthly one, and leave room.
 :::
 
-### Step 2: Complete Your Family Profile
+## Step 2: Set up your family profile
 
-A complete profile helps other families get to know you and makes connections more meaningful.
+This is not a social profile and nobody browses it. It is the information an organizer needs on the day, and filling it in is what makes registering fast.
 
-**Update Your Profile:**
-1. Go to **Account Settings**
-2. Add a profile photo
-3. Write a brief bio about your family
-4. Include relevant details:
-   - Number and ages of children
-   - How long you have been homeschooling
-   - Curriculum or approach you use
-   - Interests and hobbies
+1. Open **My family** from the account menu.
+2. Select **+ Add family member**, and give a **Name**, a **Relationship** and a **Birthdate**.
+3. On each member's page, work through the six rows: **Basics**, **Allergies**, **Special needs & accommodations**, **Medications & diet**, **Pickup & photos**, and **Emergency contact**.
 
-**Add Family Members:**
-1. Go to **Family** settings
-2. Add your children with:
-   - Names and ages
-   - Grade levels
-   - Interests and activities
-3. This information helps connect your family with appropriate events
+Other parents never see any of it. What an organizer running an activity your child is booked into actually has in front of them is that child's allergies, special needs, medical notes, emergency contact, authorised pickup list and photo answer — and only an owner, co-leader or event manager sees even that. See [Your family profile](/docs/families/your-family).
 
-### Step 3: Engage with the Group Social Feed
+## Step 3: Register, and then show up
 
-Every group has a social feed where members share updates, photos, and discussions.
+Registering is where a connection stops being theoretical.
 
-**View the Feed:**
-1. Go to your group page
-2. Click the **Feed** tab
-3. Scroll through posts from group members
+1. Open an activity and select **RSVP**. If it is free with nothing to choose, a small dialog asks **How many are coming?** and **Confirm RSVP** books you.
+2. Anything with a price, a ticket choice or an add-on opens checkout instead, headed **Confirm registration**.
+3. Under **Who's attending?**, choose **Whole family** or a saved family member.
 
-**React to Posts:**
-Show engagement by reacting to content:
-- **Like** - Show appreciation
-- **Love** - Express strong appreciation
-- **Haha** - Found it funny
-- **Wow** - Surprised or impressed
-- **Sad** - Sympathetic
-- **Angry** - Frustrated
+Your bookings collect on [your calendar](/docs/families/calendar), which you can filter by child under **Who's going** and by organization under **Communities**.
 
-Click the reaction icon on any post and select your response.
+The activities that build friendships are the repeating ones. A weekly class puts your family in front of the same families twelve times; a one-off field trip does it once. Both are worth doing, but only one of them makes friends.
 
-**Comment and Discuss:**
-Join conversations to build connections:
-1. Click on a post to open it
-2. Type your comment in the text box
-3. Click **Post** or press Enter
-4. Reply to other comments to continue the conversation
+| Kind of activity | What it gives you |
+| --- | --- |
+| Co-op classes and weekly clubs | The same families, every week — the strongest option |
+| Field trips | Hours of unstructured time together travelling and waiting |
+| Park days and meetups | Low-commitment, easy for a first visit |
+| Camps and workshops | Concentrated time over a few days |
+| Drop-ins | A way to try a group before joining it |
 
-**Mention Other Members:**
-Tag specific people in your comments:
-1. Type **@** followed by their username
-2. Select from the dropdown list
-3. They receive a notification about your mention
+## Step 4: Use messages
 
-This is a great way to bring someone into a conversation or acknowledge them.
+Everything anyone sends you on Famlo arrives in one inbox. Open it from **Messages** in the account menu, from **Messages** in the bottom bar on a phone, or from the bell in the header.
 
-### Step 4: Attend Events Regularly
+**To ask an organization something**, open its page and select **Message**. That reaches the organization rather than one person, so your question does not go stale because a volunteer is away. Replies come back labelled with the organization's name.
 
-Events are where online connections become real-world friendships.
+**To ask about a specific activity**, open its row in your inbox and write in the box at the bottom. The placeholder reads "Ask a question…", and the line above confirms that replies are private between you and the organization.
 
-**Find Events:**
-1. Browse upcoming events on your group page
-2. Check the **Events** tab to see all scheduled activities
-3. View your personal calendar for events across all groups
+**To start a new thread**, select the pencil icon and type at least two characters of a name. Search finds organizations, and people you already have a thread with. It does not find families you have never spoken to, so the way to meet someone is still to turn up and say hello.
 
-**RSVP and Participate:**
-1. Click on an event that interests you
-2. Review the details and requirements
-3. Click **RSVP** or complete ticket purchase
-4. Add the event to your calendar
-5. Show up and participate!
+You can react to a message: hover over it, select the smiley, and pick one of six reactions. Archiving a thread clears it out of **All** without deleting it, and it comes back if someone writes again.
 
-**Types of Events for Connection:**
-| Event Type | Connection Opportunity |
-|------------|------------------------|
-| Field trips | Extended time together during travel and activities |
-| Co-op classes | Weekly interaction with the same families |
-| Social gatherings | Casual conversation and play |
-| Park days | Informal meetups for all ages |
-| Parent nights | Adult-focused networking |
-| Workshops | Shared learning experiences |
-
-:::tip Consistency Builds Friendship
-Attending events regularly helps you see the same families repeatedly, which is key to building lasting friendships. Choose a few recurring activities you can commit to consistently.
+:::note Health details do not belong in a message
+Famlo refuses a message that reads like a health record — a line such as "Allergies: peanuts". Record that in your family profile instead, where it is stored privately and shared only with the organizations that need it. Asking an organizer whether a class is nut-free is perfectly fine.
 :::
 
-### Step 5: Participate in Polls and Discussions
+## Step 5: Keep track of what is coming
 
-Groups often use polls to make decisions and gather input.
+Three tools, three different jobs.
 
-**Vote in Polls:**
-1. Read the poll question
-2. Select your answer
-3. Click **Vote**
-4. View results and see how others voted
+- **Follow**, on an organization's listing, tells Famlo you want to hear when it posts something new. It is not joining and gives no member access.
+- **Saved & watchlist**, in your account menu, holds activities you have saved with the heart. If an activity is full, saving it is how you join the waitlist.
+- **Location alerts**, also in the account menu, watch an area for activities that do not exist yet. Choose a **State**, narrow it with city, category, type, ages or keywords, and select **Save alert**.
 
-**Start Discussions:**
-If you have permission to post:
-1. Click **Create Post** on the group feed
-2. Share a question, topic, or update
-3. Invite responses from other members
-4. Respond to comments on your post
+Announcements from the organizations you are registered with arrive in your inbox and by email. Every announcement belongs to one activity — there is no organization-wide newsletter — so being registered is what keeps you in the loop.
 
-### Step 6: Connect Through Shared Experiences
+## Building friendships that last
 
-Build deeper connections by sharing experiences:
+### Be consistent
 
-**Share Photos and Updates:**
-After attending an event, share highlights:
-- Post photos (with permission) from the activity
-- Write about what your family enjoyed
-- Tag other families who attended
-- This reinforces connections and creates shared memories
+Turn up to the same things. Familiarity is almost entirely a function of repetition, and a term of weekly attendance does more than a year of sampling.
 
-**Volunteer and Contribute:**
-Get involved beyond just attending:
-- Offer to help organize events
-- Volunteer to teach a skill or subject
-- Bring snacks or supplies to activities
-- Help with administrative tasks
+### Be the one who suggests something
 
-**Follow Up After Events:**
-Continue connections after activities end:
-- Comment on posts from families you met
-- Reach out about future events
-- Offer to carpool to upcoming activities
+Most groups are full of people waiting for someone else to organise a park meet-up. Be that person once and you will not have to be again.
 
-### Step 7: Explore Events Beyond Your Groups
+### Give it a term
 
-Discover additional connection opportunities:
+Children and adults both take longer than one visit to warm up. Judge a group after six sessions, not after one.
 
-**Public Events:**
-Some groups host events open to non-members:
-1. Browse the **Events** section
-2. Look for public events in your area
-3. Attend to meet families from other groups
-4. This can lead to discovering new communities
+### Volunteer
 
-**Online Groups:**
-Connect with homeschoolers regardless of location:
-1. Filter groups to show **Online Groups**
-2. Join virtual communities for specific interests
-3. Participate in online discussions and virtual events
-4. Build connections with families across the country
+Offering to help with an activity is the fastest route from attending a group to belonging to one. Ask the organizers what they need — they will tell you.
 
-## Building Lasting Friendships
+## Overcoming common challenges
 
-### Be Consistent
+### "I feel like an outsider in an established group"
 
-- Attend the same recurring events regularly
-- Participate in the group feed consistently
-- Follow through on plans and commitments
-- Show up even when it is inconvenient
-
-### Be Open and Approachable
-
-- Introduce yourself to new families
-- Ask questions about other families
-- Share your own experiences authentically
-- Be willing to try new activities
-
-### Be Patient
-
-- Friendships take time to develop
-- Give relationships multiple interactions to grow
-- Do not be discouraged if connections do not happen immediately
-- Quality relationships are worth the wait
-
-### Be Proactive
-
-- Reach out rather than waiting for others
-- Suggest get-togethers outside of scheduled events
-- Create opportunities for your children to play together
-- Organize activities for families you want to know better
-
-## Tips
-
-- **Start with one or two groups** rather than joining many at once - deeper involvement leads to better connections
-- **Attend events consistently** - seeing the same families regularly builds familiarity and trust
-- **Engage online between events** - comment on posts, react to photos, and participate in discussions
-- **Bring something to share** - snacks, a game, or activity supplies give you reasons to interact
-- **Include your children** in choosing groups and events - they are more likely to engage with activities they are excited about
-- **Be patient with shy children** - friendships develop at different paces, and some kids need more time
-- **Look for families with similar-aged children** - while mixed-age socialization is valuable, same-age friendships are often easiest to build
-- **Consider parent-only events** too - your own friendships matter and help sustain your homeschooling journey
-
-:::note Introvert-Friendly Options
-If large events feel overwhelming, look for smaller gatherings, one-on-one playdates, or interest-based activities where you can connect over a shared focus rather than purely social settings.
-:::
-
-## Overcoming Common Challenges
-
-### "I feel like an outsider in established groups"
-
-- Attend regularly - consistency helps you become familiar
-- Introduce yourself to group leaders
-- Ask questions about the group's history and activities
-- Offer to help with events or tasks
+Go regularly, introduce yourself to the organizers by name, and offer to help with something small. Familiarity does the rest.
 
 ### "My children are not making friends"
 
-- Help facilitate introductions
-- Arrange smaller playdates after group events
-- Find activities aligned with your child's interests
-- Give it time - some children need more interaction to warm up
+Choose activities around their actual interests, and arrange something smaller afterwards with one family rather than hoping the group does it for you.
 
-### "I do not have time for group activities"
+### "I do not have time"
 
-- Start with monthly events rather than weekly
-- Join online groups for virtual connection
-- Participate in the social feed even when you cannot attend events
-- Quality of involvement matters more than quantity
+Commit to one monthly activity you will genuinely keep rather than a weekly one you will drop. A kept monthly commitment builds more than an abandoned weekly one.
 
-### "Local groups do not match our approach or values"
+### "Nothing near us matches our approach"
 
-- Consider starting your own group
-- Look for online communities that align with your values
-- Create connections through interest-based activities
-- Be open to learning from families with different approaches
+Widen the map before you widen your standards — the directory is worth checking again a few miles out. Failing that, list your own organization. See [How Do I Start a Homeschool Group?](/docs/how-to/start-homeschool-group).
+
+## Troubleshooting
+
+**I cannot find a feed or a place to post.** There is not one. Famlo is a directory, a scheduler and an inbox; it is not a social network.
+
+**I want to message another parent I met at co-op.** The compose search only finds organizations and people you already have a thread with. Swap numbers in person, or ask the organizers whether they can pass a message on.
+
+**I joined an organization and nothing happens.** Check whether it has anything scheduled. Membership on its own is not participation — register for something.
+
+**I am not hearing about new activities.** Check **Email** is ticked for the relevant category in your [notification settings](/docs/account/notifications), and set up a **Location alert** for your area.
+
+**I requested to join and heard nothing.** Only that organization's approvers can act on it. Use **Message** on their listing to ask.
+
+**My message will not send and mentions health information.** It reads like a medical field. Rephrase it as a sentence, or put the detail in your family profile.
 
 ## Related Articles
 
-- [Find Groups](/docs/families/organizations) - Discover homeschool groups in your area
-- [Join a Group](/docs/families/organizations) - Learn about the membership process
-- [Social Feed](/docs/families/organizations) - Detailed guide to feed features
-- [Find Events](/docs/families/finding-activities) - Browse activities and events
-- [Start a Group](/docs/how-to/start-homeschool-group) - Create your own homeschool community
+- [Finding and joining organizations](/docs/families/organizations) - browse, join, and request membership
+- [Finding activities](/docs/families/finding-activities) - what those organizations are running
+- [Registering and checking out](/docs/families/registering) - take a place in an activity
+- [Messages](/docs/families/messages) - the inbox, in full
+- [Saved activities and alerts](/docs/families/saved-and-alerts) - keep track of what is coming
+- [How Do I Find Homeschool Co-ops Near Me?](/docs/how-to/find-homeschool-groups) - the discovery guide

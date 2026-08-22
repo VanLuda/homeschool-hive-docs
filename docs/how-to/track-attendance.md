@@ -7,249 +7,153 @@ keywords: [homeschool attendance, track attendance, attendance records, homescho
 
 # How Do I Track Homeschool Attendance?
 
-Tracking attendance is essential for many homeschool families and co-ops, whether for state reporting requirements, scholarship documentation, or simply monitoring participation. Famlo provides built-in tools to track attendance at events, generate reports, and maintain records for your homeschool group.
+Famlo takes attendance one meeting at a time, on a roster built for a phone held at a door. It records two different things: whether a child was there, and who handed them over at each end of the day.
 
 ## Quick Answer
 
-To track homeschool attendance, use the **Check-In** feature on any event page. As attendees arrive, search for their name and click **Check In**. View real-time statistics, filter by status, and export attendance reports in CSV or PDF format for your records.
+Open the activity in your organization's console and select **Take attendance** beside the Roster heading. Pick the meeting you are running, then mark each child **Present**, **Late**, **Excused** or **Absent**, and record **Drop off** and **Pick up** as they arrive and leave. **Show sign-in QR** lets parents sign their own children in from their phones.
 
-## Why Track Attendance?
+## Read this before you rely on it for state filing
 
-Attendance tracking serves multiple purposes for homeschool groups:
+:::warning There is no attendance export
+Famlo has no attendance export of any kind. There is no CSV, no PDF, no printable roster report, and no attendance report — not for a single activity, not for a series, and not for a term. Attendance is readable on the roster inside Famlo and nowhere else.
 
-**Compliance and Documentation:**
-- Meet state homeschool reporting requirements
-- Document participation for umbrella schools
-- Provide records for scholarship programs
-- Support grant applications or funding requests
-
-**Group Management:**
-- Verify who actually attended vs. who registered
-- Identify engagement patterns
-- Plan future events based on attendance trends
-- Follow up with families who miss multiple sessions
-
-**Safety and Accountability:**
-- Know exactly who is present at any time
-- Have accurate headcounts for emergencies
-- Track adult-to-child ratios
-
-## Step-by-Step Guide
-
-### Step 1: Access the Check-In Feature
-
-**For Single Events:**
-1. Navigate to your event page
-2. Click **Manage Event** in the event menu
-3. Select **Check-In** or **Attendance** from the admin panel
-4. The check-in interface displays all registered attendees
-
-**For Series Events (recurring classes, ongoing programs):**
-1. Go to your series event page
-2. Click **Manage Series**
-3. Find the specific session date
-4. Click **Check-In** for that session
-
-:::tip Quick Access
-Bookmark the check-in page on your mobile device before your event. This provides fast access when families start arriving.
+If you or your families need attendance records for a state filing, an umbrella school, or a funding program, keep your own record alongside. Do not plan a reporting requirement around an export that does not exist.
 :::
 
-### Step 2: Understand the Check-In Interface
+A practical habit that works: photograph or transcribe the roster at the end of each meeting into whatever you already keep — a spreadsheet, a paper register, the log your state requires. It takes a minute per meeting and it is the only record you will be able to hand to anyone.
 
-The check-in screen shows key information at a glance:
+## Who can take attendance
 
-**Statistics Overview:**
-- **Total** - Total number of registered attendees
-- **Checked In** - How many have arrived
-- **Pending** - Attendees not yet checked in
-- **No Show** - Attendees marked as absent
+Only an organization's **owner**, **co-leader** and **event manager** can open a roster or mark anyone. A member manager, a billing manager or an ordinary member cannot, and the control is not shown to them at all.
 
-**Progress Bar:**
-- Visual green bar that fills as you check people in
-- Shows completion percentage
-- Updates in real-time
+Roles are assigned by the owner. See [Members, roles, and messaging](/docs/organizations/members-and-roles).
 
-**Attendee List:**
-- Names with profile avatars
-- Access type badges (ticket type, series pass)
-- Current status with timestamps
-- Action buttons for each person
+## Step 1: Open the roster
 
-### Step 3: Check In Attendees as They Arrive
+1. Open the activity from your organization's console.
+2. Select **Take attendance**, beside the Roster heading.
+3. You land on **Attendance**, a list of every meeting for that activity.
+4. Select the meeting you are running.
 
-When a family arrives at your event:
+On the console dashboard, the today widget carries a **Take roll** button that goes to the same list, so you do not have to find the activity first.
 
-1. **Search for their name** - Type in the search bar to quickly find them
-2. **Click the green "Check In" button** - Located next to their name
-3. **Confirmation appears** - Status updates to show check-in time
-4. **Repeat** for each family member or attendee
+## Step 2: Read the meeting list
 
-The system automatically records:
-- Exact check-in timestamp
-- Who performed the check-in
-- Updated running statistics
+Each row shows the meeting's label — its own name, or its date — and how many attendees are expected. On the right sits either a count of how many have been recorded out of how many are expected, or a green **Done** badge once every expected attendee has a record.
 
-### Step 4: Use Filters to Manage the List
+A repeating activity lists its whole term here, one row per meeting. A one-off activity lists a single row.
 
-For larger events, filter the attendee list by status:
+If the list is empty you will see "No meetings scheduled yet. Set a date on the activity to take attendance." Setting the date on the activity is what creates the meeting.
 
-- **All** - View everyone registered
-- **Pending** - Only show people who have not checked in yet
-- **Checked In** - Only show people who have arrived
-- **No Show** - Only show people marked as absent
+## Step 3: Know who appears on a roster
 
-Use the **Pending** filter during active check-in to focus only on families you are still waiting for.
+A meeting's roster is the active bookings for that meeting, read fresh every time you open it. Nothing is reserved in advance and nothing is copied forward.
 
-### Step 5: Handle Special Situations
+That matters for a repeating class. Each date carries its own registrations, so a family booked into one date appears on that date's roster and not on the others. Cancel a registration and that child drops off; add one an hour before you start and they are there when you open it.
 
-**Undo an Accidental Check-In:**
-1. Find the person in the list
-2. Click the **Undo** button (appears after check-in)
-3. Their status returns to Pending
+An empty roster reads "No one is registered for this meeting yet."
 
-**Mark a No-Show:**
-After the event starts, mark families who did not attend:
-1. Filter to show **Pending** attendees
-2. Click the **X** icon next to absent attendees
-3. Status changes to No Show
+## Step 4: Mark who is there
 
-**Late Arrivals:**
-If someone was marked as no-show but arrives late:
-1. Click **Reset** to return them to Pending
-2. Click **Check In** as normal
+Every child on the roster has the same four buttons, in this order:
 
-### Step 6: Track Series Attendance
+- **Present**
+- **Late**
+- **Excused**
+- **Absent**
 
-For recurring events like weekly co-op classes, track attendance across all sessions:
+Select one. The button you chose stays highlighted, and the count in the header updates to "N / M present". **Present** and **Late** both count toward that number; **Excused** and **Absent** do not.
 
-**How Series Check-In Works:**
-- Each session has its own separate check-in
-- Series pass holders appear on every session's list
-- Attendance is tracked per session, not just once for the series
-- Drop-in attendees appear only on their registered sessions
+Only one status applies at a time. To correct a mistake, select the right one — it replaces what was there. There is no undo control, and no "no show" status.
 
-**Viewing Attendance Patterns:**
-- See which families attended which sessions
-- Identify perfect attendance
-- Notice patterns (lower attendance on certain dates)
-- Follow up with families who miss multiple sessions
+Allergies, special needs and medical notes appear as badges under each child's name, so you can see them without leaving the roster.
 
-### Step 7: Export Attendance Reports
+## Step 5: Record drop-off and pick-up
 
-Generate reports for your records, scholarship programs, or co-op documentation.
+Custody is recorded separately from attendance, and separately at each end. This is the part of the roster that answers "who has this child now".
 
-**Single Event Reports:**
+Under each child's status buttons sit two panels:
 
-1. Go to the event page
-2. Click **Manage Event** > **Attendance**
-3. Click **Attendance Report** or **Export**
-4. Choose your format:
+1. **Drop off** — select it when the child arrives. The panel is replaced by "Dropped off" and the time.
+2. **Pick up** — select it when the child leaves. The panel is replaced by "Picked up" and the time.
 
-| Format | Best For |
-|--------|----------|
-| **CSV** | Importing to spreadsheets, further analysis |
-| **Print/PDF** | Physical records, official documentation |
+Each records the time it happened and the person who recorded it. They are stored as two separate events rather than one presence flag, so a morning hand-over and an afternoon collection are both answerable afterwards.
 
-**CSV Reports Include:**
-- Attendee names
-- Email addresses
-- Access type (ticket type, series pass)
-- Check-in status
-- Check-in timestamps
-- Summary statistics
+**Pick up** stays unavailable until a drop-off has been recorded. Recording a drop-off for a child you had marked **Absent** lifts them to **Present**, because they are plainly here; an explicit **Late** or **Excused** is left as you set it.
 
-**PDF Reports Include:**
-- Event name and date
-- Group name
-- Formatted attendee roster
-- Check-in status for each person
-- Summary statistics
-- Professional layout for printing
+Once a time is recorded it stays. The roster shows it as text rather than a button, so there is nothing to clear by accident.
 
-**Series Reports:**
+## Step 6: Let parents sign their own children in
 
-For event series, generate two report types:
+Every meeting has a printable sign-in code. Parents scan it and sign their own children in and out, which keeps the queue at the door moving while custody is still recorded properly.
 
-**Roster Report:**
-- Shows attendee list with check-in details
-- Can select all sessions combined or a specific session
-- Includes names, contact info, access type, and status
+1. On the roster, select **Show sign-in QR**.
+2. The **Scan to sign in** page shows the code for that meeting, with the activity title and the meeting label under it.
+3. Select **Print this code** to put it on paper, or leave it on screen at the door.
 
-**Summary Report:**
-- Shows attendance statistics across the entire series
-- Session-by-session breakdown
-- Check-in count vs. total count per session
-- Attendance rate percentages
-- Overall statistics:
-  - Total unique attendees
-  - Average attendance per session
-  - Overall attendance rate
+The instruction printed under the code reads: "Parents: scan with your phone camera, sign in to Famlo if asked, then tap to drop off or pick up your children."
 
-## Using Attendance for Homeschool Records
+A parent gets a page listing only their own children who hold an active booking for that meeting. Each row reads "Not signed in yet", "Dropped off" with a time, or "Picked up" with a time, and carries a single button — **Drop off** or **Pick up**. Once both are recorded the row reads "All done for today".
 
-### State Reporting
+A parent can only ever sign in a child in their own family who is booked into that meeting. **Present**, **Late**, **Excused** and **Absent** stay with your staff. A parent's drop-off records their child as present, and your roster updates to match.
 
-Many states require attendance documentation for homeschooling. Use Famlo attendance records to:
+The code is tied to one meeting. Use that meeting's code rather than reprinting an old one.
 
-- Document co-op class participation
-- Track enrichment activity attendance
-- Maintain records of educational field trips
-- Demonstrate consistent educational engagement
+## What the roster shows you about a child
 
-### Scholarship Documentation
+An organizer running an activity a child is booked into can see that child's allergies, special needs, medical notes, emergency contact, authorised pickup list, and photo-consent answer.
 
-For families using scholarship funds (ESA, tax credit scholarships):
+:::note Medications are not shown to organizers
+No screen in the organizer console displays a child's medications or dietary restrictions. If a child's medication matters for your activity — an inhaler, an EpiPen, a dosing time — ask the family directly and keep your own note. Do not assume it will appear on the roster, because it will not.
+:::
 
-- Export attendance reports as proof of participation
-- Provide PDF records with dates and activities
-- Document attendance at approved educational events
+## What a family can see of their own attendance
 
-### Co-op Requirements
+A family sees their own bookings, not their attendance record.
 
-If your co-op has attendance policies:
+- [Your calendar](/docs/families/calendar) holds everything the family has booked, in **Week** or **List** view, filterable by child. It is a record of what you registered for.
+- The sign-in page reached from a meeting's code shows only that meeting, and only your own children.
 
-- Track which families meet participation requirements
-- Identify families who may need follow-up
-- Generate end-of-year attendance summaries
-- Document volunteer or teaching participation
+There is no attendance history page for a family, and nothing for a family to download. If your state requires a participation record, keep it yourself as you go.
+
+## Reminders
+
+On the day of a meeting, everyone who organizes the activity gets an in-app reminder while the roster is still incomplete. It stops once every expected attendee has a record, so finishing the roster is what ends the nudging.
 
 ## Tips
 
-- **Charge your device** before events to ensure you have battery for check-in
-- **Download a backup list** before the event in case of technology issues
-- **Designate a check-in volunteer** for large events so you can focus on other responsibilities
-- **Check yourself in first** to test that the system is working
-- **Export reports regularly** to maintain backup records
-- **Use the calendar** as a secondary attendance record by tracking which events your family attended
-- **Set up series passes** for recurring classes to simplify tracking across multiple sessions
+- **Write it down as you go.** Famlo will not give you the record later, so capture it at the end of each meeting.
+- **Print the code the night before.** It is one page, and it saves you fifteen minutes at the door.
+- **Charge your phone.** The roster is a phone screen, and a dead phone means a paper fallback you did not prepare.
+- **Mark statuses first, custody second.** Statuses are quick; drop-off and pick-up happen at different times anyway.
+- **Check the roster before you leave home.** It is read fresh, so a late registration or a cancellation shows up without you doing anything.
+- **Give a co-leader the roster too.** Owners, co-leaders and event managers can all open it, so you are not the single point of failure.
 
-:::note Calendar Integration
-Your personal calendar on Famlo shows all events you have attended. This provides an additional way to review your family's participation history.
-:::
+## Troubleshooting
 
-## Best Practices for Group Leaders
+**I cannot find Take attendance.** The control sits on the activity page beside the Roster heading, and only owners, co-leaders and event managers see it.
 
-### Before Events
-- Test the check-in system
-- Prepare a paper backup list
-- Review the attendee list for special needs or notes
-- Ensure your device is fully charged
+**A child I expected is not on the roster.** The roster is that meeting's active bookings. Check the family completed registration, that payment cleared on a paid activity, and that they booked this date rather than another in the run.
 
-### During Events
-- Start check-in as people arrive (do not wait until everyone is there)
-- Use search for faster check-in at busy events
-- Verify you are checking in the correct person, especially for children
+**The list says no meetings are scheduled.** The activity has no date set. Add one on the activity, then reopen **Take attendance**.
 
-### After Events
-- Mark remaining registrants as no-shows
-- Review attendance statistics
-- Export and save the attendance report
-- Follow up with families who missed if appropriate
+**Pick up will not respond.** It stays unavailable until a drop-off is recorded for that child. Record the drop-off first.
+
+**I marked the wrong child present.** Select the correct status on that child's row — it replaces the old one. There is no undo button.
+
+**I recorded a drop-off in error.** The time cannot be cleared from the roster. Note the correction outside Famlo and carry on.
+
+**A parent says the code will not work.** They need to be signed in to Famlo, and they need a child with an active booking for that meeting.
+
+**I need an attendance report for my state filing.** Famlo cannot produce one. Read the roster on screen and copy it into your own record.
+
+**I am looking for a search box or a status filter on the roster.** There is neither, and no progress bar. It is a plain list of the children booked into one meeting.
 
 ## Related Articles
 
-- [Check-In and Attendance](/docs/organizations/attendance) - Detailed check-in feature documentation
-- [Event Series](/docs/organizations/activities) - Create recurring events with series passes
-- [Analytics](/docs/organizations/insights) - Use attendance data for insights
-- [Calendar](/docs/families/calendar) - View your personal event history
-- [Manage Events](/docs/organizations/activities) - Complete event management guide
+- [Attendance and check-in](/docs/organizations/attendance) - the full roster reference
+- [Scheduling activities](/docs/organizations/activities) - set the dates that create the meetings
+- [Members, roles, and messaging](/docs/organizations/members-and-roles) - who can open a roster
+- [Your calendar](/docs/families/calendar) - what a family can see of their own bookings
+- [Your family profile](/docs/families/your-family) - what you record about a child, and who sees it

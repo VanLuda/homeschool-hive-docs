@@ -11,20 +11,20 @@ A homeschool group is more than a collection of events - it is a community where
 
 ## Quick Answer
 
-Building community in your homeschool group requires consistent communication through announcements, opportunities for members to connect socially, shared traditions that create group identity, and a culture of mutual support. Use Famlo's social features to keep members engaged between events, and prioritize activities that foster relationships over pure content delivery.
+Building community in your homeschool group requires consistent communication through announcements, opportunities for members to connect socially, shared traditions that create group identity, and a culture of mutual support. Prioritize activities that foster relationships over pure content delivery. What holds a group together happens between people, not on a screen.
 
 ## Step-by-Step Guide
 
 ### 1. Establish Regular Communication Rhythms
 
-Consistent communication creates connection even when families are not together:
+Consistent communication creates connection even when families are not together. On Famlo, an announcement belongs to a single activity and goes to the people connected to that activity. There is no organization-wide newsletter and no feed, so build your rhythm around the activities themselves.
 
-- **Weekly announcements**: Share upcoming events, celebrate achievements, and keep your group top-of-mind
-- **Monthly newsletters**: Summarize what happened, preview what is coming, and spotlight member families
-- **Event recaps**: Post photos and highlights (with permission) so families feel included even if they missed an event
-- **Quick updates**: Share timely information like weather changes or last-minute opportunities
+- **Announce from each activity**: The change of plan, the thing to bring, the detail people need before Saturday
+- **Widen the audience when it helps**: **Registered + interested** also reaches families who saved the activity, which is how you speak to people who have not committed yet
+- **Recap in the next listing**: Photos and highlights (with permission) belong in the description of the next session, where they double as an invitation to families who missed the last one
+- **Use messages for the personal ones**: Welcoming a new family, or checking on someone who has gone quiet, lands better one to one
 
-Use the social feed to maintain an ongoing conversation. See [Social Feed](/docs/families/organizations) for how members can interact with your posts.
+See [Members, roles, and messaging](/docs/organizations/members-and-roles) for both announcement composers and what each audience covers.
 
 ### 2. Create Opportunities for Unstructured Connection
 
@@ -52,8 +52,8 @@ Community happens between members, not just between leaders and members:
 
 - **Buddy systems**: Pair new families with established members for their first month
 - **Interest-based subgroups**: Connect families with shared interests (nature study enthusiasts, teen parents, families with toddlers)
-- **Member spotlights**: Feature different families in your announcements so everyone gets to know each other
-- **Discussion prompts**: Ask questions in the social feed that encourage members to share and respond to each other
+- **Member spotlights**: Introduce a different family at each gathering so everyone gets to know each other
+- **Shared jobs**: Two families running the snack table together will talk more than either would standing alone
 
 ### 5. Create Space for Mutual Support
 
@@ -114,10 +114,6 @@ Children's activities are important, but parent community matters too. Isolated 
 Authentic community cannot be manufactured. Create opportunities and invitations, but respect that relationships develop at their own pace. Forced "community building activities" often backfire.
 :::
 
-:::note Online and In-Person Balance
-Famlo's social features extend your community beyond event days, but they cannot replace in-person interaction. Use digital tools to enhance, not substitute for, real-world connection.
-:::
-
 ## Community-Building Event Ideas
 
 ### Low-Effort, High-Connection Events
@@ -161,7 +157,7 @@ You know your community is thriving when:
 
 ## Related Articles
 
-- [Social Feed](/docs/families/organizations) - Help members engage with your posts
-- [Announcements](/docs/organizations/members-and-roles) - Communicate effectively with your group
-- [Manage Members](/docs/organizations/members-and-roles) - Onboard new families well
+- [Members, roles, and messaging](/docs/organizations/members-and-roles) - Announcements, message access, and the join queue
+- [Create Events](/docs/organizations/activities) - The gatherings your community is built on
+- [Finding and joining organizations](/docs/families/organizations) - What a family sees before they join
 - [How Do I Grow My Homeschool Group?](/docs/how-to/grow-your-group) - Expand your community thoughtfully

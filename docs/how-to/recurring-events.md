@@ -7,172 +7,156 @@ keywords: [recurring homeschool events, event series, weekly homeschool class, h
 
 # How Do I Set Up Recurring Events for My Group?
 
-Creating recurring events on Famlo saves you time by automatically generating multiple sessions for your weekly classes, monthly meetups, or ongoing activity series. Instead of manually creating each session, you can set up an entire semester's worth of events in just a few minutes.
+A repeating activity is how you schedule a term of a weekly class without building twelve activities by hand. You set it up once, on the same form you use for a one-off, and Famlo lays the dates out for you.
+
+This guide is for owners, co-leaders and event managers — the roles that can open **Activities**.
 
 ## Quick Answer
 
-To create a recurring event, navigate to **Create Event**, fill in your event details, then toggle on the **Event Series** option in the Series Configuration section. Choose your frequency (weekly, bi-weekly, monthly, or daily), select the days of the week, specify the number of sessions, and optionally exclude specific dates like holidays.
+Build the activity as normal, then tick the repeats option on the form. Set **Repeats** to **Weekly**, **Every 2 weeks** or **Monthly**, set **Every** to the interval that goes with it, and set **Repeats until** to the last date in the run. Save, then check the dates you got before you tell anyone the schedule.
 
-## Step-by-Step Guide
+## Step 1: Build the activity first
 
-### Step 1: Start Creating Your Event
+1. Open the account menu and choose **Manage organizations**.
+2. Select your organization.
+3. Open **Activities** in the console.
+4. Start a new activity.
+5. Fill in the name, description, start and finish times, place, visibility, categories and ages.
 
-1. Navigate to your group's page
-2. Click the **Create Event** button
-3. Fill in the basic event information:
-   - Event title (e.g., "Wednesday Art Class")
-   - Description
-   - Location
-   - Start date and time
-   - End time
+The first date you set is where the run begins. Everything else about the activity — its price, its capacity, its terms — applies to every date in the run.
 
-### Step 2: Enable Event Series
+## Step 2: Turn on repeats
 
-1. Scroll down to find the **Event Series** section
-2. Toggle the switch to **On** - the card will highlight with a blue border indicating series mode is active
-3. The series configuration options will expand below
+Tick the repeats option on the activity form. Three controls appear.
 
-### Step 3: Choose Your Frequency
+| Control | What it sets |
+| --- | --- |
+| **Repeats** | How often it comes round: **Weekly**, **Every 2 weeks** or **Monthly** |
+| **Every** | The interval that goes with it |
+| **Repeats until** | The last date in the run |
 
-Select how often your event repeats:
+Those three frequencies are the whole list.
 
-| Frequency | Description | Best For |
-|-----------|-------------|----------|
-| **Weekly** | Every week on selected days | Regular weekly classes |
-| **Bi-weekly** | Every 2 weeks | Alternating week meetups |
-| **Monthly** | Once per month | Monthly field trips or assemblies |
-| **Daily** | Every day | Week-long camps or intensives |
+## Step 3: Set the end date
 
-### Step 4: Select Days of the Week (Weekly Events Only)
+**Repeats until** is a date, not a number of sessions. You do not tell Famlo "twelve weeks" — you tell it the day the run stops, and it works out how many dates that is.
 
-If you selected **Weekly** frequency, you'll see day-of-week buttons (S M T W T F S):
+Pick the date your term actually ends. For a weekly class that is roughly the number of weeks you want, counted forward from your first date.
 
-1. Click to select which days your event occurs
-2. You can select multiple days (e.g., Monday and Wednesday for a twice-weekly class)
-3. The first selected day should match your event's start date
-4. At least one day must be selected
+A run cannot be longer than **60 occurrences**. That is a hard cap. A weekly class therefore covers a bit over a year at most, which is more than a term either way. If your **Repeats until** date implies more than sixty dates, the run stops at sixty.
 
-### Step 5: Set the Number of Sessions
+## Step 4: Save, then check what you got
 
-1. Enter the total number of sessions for your series (2-52)
-2. Use the quick preset buttons (4, 6, 8, or 12) for common series lengths
-3. A typical semester might have 12-16 sessions
-4. The system will generate sessions based on your frequency and days selected
+Save the form, then look at the dates before you announce the schedule to anyone.
 
-### Step 6: Preview and Adjust Session Dates
+There is no preview of the dates while you are filling the form in, so the roster of meetings on the saved activity is the first place you can see them. Open **Take attendance** on the activity and you get the list, one row per meeting. That is the schedule your families will see.
 
-The **Session Dates** preview shows all generated dates:
+## What repeating does not do
 
-1. Review each session date, time, and session number
-2. Click **Show all sessions** to see the complete list
-3. The preview shows the day of the week and formatted date for each session
+Read this before you plan a term around it.
 
-### Step 7: Exclude Specific Dates (Optional)
+- **There is no daily option.** **Weekly**, **Every 2 weeks** and **Monthly** are all there is.
+- **There is no day-of-week picker.** A class that meets Tuesdays and Thursdays is two activities, not one run with two days ticked.
+- **There is no session count.** You set an end date, not a number.
+- **There is no date preview on the form**, and no list of generated dates to review before saving.
+- **You cannot exclude a date from the middle of a run.** There is no way to skip Thanksgiving week. Put the break in the description and send an [announcement](/docs/organizations/members-and-roles) closer to the date.
+- **There is no duplicate-series action.** To run the same class next term, build it again.
+- **There is no series dashboard.** A run is managed as the activity it belongs to.
 
-Need to skip holidays, breaks, or conflicts? Click the **X** button next to any session to exclude it:
+## What a repeat actually creates
 
-1. Excluded dates appear crossed out with a red background
-2. Session numbers automatically adjust to skip excluded dates
-3. You can click again to re-include a date
-4. A notice shows how many dates are excluded
+Each date is its own occurrence, with its own registrations. A family registers for each date separately, and a date's roster is the bookings for that date alone.
 
-:::tip Planning Around Breaks
-Before creating your series, note down any holidays or school breaks. Common exclusions include:
-- Thanksgiving week
-- Winter break
-- Spring break
-- Memorial Day / Labor Day
+This is the single most misunderstood part of repeating activities, so it is worth stating twice.
+
+:::warning A series pass reserves nothing
+**Series pass** is a label on a ticket. It changes the words a family reads and nothing else — no seat is held, at any session.
+
+Selling a twelve-week pass does not book those twelve dates. A pass holder appears on a date's roster only if they registered for that date, exactly like everyone else.
+
+If you need the same children in the room every week, say so plainly in the description, and check each date's roster rather than assuming it.
 :::
 
-### Step 8: Configure Tickets and Pricing (Optional)
+The practical consequence: tell your families, in the description and in your welcome message, that they register for each date. Otherwise week three arrives and half the class is not on the roster.
 
-For paid event series, you have two pricing options:
+## Pricing a run
 
-1. **Per-Session Tickets**: Families pay for individual sessions they attend
-2. **Series Pass**: Families pay once for access to all sessions in the series
+Pricing lives in the **Tickets & Pricing** section of the same form, and it applies to every date in the run.
 
-To enable series passes:
-1. Go to the Tickets & Pricing section
-2. Create your ticket type
-3. Enable the "Series Pass" option for that ticket
-4. Set the series pass price (typically discounted from per-session total)
+**Capacity** sits on each ticket row and applies per date, not across the whole run. Set it to fifteen and each date can take fifteen.
 
-### Step 9: Create Your Event Series
+Two ways to charge, and both are ordinary tickets:
 
-1. Review all your settings
-2. Click **Create Event**
-3. The system generates all sessions at once
-4. Each session is linked to the parent series event
+- **Per session.** One ticket at the price of one meeting. Families pay each time they register for a date.
+- **A pass.** One ticket priced for the whole term, usually below the sum of the sessions. It is a discount and a signal of commitment, not a reservation.
 
-## Managing Your Event Series
+Each registration meets Famlo's fee on its own, so a term paid session by session and a term paid in one go do not cost you the same. [Tickets and pricing](/docs/organizations/tickets-and-pricing) works that through, and [What's free and what's paid](/docs/families/whats-free-and-whats-paid) sets out the plans.
 
-After creation, you can manage your series from the event page:
+## Looking after a run once it is live
 
-### Viewing Series Sessions
+**Editing.** Edit the activity and save. The public page changes immediately. If you are moving the time or the place of something families have already registered for, do not rely on the change announcing itself — send an announcement in your own words.
 
-- The main event page shows the series overview
-- Click **View All Sessions** to see the complete session list
-- Each session shows its date, attendance status, and capacity
+**Taking the roster.** Select **Take attendance** beside the Roster heading. The run lists its whole term, one row per meeting, and each meeting's roster is read fresh from the bookings for that date. See [Attendance and check-in](/docs/organizations/attendance).
 
-### Editing Individual Sessions
+**Cancelling.** **Cancel activity** notifies everyone registered, unpublishes the activity, and makes every family whole — card charges refunded in full, credit returned, scholarship coverage returned to the award.
 
-1. Navigate to the specific session you need to change
-2. Click **Edit Session**
-3. Changes to individual sessions do not affect other sessions in the series
-4. You can change the time, location, or capacity for a single session
-
-### Canceling Sessions
-
-1. Open the session you need to cancel
-2. Click **Cancel Session**
-3. Registered attendees will be notified automatically
-4. Paid registrations will be refunded based on your refund policy
-
-### Duplicating a Series
-
-Have a successful series you want to repeat next semester?
-
-1. Go to your original series event
-2. Click **Duplicate Series**
-3. Update the start date for the new semester
-4. Adjust any other details as needed
-5. Create the new series
+**When a date fills.** A full date closes rather than queuing anyone. Families see **Join the waitlist**, which saves the activity. Nobody holds a position and nobody is next in line; when a place opens everyone watching is told at the same moment and the first to register takes it.
 
 ## Tips
 
-:::tip Start Date Matters
-The start date you enter determines when the first session occurs. Make sure it falls on one of your selected days of the week for weekly events.
-:::
-
-:::tip Session Numbering
-Sessions are numbered sequentially (1, 2, 3...) regardless of excluded dates. If you exclude session 3, the next session becomes session 3 and subsequent sessions renumber automatically.
-:::
-
-:::tip Capacity Planning
-The capacity you set applies to each individual session, not the series total. If you set capacity to 15, each session can have up to 15 attendees.
-:::
-
-:::note Series Pass vs. Per-Session
-Series passes encourage commitment and provide predictable attendance. Per-session tickets offer flexibility but may result in variable attendance. Consider your group's needs when choosing.
-:::
+- **Start the run on the day it should land.** Your first date sets the pattern for every date after it.
+- **Set Repeats until a week early.** It is easier to add a separate date at the end than to explain a session that should not exist.
+- **Say "register for each date" in the description.** It is the one sentence that prevents most of the confusion.
+- **Two days a week means two activities.** Name them clearly — "Art Club, Tuesdays" and "Art Club, Thursdays".
+- **Plan around holidays with an announcement**, not with the form. There is nothing on the form that can skip a week.
+- **Check the meeting list before you publicise the term.** It takes ten seconds and it is your only preview.
 
 ## Common Questions
 
-**Can I change the frequency after creating a series?**
-No, you'll need to delete the series and create a new one with the correct frequency.
+**Can I set it to repeat daily?**
+No. **Weekly**, **Every 2 weeks** and **Monthly** are the three options.
 
-**What happens if I need to add more sessions?**
-You can create additional individual events or start a new series. Sessions cannot be added to an existing series.
+**Can I pick more than one day of the week?**
+No. Create one activity per day.
 
-**Can families register for just some sessions?**
-Yes, if you offer per-session tickets. If you only offer series passes, families register for the entire series.
+**How many sessions can a run have?**
+Up to sixty. You set an end date rather than a count, and the run stops at sixty occurrences whatever the date says.
 
-**How do I track attendance across a series?**
-Each session has its own attendance tracking. You can view cumulative attendance reports from the series overview page.
+**Can I skip a week for a holiday?**
+Not on the form. Say it in the description and send an announcement before the date.
+
+**Can I add sessions to a run that already exists?**
+Change **Repeats until** to a later date, or create a separate activity for the extra dates.
+
+**Can I duplicate a run for next term?**
+There is no duplicate action. Build it again.
+
+**Does a series pass book every session for a family?**
+No. Every date is registered separately, whatever the ticket is called.
+
+**How do I track attendance across a run?**
+Each meeting has its own roster, listed under **Take attendance**. There is no cumulative report and no attendance export of any kind.
+
+## Troubleshooting
+
+**My run stopped before the end of the term.** Check **Repeats until**, and remember a run stops at sixty occurrences.
+
+**A family says they bought a pass but is not on this week's roster.** Each date is registered separately, whatever the ticket is called. Check that date's roster and tell them which dates they still need to register for.
+
+**I cannot find the day-of-week buttons.** There are none. One activity, one day.
+
+**I cannot find where to review the dates before saving.** There is no preview. Save, then open **Take attendance** to see the meetings.
+
+**I need to skip a week.** There is no way to exclude a date. Put it in the description and announce it.
+
+**The price field will not save.** Payouts are not finished. A ticket cannot carry a price above $0 until your organization can accept money. See [Getting paid](/docs/organizations/getting-paid).
+
+**I cannot see Activities in the console.** Owners, co-leaders and event managers can open it; member managers, billing managers and members cannot.
 
 ## Related Articles
 
-- [Creating Events](/docs/organizations/activities) - Basic event creation guide
-- [Managing Event Series](/docs/organizations/activities) - Advanced series management
-- [Tickets and Pricing](/docs/organizations/tickets-and-pricing) - Setting up paid events
-- [Event Capacity and RSVPs](/docs/organizations/activities) - Managing registrations
+- [Scheduling activities](/docs/organizations/activities) - the full activity form, including repeats
+- [Tickets and pricing](/docs/organizations/tickets-and-pricing) - what a pass is and what it is not
+- [Attendance and check-in](/docs/organizations/attendance) - the roster for each meeting in a run
+- [Members, roles, and messaging](/docs/organizations/members-and-roles) - announce a change to everyone registered
+- [How Do I Plan a Homeschool Field Trip?](/docs/how-to/plan-field-trip) - the one-off version of the same form
