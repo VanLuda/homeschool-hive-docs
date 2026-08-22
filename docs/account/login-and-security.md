@@ -1,307 +1,106 @@
 ---
 sidebar_position: 1
 title: Login and security
-description: Passkeys, passwords, connected accounts, and trusted devices.
+description: How you sign in to Famlo, how to add a passkey, and how to review the devices that have access to your account.
+keywords: [famlo login, passkey, sign in, account security, connected accounts]
 ---
-<!-- SOURCE: docs/account/profile-settings.md -->
-# Profile Settings
 
-Manage your personal information, account preferences, and security settings from your Account Settings page.
+# Login and security
 
-## Access Account Settings
+Everything about how you get into your account lives in one place: **Account
+settings** → **Login & security**.
 
-1. Click your profile icon in the top right corner
-2. Select **Account Settings** from the dropdown menu
+## How signing in works
 
-## Update Your Profile
+Famlo does not need a password. On the sign-in screen you enter your email
+address and receive a six-digit code, and that code signs you in.
 
-### Basic Information
+That is the default, and for most people it is the only method they ever use.
+There is nothing to remember and nothing to reset.
 
-Update your personal details:
+You can add other ways in alongside it:
 
-- **First Name** - Your first name
-- **Last Name** - Your last name
-- **Email Address** - Your primary contact email
-- **Phone Number** - Optional contact number
+| Method | Where it comes from |
+| --- | --- |
+| Email code | Always available |
+| Passkey | Your device's fingerprint, face, or screen lock |
+| Google, Facebook, or Apple | A connected account |
+| Password | Optional, set under **Login** |
 
-After making changes, click **Save Changes**.
+Any of these gets you in. Adding one does not switch the others off.
 
-### Profile Photo
-
-Add or update your profile picture:
-
-1. Click on your current photo or the placeholder
-2. Select **Upload Photo**
-3. Choose an image from your device
-4. Adjust the crop if needed
-5. Click **Save**
-
-**Photo guidelines:**
-- Square images work best
-- Recommended size: 200x200 pixels minimum
-- Formats: JPG, PNG
-- Maximum file size: 5MB
-
-### Remove Profile Photo
-
-To remove your current photo:
-1. Click on your profile photo
-2. Select **Remove Photo**
-3. Confirm the removal
-
-## Change Your Email
-
-To update your email address:
-
-1. Go to **Account Settings**
-2. Click **Change Email**
-3. Enter your new email address
-4. Enter your current password to confirm
-5. Click **Update**
-6. Check your **new** email inbox for a verification link
-7. Click the link to confirm the change
-
-:::warning Email Changes
-- Your old email continues to work until you verify the new one
-- After verification, you'll need to use the new email to log in
-- Notifications will go to the new address
-- Group leaders will see your updated email
-- If you don't verify within the allotted time, the change is cancelled and your old email remains active
+:::note
+Famlo does not offer authenticator-app two-factor sign-in, and does not require
+it for any role. Passkeys are the strongest option available, and they are
+stronger than a password plus a code, because a passkey cannot be phished or
+reused on another site.
 :::
 
-## Change Your Password
+## Adding a passkey
 
-To update your password:
+A passkey ties your account to a device you already unlock — Touch ID, Face ID,
+Windows Hello, or your phone's screen lock. You sign in by unlocking the device.
 
-1. Go to **Account Settings** > **Security**
-2. Click **Change Password**
-3. Enter your current password
-4. Enter your new password
-5. Confirm your new password
-6. Click **Update Password**
+1. Open **Account settings** → **Login & security**.
+2. Under **Passkeys**, select the option to add one.
+3. Your device asks you to confirm with your fingerprint, face, or screen lock.
+4. Give the passkey a name you will recognise later, such as "MacBook" or
+   "iPhone".
 
-**Password requirements:**
-- At least 8 characters
-- Mix of uppercase and lowercase recommended
-- Include numbers and special characters for extra security
+Once you have one, the sign-in screen offers **Continue with a passkey** before
+it asks for anything else.
 
-## Account Preferences
+Add a passkey on each device you use regularly. If you lose a device, remove its
+passkey from this page and the rest keep working.
 
-### Language and Region
+## Social accounts
 
-Set your preferences:
-- **Language** - Display language for the interface
-- **Time Zone** - For event times and notifications
-- **Date Format** - How dates are displayed
+Under **Social accounts** you can connect or disconnect Google, Facebook, and
+Apple. Connecting one adds it as a way to sign in.
 
-### Privacy Settings
+You can disconnect an account whenever you like, as long as it is not the only
+way into your account. Famlo will not let you remove your last remaining sign-in
+method.
 
-Control what others can see:
-- **Profile Visibility** - Who can see your profile
-- **Contact Information** - Who can see your contact details
-- **Activity** - Whether your activity is visible to group members
+## Setting or changing a password
 
-## Connected Accounts
+A password is optional. If you want one, set it under **Login**.
 
-### Social Login
+If you have a password and forget it, choose **Use a password instead** on the
+sign-in screen, then **Forgot your password?**. The reset link is valid for
+**15 minutes**. If it expires, request another.
 
-If you signed up with Google or another provider:
+You do not need a password to recover your account. The email code always works.
 
-1. Go to **Account Settings** > **Connected Accounts**
-2. See which accounts are connected
-3. Connect additional accounts for easier login
-4. Disconnect accounts if needed
+## Changing your email address
 
-### Connect New Account
+Your email address lives under **Personal information**, and changing it sends a
+six-digit code to the **new** address to confirm you can receive mail there.
 
-To add a social login option:
-1. Click **Connect** next to the provider
-2. Sign in to that account
-3. Authorize the connection
-4. You can now log in using that account
+No password is required. Until you confirm the code, your old address keeps
+working, so a typo cannot lock you out.
 
-### Disconnect Account
+## Device history
 
-To remove a connected account:
-1. Click **Disconnect** next to the account
-2. Confirm the disconnection
+**Device history** lists everywhere your account is currently signed in, with
+when each session started.
 
-:::note Keep Access
-If you disconnect your only login method, make sure you have a password set first.
-:::
+Look through it if something feels wrong. Sign out any device you do not
+recognise, or sign out everywhere at once, which ends every session except the
+one you are using.
 
-## Account Security
+Signing a device out does not change your password or remove a passkey. If you
+think someone else has had access, sign the device out and remove any passkey
+you do not recognise.
 
-Your security settings have a dedicated page for easy management.
+## What is not on this page
 
-1. Go to **Account Settings**
-2. Click **Security** in the sidebar to access all security features in one place
+- **Notification choices** live under [Notifications](/docs/account/notifications).
+- **Appearance and time zone** live under **Preferences**.
+- **Your family's information** lives under [Your family profile](/docs/families/your-family).
 
-### Two-Factor Authentication (MFA)
+## Related
 
-Two-factor authentication adds an extra layer of security to your Famlo account by requiring both your password and a verification code to sign in.
-
-#### What is Two-Factor Authentication?
-
-Two-factor authentication (also called MFA or 2FA) protects your account with two forms of verification:
-
-1. **Something you know** - Your password
-2. **Something you have** - A verification code from your authenticator app
-
-This means that even if someone knows your password, they can't access your account without your phone or authenticator app.
-
-:::tip Group Leaders
-If you're a group leader, we strongly recommend enabling MFA to protect your account and your members' data. MFA is required for group leaders who accept payments.
-:::
-
-#### Enabling Two-Factor Authentication
-
-To enable MFA on your account:
-
-1. Go to **Account Settings** > **Security**
-2. Scroll to the **Two-Factor Authentication** section
-3. Click **Enable**
-4. The setup wizard will appear with two steps:
-
-**Step 1: Scan QR Code**
-- Open your authenticator app (Google Authenticator, 1Password, Authy, Microsoft Authenticator, or similar)
-- Tap the "+" or "Add Account" button in the app
-- Scan the QR code displayed on screen
-- If you can't scan the code, tap "Can't scan?" to reveal the manual entry code
-- Copy the code and enter it manually in your authenticator app
-- Click **I've scanned the code**
-
-**Step 2: Verify Setup**
-- Your authenticator app will now display a 6-digit code that changes every 30 seconds
-- Enter the current code shown in your app
-- Click **Verify & Enable**
-
-Once verified, you'll see a success message and MFA will be enabled on your account.
-
-:::note Supported Authenticator Apps
-You can use any TOTP-compatible authenticator app, including:
-- Google Authenticator
-- 1Password
-- Authy
-- Microsoft Authenticator
-- Bitwarden
-- LastPass Authenticator
-:::
-
-#### Using MFA During Login
-
-After enabling MFA, your login process will include an additional step:
-
-1. Go to the Famlo login page
-2. Enter your **email** and **password** as normal
-3. Click **Sign In**
-4. You'll be redirected to the Two-Factor Authentication page
-5. Open your authenticator app
-6. Enter the current 6-digit code (codes refresh every 30 seconds)
-7. Click **Verify**
-
-You'll then be logged in and redirected to your destination.
-
-:::tip Timing Matters
-Verification codes expire every 30 seconds. If a code doesn't work, wait for the next code to appear in your authenticator app and try again.
-:::
-
-#### Recovery Options
-
-If you lose access to your authenticator app:
-
-**Option 1: Use a Different Account**
-- Click **Sign in with a different account** on the MFA verification page
-- Log out and sign in with another account if available
-
-**Option 2: Contact Support**
-- If you're locked out of your account, contact Famlo support
-- For security purposes, you'll need to verify your identity
-- Support can help you disable MFA and regain access
-
-:::warning Keep Your Authenticator App Secure
-- Back up your authenticator app if your app supports cloud sync (1Password, Authy, etc.)
-- When getting a new phone, transfer your authenticator codes before wiping your old device
-- Some apps provide recovery codes or backup options - keep these in a safe place
-:::
-
-#### Disabling Two-Factor Authentication
-
-To turn off MFA:
-
-1. Go to **Account Settings** > **Security**
-2. Scroll to the **Two-Factor Authentication** section
-3. Click **Disable**
-4. A confirmation dialog will appear
-5. Review the warning message
-6. Click **Disable MFA** to confirm
-
-Your account will no longer require verification codes when signing in.
-
-:::danger Group Leader Warning
-If you're a group leader, disabling MFA may prevent you from accepting payments until you re-enable it. We strongly recommend keeping MFA enabled for account security.
-:::
-
-### Active Sessions
-
-See where you're logged in:
-
-1. Go to **Security** > **Active Sessions**
-2. View all devices with active sessions
-3. Click **Sign Out** on any session to end it
-4. Click **Sign Out All** to log out everywhere
-
-### Recent Activity
-
-Review security-related activity:
-- Login attempts
-- Password changes
-- Email changes
-- New device logins
-
-## Account Status
-
-### View Account Information
-
-See your account details:
-- Account creation date
-- Membership in groups
-- Subscription status (if applicable)
-
-### Account Verification
-
-Your account may need verification:
-- **Email Verified** - Confirms your email address
-- **Phone Verified** - Optional additional verification
-
-## Troubleshooting
-
-### Can't Change Email
-
-If you have trouble changing your email:
-- Make sure you have access to your current email
-- Check that the new email isn't already in use
-- Verify you entered your password correctly
-- Contact support if issues persist
-
-### Forgot Password
-
-If you can't access your account:
-1. Go to the login page
-2. Click **Forgot Password**
-3. Enter your email address
-4. Check for a reset link
-5. Create a new password
-
-### Account Locked
-
-If your account is locked:
-- Wait 15-30 minutes before trying again
-- Check your email for security notifications
-- Contact support if you believe it's an error
-
-## What's Next?
-
-1. **[Manage family members](/docs/families/your-family)** - Add children and family info
-2. **[Update payment methods](/docs/families/payments-and-refunds)** - Manage saved cards
-3. **[Set notifications](/docs/account/notifications)** - Configure alerts
+- [Getting started as a new family](/docs/families/getting-started) — creating your account
+- [Notifications](/docs/account/notifications) — what reaches you, and how
+- [Getting help](/docs/account/support) — if you cannot get in

@@ -1,184 +1,81 @@
 ---
 sidebar_position: 2
 title: Notifications
-description: Choose what reaches you, and how.
+description: Choose which Famlo notifications reach you and whether they arrive in the app, by email, or both.
+keywords: [famlo notifications, email preferences, notification settings]
 ---
-<!-- SOURCE: docs/getting-started/notifications.md -->
-# Set Up Notifications
 
-Famlo sends notifications to keep you informed about group activities, event updates, and important announcements. You can customize how and when you receive these notifications.
+# Notifications
 
-## Access Notification Settings
+Go to **Account settings** → **Notifications** to choose how Famlo reaches you.
 
-1. Click your profile icon in the top right corner
-2. Select **Account Settings**
-3. Click the **Notifications** tab
+The page says it plainly at the top: *"Choose how Famlo reaches you. Booking
+confirmations, refunds and other essential account emails are always sent."*
 
-## Notification Types
+## What you can turn on and off
 
-### Email Notifications
+Four kinds of notification, each with its own two switches.
 
-Email notifications are sent to your registered email address. You can enable or disable emails for:
+| Notification | What it covers |
+| --- | --- |
+| **Event reminders** | Nudges about upcoming activities you're registered for |
+| **Activity updates** | New activities and freed-up spots from organizations you follow or saved |
+| **Messages & followers** | Direct messages from organizers, and new followers |
+| **Organization updates** | Role changes and roster updates in organizations you belong to |
 
-- **Event Reminders** - Reminders before events you're registered for
-- **Event Updates** - Changes to events you're attending (time, location, cancellation)
-- **Group Announcements** - Important messages from group leaders
-- **New Events** - Notifications when groups you belong to create new events
-- **Availability Alerts** - When a spot opens up for an event you've favorited
-- **Payment Receipts** - Confirmations for payments and purchases
-- **Scholarship Invoice Updates** - Status changes for your scholarship invoices
+Each row has two checkboxes: **In-app** and **Email**. Tick either, both, or
+neither.
 
-### Push Notifications
+- **In-app** notifications appear on the bell in the top bar.
+- **Email** goes to the address on your account.
 
-Browser push notifications deliver instant alerts to your device, even when Famlo isn't open in your browser.
+Change what you want, then select **Save preferences**. Nothing is saved until
+you do.
 
-:::tip What are Push Notifications?
-Push notifications are real-time alerts that appear on your desktop or mobile device. They work similar to app notifications on your phone, allowing you to stay updated without keeping the website open.
+## What you cannot turn off
+
+Essential account mail is always sent, whatever your choices above: booking
+confirmations, refunds, and anything else you need in order to use something you
+paid for or joined.
+
+This is deliberate. Turning off a booking confirmation would leave you with no
+record of a place you paid for.
+
+## Turning off email entirely
+
+There is one switch that stops Famlo emailing you altogether. Use it if you would
+rather check the app yourself.
+
+Essential account mail is the exception and still arrives.
+
+## Where notifications actually land
+
+The bell in the top bar takes you straight to your **Messages** inbox, which is
+where everything gathers. There is no separate notifications page and no
+dropdown list.
+
+:::note
+Famlo does not send browser or phone push notifications. There are no quiet
+hours and no daily or weekly digest — a notification is either in the app, in
+your email, or both.
 :::
 
-#### Browser Support
+## If notifications are not arriving
 
-Push notifications work on modern browsers including:
+**Nothing by email.** Check that **Email** is ticked for that kind of
+notification and that you have not turned email off entirely. Then check your
+spam folder, and confirm the address under **Personal information** is one you
+still read.
 
-- **Chrome** (Desktop & Android)
-- **Firefox** (Desktop & Android)
-- **Safari** (Desktop & iOS 16.4+)
-- **Edge** (Desktop & Android)
+**Nothing in the app.** Check that **In-app** is ticked for that kind. Remember
+that **Activity updates** only cover organizations you follow or activities you
+have saved — if you have not saved anything, there is nothing to report.
 
-#### Enabling Push Notifications
+**Too much email.** Turn off **Email** for the kinds you do not need and leave
+**In-app** on, so it is waiting when you next open Famlo.
 
-Push notifications are automatically enabled when you first use Famlo. When prompted:
+## Related
 
-1. Click **Allow** in the permission dialog that appears
-2. You'll start receiving instant notifications based on your preferences
-
-:::note First-Time Permission
-The permission prompt appears automatically when you first log in. If you don't see it, you may need to refresh the page or check your browser's notification settings.
-:::
-
-#### If You Clicked "Block"
-
-If you accidentally blocked notifications or want to re-enable them:
-
-**Chrome & Edge:**
-1. Click the lock icon (🔒) or info icon (ⓘ) in the address bar
-2. Find **Notifications** in the permissions list
-3. Change the setting to **Allow**
-4. Refresh the page
-
-**Firefox:**
-1. Click the lock icon (🔒) in the address bar
-2. Click the arrow next to **Notifications**
-3. Select **Allow**
-4. Refresh the page
-
-**Safari:**
-1. Go to **Safari** > **Settings** > **Websites** > **Notifications**
-2. Find famlo.co in the list
-3. Change the setting to **Allow**
-4. Refresh the page
-
-#### What You'll Receive
-
-You can receive push notifications for:
-
-- **Event Reminders** - Alerts 24 hours and 1 hour before events
-- **Event Updates** - Changes to event time, location, or cancellations
-- **New Announcements** - Important messages from group leaders
-- **Availability Alerts** - When a spot opens up for a favorited event
-- **RSVP Confirmations** - When your event registration is confirmed
-- **Membership Updates** - Join requests, role changes, and approvals
-- **Group Activity** - New posts, comments, and mentions (if enabled)
-
-:::tip Urgent Alerts Only
-Push notifications are typically reserved for important, time-sensitive updates. Less urgent notifications appear only in your email and in-app notification feed.
-:::
-
-#### Managing Push Notification Preferences
-
-To customize which push notifications you receive:
-
-1. Click your profile icon in the top right corner
-2. Select **Account Settings**
-3. Click the **Notifications** tab
-4. Under **Notification Channels**, toggle **Push Notifications** on or off
-5. Scroll to **Notification Types** to control specific categories
-
-You can also:
-
-- **Send a Test Notification** - Verify push notifications are working
-- **Disable Entirely** - Turn off all push notifications with one click
-- **Set Quiet Hours** - Prevent notifications during sleep hours (applies to push and email)
-
-:::note In-App vs Push
-Even if you disable push notifications, you'll still receive notifications in your in-app notification feed (the bell icon in the header). Push notifications are an optional way to receive real-time alerts.
-:::
-
-### In-App Notifications
-
-In-app notifications appear in the notification bell icon in the header. These include:
-
-- All the same notification types as email
-- Quick access to relevant pages
-- Mark as read/unread functionality
-
-## Notification Center
-
-The notification center gives you a single place to view and manage all your notifications.
-
-### Access the Notification Center
-
-1. Click the **bell icon** in the header
-2. View your recent notifications in the dropdown
-3. Click **View All** to open the full notification center at `/notifications`
-
-### Managing Notifications
-
-From the notification center, you can:
-
-- **Mark as read** - Click a notification to mark it as read
-- **Mark all as read** - Click **Mark All as Read** to clear all unread notifications
-- **View unread count** - The bell icon shows a badge with your unread notification count
-
-:::tip Quick Triage
-Use "Mark All as Read" after catching up on notifications to reset your unread count.
-:::
-
-## Customize Your Preferences
-
-For each notification category, you can choose:
-
-- **All notifications** - Receive every notification
-- **Important only** - Only receive critical updates
-- **None** - Don't receive this type of notification
-
-:::tip Recommended Settings
-We recommend keeping **Event Reminders** and **Event Updates** enabled so you don't miss important changes to activities you've registered for.
-:::
-
-## Managing Notification Frequency
-
-For email notifications, you can also set:
-
-- **Immediate** - Receive each notification as it happens
-- **Daily Digest** - Receive a summary email once per day
-- **Weekly Digest** - Receive a summary email once per week
-
-## Unsubscribing from Emails
-
-If you want to stop receiving email notifications:
-
-1. Click **Unsubscribe** at the bottom of any Famlo email
-2. Or go to **Account Settings** > **Notifications** and disable email notifications
-
-:::note Account Emails
-Some emails related to your account security (password resets, email verification) cannot be disabled, as they're required for account access.
-:::
-
-## What's Next?
-
-Now that your account is set up:
-
-1. **[Find groups to join](/docs/families/organizations)** - Discover homeschool groups in your area
-2. **[Browse events](/docs/families/finding-activities)** - See what activities are happening
-3. **[Learn about RSVPs](/docs/families/registering)** - Understand how to register for events
+- [Messages](/docs/families/messages) — the inbox the bell opens
+- [Saved activities and alerts](/docs/families/saved-and-alerts) — being told when a place opens
+- [Login and security](/docs/account/login-and-security) — changing your email address
