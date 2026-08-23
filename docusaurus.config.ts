@@ -80,23 +80,29 @@ const config: Config = {
         blog: {
           routeBasePath: 'changelog',
           path: './blog',
-          showReadingTime: false,
-          blogTitle: 'Changelog',
-          blogDescription: 'Release history for Famlo',
-          blogSidebarTitle: '📦 Release History',
+          showReadingTime: true,
+          blogTitle: "What's New",
+          blogDescription: 'Feature announcements and product news from Famlo',
+          blogSidebarTitle: 'All announcements',
           blogSidebarCount: 'ALL',
+          // Long-form posts, few of them: one scrolling page rather than
+          // pagination. This also permanently frees /changelog/page/* so the
+          // archive's own pagination can never collide with it.
+          postsPerPage: 'ALL',
+          // Frees /changelog/archive for the redirect to the release archive.
+          archiveBasePath: null,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
+            title: "Famlo — What's New",
+            description: 'Feature announcements from Famlo',
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          // These three are the enforcement mechanism for the new format: a
+          // typo'd tag, an undefined author, or a missing truncate marker fails
+          // the build rather than shipping a broken feed card.
+          onInlineTags: 'throw',
+          onInlineAuthors: 'throw',
+          onUntruncatedBlogPosts: 'throw',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -130,6 +136,28 @@ const config: Config = {
 
   plugins: [
     [
+      '@docusaurus/plugin-content-blog',
+      {
+        // The 89 version-numbered release notes, June 2025 to March 2026.
+        // Frozen: new work is announced in the long-form feed at /changelog.
+        id: 'releases',
+        routeBasePath: 'changelog/releases',
+        path: './releases',
+        blogTitle: 'Release notes archive',
+        blogDescription:
+          'Version-by-version release notes for Famlo, June 2025 through March 2026.',
+        blogSidebarTitle: 'Release history',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 20,
+        showReadingTime: false,
+        archiveBasePath: null,
+        feedOptions: {type: null},
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
+    ],
+    [
       '@docusaurus/plugin-client-redirects',
       {
         // Pages removed in the 2026-08 audit because they documented features
@@ -139,7 +167,20 @@ const config: Config = {
         // NOTE: GitHub Pages cannot serve real 301s. This plugin emits
         // meta-refresh stubs, which Google treats as soft redirects and
         // consolidates more slowly. Keep the list short for that reason.
+        // Every archived post moved from /changelog/<slug> to
+        // /changelog/releases/<slug>. Generated rather than hand-listed.
+        createRedirects(existingPath) {
+          const prefix = '/changelog/releases/';
+          if (!existingPath.startsWith(prefix)) return undefined;
+          const rest = existingPath.slice(prefix.length);
+          // Post permalinks only. The main instance owns /changelog/tags and
+          // /changelog/authors, so redirecting onto them would collide.
+          if (rest.includes('/')) return undefined;
+          if (['tags', 'page', 'authors'].includes(rest)) return undefined;
+          return [`/changelog/${rest}`];
+        },
         redirects: [
+          {from: '/changelog/archive', to: '/changelog/releases'},
           {from: '/docs/parents/invite-flow', to: '/docs/families/organizations'},
           {from: '/docs/parents/scholarship-invoices', to: '/docs/families/payments-and-refunds'},
           {from: '/docs/parents/social-feed', to: '/docs/families/organizations'},
@@ -195,7 +236,13 @@ const config: Config = {
         language: ['en'],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
-        indexBlog: false,
+        // Announcements are searchable; the 89 archived release notes are not.
+        // blogRouteBasePath is matched as a route prefix, so 'changelog' alone
+        // would swallow /changelog/releases/* — hence the exclusion.
+        indexBlog: true,
+        blogRouteBasePath: ['changelog'],
+        blogDir: ['blog'],
+        ignoreFiles: [/^changelog\/releases(\/|$)/],
         docsRouteBasePath: '/docs',
       },
     ],
@@ -233,7 +280,7 @@ const config: Config = {
         },
         {
           to: '/changelog',
-          label: 'Changelog',
+          label: "What's New",
           position: 'right',
           className: 'homepage-only',
         },
@@ -296,8 +343,12 @@ const config: Config = {
           title: 'Resources',
           items: [
             {
-              label: 'Changelog',
+              label: "What's New",
               to: '/changelog',
+            },
+            {
+              label: 'Release notes archive',
+              to: '/changelog/releases',
             },
             {
               label: 'Contact Support',

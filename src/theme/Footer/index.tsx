@@ -74,7 +74,8 @@ const footerLinks: FooterLinkColumn[] = [
   {
     title: 'Resources',
     items: [
-      { label: 'Changelog', to: '/changelog' },
+      { label: "What's New", to: '/changelog' },
+      { label: 'Release notes archive', to: '/changelog/releases' },
       { label: 'Contact Support', href: 'mailto:support@famlo.co' },
     ],
   },
