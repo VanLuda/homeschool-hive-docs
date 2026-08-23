@@ -136,3 +136,56 @@ mark {
   background-color: rgba(232, 72, 85, 0.35);
   color: inherit;
 }
+/* ---- Collapsible guide sections ------------------------------------------
+   Long guides are grouped into <details> blocks by
+   src/theme/DocItem/Content/collapse.ts. Styling lives here so a guide reads
+   as one document rather than a stack of widgets. */
+.guideSection {
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+.guideSection:first-of-type {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+.guideSectionSummary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem 0;
+}
+.guideSectionSummary::-webkit-details-marker {
+  display: none;
+}
+.guideSectionSummary h2 {
+  margin: 0.9rem 0;
+  flex: 1;
+  border-bottom: 0;
+}
+.guideSectionSummary::after {
+  content: '';
+  flex: none;
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 0.25rem;
+  border-right: 2px solid var(--ifm-color-emphasis-600);
+  border-bottom: 2px solid var(--ifm-color-emphasis-600);
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+.guideSection[open] > .guideSectionSummary::after {
+  transform: rotate(-135deg);
+}
+.guideSectionSummary:hover::after {
+  border-color: var(--ifm-color-primary);
+}
+.guideSectionSummary:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+.guideSectionBody {
+  padding-bottom: 0.75rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  .guideSectionSummary::after { transition: none; }
+}

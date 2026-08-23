@@ -86,12 +86,14 @@ Tell families exactly what to do next:
 - "Register by Friday to ensure we have enough materials for your child."
 - "Questions? Contact [leader name] through Famlo messaging."
 
-See [Create Events](/docs/group-leaders/create-events) for step-by-step instructions on building your event listing.
+See [Create Events](/docs/organizations/activities) for step-by-step instructions on building your event listing.
 
 ## Tips
 
 :::tip Use Headers and Formatting
 Break up your description with headers like "What to Expect," "What to Bring," and "About the Instructor." Busy parents scan before they read - make key information easy to find.
+
+The description field renders `**bold**` and nothing else. A header here is a bold line rather than a heading style, which is why every section label in the template below is bold.
 :::
 
 :::tip Write for Search
@@ -162,7 +164,7 @@ Use this structure as a starting point:
 
 ## Related Articles
 
-- [Create Events](/docs/group-leaders/create-events) - Build and publish your event
-- [Manage Events](/docs/group-leaders/manage-events) - Handle RSVPs and updates
-- [Announcements](/docs/group-leaders/announcements) - Promote events to your members
+- [Create Events](/docs/organizations/activities) - Build and publish your event
+- [Scheduling activities](/docs/organizations/activities) - Create, repeat, and manage activities
+- [Announcements](/docs/organizations/members-and-roles) - Promote events to your members
 - [How Do I Grow My Homeschool Group?](/docs/how-to/grow-your-group) - Attract more families to your events

@@ -7,50 +7,46 @@ keywords: [sync homeschool calendar, export calendar, calendar subscription, Goo
 
 # How Do I Export My Calendar to Google or Apple?
 
-Keep all your homeschool events in sync with your favorite calendar app. Famlo provides a calendar subscription link that automatically updates your Google Calendar, Apple Calendar, Outlook, or any other calendar app whenever you RSVP to new events or your schedule changes.
+Famlo can hand your calendar app a private link that keeps it in step automatically. Register for something and it turns up in your calendar app on its own — no re-downloading and no second file. This guide covers turning that link on, adding it to Google, Apple or Outlook, and what the link exposes.
 
 ## Quick Answer
 
-Go to **My Events** > **Calendar**, then click the **Subscribe** button to get your personal calendar subscription URL. Copy this URL and add it to Google Calendar, Apple Calendar, or Outlook as a "subscription" or "from URL" calendar. Your events will automatically sync and stay updated.
+Open **Calendar**, click **Subscribe**, then click **Enable calendar feed**. Your private link appears. Copy it and add it to your calendar app as a subscription, or click **Add to calendar** to hand it straight to your default app.
 
-## Understanding Calendar Sync
+## Before you start
 
-### How Calendar Subscriptions Work
+**The feed is off until you turn it on.** There is no link waiting for you — **Enable calendar feed** is what creates one.
 
-Unlike a one-time export, a calendar subscription creates a live connection:
+**The calendar holds what you have booked, and nothing else.** Activities you saved, activities from organizations you follow, and activities you were merely browsing do not appear. Saved ones live under [Saved & watchlist](/docs/families/saved-and-alerts).
 
-1. **You subscribe once** - Add the URL to your calendar app
-2. **Events sync automatically** - New RSVPs appear, cancellations disappear
-3. **Updates happen regularly** - Most apps check for updates every 15-60 minutes
-4. **It's read-only** - Changes must be made in Famlo, not your calendar app
+**A subscription is not an export.** It is a live link, not a file. If you only want one activity in your calendar app, use the .ics download instead — see [Adding one activity](#adding-just-one-activity) below.
 
-### What Gets Synced
+## Step 1: Turn the feed on and copy your link
 
-Your calendar subscription includes:
+1. Log in to Famlo.
+2. Open **Calendar** from the navigation.
+3. Click **Subscribe**.
+4. Click **Enable calendar feed**.
+5. Your private link appears. Click it to copy it, or click **Add to calendar** to hand it straight to your default calendar app.
 
-- All events you've RSVP'd "Going" to
-- Event series sessions you're registered for
-- Event name, date, time, and duration
-- Location information
-- Event description and group name
-- Link back to the event on Famlo
+The panel's **Setup instructions** carry the same three recipes as the steps below.
 
-## Step-by-Step Guide
+## Know what the link exposes
 
-### Step 1: Get Your Calendar Subscription URL
+:::danger The link is the only thing protecting your family's schedule
+Anyone who has the link can read your family's calendar without signing in to anything. There is no password on it.
 
-1. Log in to Famlo
-2. Navigate to **My Events** in the main navigation
-3. Click **Calendar** to view your calendar
-4. Look for the **Subscribe** or **Sync Calendar** button
-5. Click to reveal your personal subscription URL
-6. Click **Copy** to copy the URL to your clipboard
+Two things make that worth taking seriously:
 
-:::warning Keep Your URL Private
-Your calendar URL is personal and unique to your account. Anyone with this URL can see your event schedule. Don't share it publicly.
+- **Each entry names the children you booked in.** The event description carries a line reading "For:" followed by their names. Whoever holds the link learns which of your children is where, and when.
+- **The feed reaches back ninety days as well as forward.** It is not only your upcoming schedule; it is a three-month history of where your family has been.
+
+Treat it like a password. Do not post it, do not put it in a shared document, and do not send it to the organizers of anything. If it does get out, **Regenerate link** on the same panel kills it instantly.
 :::
 
-### Step 2: Add to Google Calendar
+Famlo says the same thing on the panel: anyone with this link can see your calendar, so do not share it, and regenerate it if it leaks.
+
+## Step 2: Add to Google Calendar
 
 **On Desktop:**
 
@@ -72,11 +68,9 @@ Your calendar URL is personal and unique to your account. Anyone with this URL c
 6. Paste your subscription URL
 7. Tap **Add** or **Subscribe**
 
-:::tip Google Calendar Sync Frequency
-Google Calendar typically syncs subscribed calendars every 12-24 hours. You can't manually force a refresh, but events will eventually appear.
-:::
+Google Calendar typically syncs subscribed calendars every 12 to 24 hours. You cannot force a refresh, but events do arrive.
 
-### Step 3: Add to Apple Calendar (iPhone/iPad/Mac)
+## Step 3: Add to Apple Calendar (iPhone/iPad/Mac)
 
 **On iPhone or iPad:**
 
@@ -101,7 +95,7 @@ Google Calendar typically syncs subscribed calendars every 12-24 hours. You can'
    - **Auto-refresh**: Every 15 minutes, hour, day, or week
 7. Click **OK**
 
-### Step 4: Add to Microsoft Outlook
+## Step 4: Add to Microsoft Outlook
 
 **Outlook Desktop:**
 
@@ -123,7 +117,7 @@ Google Calendar typically syncs subscribed calendars every 12-24 hours. You can'
 5. Name the calendar and choose a color
 6. Click **Import**
 
-### Step 5: Add to Other Calendar Apps
+## Step 5: Add to other calendar apps
 
 Most calendar apps support iCal/ICS subscriptions. Look for options like:
 
@@ -137,94 +131,72 @@ The general process:
 1. Find the calendar subscription feature
 2. Paste your Famlo URL
 3. Save or subscribe
-4. Wait for initial sync to complete
+4. Wait for the initial sync to complete
 
-## Managing Your Calendar Subscription
+## Adding just one activity
 
-### Refreshing Your Calendar
+For a single booking, use the .ics download rather than the subscription.
 
-If events aren't showing up:
+- On the activity page, under the RSVP area, click **Add to calendar**.
+- In **List** view on your Famlo calendar, each row has an **Add to calendar** button at the right-hand end.
 
-- **Google Calendar**: Wait up to 24 hours for automatic refresh
-- **Apple Calendar**: Open Calendar preferences, select your subscription, change Auto-refresh to a shorter interval
-- **Outlook**: Right-click the calendar and select "Sync" or wait for automatic refresh
+That downloads one file. It is a snapshot: if the organizer later moves the activity, your copy does not update. For that, subscribe.
 
-### Changing Calendar Color
+## Managing your subscription
 
-Most calendar apps let you customize the color of subscribed calendars:
+### Regenerating the link
 
-1. Find your Famlo calendar in the sidebar
-2. Right-click (or tap and hold on mobile)
-3. Select "Color" or "Edit"
-4. Choose your preferred color
+**Regenerate link** issues a new link and kills the old one instantly. Apps subscribed to the old link stop updating until you paste in the new one, so plan to re-add it everywhere you use it.
 
-### Removing the Calendar
+### Turning the feed off
 
-If you no longer want to sync:
+**Turn off feed** switches the whole thing off. The link stops working and subscribed apps stop updating. You can enable it again later, which mints a fresh link.
+
+Both controls live on the calendar's own **Subscribe** panel. There is nothing to configure in your account settings.
+
+### Removing the calendar from an app
 
 1. Find the Famlo calendar in your app
 2. Right-click and select "Unsubscribe" or "Delete"
 3. Confirm the removal
-4. The calendar and all its events will be removed from your app
 
-### Regenerating Your URL
+That removes it from that app only. The feed itself stays on until you turn it off in Famlo.
 
-If you accidentally share your URL or want a fresh start:
+### Changing its colour
 
-1. Go to **Account Settings** > **Privacy & Security**
-2. Find **Calendar Subscription**
-3. Click **Regenerate URL**
-4. Your old URL will stop working immediately
-5. Add the new URL to your calendar apps
+Most calendar apps let you recolour a subscribed calendar. Find the Famlo calendar in the sidebar, right-click or press and hold, and choose "Color" or "Edit".
 
-:::warning URL Change Impact
-When you regenerate your URL, all existing calendar subscriptions will stop updating. You'll need to re-add the new URL to each calendar app.
-:::
+## How often it updates
 
-## Tips
+Your calendar app decides. Famlo publishes the feed; the app chooses how often to read it, and some check only a few times a day.
 
-:::tip Event Series Display
-Events from a series show the session number in the title (e.g., "Art Class (3/12)") so you always know which session it is.
-:::
+That is why a booking you made ten minutes ago may not be on your phone yet. It is your app's schedule, not Famlo's. Apple Calendar lets you shorten the interval in its preferences; Google does not.
 
-:::tip Multiple Calendar Apps
-You can add your subscription URL to multiple calendar apps simultaneously. They'll all receive the same updates.
-:::
-
-:::tip Sync Timing
-Changes in Famlo may take 15 minutes to several hours to appear in your calendar app, depending on the app's refresh settings.
-:::
-
-:::note Calendar is Read-Only
-You cannot add, edit, or delete Famlo events from your calendar app. All changes must be made on Famlo directly.
+:::note The subscription is read-only
+You cannot add, edit or delete a Famlo booking from your calendar app. Everything happens on Famlo. Cancelling is done on the activity page, and the change reaches your app on its next refresh.
 :::
 
 ## Troubleshooting
 
-**Events not appearing?**
-- Wait 15-60 minutes for initial sync
-- Verify the URL was copied completely
-- Check that the calendar is enabled/visible in your app
-- Try removing and re-adding the subscription
+**Events are not appearing.** Wait for the app's first sync, which can take up to a day on Google. Then check the link was copied completely, and that the calendar is ticked and visible in your app.
 
-**Wrong times showing?**
-- Verify your calendar app's timezone settings
-- Ensure your Famlo account timezone is correct
-- Check if daylight saving time might be affecting display
+**The link stopped working.** Either it was regenerated or the feed was turned off. Open **Subscribe** on your calendar to see which, then copy the current link or click **Enable calendar feed** to start a new one.
 
-**Duplicate events?**
-- You may have multiple subscriptions to the same URL
-- Remove duplicate calendar subscriptions
-- Check if you've also manually added events
+**I cannot find Regenerate link in my account settings.** It is not there. **Regenerate link** and **Turn off feed** both live on the **Subscribe** panel on your calendar.
 
-**Events missing after cancellation?**
-- Canceled RSVPs are automatically removed
-- Wait for your calendar app to refresh
-- This is expected behavior - only confirmed events appear
+**Times look wrong.** Everything renders in your device's timezone. Check your device, and check your calendar app's own timezone setting.
+
+**I am seeing duplicates.** You probably subscribed twice, or subscribed and also downloaded .ics files for the same activities. Remove the extra calendar.
+
+**Something I saved is missing.** Saving is not booking. Only bookings reach the feed.
+
+**An activity I registered for is not in the feed.** Check your Famlo calendar first, since the feed publishes what is there. If the booking is missing from the calendar too, open the activity and check the booking's status.
+
+**Something is still showing after I cancelled.** Your calendar app refreshes on its own schedule, so give it time. Compare against your Famlo calendar to see what the feed is actually publishing.
 
 ## Related Articles
 
-- [Calendar Views and Navigation](/docs/parents/calendar) - Using the Famlo calendar
-- [RSVPing to Events](/docs/parents/rsvp-events) - How to register for events
-- [Managing Your RSVPs](/docs/parents/find-events) - Viewing and managing registrations
-- [Notification Settings](/docs/getting-started/notifications) - Event reminders and alerts
+- [Your calendar](/docs/families/calendar) - views, filters, and the **Subscribe** panel in full
+- [Registering and checking out](/docs/families/registering) - how bookings get onto your calendar
+- [Saved activities and alerts](/docs/families/saved-and-alerts) - what saving does, and why it is not on your calendar
+- [Notification settings](/docs/account/notifications) - reminders before an activity starts

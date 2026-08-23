@@ -1,0 +1,17 @@
+carlvanderlaan:
+  name: Carl VanderLaan
+  title: Founder, Famlo
+  url: https://linktree.carlvanderlaan.com
+  image_url: https://github.com/vanluda.png
+  page: false
+  socials:
+    x: carlvanderlaan
+    linkedin: carlvanderlaan
+    github: vanluda
+
+famlo:
+  name: Famlo
+  title: Developement Team
+  url: https://famlo.co
+  image_url: https://assets.famlo.co/ips/famlo-icon.svg
+  page: false

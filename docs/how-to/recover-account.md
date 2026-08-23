@@ -7,197 +7,130 @@ keywords: [forgot password, recover account, reset password famlo, can't login, 
 
 # How Do I Recover My Account?
 
-Forgot your password or having trouble logging in? This guide walks you through the account recovery process on Famlo, including password resets and troubleshooting common login issues.
+Most people who cannot get into Famlo are looking for a password they never had. Famlo does not need one. This guide covers the front door, the other ways in, and the password reset for the few people who set a password and then forgot it.
 
 ## Quick Answer
 
-To reset your password, go to the login page and click "Forgot Password." Enter your email address, and you will receive a password reset link. Click the link in the email, create a new password, and you are back in. Reset links expire after 1 hour, so use them promptly.
+Go to famlo.co and open **Log in or sign up**. It is one screen for both, and it says: *"Enter your email and we'll send you a code."*
 
-## Password Reset Process
+Enter your email address, wait for the six-digit code, and type it in. That signs you in. There is no password to remember and nothing to reset.
 
-### Step 1: Go to the Forgot Password Page
+## Sign in with an email code
 
-1. Navigate to [famlo.co](https://famlo.co)
-2. Click **Log In** in the top right
-3. On the login page, click **Forgot Password?** below the password field
+This is the default and, for most families, the only method they ever use.
 
-### Step 2: Enter Your Email Address
+1. Go to [famlo.co](https://famlo.co).
+2. Select **Log in or sign up**.
+3. Enter the email address on your account.
+4. Check your inbox for a six-digit code.
+5. Type the code into the screen.
 
-1. Enter the email address associated with your account
-2. This should be the same email you used when signing up
-3. Click **Send Reset Link**
+You are in. The code is a short string of digits you type, not a link you click, so it works even if your mail app strips links or opens them in a different browser.
 
-### Step 3: Check Your Email
+If the address you enter has no account, the next step is **Let's create your account**, which asks for a first name, a last name and a password, and finishes with **Agree and continue**.
 
-1. Look for an email from Famlo
-2. The email subject will be "Reset your password" or similar
-3. Check your spam/junk folder if you do not see it within a few minutes
+## The other ways in
 
-:::note
-Password reset emails are sent through an unmonitored email account. The sender may show as "noreply@famlo.co" or similar.
-:::
+Any of these gets you to the same account. Adding one does not switch the others off.
 
-### Step 4: Click the Reset Link
+| Method | What it needs |
+| --- | --- |
+| Email code | Access to your inbox |
+| **Continue with a passkey** | The device you set it up on |
+| Google, Facebook or Apple | The connected account |
+| Password | Only if you set one |
 
-1. Open the password reset email
-2. Click the **Reset Password** button or link
-3. You will be taken to a secure page to create a new password
+### Continue with a passkey
 
-### Step 5: Create Your New Password
+If you have added a passkey, the sign-in screen offers **Continue with a passkey** before it asks for anything else, sometimes under the device's own name.
 
-1. Enter your new password
-2. Confirm the password by typing it again
-3. Click **Update Password** or **Save**
+Select it and unlock the device with your fingerprint, face or screen lock. Nothing is typed and nothing can expire.
 
-**Password requirements:**
-- Minimum 8 characters
-- Mix of letters and numbers recommended
-- Avoid using easily guessable information
+A passkey is the fastest recovery there is, because it does not depend on your inbox. Add one on each device you use regularly. See [Login and security](/docs/account/login-and-security).
 
-### Step 6: Log In with Your New Password
+### Google, Facebook or Apple
 
-1. After resetting, you may be automatically logged in
-2. If not, go to the login page
-3. Enter your email and new password
-4. Click **Log In**
+If you connected one of these, select it on the sign-in screen and complete the authentication with that provider.
 
-## Troubleshooting Login Issues
+This is the route to try if you cannot remember which email address you used. Signing in with the provider takes you to whichever Famlo account it is connected to.
 
-### I Did Not Receive the Reset Email
+## If you set a password and forgot it
 
-**Check these first:**
-- Look in your spam/junk folder
-- Search for "password reset" or "famlo" in your email
-- Wait a few minutes and check again
-- Make sure you entered the correct email address
+A password on Famlo is optional. If you never set one, skip this section entirely — the email code above is your route in.
 
-**Still not arriving?**
-1. Try requesting another reset link
-2. Check if you signed up with a different email address
-3. Contact support if the problem persists
-
-### The Reset Link Is Not Working
-
-**Common causes and solutions:**
-
-| Issue | Solution |
-|-------|----------|
-| Link expired | Request a new reset link (links expire after 1 hour) |
-| Link already used | Each link works once; request a new one if needed |
-| Browser issues | Try a different browser or clear your cache |
-| Copied incorrectly | Click the link directly rather than copying/pasting |
-
-### I Do Not Remember Which Email I Used
-
-If you are unsure which email is associated with your account:
-
-1. **Think about when you signed up** - Which email were you using at that time?
-2. **Check old emails** - Search for "Famlo" or "welcome" in different email accounts
-3. **Try common emails** - Attempt the forgot password process with each email you might have used
-4. **Contact support** - If you still cannot find it, reach out for assistance
-
-### My Account Seems to Be Deleted
-
-Accounts are not automatically deleted. If you cannot log in:
-
-1. Verify you are using the correct email address
-2. Try the password reset process
-3. Contact support if you believe there is an issue
+1. On the sign-in screen, select **Use a password instead**.
+2. Select **Forgot your password?**.
+3. Enter your email address.
+4. Open the reset email and follow the link.
+5. Choose a new password and save it.
 
 :::warning
-If you previously requested account deletion, your data may have been removed per your request. Contact support to discuss options.
+The reset link is valid for **15 minutes**. Request it when you are ready to use it, not before, and if it has expired just request another. Each link works once.
 :::
 
-## Alternative Login Methods
+If the link has gone stale and you are in a hurry, do not fight it. Go back and sign in with the six-digit email code instead, then set a new password from **Account settings** → **Login & security** once you are in.
 
-### Magic Link Login
+## Troubleshooting
 
-If your account was set up with magic links:
+**The code has not arrived.** Give it a couple of minutes, then check your spam folder and search your mail for "Famlo". If it still is not there, request another and confirm you typed the address correctly.
 
-1. Go to the login page
-2. Enter your email address
-3. Click **Send Magic Link** (if available)
-4. Check your email for the login link
-5. Click the link to access your account
+**I do not know which email I used.** Search each of your mailboxes for "Famlo" and look for a booking confirmation or a welcome message. If you ever signed in with Google, Facebook or Apple, use that button instead and let the provider find the account.
 
-### Social Login Recovery
+**The reset link says it has expired.** Links last 15 minutes. Request a new one, or sign in with the email code and change your password from your account settings.
 
-If you signed up using Google or Apple:
+**I clicked the reset link and nothing loaded.** Select the link in the email rather than copying it out, and try a different browser if it still fails.
 
-1. Go to the login page
-2. Click **Continue with Google** or **Continue with Apple**
-3. Complete the authentication with that provider
-4. You will be logged into your Famlo account
+**I received a reset email I did not request.** Ignore it and do not follow the link. An unused link expires on its own. If you are worried, sign in and review **Device history** under **Login & security**, then sign out anything you do not recognise.
 
-:::tip
-If you originally signed up with email/password but later linked a social account, you can use either method to log in.
-:::
+**My account seems to have been deleted.** Accounts are not removed for inactivity. Check the email address first. If you asked for deletion previously, your data may have been removed as you requested.
 
-## Securing Your Account
+**I cannot sign in at all, so I cannot reach the support form.** Email **support@famlo.co** from the address you think is on the account.
 
-After recovering your account, take these steps to prevent future issues:
+## Changing your email address
 
-### 1. Use a Strong, Unique Password
+If the problem is that you can no longer read the mailbox on your account, change the address before you lose access to it.
 
-- At least 8 characters
-- Mix of uppercase, lowercase, numbers, and symbols
-- Do not reuse passwords from other sites
+Famlo sends a six-digit code to the **new** address to confirm you can receive mail there. Your old address keeps working until you confirm, so a typo cannot lock you out. No password is required.
 
-### 2. Save Your Credentials Securely
+The full walkthrough is in [Login and security](/docs/account/login-and-security).
 
-Consider using a password manager like:
-- Apple Keychain (built into iPhone/Mac)
-- Google Password Manager (built into Chrome)
-- 1Password, LastPass, or Bitwarden
+## Keeping yourself out of trouble next time
 
-### 3. Keep Your Email Secure
+**Add a passkey.** It is the one method that does not depend on your inbox, your memory or a link that expires. Add one on each device you use.
 
-Since your email is the key to account recovery:
-- Use a strong password on your email account
-- Enable two-factor authentication on your email
-- Keep your email address up to date
+**Keep your email address current.** It is how every other route back in works. If you change providers, change it on Famlo before you lose the old mailbox.
 
-### 4. Update Your Recovery Options
+**Secure the mailbox itself.** Two-factor authentication on your email account protects your Famlo account too, because the code goes there.
 
-1. Go to **Account** > **Profile Settings**
-2. Verify your email address is current
-3. Consider adding a backup email if available
-
-## Tips
-
-- **Save the login page** - Bookmark famlo.co for easy access
-- **Use a password manager** - They securely store and fill passwords
-- **Act on reset emails quickly** - Links expire after 1 hour
-- **Keep one consistent email** - Use the same email for all Famlo communications
-- **Check spam filters** - Add Famlo emails to your safe senders list
+**If you keep a password, make it unique.** Store it in a password manager rather than reusing one from another site. Apple Keychain, Google Password Manager, 1Password and Bitwarden all do the job.
 
 ## Frequently Asked Questions
 
-**How long is the password reset link valid?**
-Password reset links expire after 1 hour. If your link has expired, simply request a new one.
+**Do I need a password to use Famlo?**
+No. A password is optional. The email code works whether or not you have one.
+
+**How long is the reset link valid?**
+Fifteen minutes. Request another if it expires.
+
+**Is the code a link I click?**
+No. It is six digits you read from the email and type into the sign-in screen.
 
 **Can I change my login email address?**
-Yes, go to Account > Profile Settings to update your email address. You will need to verify the new email.
-
-**What if someone else reset my password?**
-If you receive a reset email you did not request, someone may have your email address. Do not click the link. If you are concerned about account security, reset your password immediately and contact support.
-
-**I keep getting locked out. What should I do?**
-There is no strict lockout policy, but if you are having repeated issues, try clearing your browser cache, using a different browser, or contacting support for assistance.
+Yes, from your account settings. A six-digit code goes to the new address to confirm it.
 
 **Can I recover my account without access to my email?**
-Contact Famlo support. You may need to verify your identity through other means.
+A passkey or a connected Google, Facebook or Apple account will still get you in. Failing that, contact support.
 
-## Getting More Help
+**I keep getting signed out.** Check **Device history** under **Login & security** and sign out anything you do not recognise, then sign back in.
 
-If you have tried the steps above and still cannot access your account:
+## Getting more help
 
-1. **Email support** - Contact support@famlo.co
-2. **Include details** - Provide your name, the email you think is associated with your account, and a description of the issue
-3. **Be patient** - Support requests are typically answered within 1-2 business days
+If none of the above works, open a ticket at **Account settings** → **Support**, or email **support@famlo.co** if you cannot get in to reach the form.
+
+Include the email address you think is on the account, and what happens when you try. No response time is promised, so send the whole story the first time rather than waiting to be asked.
 
 ## Related Articles
 
-- [Creating an Account](/docs/getting-started/create-account) - How to sign up for Famlo
-- [Profile Settings](/docs/account/profile-settings) - Managing your account information
-- [Notification Preferences](/docs/getting-started/notifications) - Setting up email and push notifications
+- [Creating an Account](/docs/families/getting-started) - How to sign up for Famlo
+- [Login and security](/docs/account/login-and-security) - Passkeys, connected accounts, and device history
+- [Getting help](/docs/account/support) - Opening a support ticket and following it

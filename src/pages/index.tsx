@@ -55,7 +55,7 @@ function RoleCards() {
     <section className={styles.roleSection}>
       <div className="container">
         <div className={styles.roleGrid}>
-          <Link to="/docs/category/for-parents" className={styles.roleCard}>
+          <Link to="/docs/category/for-families" className={styles.roleCard}>
             <div className={styles.roleIconWrapper}>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={styles.roleIcon}>
                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -78,7 +78,7 @@ function RoleCards() {
             </div>
           </Link>
 
-          <Link to="/docs/category/for-group-leaders" className={styles.roleCard}>
+          <Link to="/docs/category/for-organizations" className={styles.roleCard}>
             <div className={styles.roleIconWrapper}>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className={styles.roleIcon}>
                 <path d="M12 2L2 7l10 5 10-5-10-5z"/>
@@ -126,11 +126,11 @@ const categories: CategoryItem[] = [
         <polyline points="10 9 9 9 8 9"/>
       </svg>
     ),
-    link: '/docs/category/getting-started',
+    link: '/docs/category/for-families',
     articles: [
-      {title: 'Create an Account', link: '/docs/getting-started/create-account'},
-      {title: 'Complete Your Profile', link: '/docs/getting-started/complete-profile'},
-      {title: 'Set Up Notifications', link: '/docs/getting-started/notifications'},
+      {title: 'Create an Account', link: '/docs/families/getting-started'},
+      {title: 'Complete Your Profile', link: '/docs/families/getting-started'},
+      {title: 'Set Up Notifications', link: '/docs/account/notifications'},
     ],
   },
   {
@@ -145,11 +145,11 @@ const categories: CategoryItem[] = [
         <polyline points="10 9 9 9 8 9"/>
       </svg>
     ),
-    link: '/docs/parents/find-groups',
+    link: '/docs/families/organizations',
     articles: [
-      {title: 'Find Groups', link: '/docs/parents/find-groups'},
-      {title: 'Group Membership', link: '/docs/parents/group-membership'},
-      {title: 'Create a Group', link: '/docs/group-leaders/create-group'},
+      {title: 'Find Groups', link: '/docs/families/organizations'},
+      {title: 'Group Membership', link: '/docs/families/organizations'},
+      {title: 'Create a Group', link: '/docs/organizations/listing-your-organization'},
     ],
   },
   {
@@ -164,11 +164,11 @@ const categories: CategoryItem[] = [
         <polyline points="10 9 9 9 8 9"/>
       </svg>
     ),
-    link: '/docs/parents/find-events',
+    link: '/docs/families/finding-activities',
     articles: [
-      {title: 'Find Events', link: '/docs/parents/find-events'},
-      {title: 'RSVP for Events', link: '/docs/parents/rsvp-events'},
-      {title: 'Create Events', link: '/docs/group-leaders/create-events'},
+      {title: 'Find Events', link: '/docs/families/finding-activities'},
+      {title: 'RSVP for Events', link: '/docs/families/registering'},
+      {title: 'Create Events', link: '/docs/organizations/activities'},
     ],
   },
   {
@@ -183,11 +183,11 @@ const categories: CategoryItem[] = [
         <polyline points="10 9 9 9 8 9"/>
       </svg>
     ),
-    link: '/docs/parents/payments',
+    link: '/docs/families/payments-and-refunds',
     articles: [
-      {title: 'Payment Methods', link: '/docs/parents/payments'},
-      {title: 'Stripe Connect Setup', link: '/docs/group-leaders/payments-stripe'},
-      {title: 'Membership Fees', link: '/docs/group-leaders/membership-fees'},
+      {title: 'Payment Methods', link: '/docs/families/payments-and-refunds'},
+      {title: 'Stripe Connect Setup', link: '/docs/organizations/getting-paid'},
+      {title: 'Membership Fees', link: '/docs/organizations/membership-dues'},
     ],
   },
   {
@@ -202,10 +202,10 @@ const categories: CategoryItem[] = [
         <polyline points="10 9 9 9 8 9"/>
       </svg>
     ),
-    link: '/docs/parents/scholarship-invoices',
+    link: '/docs/organizations/scholarships',
     articles: [
-      {title: 'View Your Invoices', link: '/docs/parents/scholarship-invoices'},
-      {title: 'Generate Invoices', link: '/docs/group-leaders/scholarship-invoices'},
+      {title: 'Paying with a scholarship', link: '/docs/families/payments-and-refunds'},
+      {title: 'Billing scholarship usage', link: '/docs/organizations/scholarships'},
     ],
   },
   {
@@ -220,11 +220,11 @@ const categories: CategoryItem[] = [
         <polyline points="10 9 9 9 8 9"/>
       </svg>
     ),
-    link: '/docs/category/account--settings',
+    link: '/docs/category/account',
     articles: [
-      {title: 'Profile Settings', link: '/docs/account/profile-settings'},
-      {title: 'Family Members', link: '/docs/account/family-members'},
-      {title: 'Payment Methods', link: '/docs/account/payment-methods'},
+      {title: 'Profile Settings', link: '/docs/account/login-and-security'},
+      {title: 'Family Members', link: '/docs/families/your-family'},
+      {title: 'Payment Methods', link: '/docs/families/payments-and-refunds'},
     ],
   },
 ];
