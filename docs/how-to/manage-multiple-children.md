@@ -85,7 +85,7 @@ Expand each section to add relevant information:
 #### Step 5: Provide Consent
 
 1. Read the consent statement about sharing health information
-2. Check the box to consent to sharing with group leaders
+2. Check the box to consent to sharing with organizers
 3. This consent is required to save medical information
 
 #### Step 6: Save the Family Member
@@ -222,7 +222,7 @@ Your children's information is:
 - **Visible to you**: Always see all information in your account
 - **Shared with organizers**: Name, age, allergies, special needs, emergency contacts
 - **Used for safety**: Helps organizers prepare for attendees
-- **Protected**: Only visible to authorized group leaders, not other members
+- **Protected**: Only visible to the organizer running an activity your child is booked into, not to other members
 
 ## Common Questions
 

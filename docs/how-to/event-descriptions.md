@@ -165,6 +165,6 @@ Use this structure as a starting point:
 ## Related Articles
 
 - [Create Events](/docs/organizations/activities) - Build and publish your event
-- [Manage Events](/docs/organizations/activities) - Handle RSVPs and updates
+- [Scheduling activities](/docs/organizations/activities) - Create, repeat, and manage activities
 - [Announcements](/docs/organizations/members-and-roles) - Promote events to your members
 - [How Do I Grow My Homeschool Group?](/docs/how-to/grow-your-group) - Attract more families to your events
