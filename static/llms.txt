@@ -1,74 +1,82 @@
 # Famlo Help Center
 
-> Official documentation for Famlo - a platform connecting homeschool families with local groups, educational events, and community activities.
+> Famlo is a two-sided marketplace for homeschool and family activities.
+> Families discover local co-ops, classes and field trips, keep one family
+> profile, and register. Organizations list what they offer, schedule
+> activities, take bookings and run memberships.
 
-## About This Site
+Families use Famlo free. Organizations choose a plan; the fee applies only
+to card payments they actually collect and is capped per enrollment.
 
-This knowledge base provides how-to guides and feature documentation for Famlo users. Content is organized for two primary audiences:
+## Start here
 
-- **Parents and Families** - Finding groups, registering for events, managing RSVPs, payments, and family profiles
-- **Group Leaders** - Creating and managing homeschool groups, organizing events, handling payments, and member administration
+- https://help.famlo.co/docs/intro - What Famlo is, and which guides apply to you
+- https://help.famlo.co/docs/families/whats-free-and-whats-paid - What Famlo costs, for families and organizations
 
-Base URL: https://help.famlo.co
+## For families
 
-## Documentation Sections
+- https://help.famlo.co/docs/families/calendar - Your calendar
+- https://help.famlo.co/docs/families/finding-activities - Finding activities
+- https://help.famlo.co/docs/families/getting-started - Getting started as a new family
+- https://help.famlo.co/docs/families/memberships - Your memberships
+- https://help.famlo.co/docs/families/messages - Messages
+- https://help.famlo.co/docs/families/organizations - Finding and joining organizations
+- https://help.famlo.co/docs/families/payments-and-refunds - Payments and refunds
+- https://help.famlo.co/docs/families/registering - Registering and checking out
+- https://help.famlo.co/docs/families/saved-and-alerts - Saved activities and alerts
+- https://help.famlo.co/docs/families/scholarships - Scholarships
+- https://help.famlo.co/docs/families/whats-free-and-whats-paid - What's free and what's paid
+- https://help.famlo.co/docs/families/your-family - Your family profile
 
-### Getting Started
-- https://help.famlo.co/docs/intro - Welcome and platform overview
-- https://help.famlo.co/docs/families/getting-started - Account creation and email verification
-- https://help.famlo.co/docs/families/getting-started - Profile setup and adding family members
-- https://help.famlo.co/docs/account/notifications - Email and push notification preferences
+## For organizations
 
-### For Parents
-- https://help.famlo.co/docs/families/organizations - Discovering and filtering homeschool groups by location, category, and faith
-- https://help.famlo.co/docs/families/finding-activities - Finding events with map view, filters, and watchlist feature
-- https://help.famlo.co/docs/families/registering - Event registration, ticket selection, and checkout process
-- https://help.famlo.co/docs/families/calendar - Personal calendar view and subscription sync to external calendars
-- https://help.famlo.co/docs/families/organizations - Joining groups and managing memberships
-- https://help.famlo.co/docs/families/payments-and-refunds - Payment methods, transaction history, and receipts
-- https://help.famlo.co/docs/parents/social-feed - Group social feed, posts, reactions, and comments
+- https://help.famlo.co/docs/organizations/activities - Scheduling activities
+- https://help.famlo.co/docs/organizations/attendance - Attendance and check-in
+- https://help.famlo.co/docs/organizations/closing-your-listing - Closing your listing
+- https://help.famlo.co/docs/organizations/getting-paid - Getting paid
+- https://help.famlo.co/docs/organizations/insights - Insights
+- https://help.famlo.co/docs/organizations/listing-your-organization - Listing your organization
+- https://help.famlo.co/docs/organizations/members-and-roles - Members, roles, and messaging
+- https://help.famlo.co/docs/organizations/membership-dues - Membership dues
+- https://help.famlo.co/docs/organizations/promo-codes - Promo codes
+- https://help.famlo.co/docs/organizations/scholarships - Scholarships
+- https://help.famlo.co/docs/organizations/settings - Organization settings
+- https://help.famlo.co/docs/organizations/tickets-and-pricing - Tickets and pricing
 
-### For Group Leaders
-- https://help.famlo.co/docs/organizations/listing-your-organization - Creating groups with public/private settings and membership models
-- https://help.famlo.co/docs/organizations/members-and-roles - Member management, approvals, roles, and bulk import
-- https://help.famlo.co/docs/organizations/activities - Event creation with tickets, capacity, and custom fields
-- https://help.famlo.co/docs/organizations/activities - Managing registrations, attendees, and event updates
-- https://help.famlo.co/docs/organizations/activities - Creating recurring event series with series passes
-- https://help.famlo.co/docs/group-leaders/import-events - Bulk event import via CSV
-- https://help.famlo.co/docs/organizations/attendance - Attendance tracking and check-in system
-- https://help.famlo.co/docs/organizations/tickets-and-pricing - Ticket types, pricing tiers, and capacity management
-- https://help.famlo.co/docs/organizations/getting-paid - Stripe Connect integration for receiving payments
-- https://help.famlo.co/docs/organizations/membership-dues - Setting up paid memberships and billing cycles
-- https://help.famlo.co/docs/organizations/promo-codes - Creating promotional and discount codes
-- https://help.famlo.co/docs/organizations/scholarships - Generating scholarship invoices for families
-- https://help.famlo.co/docs/organizations/insights - Dashboard metrics and group analytics
-- https://help.famlo.co/docs/organizations/members-and-roles - Sending group announcements via feed and email
-- https://help.famlo.co/docs/group-leaders/custom-roles - Creating custom roles with granular permissions
-- https://help.famlo.co/docs/organizations/closing-your-listing - Group deletion process and data export
+## Account
 
-### Account & Settings
-- https://help.famlo.co/docs/account/login-and-security - Profile editing, password, and two-factor authentication (MFA)
-- https://help.famlo.co/docs/families/your-family - Managing children, adults, and emergency contacts
-- https://help.famlo.co/docs/families/payments-and-refunds - Saved payment methods and default card settings
-- https://help.famlo.co/docs/account/help-feedback - Submitting bug reports and feature requests
-- https://help.famlo.co/docs/account/closing-your-account - Account deletion and data removal
+- https://help.famlo.co/docs/account/closing-your-account - Closing your account
+- https://help.famlo.co/docs/account/login-and-security - Login and security
+- https://help.famlo.co/docs/account/notifications - Notifications
+- https://help.famlo.co/docs/account/support - Getting help
 
-### Changelog
-- https://help.famlo.co/changelog - Release notes and version history
+## How-to guides
 
-## Key Features Documented
+- https://help.famlo.co/docs/how-to/build-community - How Do I Build Community in My Homeschool Group?
+- https://help.famlo.co/docs/how-to/cancel-refund - How Do I Cancel or Get a Refund for an Event?
+- https://help.famlo.co/docs/how-to/connect-families - How Do I Connect with Other Homeschool Families?
+- https://help.famlo.co/docs/how-to/event-descriptions - How Do I Create Engaging Event Descriptions?
+- https://help.famlo.co/docs/how-to/event-pricing - How Do I Price Events for My Homeschool Group?
+- https://help.famlo.co/docs/how-to/export-calendar - How Do I Export My Calendar to Google or Apple?
+- https://help.famlo.co/docs/how-to/find-homeschool-groups - How Do I Find Homeschool Co-ops Near Me?
+- https://help.famlo.co/docs/how-to/grow-your-group - How Do I Grow My Homeschool Group?
+- https://help.famlo.co/docs/how-to/manage-multiple-children - How Do I Manage Multiple Children's Registrations?
+- https://help.famlo.co/docs/how-to/manage-waitlists - How Do I Handle Waitlists for Popular Events?
+- https://help.famlo.co/docs/how-to/plan-field-trip - How Do I Plan a Homeschool Field Trip?
+- https://help.famlo.co/docs/how-to/recover-account - How Do I Recover My Account?
+- https://help.famlo.co/docs/how-to/recurring-events - How Do I Set Up Recurring Events for My Group?
+- https://help.famlo.co/docs/how-to/scholarship-payments - How Do I Accept Scholarship Payments for Events?
+- https://help.famlo.co/docs/how-to/start-homeschool-group - How Do I Start a Homeschool Group?
+- https://help.famlo.co/docs/how-to/track-attendance - How Do I Track Homeschool Attendance?
+- https://help.famlo.co/docs/how-to/transfer-leadership - How Do I Transfer Group Leadership?
+- https://help.famlo.co/docs/how-to/update-payment - How Do I Update My Payment Method?
 
-- Group discovery with location-based search and map view
-- Event registration with ticket reservations and waitlists
-- Scholarship invoice generation for ESA/homeschool funding programs
-- Stripe payment processing for groups
-- Calendar subscription (iCal) for syncing events
-- Member import via CSV for migrating existing groups
-- Event series with recurring sessions and series passes
-- Custom roles and permissions for group administration
-- Two-factor authentication (TOTP) for account security
+## Tools
 
-## Contact
+- https://help.famlo.co/docs/tools/homeschool-funding - Homeschool Funding Guide
+- https://help.famlo.co/docs/tools/letter-of-intent - Letter of Intent Generator
 
-- Support: support@famlo.co
-- Main Application: https://famlo.co
+## Announcements
+
+- https://help.famlo.co/changelog - Feature announcements
+- https://help.famlo.co/changelog/releases - Version-by-version release notes, June 2025 to March 2026

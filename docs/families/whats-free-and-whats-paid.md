@@ -39,7 +39,7 @@ payments you actually collect.
 | Plan | Price | Fee on card payments |
 | --- | --- | --- |
 | **Free** | $0 / month | 10%, **capped at $15 per enrollment** |
-| **Scholarship** | $49 / month | For organizations whose families pay by scholarship, so no card fee arises |
+| **Invoicing** | $49 / month | For organizations whose families pay by scholarship or ESA. No card fee, because no card |
 | **Platform** | $99 / month | **0%**, whatever the amount |
 
 Every plan includes the whole product: your listing on the map, unlimited

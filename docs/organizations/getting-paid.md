@@ -18,7 +18,7 @@ What Famlo takes depends on your plan, and on the free plan it never exceeds **$
 | Plan | Price | Fee on card payments |
 | --- | --- | --- |
 | **Free** | $0 / month | 10%, **capped at $15 per enrollment** |
-| **Scholarship** | $49 / month | For organizations whose families pay by scholarship |
+| **Invoicing** | $49 / month | For organizations whose families pay by scholarship or ESA. No card fee, because no card |
 | **Platform** | $99 / month | **0%**, whatever the amount |
 
 Every plan includes the whole product. [What's free and what's paid](/docs/families/whats-free-and-whats-paid) sets out what each one covers, and where the $99 plan starts paying for itself — around $990 a month through card checkout.

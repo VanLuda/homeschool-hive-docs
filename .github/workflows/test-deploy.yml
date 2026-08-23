@@ -27,3 +27,6 @@ jobs:
 
       - name: Check terminology and disclosure
         run: npm run lint:terms
+
+      - name: Check llms.txt against the sitemap
+        run: npm run lint:llms

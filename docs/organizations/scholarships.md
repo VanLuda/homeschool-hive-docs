@@ -87,8 +87,8 @@ Every invoice carries one of four statuses:
 | --- | --- |
 | **Draft** | Built, not sent. Still yours to change. |
 | **Sent** | Issued to the fund. |
+| **On hold** | Sent, but not moving — waiting on the fund or on a query. |
 | **Paid** | Settled. |
-| **Void** | Cancelled. It no longer counts. |
 
 Move an invoice on one at a time. There is no bulk status change.
 

@@ -110,17 +110,27 @@ const config: Config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          // '/tags/**' never matched /changelog/tags/** — it needs the wildcard prefix.
+          ignorePatterns: ['**/tags/**'],
           filename: 'sitemap.xml',
           createSitemapItems: async (params) => {
             const {defaultCreateSitemapItems, ...rest} = params;
             const items = await defaultCreateSitemapItems(rest);
             return items.map((item) => {
-              // Higher priority for main docs
+              // /docs/getting-started no longer exists — it became
+              // /docs/families/getting-started in the 2026-08 restructure.
+              // how-to/ carries the search traffic, so it ranks with intro.
               if (item.url.includes('/docs/intro')) {
                 item.priority = 1.0;
-              } else if (item.url.includes('/docs/getting-started')) {
+              } else if (item.url.includes('/docs/how-to/')) {
                 item.priority = 0.9;
+              } else if (item.url.includes('/docs/families/getting-started')) {
+                item.priority = 0.9;
+              } else if (item.url.includes('/changelog/releases/')) {
+                // The frozen archive: real, indexable, but not what anyone
+                // should land on from a search.
+                item.priority = 0.3;
+                item.changefreq = 'yearly';
               } else if (item.url.includes('/docs/')) {
                 item.priority = 0.8;
               } else if (item.url === 'https://help.famlo.co/') {
